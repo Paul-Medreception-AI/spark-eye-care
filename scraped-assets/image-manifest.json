@@ -1,0 +1,19 @@
+{
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/Spark Eye Care1.png": "logo",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/AdobeStock_94313718.jpeg": "eye care",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/AdobeStock_637490792.jpeg": "eye care",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/shutterstock_2018571389.jpg": "eye care",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2745822.jpeg": "Spark Eye Care",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/docs/448438.png": "spark icon",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/AdobeStock_447730359.jpeg": "telehealth",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2748701.jpeg": "Cataract Surgery",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2748705.jpeg": "Refractive Lens Exchange",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2745816.jpeg": "Laser Eye Surgery ",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2748707.jpeg": "Minimally Invasive Glaucoma Surgery",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2748703.jpeg": "Dry Eye Treatment",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2748704.jpg": "Diabetic Eye Exams",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/search.png": "google",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/sc-assets/prd/practices/086bfd43-fd56-44b0-86cd-a5e95912d76e/AdobeStock_24432882.jpeg": "flowers",
+  "https://www.sparkeyetx.com/${locationData.IMAGE}": "${locationData.NAME}",
+  "https://sa1s3optim.patientpop.com/50x/filters:format(webp)/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2746390.jpg": "https://sa1s3optim.patientpop.com/assets/production/practices/1c4b47dbadbfed2b8fbe11b392f5b39014bf51e5/images/2746390.jpg"
+}
