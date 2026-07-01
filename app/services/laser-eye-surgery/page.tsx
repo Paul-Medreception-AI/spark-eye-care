@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Laser Eye Surgery | Spark Eye Care',
-  description: 'Advanced laser eye surgery services in your area. LASIK, PRK, and vision correction procedures to reduce dependence on glasses and contacts.',
+  title: 'Laser Eye Surgery in sparkeyetx | Spark Eye Care',
+  description: 'Advanced laser vision correction at Spark Eye Care. LASIK, PRK, and custom laser eye surgery to reduce dependence on glasses and contacts. Board-certified surgeons in sparkeyetx.',
+  keywords: 'laser eye surgery sparkeyetx, LASIK sparkeyetx, PRK surgery, vision correction, refractive surgery, custom laser eye surgery, Spark Eye Care'
 }
 
 export default function LaserEyeSurgeryPage() {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+      
+      {/* HERO */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
         <div className="max-w-5xl mx-auto px-6">
           <nav className="text-sm mb-6 opacity-90">
@@ -18,160 +20,167 @@ export default function LaserEyeSurgeryPage() {
             <span className="mx-2">›</span>
             <span>Laser Eye Surgery</span>
           </nav>
-          <h1 className="font-['Cormorant'] text-5xl md:text-6xl font-light mb-6 leading-tight">
-            Laser Eye Surgery at Spark Eye Care
+          <h1 className="text-5xl font-light mb-6" style={{fontFamily: 'Cormorant, serif'}}>
+            Laser Eye Surgery in sparkeyetx
           </h1>
-          <p className="text-xl opacity-95 max-w-3xl leading-relaxed">
-            Experience freedom from glasses and contact lenses with our advanced laser vision correction procedures. Our experienced surgeons use state-of-the-art technology to safely reshape your cornea, providing clearer vision and improved quality of life for patients with nearsightedness, farsightedness, and astigmatism.
+          <p className="text-xl leading-relaxed max-w-3xl opacity-95">
+            Experience the freedom of clear vision with advanced laser eye surgery at Spark Eye Care. Our board-certified surgeons use state-of-the-art technology to correct nearsightedness, farsightedness, and astigmatism, helping you reduce or eliminate your dependence on glasses and contact lenses.
           </p>
         </div>
       </section>
 
-      {/* What Is It Section */}
+      {/* WHAT IS IT */}
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6 animate-fade-up">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light mb-8 text-[var(--color-ink)]">
+          <h2 className="text-4xl font-light mb-8 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
             What is Laser Eye Surgery?
           </h2>
           
-          <div className="prose prose-lg max-w-none text-[var(--color-ink)] space-y-6">
-            <p className="leading-relaxed">
-              Laser eye surgery, also known as refractive surgery, is a revolutionary medical procedure that uses precision laser technology to reshape the cornea—the clear front surface of your eye—to correct common vision problems. By adjusting how light rays are focused onto the retina, laser eye surgery can dramatically reduce or eliminate the need for corrective eyewear. The most popular procedures include LASIK (Laser-Assisted In Situ Keratomileusis), PRK (Photorefractive Keratectomy), and SMILE (Small Incision Lenticule Extraction), each offering unique benefits depending on your individual eye characteristics and lifestyle needs.
+          <div className="prose prose-lg max-w-none text-[var(--color-ink)] space-y-6 mb-10">
+            <p>
+              Laser eye surgery, also known as refractive surgery, is a precise medical procedure that uses advanced laser technology to reshape the cornea and correct vision problems. The cornea is the clear front surface of your eye that helps focus light onto the retina. When the cornea has an irregular shape, it causes refractive errors such as myopia (nearsightedness), hyperopia (farsightedness), or astigmatism. Laser eye surgery corrects these imperfections by removing microscopic amounts of corneal tissue in a carefully calculated pattern, allowing light to focus properly on the retina for clearer vision.
             </p>
             
-            <p className="leading-relaxed">
-              These procedures work by using an excimer laser to remove microscopic amounts of corneal tissue with extraordinary precision—down to fractions of a micron. For nearsighted patients, the laser flattens the cornea to reduce its focusing power; for farsighted patients, it steepens the cornea to increase focusing ability; and for astigmatism, it smooths out irregular corneal curvature. The entire laser treatment typically takes less than a minute per eye, though the complete procedure including preparation takes about 15-30 minutes. Modern laser systems incorporate advanced wavefront technology and eye-tracking mechanisms that ensure unprecedented accuracy and safety.
+            <p>
+              The most common types of laser eye surgery include LASIK (Laser-Assisted In Situ Keratomileusis), PRK (Photorefractive Keratectomy), and SMILE (Small Incision Lenticule Extraction). LASIK involves creating a thin flap in the cornea, reshaping the underlying tissue with an excimer laser, and repositioning the flap. PRK removes the outer layer of the cornea before laser reshaping, making it ideal for patients with thinner corneas. SMILE is a newer, minimally invasive technique that removes a small piece of corneal tissue through a tiny incision. Each procedure has specific advantages, and your surgeon will recommend the best option based on your eye anatomy, prescription, lifestyle, and personal goals.
             </p>
             
-            <p className="leading-relaxed">
-              Laser eye surgery has benefited millions of people worldwide since its FDA approval in the 1990s, with continuous technological improvements enhancing both safety and outcomes. Clinical studies demonstrate that over 96% of patients achieve 20/20 vision or better following LASIK surgery, with satisfaction rates consistently exceeding 95%. The procedure has an excellent safety profile, with serious complications being extremely rare when performed by experienced surgeons using modern equipment. Most patients experience rapid visual recovery, often noticing improved vision within hours of surgery and returning to normal activities within a few days.
+            <p>
+              Laser eye surgery has been performed for over three decades with continuous technological improvements enhancing safety and outcomes. Clinical studies demonstrate that more than 96% of patients achieve 20/40 vision or better after LASIK, with most reaching 20/20 or better. The procedure is FDA-approved for adults over 18 with stable prescriptions, healthy eyes, and adequate corneal thickness. Ideal candidates are those seeking freedom from glasses and contacts for work, sports, travel, or daily convenience. At Spark Eye Care, we use the latest wavefront-guided and topography-guided laser systems to create customized treatment plans that address your unique visual needs and deliver exceptional results.
             </p>
           </div>
 
-          <div className="mt-12 bg-white rounded-xl p-8 shadow-sm">
-            <h3 className="font-['Cormorant'] text-2xl font-light mb-6 text-[var(--color-ink)]">
-              You May Be a Candidate for Laser Eye Surgery If You Have:
+          <div className="bg-white rounded-xl p-8 shadow-sm">
+            <h3 className="text-2xl font-light mb-6 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
+              You May Be a Candidate for Laser Eye Surgery If You Experience:
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-[var(--color-ink)]">Stable vision prescription for at least one year with no significant changes</span>
+                <span className="text-[var(--color-ink)]">Nearsightedness (difficulty seeing distant objects clearly)</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-[var(--color-ink)]">Nearsightedness (myopia), farsightedness (hyperopia), or astigmatism within treatable ranges</span>
+                <span className="text-[var(--color-ink)]">Farsightedness (difficulty focusing on near objects)</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-[var(--color-ink)]">Astigmatism (blurred vision at all distances due to irregular corneal shape)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
                 <span className="text-[var(--color-ink)]">Dependence on glasses or contact lenses that interferes with your lifestyle or work</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-[var(--color-ink)]">Healthy eyes free from conditions like severe dry eye, glaucoma, or cataracts</span>
+                <span className="text-[var(--color-ink)]">Contact lens intolerance or discomfort</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-[var(--color-ink)]">Age 18 or older with realistic expectations about surgical outcomes</span>
+                <span className="text-[var(--color-ink)]">Desire for visual freedom during sports, swimming, or outdoor activities</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-[var(--color-ink)]">Sufficient corneal thickness to safely perform the procedure</span>
+                <span className="text-[var(--color-ink)]">Stable vision prescription for at least one year</span>
               </li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* How We Treat It Section */}
+      {/* HOW WE TREAT IT */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light mb-16 text-center text-[var(--color-ink)] animate-fade-up">
+          <h2 className="text-4xl font-light mb-16 text-center text-[var(--color-ink)] animate-fade-up" style={{fontFamily: 'Cormorant, serif'}}>
             Our Approach to Laser Eye Surgery
           </h2>
-
+          
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up transition-transform hover:scale-105">
+            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
               <div className="mb-6">
                 <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
               </div>
-              <h3 className="font-['Cormorant'] text-2xl font-light mb-4 text-[var(--color-ink)]">
-                Comprehensive Assessment
+              <h3 className="text-2xl font-light mb-4 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
+                Comprehensive Evaluation
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Your journey begins with an extensive pre-operative evaluation including corneal topography, wavefront analysis, pupil measurement, and tear film assessment. We measure your corneal thickness, map its curvature, and evaluate overall eye health to determine the safest and most effective procedure for your unique anatomy.
+                Your journey begins with an extensive eye examination including corneal topography, wavefront analysis, pupil measurement, and tear film assessment. We measure corneal thickness, map irregularities, and evaluate overall eye health to determine your candidacy and design a customized treatment plan tailored to your unique visual anatomy.
               </p>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up transition-transform hover:scale-105">
+            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up transition-all delay-100">
               <div className="mb-6">
                 <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232 1.232 3.233 0 4.465l-1.7 1.7a2.25 2.25 0 01-3.182 0l-1.595-1.595m8.475-5.972L15 9.75M12 18l-3 3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
               </div>
-              <h3 className="font-['Cormorant'] text-2xl font-light mb-4 text-[var(--color-ink)]">
-                Customized Treatment Plan
+              <h3 className="text-2xl font-light mb-4 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
+                Advanced Laser Technology
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Based on your diagnostic results, lifestyle needs, and vision goals, we recommend the optimal procedure—whether LASIK for fast recovery, PRK for thin corneas, or advanced wavefront-guided treatments for superior night vision. We explain every detail, answer all questions, and ensure you feel confident before proceeding.
+                We utilize cutting-edge femtosecond and excimer laser systems with wavefront-guided and topography-guided capabilities. The procedure typically takes 10-15 minutes per eye. Numbing drops ensure comfort while our precision lasers reshape your cornea with sub-micron accuracy, guided by your unique eye map for optimal visual outcomes.
               </p>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up transition-transform hover:scale-105">
+            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up transition-all delay-200">
               <div className="mb-6">
                 <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="font-['Cormorant'] text-2xl font-light mb-4 text-[var(--color-ink)]">
-                Expert Care & Follow-up
+              <h3 className="text-2xl font-light mb-4 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
+                Post-Operative Care
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Our experienced surgeons perform your procedure in a comfortable, state-of-the-art surgical suite with real-time eye tracking and safety protocols. Post-operative care includes same-day, next-day, one-week, one-month, and three-month follow-ups to monitor healing and ensure optimal visual outcomes for years to come.
+                Follow-up visits at 1 day, 1 week, 1 month, 3 months, and 6 months ensure proper healing and optimal results. We provide prescription eye drops, protective shields, and detailed recovery instructions. Our team is available 24/7 for any questions or concerns during your healing process as your vision stabilizes and improves.
               </p>
             </div>
           </div>
 
           <div className="max-w-4xl mx-auto bg-[var(--color-light)] rounded-xl p-10 animate-fade-up">
-            <h3 className="font-['Cormorant'] text-3xl font-light mb-6 text-[var(--color-ink)]">
-              Advanced Laser Technologies We Use
+            <h3 className="text-2xl font-light mb-6 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
+              Treatment Options We Offer
             </h3>
             <div className="space-y-6 text-[var(--color-ink)]">
               <div>
-                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">Wavefront-Guided LASIK</h4>
-                <p className="leading-relaxed text-[var(--color-muted)]">
-                  Custom treatment based on your eye's unique optical fingerprint, addressing subtle irregularities beyond simple prescription errors. This technology measures 25 times more precisely than standard methods, resulting in sharper vision quality, especially in low-light conditions.
+                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">LASIK (Laser-Assisted In Situ Keratomileusis)</h4>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  The most popular laser vision correction procedure, LASIK creates a thin corneal flap, reshapes the underlying tissue with an excimer laser, and repositions the flap. Offers rapid visual recovery with most patients seeing clearly within 24 hours. Ideal for moderate to high prescriptions with minimal discomfort and fast return to normal activities.
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">Bladeless Femtosecond Laser</h4>
-                <p className="leading-relaxed text-[var(--color-muted)]">
-                  All-laser LASIK using femtosecond laser technology to create the corneal flap without blades, offering enhanced precision, faster healing, and reduced risk of complications. The computer-controlled laser creates a flap of exact dimensions tailored to your eye.
+                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">PRK (Photorefractive Keratectomy)</h4>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  A surface ablation technique that removes the corneal epithelium before laser reshaping, allowing it to regenerate naturally. Excellent option for patients with thin corneas, dry eyes, or those in high-impact professions. Recovery takes slightly longer but achieves equivalent visual outcomes to LASIK with enhanced corneal stability.
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">Advanced Surface Ablation (PRK/LASEK)</h4>
-                <p className="leading-relaxed text-[var(--color-muted)]">
-                  Ideal for patients with thinner corneas, high prescriptions, or active lifestyles. No flap is created; instead, the laser reshapes the corneal surface directly. While recovery takes slightly longer, this approach may be safer for certain occupations and contact sports.
+                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">Custom Wavefront and Topography-Guided Treatments</h4>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  Advanced technologies that create a detailed map of optical imperfections unique to your eye, enabling personalized laser treatment beyond standard prescriptions. These custom approaches reduce higher-order aberrations, improve night vision, enhance contrast sensitivity, and deliver superior visual quality, especially in challenging lighting conditions.
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">Topography-Guided Treatments</h4>
-                <p className="leading-relaxed text-[var(--color-muted)]">
-                  Uses detailed corneal mapping to address irregular astigmatism and corneal surface irregularities that conventional treatments cannot correct. Particularly beneficial for patients with prior eye injuries, corneal scars, or irregular astigmatism.
+                <h4 className="font-semibold text-lg mb-2 text-[var(--color-dark)]">Enhancement Procedures</h4>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  In rare cases where additional correction is desired, we offer safe and effective enhancement procedures to fine-tune your vision. These follow-up treatments use the same proven laser technology to address residual refractive errors or age-related vision changes that may occur years after your initial surgery.
                 </p>
               </div>
             </div>
@@ -179,72 +188,47 @@ export default function LaserEyeSurgeryPage() {
         </div>
       </section>
 
-      {/* What to Expect Section */}
+      {/* WHAT TO EXPECT */}
       <section className="bg-white py-20">
         <div className="max-w-3xl mx-auto px-6">
           <div className="bg-[var(--color-light)] rounded-2xl p-12 animate-fade-up">
-            <h2 className="font-['Cormorant'] text-4xl font-light mb-10 text-[var(--color-ink)] text-center">
-              What to Expect: Your Laser Eye Surgery Timeline
+            <h2 className="text-4xl font-light mb-10 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
+              What to Expect During Your Laser Eye Surgery Journey
             </h2>
             
             <div className="space-y-8">
               <div className="border-l-4 border-[var(--color-primary)] pl-6">
-                <h3 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)]">
-                  Consultation & Pre-Operative Phase
-                </h3>
-                <p className="text-[var(--color-muted)] leading-relaxed mb-2">
-                  Comprehensive eye examination with advanced diagnostics (1-2 hours). Stop wearing contact lenses for 3-14 days before surgery depending on type. Review medications and receive detailed pre-operative instructions.
-                </p>
-                <p className="text-sm text-[var(--color-primary)] font-medium">
-                  Timeline: 1-2 weeks before surgery
+                <h3 className="text-xl font-semibold mb-2 text-[var(--color-dark)]">Initial Consultation</h3>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  Comprehensive eye examination with advanced diagnostic testing including corneal topography, wavefront analysis, and ocular health assessment. We'll discuss your candidacy, review procedure options, answer all questions, and provide detailed pre-operative instructions. Plan for 90-120 minutes for this thorough evaluation.
                 </p>
               </div>
 
               <div className="border-l-4 border-[var(--color-primary)] pl-6">
-                <h3 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)]">
-                  Surgery Day
-                </h3>
-                <p className="text-[var(--color-muted)] leading-relaxed mb-2">
-                  Procedure takes 15-30 minutes for both eyes. Numbing drops eliminate pain; you may feel slight pressure. Many patients notice improved vision immediately. Arrange transportation home as you cannot drive. Rest with eyes closed for several hours.
-                </p>
-                <p className="text-sm text-[var(--color-primary)] font-medium">
-                  Timeline: Day 0
+                <h3 className="text-xl font-semibold mb-2 text-[var(--color-dark)]">Surgery Day</h3>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  The procedure itself takes only 10-15 minutes per eye. You'll receive numbing drops for comfort. Most patients experience mild pressure but no pain. Vision may be blurry immediately after, but many notice improvement within hours. You'll need someone to drive you home. Rest is recommended for the remainder of the day with protective shields worn while sleeping.
                 </p>
               </div>
 
               <div className="border-l-4 border-[var(--color-primary)] pl-6">
-                <h3 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)]">
-                  First Week Recovery
-                </h3>
-                <p className="text-[var(--color-muted)] leading-relaxed mb-2">
-                  Follow-up visit within 24-48 hours. Vision typically clears rapidly for LASIK patients. Use prescribed eye drops to prevent infection and inflammation. Avoid rubbing eyes, swimming, and eye makeup. Most patients return to work within 2-3 days.
-                </p>
-                <p className="text-sm text-[var(--color-primary)] font-medium">
-                  Timeline: Days 1-7
+                <h3 className="text-xl font-semibold mb-2 text-[var(--color-dark)]">First Week of Recovery</h3>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  Most LASIK patients see dramatic improvement within 24-48 hours and can return to work within 1-3 days. PRK patients experience gradual improvement over 3-7 days. You'll use prescribed antibiotic and anti-inflammatory drops. Mild dryness, light sensitivity, and fluctuating vision are normal. Avoid rubbing eyes, swimming, and heavy exercise during this initial healing phase.
                 </p>
               </div>
 
               <div className="border-l-4 border-[var(--color-primary)] pl-6">
-                <h3 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)]">
-                  First Three Months
-                </h3>
-                <p className="text-[var(--color-muted)] leading-relaxed mb-2">
-                  Vision continues stabilizing and improving. Follow-up visits at 1 week, 1 month, and 3 months. Minor fluctuations in vision and dry eye symptoms are normal and gradually resolve. Most patients achieve final visual acuity by 3 months.
-                </p>
-                <p className="text-sm text-[var(--color-primary)] font-medium">
-                  Timeline: Weeks 2-12
+                <h3 className="text-xl font-semibold mb-2 text-[var(--color-dark)]">Months 1-3: Stabilization Period</h3>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  Your vision continues to stabilize and sharpen. Most patients achieve their final visual outcome by 3 months. Regular follow-up appointments monitor healing progress. Artificial tears help manage any residual dryness. You can gradually resume all normal activities including sports, swimming, and eye makeup as cleared by your surgeon.
                 </p>
               </div>
 
               <div className="border-l-4 border-[var(--color-primary)] pl-6">
-                <h3 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)]">
-                  Long-Term Results
-                </h3>
-                <p className="text-[var(--color-muted)] leading-relaxed mb-2">
-                  Vision stabilizes completely. Annual eye exams recommended to monitor long-term eye health. Most patients maintain excellent vision for many years. Age-related changes like presbyopia (reading vision) may still occur naturally after age 40, but distance vision remains corrected.
-                </p>
-                <p className="text-sm text-[var(--color-primary)] font-medium">
-                  Timeline: 3+ months and beyond
+                <h3 className="text-xl font-semibold mb-2 text-[var(--color-dark)]">Long-Term Outlook</h3>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  The vast majority of patients achieve 20/20 vision or better and maintain excellent results for years or decades. While laser surgery permanently reshapes the cornea, age-related vision changes like presbyopia (need for reading glasses after 40) can still occur naturally. Annual comprehensive eye exams ensure continued eye health and monitor for any other conditions unrelated to your surgery.
                 </p>
               </div>
             </div>
@@ -252,113 +236,92 @@ export default function LaserEyeSurgeryPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ */}
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6 animate-fade-up">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light mb-12 text-center text-[var(--color-ink)]">
+          <h2 className="text-4xl font-light mb-12 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
             Common Questions About Laser Eye Surgery
           </h2>
           
           <div className="space-y-4">
-            <details className="bg-white rounded-lg shadow-sm group">
-              <summary className="cursor-pointer list-none p-6 font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
-                <div className="flex items-center justify-between">
-                  <span>Does laser eye surgery hurt?</span>
-                  <svg className="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </div>
+            <details className="bg-white rounded-lg p-6 group">
+              <summary className="font-semibold text-lg text-[var(--color-ink)] cursor-pointer list-none flex items-center justify-between">
+                Is laser eye surgery safe, and what are the risks?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
               </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  The procedure itself is virtually painless. We use numbing eye drops that completely eliminate sensation during surgery. You may feel slight pressure when the corneal flap is created or during laser application, but no sharp pain. After surgery, some patients experience mild discomfort, grittiness, or light sensitivity for a few hours to a day, easily managed with over-the-counter pain relievers and lubricating drops. Most patients describe the discomfort as similar to having an eyelash in your eye—annoying but tolerable and temporary.
-                </p>
+              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
+                Laser eye surgery has an excellent safety profile with over 30 years of clinical data supporting its efficacy. Serious complications are extremely rare, occurring in less than 1% of cases. The most common side effects include temporary dry eyes, glare, halos around lights at night, and minor fluctuations in vision during healing—most of which resolve within weeks to months. Our advanced diagnostic screening identifies patients who may not be ideal candidates, further minimizing risks. The FDA has approved these procedures, and millions of successful surgeries have been performed worldwide with high patient satisfaction rates exceeding 95%.
               </div>
             </details>
 
-            <details className="bg-white rounded-lg shadow-sm group">
-              <summary className="cursor-pointer list-none p-6 font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
-                <div className="flex items-center justify-between">
-                  <span>How long does laser eye surgery recovery take?</span>
-                  <svg className="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </div>
+            <details className="bg-white rounded-lg p-6 group">
+              <summary className="font-semibold text-lg text-[var(--color-ink)] cursor-pointer list-none flex items-center justify-between">
+                Am I a good candidate for laser eye surgery?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
               </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Recovery timelines vary by procedure type. LASIK patients typically experience rapid visual recovery—many see clearly enough to drive the next day and return to work within 2-3 days. PRK recovery is longer, with usable vision returning within 3-5 days and optimal vision by 1-2 weeks. Complete healing and vision stabilization occurs over 3-6 months for both procedures. During recovery, you'll use prescribed eye drops, avoid rubbing your eyes, and attend follow-up appointments. Most restrictions on activities like exercise and swimming are lifted within 1-2 weeks.
-                </p>
+              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
+                Good candidates are typically adults over 18 years old with stable vision prescriptions for at least one year, healthy eyes free from diseases like glaucoma or cataracts, adequate corneal thickness, and realistic expectations. You should not be pregnant or nursing, as hormonal changes can affect vision stability. Certain medical conditions, severe dry eye, or very high prescriptions may impact candidacy. During your comprehensive consultation at Spark Eye Care, we perform detailed diagnostic testing to determine if you're a suitable candidate and which procedure would deliver optimal results for your specific eye anatomy and visual needs.
               </div>
             </details>
 
-            <details className="bg-white rounded-lg shadow-sm group">
-              <summary className="cursor-pointer list-none p-6 font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
-                <div className="flex items-center justify-between">
-                  <span>What are the risks and side effects of laser eye surgery?</span>
-                  <svg className="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </div>
+            <details className="bg-white rounded-lg p-6 group">
+              <summary className="font-semibold text-lg text-[var(--color-ink)] cursor-pointer list-none flex items-center justify-between">
+                Does laser eye surgery hurt, and what is recovery like?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
               </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Laser eye surgery is one of the safest elective procedures available, with serious complications occurring in less than 1% of cases. Common temporary side effects include dry eyes (affecting 30-40% initially, resolving in most patients), light sensitivity, glare, and halos around lights at night (usually diminishing over weeks to months). Rare complications include infection, flap complications (LASIK), over- or under-correction requiring enhancement, and irregular healing. Modern technology, thorough pre-operative screening, and experienced surgeons minimize these risks significantly. We conduct extensive testing to identify patients who may not be good candidates.
-                </p>
+              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
+                The procedure itself is painless due to numbing eye drops. During surgery, you may feel mild pressure but no pain. LASIK patients typically experience minimal discomfort afterward—some describe a gritty sensation or mild burning that resolves within hours. Visual improvement is often noticeable within 24 hours, and most return to work in 1-3 days. PRK recovery takes slightly longer, with 3-5 days of moderate discomfort and gradual visual improvement over the first week. Post-operative care includes prescription eye drops, avoiding eye rubbing, and wearing protective shields while sleeping. Most daily activities resume within a week, with full stabilization occurring over 1-3 months.
               </div>
             </details>
 
-            <details className="bg-white rounded-lg shadow-sm group">
-              <summary className="cursor-pointer list-none p-6 font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
-                <div className="flex items-center justify-between">
-                  <span>How long do laser eye surgery results last?</span>
-                  <svg className="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </div>
+            <details className="bg-white rounded-lg p-6 group">
+              <summary className="font-semibold text-lg text-[var(--color-ink)] cursor-pointer list-none flex items-center justify-between">
+                How long do laser eye surgery results last?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
               </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  For most patients, laser eye surgery results are permanent. The corneal reshaping does not reverse over time. However, your eyes can still experience age-related changes. Presbyopia (difficulty focusing up close) naturally occurs after age 40, affecting everyone regardless of previous surgery. Some patients experience minor prescription regression years later, particularly those with higher initial prescriptions. Studies show that over 90% of patients maintain 20/40 vision or better (legal driving vision) 10 years after surgery. If needed, enhancement procedures can address minor changes. Annual eye exams help monitor long-term eye health and catch any changes early.
-                </p>
+              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
+                Laser eye surgery permanently reshapes the cornea, and for most patients, results are long-lasting—often decades. The correction itself does not "wear off." However, your eyes can still experience natural age-related changes unrelated to the surgery. After age 40, presbyopia (difficulty focusing up close) develops naturally and may require reading glasses regardless of prior laser surgery. In rare cases, minor regression may occur, particularly in patients with higher prescriptions, and enhancement procedures can address this. Long-term studies show that over 90% of patients maintain excellent vision without glasses or contacts for distance vision many years after their procedure.
               </div>
             </details>
 
-            <details className="bg-white rounded-lg shadow-sm group">
-              <summary className="cursor-pointer list-none p-6 font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
-                <div className="flex items-center justify-between">
-                  <span>How much does laser eye surgery cost?</span>
-                  <svg className="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </div>
+            <details className="bg-white rounded-lg p-6 group">
+              <summary className="font-semibold text-lg text-[var(--color-ink)] cursor-pointer list-none flex items-center justify-between">
+                What is the difference between LASIK, PRK, and other laser procedures?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
               </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Laser eye surgery costs vary based on the technology used, surgeon experience, and your specific prescription. On average, LASIK ranges from $2,000 to $3,000 per eye, while advanced wavefront-guided or custom treatments may cost more. PRK typically costs slightly less. While insurance rarely covers elective refractive surgery, many practices offer financing plans with monthly payments as low as $100-200. Consider the long-term savings—most patients spend $500-800 annually on glasses and contacts, meaning the surgery often pays for itself within 3-5 years. We provide transparent pricing during your consultation and discuss all available payment options.
-                </p>
+              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
+                LASIK creates a thin corneal flap, reshapes underlying tissue, and repositions the flap for rapid recovery—most patients see well within 24 hours with minimal discomfort. PRK removes the surface epithelium before laser reshaping, requiring 3-7 days for re-epithelialization and longer visual recovery, but it's safer for thin corneas and high-impact activities. SMILE is a newer flapless technique using a femtosecond laser to create and remove a lenticule through a small incision—less invasive with potentially reduced dry eye. All achieve similar final visual outcomes. Your surgeon at Spark Eye Care will recommend the best option based on your corneal thickness, prescription, occupation, hobbies, and healing expectations during your personalized consultation.
               </div>
             </details>
           </div>
         </div>
       </section>
 
-      {/* Related Services Section */}
+      {/* RELATED SERVICES */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <h3 className="font-['Cormorant'] text-3xl font-light mb-10 text-center text-[var(--color-ink)]">
+          <h3 className="text-3xl font-light mb-10 text-center text-[var(--color-ink)]" style={{fontFamily: 'Cormorant, serif'}}>
             Related Services
           </h3>
-          
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/services/cataract-surgery" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg animate-fade-up">
+            <a href="/services/cataract-surgery" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg">
               <div className="mb-4">
                 <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
               </div>
-              <h4 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
+              <h4 className="text-xl font-light mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant, serif'}}>
                 Cataract Surgery
               </h4>
               <p className="text-[var(--color-muted)] leading-relaxed">
@@ -366,54 +329,55 @@ export default function LaserEyeSurgeryPage() {
               </p>
             </a>
 
-            <a href="/services/comprehensive-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg animate-fade-up">
+            <a href="/services/dry-eye-treatment" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg">
               <div className="mb-4">
                 <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <h4 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
-                Comprehensive Eye Exams
-              </h4>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                Thorough eye health evaluations to detect vision problems, eye diseases, and overall health conditions.
-              </p>
-            </a>
-
-            <a href="/services/dry-eye-treatment" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg animate-fade-up">
-              <div className="mb-4">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-                </svg>
-              </div>
-              <h4 className="font-['Cormorant'] text-2xl font-light mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
+              <h4 className="text-xl font-light mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant, serif'}}>
                 Dry Eye Treatment
               </h4>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Advanced therapies to relieve chronic dry eye symptoms and restore comfortable, healthy tear production.
+                Comprehensive evaluation and treatment for chronic dry eye syndrome with advanced therapies for lasting relief.
+              </p>
+            </a>
+
+            <a href="/services/comprehensive-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg">
+              <div className="mb-4">
+                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-light mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant, serif'}}>
+                Comprehensive Eye Exams
+              </h4>
+              <p className="text-[var(--color-muted)] leading-relaxed">
+                Thorough eye health evaluations with advanced diagnostic technology to detect and prevent vision problems.
               </p>
             </a>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6 animate-fade-up">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light mb-6">
-            Ready to Experience Life Without Glasses?
+          <h2 className="text-4xl font-light mb-6" style={{fontFamily: 'Cormorant, serif'}}>
+            Ready to Experience the Freedom of Clear Vision?
           </h2>
-          <p className="text-xl opacity-90 mb-10 leading-relaxed">
-            Schedule your comprehensive laser eye surgery consultation today and discover if you're a candidate for life-changing vision correction.
+          <p className="text-xl mb-8 opacity-95 leading-relaxed">
+            Schedule your comprehensive laser eye surgery consultation at Spark Eye Care today and discover if you're a candidate for life-changing vision correction.
           </p>
           <a 
             href="/contact" 
-            className="inline-block bg-white text-[var(--color-primary)] px-10 py-4 rounded-lg font-semibold text-lg hover:bg-[var(--color-cream)] transition-all hover:scale-105 shadow-lg"
+            className="inline-block bg-white text-[var(--color-primary)] px-10 py-4 rounded-lg font-semibold text-lg hover:bg-[var(--color-cream)] transition-all hover:scale-105"
           >
             Schedule Your Consultation
           </a>
         </div>
       </section>
+
     </main>
   )
 }
