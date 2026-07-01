@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function TeamPage() {
@@ -5,59 +6,82 @@ export default function TeamPage() {
     {
       name: "Dr. Andrew Plummer",
       role: "Board-Certified Ophthalmologist",
+      image: "/images/dr-plummer-portrait.jpg",
       bio: "Dr. Plummer specializes in advanced cataract and refractive surgery, bringing years of surgical expertise to the Kyle community. He is dedicated to delivering world-class outcomes using the latest proven technologies while maintaining a personal, patient-centered approach to care."
     },
-    {
-      name: "Jennifer Martinez",
-      role: "Ophthalmic Technician",
-      bio: "Jennifer brings extensive experience in diagnostic testing and patient care coordination. She works closely with Dr. Plummer to ensure every patient receives thorough evaluations and understands their treatment options, making each visit comfortable and informative."
-    },
-    {
-      name: "Sarah Chen",
-      role: "Patient Care Coordinator",
-      bio: "Sarah manages surgical scheduling and patient communication, guiding families through every step of the treatment process. Her attention to detail and compassionate approach help patients feel confident and well-supported from consultation through post-operative care."
-    }
   ]
 
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <h1 className="font-serif text-6xl font-light mb-6">Meet Our Team</h1>
-          <p className="text-xl text-white/90 leading-relaxed">
-            Dedicated professionals committed to delivering exceptional surgical eye care and personalized service to every patient we serve
-          </p>
+      {/* HERO — side-by-side with real portrait */}
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">
+              <p className="text-sm uppercase tracking-widest text-white/70 mb-4">Meet Your Surgeon</p>
+              <h1 className="font-cormorant text-5xl lg:text-6xl font-light leading-tight mb-6">
+                Personalized eye care from a fellowship-trained ophthalmologist
+              </h1>
+              <p className="text-lg text-white/90 leading-relaxed max-w-xl mb-8">
+                Dr. Andrew Plummer brings advanced surgical expertise, the latest proven technologies, and a personal, patient-centered approach to every visit at Spark Eye Care in Kyle, Texas.
+              </p>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 hover:shadow-2xl transition-all group"
+              >
+                Schedule Your Consultation
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </Link>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/dr-plummer-portrait.jpg"
+                alt="Dr. Andrew Plummer, Board-Certified Ophthalmologist"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-top"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
+      {/* TEAM CARDS */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-serif text-4xl text-[var(--color-ink)] text-center mb-16">Our Providers & Staff</h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <h2 className="font-cormorant text-4xl text-[var(--color-ink)] text-center mb-4">Our Provider</h2>
+          <p className="text-center text-[var(--color-muted)] max-w-2xl mx-auto mb-16">
+            Board-certified expertise and hands-on care for every patient.
+          </p>
+          <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-2xl mx-auto">
             {team.map((member, index) => (
-              <div 
+              <div
                 key={index}
-                className="bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] shadow-sm hover:shadow-lg transition-shadow animate-fade-up"
+                className="bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up"
               >
-                <div className="bg-[var(--color-light)] h-72 flex items-center justify-center">
-                  <svg 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="var(--color-primary)" 
-                    strokeWidth={1.5} 
-                    className="w-20 h-20 opacity-40"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                  </svg>
-                </div>
-                <div className="p-6">
-                  <h3 className="font-serif text-2xl text-[var(--color-ink)]">{member.name}</h3>
-                  <p className="text-sm text-[var(--color-primary)] font-semibold uppercase tracking-wide mt-1">
-                    {member.role}
-                  </p>
-                  <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                    {member.bio}
-                  </p>
+                <div className="grid md:grid-cols-[2fr_3fr]">
+                  <div className="relative aspect-[3/4] md:aspect-auto md:min-h-full bg-[var(--color-light)]">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 40vw"
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <div className="p-8">
+                    <h3 className="font-cormorant text-3xl text-[var(--color-ink)]">{member.name}</h3>
+                    <p className="text-sm text-[var(--color-primary)] font-semibold uppercase tracking-wide mt-2 mb-4">
+                      {member.role}
+                    </p>
+                    <p className="text-[var(--color-muted)] leading-relaxed">
+                      {member.bio}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -65,17 +89,21 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* CTA */}
       <section className="bg-[var(--color-ink)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6">
-          <h2 className="font-serif text-4xl mb-6">Experience Exceptional Eye Care</h2>
+          <h2 className="font-cormorant text-4xl mb-6">Experience Exceptional Eye Care</h2>
           <p className="text-lg text-white/80 mb-8">
-            Our team is ready to help you achieve your best vision with advanced surgical care and personalized attention
+            Ready to protect your vision with advanced, personalized care? Schedule your visit today.
           </p>
-          <Link 
+          <Link
             href="/contact"
-            className="inline-block bg-[var(--color-primary)] text-white px-8 py-4 rounded-full font-semibold hover:bg-[var(--color-dark)] transition-colors"
+            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white px-8 py-4 rounded-full font-semibold hover:bg-[var(--color-dark)] hover:-translate-y-0.5 hover:shadow-xl transition-all group"
           >
             Schedule Your Eye Exam
+            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
           </Link>
         </div>
       </section>

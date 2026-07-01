@@ -13,9 +13,9 @@ export default function Home() {
       {/* HERO */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
         <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
-          <div className="grid lg:grid-cols-[1.15fr_1fr] gap-8 lg:gap-10 items-center">
-            {/* LEFT — text */}
-            <div>
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            {/* LEFT — text (60% on desktop) */}
+            <div className="w-full lg:w-3/5">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight leading-tight" style={{fontFamily: 'Cormorant Garamond, serif'}}>
                 Exceptional Vision Care and Advanced Eye Surgery in Kyle, Texas
               </h1>
@@ -32,8 +32,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* RIGHT — rotating image carousel */}
-            <div className="relative aspect-[4/5] lg:aspect-[3/4] w-full max-w-md lg:max-w-none mx-auto rounded-2xl overflow-hidden shadow-2xl">
+            {/* RIGHT — rotating image carousel (40% on desktop) */}
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <HeroCarousel slides={heroSlides} />
             </div>
           </div>

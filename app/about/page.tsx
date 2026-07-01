@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'About Us | Spark Eye Care',
@@ -10,8 +11,10 @@ export default function AboutPage() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-white/70 mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -25,6 +28,19 @@ export default function AboutPage() {
           <p className="text-xl text-white/80 mt-4 max-w-3xl">
             Combining advanced surgical expertise with genuine personal attention to deliver exceptional vision outcomes in Kyle, Texas
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_637490792.jpeg"
+                alt="Happy patients enjoying clear vision"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Patient Reviews & Testimonials | Spark Eye Care',
@@ -65,8 +66,10 @@ export default function ReviewsPage() {
 
   return (
     <main>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-4xl mx-auto px-6">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">
           <h1 className="font-cormorant text-5xl md:text-6xl font-light mb-6">
             What Our Patients Say
           </h1>
@@ -89,6 +92,19 @@ export default function ReviewsPage() {
               </svg>
             </div>
             <span className="text-xl font-light">5.0 · 50+ Reviews</span>
+          </div>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_637490792.jpeg"
+                alt="Happy patients enjoying clear vision"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
           </div>
         </div>
       </section>
