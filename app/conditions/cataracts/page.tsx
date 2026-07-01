@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -16,9 +17,10 @@ export default function CataractsPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-8 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -33,6 +35,19 @@ export default function CataractsPage() {
           <p className="text-xl text-blue-100 leading-relaxed max-w-3xl">
             Cataracts are one of the most common age-related eye conditions, causing cloudy vision and difficulty with daily activities. At Spark Eye Care, we offer comprehensive evaluation and advanced surgical treatment options to restore your clear vision and improve your quality of life.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/AdobeStock_637490792.jpeg"
+                alt="Happy couple with clear vision"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

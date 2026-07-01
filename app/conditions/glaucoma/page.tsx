@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Glaucoma Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function GlaucomaPage() {
   return (
     <main>
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function GlaucomaPage() {
           <p className="text-xl text-blue-100 leading-relaxed max-w-3xl">
             Glaucoma is a progressive eye disease that can lead to permanent vision loss if left untreated, but with early detection and proper management, vision can be preserved. At Spark Eye Care, our experienced team provides comprehensive glaucoma diagnosis, monitoring, and treatment using the latest technology and evidence-based approaches to protect your sight for years to come.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/AdobeStock_94313718.jpeg"
+                alt="Close-up of healthy blue eye"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

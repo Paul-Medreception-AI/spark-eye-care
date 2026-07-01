@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Laser Eye Surgery in sparkeyetx | Spark Eye Care',
@@ -11,9 +12,10 @@ export default function LaserEyeSurgeryPage() {
     <main className="min-h-screen">
       
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/services" className="hover:underline">Services</a>
@@ -26,6 +28,19 @@ export default function LaserEyeSurgeryPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             Experience the freedom of clear vision with advanced laser eye surgery at Spark Eye Care. Our board-certified surgeons use state-of-the-art technology to correct nearsightedness, farsightedness, and astigmatism, helping you reduce or eliminate your dependence on glasses and contact lenses.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/2745816.jpeg"
+                alt="Laser eye surgery procedure"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

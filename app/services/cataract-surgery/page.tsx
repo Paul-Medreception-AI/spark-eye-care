@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Cataract Surgery in Kyle, TX | Spark Eye Care',
@@ -9,9 +10,10 @@ export default function CataractSurgeryPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/services" className="hover:underline">Services</a>
@@ -24,6 +26,19 @@ export default function CataractSurgeryPage() {
           <p className="text-xl opacity-95 max-w-3xl leading-relaxed">
             Restore your clear vision with advanced cataract surgery at Spark Eye Care. Our experienced surgeons use state-of-the-art techniques and premium lens options to remove clouded lenses and replace them with artificial intraocular lenses, helping you see the world clearly again.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/2748701.jpeg"
+                alt="Woman with glasses reading her phone"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

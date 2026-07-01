@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Diabetic Retinopathy Treatment in Kyle | Spark Eye Care',
@@ -19,9 +20,10 @@ export default function DiabeticRetinopathyPage() {
     <main className="min-h-screen">
       
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -34,6 +36,19 @@ export default function DiabeticRetinopathyPage() {
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
             Diabetic retinopathy is the leading cause of vision loss in working-age adults, but early detection and expert treatment can preserve your sight. Our specialized team provides comprehensive diabetic eye care using the latest diagnostic technology and evidence-based treatment protocols to protect your vision for years to come.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/2748704.jpg"
+                alt="Diabetic eye care"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

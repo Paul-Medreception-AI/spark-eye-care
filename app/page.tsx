@@ -1,36 +1,40 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import HeroCarousel, { type HeroSlide } from '@/components/HeroCarousel'
+
+const heroSlides: HeroSlide[] = [
+  { src: '/images/AdobeStock_637490792.jpeg', alt: 'Happy couple enjoying clear vision', position: '50% 30%' },
+  { src: '/images/shutterstock_2018571389.jpg', alt: 'Comfortable patient at home', position: '50% 30%' },
+  { src: '/images/AdobeStock_94313718.jpeg', alt: 'Close-up of a healthy blue eye', position: '50% 45%' },
+]
 
 export default function Home() {
   return (
     <main>
       {/* HERO */}
-      <section className="relative min-h-[70vh] flex items-center text-white overflow-hidden">
-        <Image
-          src="/images/AdobeStock_637490792.jpeg"
-          alt="Happy patients enjoying clear vision"
-          fill
-          priority
-          quality={90}
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-dark)]/85 to-[var(--color-primary)]/75" />
-        <div className="relative max-w-5xl mx-auto px-6 py-20">
-          <div className="bg-black/35 backdrop-blur-sm rounded-2xl px-8 py-10 max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl sm:text-6xl font-light tracking-tight leading-tight" style={{fontFamily: 'Cormorant Garamond, serif'}}>
-              Exceptional Vision Care and Advanced Eye Surgery in Kyle, Texas
-            </h1>
-            <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-              Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision. From cataract surgery to glaucoma treatment, we deliver world-class results close to home.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-              <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
-                Schedule Your Eye Exam
-              </Link>
-              <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
-                Explore Our Services
-              </Link>
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* LEFT — text */}
+            <div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight leading-tight" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                Exceptional Vision Care and Advanced Eye Surgery in Kyle, Texas
+              </h1>
+              <p className="text-lg text-white/90 mt-6 leading-relaxed max-w-xl">
+                Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision. From cataract surgery to glaucoma treatment, we deliver world-class results close to home.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 mt-10">
+                <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all text-center">
+                  Schedule Your Eye Exam
+                </Link>
+                <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all text-center">
+                  Explore Our Services
+                </Link>
+              </div>
+            </div>
+
+            {/* RIGHT — rotating image carousel */}
+            <div className="relative aspect-[4/5] lg:aspect-[3/4] w-full max-w-md mx-auto lg:ml-auto lg:mr-0 rounded-2xl overflow-hidden shadow-2xl">
+              <HeroCarousel slides={heroSlides} />
             </div>
           </div>
         </div>

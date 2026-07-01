@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Diabetic Eye Exams | Spark Eye Care',
@@ -9,9 +10,10 @@ export default function DiabeticEyeExamsPage() {
   return (
     <main>
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/services" className="hover:underline">Services</a>
@@ -24,6 +26,19 @@ export default function DiabeticEyeExamsPage() {
           <p className="text-xl text-white/90 leading-relaxed max-w-3xl">
             Protect your vision with specialized diabetic eye examinations designed to detect and monitor diabetes-related eye complications early. Our comprehensive approach combines advanced diagnostic technology with personalized care to preserve your eye health and prevent vision loss.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/2748704.jpg"
+                alt="Diabetic eye exam"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

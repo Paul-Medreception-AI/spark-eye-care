@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Refractive Lens Exchange | Spark Eye Care',
@@ -9,9 +10,10 @@ export default function RefractiveLensExchangePage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/services" className="hover:underline">Services</a>
@@ -24,6 +26,19 @@ export default function RefractiveLensExchangePage() {
           <p className="text-xl opacity-95 leading-relaxed max-w-3xl">
             Refractive lens exchange offers a permanent solution for vision correction by replacing your eye's natural lens with an advanced artificial lens. This sophisticated procedure not only eliminates nearsightedness, farsightedness, and astigmatism, but also prevents future cataract development while providing clear vision at multiple distances.
           </p>
+            </div>
+            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+              <Image
+                src="/images/2748705.jpeg"
+                alt="Refractive lens exchange consultation"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
