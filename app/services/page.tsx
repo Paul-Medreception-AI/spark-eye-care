@@ -6,12 +6,14 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white text-center">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-white/60 text-sm mb-4">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link> › Services
+          <div className="text-white/60 text-sm mb-6">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">›</span>
+            <span>Services</span>
           </div>
           <h1 className="font-cormorant text-6xl font-light mb-4">Our Services</h1>
           <p className="text-xl text-white/80 max-w-xl mx-auto mt-4">
-            Advanced surgical and medical eye care tailored to your unique vision needs and lifestyle goals
+            Advanced surgical eye care and comprehensive vision services tailored to your needs
           </p>
         </div>
       </section>
@@ -23,13 +25,13 @@ export default function ServicesPage() {
             Comprehensive Care for Every Need
           </h2>
           <p className="text-[var(--color-muted)] text-center mb-16 max-w-2xl mx-auto">
-            From routine exams to advanced surgical procedures, we offer the full spectrum of eye care services with expertise and compassion
+            Dr. Plummer and our team offer a full spectrum of advanced eye care services, from routine examinations to complex surgical procedures
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Cataract Surgery */}
             <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up group">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 text-[var(--color-primary)]">
+              <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
@@ -37,7 +39,7 @@ export default function ServicesPage() {
                 Cataract Surgery
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                State-of-the-art cataract removal with premium lens options for clearer vision. We specialize in refractive cataract surgery to reduce or eliminate your dependence on glasses after surgery.
+                Our advanced cataract surgery uses premium lens options to restore clear vision and reduce dependence on glasses. Dr. Plummer specializes in refractive cataract surgery techniques that deliver exceptional visual outcomes.
               </p>
               <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
@@ -46,14 +48,15 @@ export default function ServicesPage() {
 
             {/* Refractive Lens Exchange */}
             <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up group">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+              <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h8m-8 0a4 4 0 108 0m-8 0h8m0 0a4 4 0 11-8 0" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9-9-4.03-9-9z" />
               </svg>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-5">
                 Refractive Lens Exchange
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Advanced lens replacement procedure to correct nearsightedness, farsightedness, and astigmatism. This procedure offers freedom from glasses and contacts for patients not yet ready for traditional cataract surgery.
+                Correct nearsightedness, farsightedness, and presbyopia with lens replacement surgery. This procedure offers permanent vision correction and eliminates future cataract development.
               </p>
               <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
@@ -62,15 +65,14 @@ export default function ServicesPage() {
 
             {/* Laser Eye Surgery */}
             <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up group">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
               </svg>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-5">
                 Laser Eye Surgery
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Precise laser vision correction using proven technology for lasting results. We help patients achieve crisp, clear vision with minimal recovery time and exceptional safety outcomes.
+                State-of-the-art laser procedures provide precise vision correction with rapid recovery times. We use proven laser technology to help patients achieve clearer vision without glasses or contacts.
               </p>
               <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
@@ -79,14 +81,14 @@ export default function ServicesPage() {
 
             {/* Minimally Invasive Glaucoma Surgery */}
             <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up group">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 text-[var(--color-primary)]">
+              <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
               </svg>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-5">
                 Minimally Invasive Glaucoma Surgery
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Advanced MIGS procedures to lower eye pressure and preserve your vision. Our techniques offer effective glaucoma management with faster recovery than traditional surgery.
+                Advanced MIGS procedures lower eye pressure with faster healing and fewer complications than traditional surgery. Our approach preserves vision while minimizing disruption to your daily life.
               </p>
               <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
@@ -95,14 +97,14 @@ export default function ServicesPage() {
 
             {/* Dry Eye Treatment */}
             <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up group">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
+              <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
               </svg>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-5">
                 Dry Eye Treatment
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Comprehensive evaluation and treatment for chronic dry eye symptoms. We identify the root cause and create personalized treatment plans for lasting relief and comfort.
+                Comprehensive evaluation and personalized treatment plans address the root causes of dry eye symptoms. We offer both traditional and advanced therapies to restore comfort and protect your eye surface.
               </p>
               <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
@@ -111,14 +113,14 @@ export default function ServicesPage() {
 
             {/* Diabetic Eye Exams */}
             <div className="bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-up group">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+              <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
               </svg>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-5">
                 Diabetic Eye Exams
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Specialized screening to detect and manage diabetic retinopathy early. Regular monitoring helps prevent vision loss and keeps your eyes healthy despite diabetes.
+                Regular screening and monitoring protect your vision from diabetes-related complications. Early detection and treatment of diabetic retinopathy can prevent vision loss and preserve your quality of life.
               </p>
               <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
@@ -135,40 +137,40 @@ export default function ServicesPage() {
             Your Journey to Better Vision
           </h2>
           <p className="text-[var(--color-muted)] text-center mb-16 max-w-2xl mx-auto">
-            A clear path from initial consultation to optimal results
+            From your first visit to ongoing care, we're with you every step of the way
           </p>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-0">
             {/* Step 01 */}
-            <div className="text-center lg:text-left lg:border-r lg:border-[var(--color-border)] lg:pr-12 animate-fade-up">
+            <div className="relative lg:pr-8 lg:border-r lg:border-[var(--color-border)] animate-fade-up">
               <div className="font-cormorant text-7xl text-[var(--color-primary)] opacity-50 mb-4">01</div>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">
                 Comprehensive Evaluation
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Your journey begins with a thorough eye examination using advanced diagnostic technology. Dr. Plummer takes time to understand your vision goals, medical history, and lifestyle needs to create a personalized treatment plan.
+                Your visit begins with advanced diagnostic testing and a thorough examination of your eye health. Dr. Plummer reviews your medical history, vision goals, and any concerns to develop a complete understanding of your needs.
               </p>
             </div>
 
             {/* Step 02 */}
-            <div className="text-center lg:text-left lg:border-r lg:border-[var(--color-border)] lg:px-12 animate-fade-up">
+            <div className="relative lg:px-8 lg:border-r lg:border-[var(--color-border)] animate-fade-up">
               <div className="font-cormorant text-7xl text-[var(--color-primary)] opacity-50 mb-4">02</div>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">
                 Personalized Treatment Plan
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                We discuss all available options and answer every question you have about your procedure. You will understand exactly what to expect, the benefits and risks, and how the treatment will improve your daily life and vision.
+                We discuss all appropriate treatment options, explaining the benefits and what to expect from each approach. You'll receive clear recommendations tailored to your specific condition, lifestyle, and vision objectives.
               </p>
             </div>
 
             {/* Step 03 */}
-            <div className="text-center lg:text-left lg:pl-12 animate-fade-up">
+            <div className="relative lg:pl-8 animate-fade-up">
               <div className="font-cormorant text-7xl text-[var(--color-primary)] opacity-50 mb-4">03</div>
               <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-3">
-                Expert Care & Follow-Up
+                Expert Care and Follow-Up
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Whether you need surgery or medical treatment, you receive exceptional care using proven techniques and technology. Our team stays with you through recovery with attentive follow-up appointments to ensure optimal healing and results.
+                Whether you need surgery or ongoing medical management, we provide exceptional care at every stage. Our team ensures you understand post-treatment instructions and schedules appropriate follow-up visits to monitor your progress and results.
               </p>
             </div>
           </div>
@@ -180,13 +182,13 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl mb-4">Ready to Begin?</h2>
           <p className="text-white/80 mb-8 max-w-xl mx-auto">
-            Schedule your consultation with Dr. Plummer and take the first step toward clearer, healthier vision
+            Schedule your consultation with Dr. Plummer and discover how we can help you achieve your best vision
           </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-[var(--color-primary)] text-white px-8 py-4 rounded-full font-semibold hover:bg-[var(--color-dark)] transition-all duration-300 hover:scale-105"
+          <Link 
+            href="/contact" 
+            className="inline-block bg-[var(--color-primary)] text-white px-8 py-4 rounded-full font-semibold hover:bg-[var(--color-dark)] transition-colors duration-300"
           >
-            Schedule Your Consultation
+            Schedule Your Eye Exam
           </Link>
         </div>
       </section>
