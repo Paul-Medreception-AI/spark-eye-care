@@ -6,15 +6,15 @@ export default function Home() {
       {/* HERO */}
       <section className="min-h-[90vh] bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] flex items-center text-white">
         <div className="max-w-5xl mx-auto px-6 text-center py-20">
-          <h1 className="text-6xl sm:text-7xl font-light tracking-tight leading-tight" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-            See Life Clearly with Advanced Eye Care in Kyle
+          <h1 className="text-6xl sm:text-7xl font-light tracking-tight leading-tight" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+            Exceptional Vision Care and Advanced Eye Surgery in Kyle, Texas
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-            Dr. Andrew Plummer brings cutting-edge cataract, glaucoma, and laser eye surgery to Central Texas. Experience world-class surgical outcomes with personalized care focused on your vision goals.
+            Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision. From cataract surgery to glaucoma treatment, we deliver world-class results close to home.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
             <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
-              Schedule Your Consultation
+              Schedule Your Eye Exam
             </Link>
             <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
               Explore Our Services
@@ -26,30 +26,30 @@ export default function Home() {
       {/* TRUST BAR */}
       <section className="bg-white py-8 border-b border-[var(--color-border)]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+          <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
             <div className="flex items-center gap-3">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg stroke="currentColor" strokeWidth={2} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
-              <span className="font-bold text-sm sm:text-base text-[var(--color-ink)]">Board-Certified Ophthalmologist</span>
+              <span className="font-bold text-sm text-[var(--color-ink)]">Board-Certified Ophthalmologist</span>
             </div>
             <div className="flex items-center gap-3">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg stroke="currentColor" strokeWidth={2} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
-              <span className="font-bold text-sm sm:text-base text-[var(--color-ink)]">Premium Refractive Cataract Surgery Specialist</span>
+              <span className="font-bold text-sm text-[var(--color-ink)]">Latest Proven Technologies</span>
             </div>
             <div className="flex items-center gap-3">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg stroke="currentColor" strokeWidth={2} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
-              <span className="font-bold text-sm sm:text-base text-[var(--color-ink)]">Latest Proven Surgical Technologies</span>
+              <span className="font-bold text-sm text-[var(--color-ink)]">Personalized Care</span>
             </div>
             <div className="flex items-center gap-3">
-              <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg stroke="currentColor" strokeWidth={2} fill="none" viewBox="0 0 24 24" className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
-              <span className="font-bold text-sm sm:text-base text-[var(--color-ink)]">Personalized Patient-Centered Approach</span>
+              <span className="font-bold text-sm text-[var(--color-ink)]">Serving Kyle, Texas</span>
             </div>
           </div>
         </div>
@@ -58,11 +58,11 @@ export default function Home() {
       {/* SERVICES PREVIEW */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl text-center text-[var(--color-ink)] mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+          <h2 className="text-5xl text-center text-[var(--color-ink)] mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
             How We Can Help
           </h2>
           <p className="text-center text-[var(--color-muted)] mb-16 max-w-2xl mx-auto">
-            Comprehensive surgical and medical eye care using the latest proven technologies
+            From advanced surgical procedures to comprehensive eye health services, we offer the expertise and technology you need for optimal vision.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Cataract Surgery */}
@@ -71,11 +71,11 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{fontFamily: 'Cormorant Garamond, serif'}}>
                 Cataract Surgery
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                State-of-the-art cataract removal with premium lens options for clearer vision. We specialize in refractive cataract surgery to reduce or eliminate your dependence on glasses after surgery.
+                Our advanced cataract surgery uses premium lens options to restore clear vision and reduce dependence on glasses. Dr. Plummer specializes in refractive cataract surgery techniques that deliver exceptional visual outcomes.
               </p>
               <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
@@ -85,13 +85,13 @@ export default function Home() {
             {/* Refractive Lens Exchange */}
             <div className="animate-fade-up bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 stroke-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
               </svg>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{fontFamily: 'Cormorant Garamond, serif'}}>
                 Refractive Lens Exchange
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Advanced lens replacement procedure to correct nearsightedness, farsightedness, and astigmatism. This procedure offers freedom from glasses and contacts for patients not yet ready for traditional cataract surgery.
+                Correct nearsightedness, farsightedness, and presbyopia with lens replacement surgery. This procedure offers permanent vision correction and eliminates future cataract development.
               </p>
               <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
@@ -101,14 +101,13 @@ export default function Home() {
             {/* Laser Eye Surgery */}
             <div className="animate-fade-up bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 stroke-[var(--color-primary)]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
               </svg>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{fontFamily: 'Cormorant Garamond, serif'}}>
                 Laser Eye Surgery
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Precise laser vision correction using proven technology for lasting results. We help patients achieve crisp, clear vision with minimal recovery time and exceptional safety outcomes.
+                State-of-the-art laser procedures provide precise vision correction with rapid recovery times. We use proven laser technology to help patients achieve clearer vision without glasses or contacts.
               </p>
               <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
@@ -123,14 +122,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-5 gap-12 items-center">
             <div className="lg:col-span-3">
-              <h2 className="text-4xl text-[var(--color-ink)] mb-6" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-                Exceptional Eye Care Rooted in Trust and Technology
+              <h2 className="text-4xl text-[var(--color-ink)] mb-6" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                Expert Eye Care Focused on Your Vision Goals
               </h2>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-6">
-                Spark Eye Care was founded on the belief that every patient deserves access to world-class surgical eye care delivered with genuine compassion and respect. Dr. Andrew Plummer established our practice in Kyle to bring the most advanced ophthalmologic treatments to Central Texas, combining cutting-edge technology with the personalized attention that only a dedicated local practice can provide. We understand that your vision affects every aspect of your life, and we take that responsibility seriously.
+              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
+                Spark Eye Care was founded on the principle that exceptional eye care combines advanced surgical expertise with genuine personal attention. Led by Dr. Andrew Plummer, our practice brings world-class ophthalmology services to the growing Kyle, Texas community. We understand that your vision is precious, and every patient deserves access to the latest proven technologies and techniques without traveling to distant medical centers.
               </p>
               <p className="text-[var(--color-muted)] leading-relaxed mb-8">
-                Our practice specializes in premium refractive cataract surgery, which goes beyond simply removing cataracts to actually improve your vision beyond what glasses provided before surgery. We invest in the latest proven technologies and surgical techniques, ensuring our patients receive outcomes comparable to the nation's top academic medical centers. From minimally invasive glaucoma procedures to advanced dry eye treatments, we offer comprehensive surgical and medical eye care under one roof. Dr. Plummer stays current with the latest research and techniques, regularly attending national conferences and bringing innovative approaches back to our Kyle community.
+                Dr. Plummer specializes in advanced surgical procedures including premium cataract surgery, refractive lens exchange, and minimally invasive glaucoma surgery. His commitment to staying at the forefront of ophthalmology means our patients benefit from the most effective treatments available. We invest in cutting-edge diagnostic equipment and surgical technology, but never lose sight of what matters most: helping you achieve your best possible vision and quality of life.
               </p>
               <Link href="/team" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Meet Our Team →
@@ -150,28 +149,33 @@ export default function Home() {
       {/* TESTIMONIALS */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl text-center text-[var(--color-ink)] mb-16" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+          <h2 className="text-4xl text-center mb-16 text-[var(--color-ink)]" style={{fontFamily: 'Cormorant Garamond, serif'}}>
             What Our Patients Say
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl p-10 border border-[var(--color-border)] shadow-sm animate-fade-up">
-              <div className="text-7xl text-[var(--color-primary)] leading-none mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>"</div>
+              <div className="text-7xl text-[var(--color-primary)] leading-none mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                "
+              </div>
               <p className="italic text-[var(--color-ink)] leading-relaxed mb-6">
-                Dr. Plummer and his team made my cataract surgery experience completely stress-free. I can now see better than I have in decades, and I no longer need glasses for driving or reading. The personalized care and attention to detail throughout the entire process was exceptional.
+                Dr. Plummer performed my cataract surgery and the results exceeded my expectations. I can see better now than I have in decades. The entire experience was professional, comfortable, and the technology they use is impressive. I'm so grateful I didn't have to travel to Austin for this level of care.
               </p>
-              <div className="border-t border-[var(--color-border)] pt-4">
-                <p className="font-bold text-[var(--color-ink)]">Margaret</p>
-                <p className="text-sm text-[var(--color-muted)]">Cataract Surgery Patient</p>
+              <div className="text-sm">
+                <div className="font-bold text-[var(--color-ink)]">Barbara</div>
+                <div className="text-[var(--color-muted)]">Cataract Surgery Patient</div>
               </div>
             </div>
+
             <div className="bg-white rounded-2xl p-10 border border-[var(--color-border)] shadow-sm animate-fade-up">
-              <div className="text-7xl text-[var(--color-primary)] leading-none mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>"</div>
+              <div className="text-7xl text-[var(--color-primary)] leading-none mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                "
+              </div>
               <p className="italic text-[var(--color-ink)] leading-relaxed mb-6">
-                The minimally invasive glaucoma procedure Dr. Plummer performed has been life-changing. My eye pressure is finally under control, and the recovery was much faster than I expected. I'm so grateful to have found such skilled and compassionate care right here in Kyle.
+                Finding out I had glaucoma was scary, but Dr. Plummer explained everything clearly and gave me confidence in my treatment plan. The minimally invasive surgery was much easier than I expected, and my eye pressure is now well controlled. He takes the time to answer all my questions at every visit.
               </p>
-              <div className="border-t border-[var(--color-border)] pt-4">
-                <p className="font-bold text-[var(--color-ink)]">Robert</p>
-                <p className="text-sm text-[var(--color-muted)]">Glaucoma Surgery Patient</p>
+              <div className="text-sm">
+                <div className="font-bold text-[var(--color-ink)]">Robert</div>
+                <div className="text-[var(--color-muted)]">Glaucoma Treatment Patient</div>
               </div>
             </div>
           </div>
@@ -181,29 +185,43 @@ export default function Home() {
       {/* HOW IT WORKS */}
       <section className="bg-[var(--color-ink)] text-white py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl text-center mb-16" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+          <h2 className="text-4xl text-center mb-16" style={{fontFamily: 'Cormorant Garamond, serif'}}>
             Getting Started Is Simple
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center">
-              <div className="text-7xl text-[var(--color-primary)] opacity-60 mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>01</div>
-              <h3 className="text-2xl mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>Comprehensive Evaluation</h3>
+              <div className="text-7xl text-[var(--color-primary)] opacity-60 mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                01
+              </div>
+              <h3 className="text-2xl mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                Comprehensive Evaluation
+              </h3>
               <p className="text-sm text-white/70 leading-relaxed">
-                Your journey begins with a thorough eye examination using advanced diagnostic technology. Dr. Plummer takes time to understand your vision goals, medical history, and lifestyle needs to create a personalized treatment plan.
+                Your visit begins with advanced diagnostic testing and a thorough examination of your eye health. Dr. Plummer reviews your medical history, vision goals, and any concerns to develop a complete understanding of your needs.
               </p>
             </div>
+
             <div className="text-center">
-              <div className="text-7xl text-[var(--color-primary)] opacity-60 mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>02</div>
-              <h3 className="text-2xl mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>Personalized Treatment Plan</h3>
+              <div className="text-7xl text-[var(--color-primary)] opacity-60 mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                02
+              </div>
+              <h3 className="text-2xl mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                Personalized Treatment Plan
+              </h3>
               <p className="text-sm text-white/70 leading-relaxed">
-                We discuss all available options and answer every question you have about your procedure. You will understand exactly what to expect, the benefits and risks, and how the treatment will improve your daily life and vision.
+                We discuss all appropriate treatment options, explaining the benefits and what to expect from each approach. You'll receive clear recommendations tailored to your specific condition, lifestyle, and vision objectives.
               </p>
             </div>
+
             <div className="text-center">
-              <div className="text-7xl text-[var(--color-primary)] opacity-60 mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>03</div>
-              <h3 className="text-2xl mb-4" style={{ fontFamily: 'Cormorant Garamond, serif' }}>Expert Care & Follow-Up</h3>
+              <div className="text-7xl text-[var(--color-primary)] opacity-60 mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                03
+              </div>
+              <h3 className="text-2xl mb-4" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                Expert Care and Follow-Up
+              </h3>
               <p className="text-sm text-white/70 leading-relaxed">
-                Whether you need surgery or medical treatment, you receive exceptional care using proven techniques and technology. Our team stays with you through recovery with attentive follow-up appointments to ensure optimal healing and results.
+                Whether you need surgery or ongoing medical management, we provide exceptional care at every stage. Our team ensures you understand post-treatment instructions and schedules appropriate follow-up visits to monitor your progress and results.
               </p>
             </div>
           </div>
@@ -213,11 +231,11 @@ export default function Home() {
       {/* FINAL CTA */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white py-24 text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-5xl font-light mb-6" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-            Advanced Eye Surgery and Personalized Vision Care
+          <h2 className="text-5xl font-light mb-6" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+            Advanced Surgical Eye Care with a Personal Touch
           </h2>
           <Link href="/contact" className="inline-block bg-white text-[var(--color-dark)] font-bold px-12 py-5 rounded-2xl shadow-2xl hover:-translate-y-1 transition-all text-lg">
-            Schedule Your Consultation
+            Schedule Your Eye Exam
           </Link>
         </div>
       </section>
