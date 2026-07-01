@@ -2,551 +2,485 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Refractive Errors Treatment in Kyle | Spark Eye Care',
-  description: 'Expert refractive errors treatment in Kyle. Comprehensive vision correction for nearsightedness, farsightedness, astigmatism, and presbyopia. Schedule your consultation today.',
-  keywords: 'refractive errors treatment Kyle, vision correction Kyle, nearsightedness Kyle, farsightedness Kyle, astigmatism treatment, presbyopia treatment, eye care Kyle',
+  description: 'Expert refractive errors treatment in Kyle. Comprehensive eye exams, prescription eyewear, and advanced vision correction solutions. Schedule your consultation today.',
   openGraph: {
     title: 'Refractive Errors Treatment in Kyle | Spark Eye Care',
-    description: 'Expert refractive errors treatment in Kyle. Comprehensive vision correction for nearsightedness, farsightedness, astigmatism, and presbyopia.',
-    url: 'https://www.sparkeyetx.com/conditions/refractive-errors',
+    description: 'Expert refractive errors treatment in Kyle. Comprehensive eye exams, prescription eyewear, and advanced vision correction solutions.',
+    url: 'https://sparkeyetx.com/conditions/refractive-errors',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',
-  }
+  },
 }
 
 export default function RefractiveErrorsPage() {
   return (
     <main className="min-h-screen">
-      
-      {/* HERO SECTION */}
+      {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
         <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
             <span className="mx-2">›</span>
             <span>Refractive Errors</span>
           </nav>
-          
           <h1 className="font-cormorant text-5xl md:text-6xl font-light mb-6 leading-tight">
             Refractive Errors Treatment in Kyle
           </h1>
-          
-          <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
-            Refractive errors affect how your eyes focus light, causing blurred vision that impacts every aspect of your daily life. At Spark Eye Care, we provide comprehensive vision correction solutions tailored to your unique needs, helping you see clearly and live fully.
+          <p className="text-xl md:text-2xl leading-relaxed max-w-3xl font-light">
+            Blurry vision from myopia, hyperopia, or astigmatism affects millions of Americans, but clear sight is within reach. At Spark Eye Care, we provide comprehensive refractive error evaluation and treatment solutions to restore sharp, comfortable vision for all aspects of your life.
           </p>
         </div>
       </section>
 
-      {/* OVERVIEW SECTION */}
+      {/* Overview Section */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mb-8">
             Understanding Refractive Errors
           </h2>
-          
           <div className="space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
             <p>
-              Refractive errors are the most common vision problems affecting people worldwide, impacting approximately 150 million Americans alone. These conditions occur when the shape of your eye prevents light from focusing correctly on the retina, resulting in blurred or distorted vision. The four primary types of refractive errors include myopia (nearsightedness), hyperopia (farsightedness), astigmatism (irregular corneal curvature), and presbyopia (age-related focusing difficulty). While refractive errors can affect anyone at any age, they significantly impact quality of life—making it difficult to read, drive, work on computers, recognize faces, and perform everyday tasks that require clear vision. Many people live with uncorrected or under-corrected refractive errors, experiencing unnecessary eyestrain, headaches, and reduced productivity when effective solutions are readily available.
+              Refractive errors are the most common type of vision problem affecting Americans today, impacting approximately 150 million people across all age groups. These conditions occur when the shape of your eye prevents light from focusing correctly on the retina, resulting in blurred vision at various distances. The four primary types of refractive errors include myopia (nearsightedness), hyperopia (farsightedness), astigmatism (irregular corneal curvature), and presbyopia (age-related loss of near focusing ability). Whether you're struggling to see distant road signs, experiencing eye strain while reading, or noticing distorted vision at any distance, refractive errors can significantly impact your quality of life, work performance, academic success, and overall safety in daily activities.
             </p>
-            
             <p>
-              The causes of refractive errors stem from variations in eye anatomy and natural aging processes. Myopia typically develops when the eyeball is too long or the cornea is too curved, causing distant objects to appear blurry while near objects remain clear. Hyperopia occurs when the eyeball is too short or the cornea is too flat, making close-up tasks challenging while distance vision may remain relatively unaffected. Astigmatism results from an irregularly shaped cornea or lens that prevents light from focusing evenly on the retina, causing distorted or blurred vision at all distances. Presbyopia is a natural part of aging that typically begins around age 40, when the eye's lens loses flexibility and makes focusing on close objects increasingly difficult. Risk factors include genetics (family history strongly predicts refractive errors), prolonged near work and screen time, insufficient outdoor time during childhood development, certain systemic health conditions like diabetes, and environmental factors that affect eye development and function.
+              The causes of refractive errors are multifactorial, involving both genetic and environmental components. Heredity plays a substantial role—if your parents wear glasses or contacts, you have a higher likelihood of developing refractive errors yourself. The physical characteristics that lead to these conditions include an eyeball that's too long or too short, a cornea with an irregular curve, or an aging lens that loses flexibility. Additional risk factors include extended periods of close-up work, excessive screen time during childhood development, certain medical conditions like diabetes, and natural aging processes that affect the lens. Environmental factors such as inadequate lighting, poor nutrition during developmental years, and limited outdoor activity in childhood have also been associated with increased prevalence of myopia in recent decades.
             </p>
-            
             <p>
-              Professional treatment for refractive errors is essential because untreated vision problems create far-reaching consequences beyond simple blurriness. Children with uncorrected refractive errors often struggle academically, experience behavioral issues misattributed to learning disabilities, and may develop permanent vision problems like amblyopia if not addressed during critical developmental periods. Adults face decreased work performance, increased accident risk while driving or operating machinery, chronic headaches and eye fatigue, and reduced quality of life that affects social engagement and mental wellbeing. At Spark Eye Care, we understand that clear vision is fundamental to your health, safety, and happiness. Our comprehensive approach goes beyond simply prescribing glasses or contact lenses—we thoroughly evaluate your visual system, discuss your lifestyle and visual demands, and develop personalized correction strategies that optimize your vision for how you actually live and work. Whether you're experiencing your first vision changes or seeking better solutions for long-standing refractive errors, our team provides the expertise and individualized care you deserve.
+              Professional eye care is essential for managing refractive errors effectively and preventing secondary complications. While refractive errors themselves don't cause blindness, uncorrected vision problems can lead to chronic headaches, eye strain, difficulty concentrating, reduced productivity, increased accident risk, and decreased quality of life. In children, undetected refractive errors can result in amblyopia (lazy eye) or academic difficulties that may be mistaken for learning disabilities. Regular comprehensive eye examinations allow for early detection, accurate diagnosis, and appropriate correction of refractive errors through prescription eyewear, contact lenses, or discussions about surgical options when appropriate. At Spark Eye Care in Kyle, we utilize advanced diagnostic technology to precisely measure your refractive error and provide personalized solutions that match your lifestyle, visual demands, and personal preferences.
             </p>
           </div>
         </div>
       </section>
 
-      {/* SYMPTOMS SECTION */}
+      {/* Symptoms Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mb-12 text-center">
             Signs & Symptoms of Refractive Errors
           </h2>
-          
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-semibold text-[var(--color-dark)] mb-8">Visual Symptoms</h3>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <h3 className="text-2xl font-semibold text-[var(--color-primary)] mb-6">Visual & Functional Symptoms</h3>
+              <div className="space-y-4">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Blurred Vision at Distance or Near</p>
-                    <p className="text-[var(--color-muted)]">Objects appear fuzzy, unclear, or out of focus at specific distances, making it difficult to see details clearly.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Blurred Vision at Distance</span>
+                    <p className="text-[var(--color-muted)]">Difficulty seeing road signs, whiteboards, or television screens clearly from across the room.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Difficulty Reading Small Print</p>
-                    <p className="text-[var(--color-muted)]">Text appears blurry or requires holding materials at arm's length to see clearly, especially common with presbyopia.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Difficulty Reading</span>
+                    <p className="text-[var(--color-muted)]">Strain or blur when reading books, menus, phone screens, or doing close-up work.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Distorted or Double Vision</p>
-                    <p className="text-[var(--color-muted)]">Objects may appear stretched, wavy, or doubled, particularly with astigmatism or uncorrected high refractive errors.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Distorted or Wavy Vision</span>
+                    <p className="text-[var(--color-muted)]">Straight lines appear bent or distorted, often indicating astigmatism.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Halos Around Lights</p>
-                    <p className="text-[var(--color-muted)]">Glare, starbursts, or rings appear around lights at night, making driving after dark particularly challenging.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Squinting</span>
+                    <p className="text-[var(--color-muted)]">Frequently narrowing your eyes to see more clearly at any distance.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Difficulty Seeing the Whiteboard or TV</p>
-                    <p className="text-[var(--color-muted)]">Students and adults struggle to see presentations, screens, or distant objects clearly from their normal viewing position.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Halos Around Lights</span>
+                    <p className="text-[var(--color-muted)]">Seeing circles or glare around headlights or streetlights, especially at night.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Reduced Night Vision</p>
-                    <p className="text-[var(--color-muted)]">Vision becomes noticeably worse in low-light conditions, with increased difficulty distinguishing objects in dim environments.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Double Vision</span>
+                    <p className="text-[var(--color-muted)]">Seeing two images of a single object, which may indicate uncorrected astigmatism or other refractive issues.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Computer Vision Strain</p>
-                    <p className="text-[var(--color-muted)]">Digital screens become increasingly difficult to view comfortably, with text appearing blurry after extended computer work.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Frequent Prescription Changes</span>
+                    <p className="text-[var(--color-muted)]">Needing new glasses or contact lens prescriptions more frequently than annually.</p>
                   </div>
                 </div>
               </div>
             </div>
-            
             <div>
-              <h3 className="text-2xl font-semibold text-[var(--color-dark)] mb-8">Physical & Behavioral Symptoms</h3>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <h3 className="text-2xl font-semibold text-[var(--color-primary)] mb-6">Physical & Behavioral Symptoms</h3>
+              <div className="space-y-4">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Frequent Headaches</p>
-                    <p className="text-[var(--color-muted)]">Tension headaches, especially around the forehead and temples, develop after visual tasks due to constant focusing effort.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Eye Strain and Fatigue</span>
+                    <p className="text-[var(--color-muted)]">Tired, achy eyes after reading, computer work, or extended visual tasks.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Eye Strain and Fatigue</p>
-                    <p className="text-[var(--color-muted)]">Eyes feel tired, heavy, or uncomfortable after reading, computer work, or other activities requiring sustained visual focus.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Frequent Headaches</span>
+                    <p className="text-[var(--color-muted)]">Recurrent headaches, especially frontal or around the eyes, particularly after visual tasks.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Squinting Frequently</p>
-                    <p className="text-[var(--color-muted)]">Narrowing eyes to see more clearly becomes an unconscious habit, often accompanied by frowning or facial tension.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Difficulty with Night Driving</span>
+                    <p className="text-[var(--color-muted)]">Increased problems seeing clearly in low light or driving after dark.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Excessive Eye Rubbing</p>
-                    <p className="text-[var(--color-muted)]">Persistent eye rubbing to temporarily improve clarity or relieve discomfort, particularly in children with refractive errors.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Holding Reading Material Close or Far</span>
+                    <p className="text-[var(--color-muted)]">Adjusting the distance of books, phones, or tablets to find a clear focal point.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Sitting Too Close to Screens</p>
-                    <p className="text-[var(--color-muted)]">Moving closer to televisions, computers, or reading materials to compensate for blurry vision at normal distances.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Difficulty Concentrating</span>
+                    <p className="text-[var(--color-muted)]">Problems focusing on work or schoolwork due to visual discomfort or blurred vision.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Academic or Work Performance Decline</p>
-                    <p className="text-[var(--color-muted)]">Difficulty concentrating, reduced productivity, or declining grades due to unrecognized vision problems affecting learning and work.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Rubbing Eyes Frequently</span>
+                    <p className="text-[var(--color-muted)]">Constant eye rubbing due to strain or effort to clear vision.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Avoiding Reading or Visual Tasks</p>
-                    <p className="text-[var(--color-muted)]">Loss of interest in reading, hobbies, or activities that require clear vision due to discomfort or frustration.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Sitting Too Close to Screens</span>
+                    <p className="text-[var(--color-muted)]">Moving closer to the TV, computer monitor, or other displays to see clearly.</p>
                   </div>
                 </div>
-                
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Difficulty Driving at Night</p>
-                    <p className="text-[var(--color-muted)]">Increased anxiety or avoiding nighttime driving due to glare, halos, or reduced visual clarity in low-light conditions.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Academic or Work Performance Issues</span>
+                    <p className="text-[var(--color-muted)]">Declining grades, productivity, or performance due to unaddressed vision problems.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
           <p className="text-center text-lg text-[var(--color-ink)] max-w-3xl mx-auto">
-            If you recognize these signs in yourself or a loved one, help is available. Early treatment leads to better outcomes, improved quality of life, and prevents the development of additional vision complications. Schedule a comprehensive eye examination to discover your clearest vision yet.
+            If you recognize these signs, help is available. Early treatment leads to better outcomes. Schedule a comprehensive eye examination to determine the exact nature of your refractive error and explore correction options tailored to your lifestyle.
           </p>
         </div>
       </section>
 
-      {/* OUR APPROACH SECTION */}
+      {/* Our Approach Section */}
       <section className="bg-[var(--color-light)] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mb-16 text-center">
             How We Treat Refractive Errors
           </h2>
-          
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow animate-fade-up">
-              <div className="mb-6">
-                <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-4">Comprehensive Assessment</h3>
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Comprehensive Assessment</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Your journey begins with a thorough eye examination that measures your exact refractive error, evaluates overall eye health, and assesses how your eyes work together. We use advanced diagnostic technology including autorefraction, retinoscopy, and subjective refraction to precisely determine your prescription. Our evaluation also considers your lifestyle, visual demands, occupational requirements, and personal preferences to ensure any correction strategy aligns perfectly with how you live and work.
+                Your journey begins with a thorough eye examination using advanced diagnostic equipment including autorefractors, phoropters, and corneal topography to measure the exact refractive error. We evaluate visual acuity at multiple distances, assess eye health through dilated examination, and discuss your visual demands, lifestyle, and preferences. This comprehensive approach ensures we understand not just your prescription, but how your vision affects your daily life.
               </p>
             </div>
-            
             <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow animate-fade-up">
-              <div className="mb-6">
-                <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-4">Personalized Correction Plan</h3>
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Personalized Treatment Plan</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Based on your assessment results, we develop a customized vision correction strategy tailored to your specific needs. Options may include prescription eyeglasses designed for your primary visual tasks, contact lenses suited to your lifestyle and eye health, or referrals for refractive surgery consultations when appropriate. We discuss the advantages and considerations of each option, ensuring you make informed decisions about your eye care. Your correction plan considers not just your current vision needs but also anticipates future changes and provides strategies for optimal long-term visual health.
+                Based on your assessment results, we develop a customized vision correction strategy that may include prescription eyeglasses, contact lenses (soft, rigid gas permeable, or specialty lenses), or consultation regarding surgical options. We consider factors like your age, occupation, hobbies, aesthetic preferences, and budget to recommend the optimal correction method. For complex prescriptions or special needs, we offer specialty options including progressive lenses, high-index materials, anti-reflective coatings, and advanced contact lens designs.
               </p>
             </div>
-            
             <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow animate-fade-up">
-              <div className="mb-6">
-                <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-4">Ongoing Care & Monitoring</h3>
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Ongoing Care & Monitoring</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Refractive errors can change over time, so we provide continuous care to ensure your vision remains optimal. Regular follow-up examinations monitor prescription changes, assess eye health for conditions that may affect vision, and adjust your correction strategy as your needs evolve. We provide guidance on proper eyewear maintenance, contact lens care protocols, and strategies to reduce digital eye strain. Our team remains available to address concerns, troubleshoot any issues with your current correction, and ensure you're always seeing your absolute best.
+                Vision changes over time, especially during childhood, adolescence, and after age 40. We provide regular follow-up examinations to monitor your eye health and update your prescription as needed. For contact lens wearers, we ensure proper fit, comfort, and eye health through periodic evaluations. We also educate you on proper eyewear care, eye health maintenance, and signs that warrant an earlier appointment, ensuring you maintain optimal vision throughout your life.
               </p>
             </div>
           </div>
-          
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-[var(--color-ink)] leading-relaxed">
-              Our evidence-based approach to treating refractive errors combines time-tested optometric principles with cutting-edge technology. We utilize precision refraction techniques that account for both objective measurements and your subjective visual experience, ensuring prescriptions that provide not just clarity but also comfort. For patients requiring specialized corrections, we offer advanced solutions including progressive lenses for seamless multifocal vision, specialty contact lenses for astigmatism or presbyopia, orthokeratology for myopia control in children, and low vision aids when standard corrections aren't sufficient. Our practice stays current with the latest research in myopia management, particularly important for children whose refractive errors may progress without proper intervention. We also provide blue light filtering options, computer-specific glasses, and occupational lenses designed for specific visual tasks. Every correction we prescribe considers the full spectrum of your visual needs—from driving safety to digital device comfort to quality of life improvements that clear vision provides.
+              Our evidence-based approach to refractive error correction utilizes the latest advances in optometric science and optical technology. We prescribe precise corrective lenses based on comprehensive refraction testing and offer a wide selection of frames and lens materials to suit every need. For contact lens candidates, we provide thorough fitting services and instruction on insertion, removal, and care. We stay current with emerging technologies including myopia control strategies for children, orthokeratology (corneal reshaping lenses), and advanced lens designs for presbyopia. When appropriate, we provide referrals to trusted ophthalmologists for surgical consultations regarding LASIK, PRK, or other refractive surgery options. Our goal is clear, comfortable vision achieved through the most appropriate method for your individual circumstances.
             </p>
           </div>
         </div>
       </section>
 
-      {/* WHY CHOOSE US SECTION */}
+      {/* Why Choose Us Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mb-12 text-center">
             Why Choose Spark Eye Care for Refractive Errors Treatment
           </h2>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center animate-fade-up">
-              <div className="mb-6 flex justify-center">
-                <svg className="w-16 h-16 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-3">Expert Credentials</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-[var(--color-cream)] p-8 rounded-lg animate-fade-up">
+              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Advanced Diagnostic Technology</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Our optometrists are board-certified with extensive training in refractive error diagnosis and management, ensuring you receive the highest standard of care based on the latest clinical evidence.
+                Our practice utilizes state-of-the-art equipment including digital refraction systems and corneal topography to provide the most accurate prescriptions possible. This precision ensures optimal visual clarity and comfort with your corrective lenses.
               </p>
             </div>
-            
-            <div className="text-center animate-fade-up">
-              <div className="mb-6 flex justify-center">
-                <svg className="w-16 h-16 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-3">Personalized Approach</h3>
+            <div className="bg-[var(--color-cream)] p-8 rounded-lg animate-fade-up">
+              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Personalized Care for Every Patient</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                We recognize that every patient's vision needs are unique. Our individualized treatment plans consider your lifestyle, occupation, hobbies, and personal preferences to optimize your visual outcomes.
+                We understand that no two patients have identical visual needs. Whether you're a student, professional, athlete, or retiree, we tailor our recommendations to match your lifestyle, occupation, and personal preferences for optimal visual performance.
               </p>
             </div>
-            
-            <div className="text-center animate-fade-up">
-              <div className="mb-6 flex justify-center">
-                <svg className="w-16 h-16 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-3">Convenient Care Options</h3>
+            <div className="bg-[var(--color-cream)] p-8 rounded-lg animate-fade-up">
+              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Convenient Access Options</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                We offer flexible scheduling including evening and weekend appointments, and telehealth consultations for follow-up care, prescription adjustments, and addressing minor concerns without office visits.
+                While comprehensive eye examinations require in-person evaluation, we offer flexible appointment scheduling and follow-up consultations to accommodate busy schedules. Our team is available to answer questions about your prescription, eyewear care, or vision concerns between appointments.
               </p>
             </div>
-            
-            <div className="text-center animate-fade-up">
-              <div className="mb-6 flex justify-center">
-                <svg className="w-16 h-16 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-3">Advanced Technology</h3>
+            <div className="bg-[var(--color-cream)] p-8 rounded-lg animate-fade-up">
+              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Extensive Experience with All Refractive Errors</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Our practice utilizes state-of-the-art diagnostic equipment including digital refraction systems, corneal topography, and optical coherence tomography to ensure precise measurements and comprehensive care.
+                Our team has successfully helped thousands of patients achieve clear vision, from simple prescriptions to complex cases involving high myopia, irregular astigmatism, or progressive lens challenges. We bring expertise and patience to every correction challenge.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* WHAT TO EXPECT SECTION */}
+      {/* What to Expect Section */}
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mb-8 text-center">
             Your Treatment Journey
           </h2>
-          
-          <div className="space-y-12">
-            <div className="flex gap-8 items-start">
-              <div className="font-cormorant text-6xl text-[var(--color-primary)] font-light flex-shrink-0">01</div>
+          <div className="space-y-8">
+            <div className="flex gap-6">
+              <div className="flex-shrink-0">
+                <span className="font-cormorant text-6xl font-light text-[var(--color-primary)]">1</span>
+              </div>
               <div>
-                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Initial Comprehensive Examination (Week 1)</h3>
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-2">First Evaluation (Week 1)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  Your first visit includes a complete visual assessment with advanced diagnostic testing to measure your exact refractive error, evaluate eye health, and assess binocular vision function. We discuss your symptoms, visual challenges, lifestyle needs, and goals for treatment. This appointment typically takes 60-90 minutes and concludes with a detailed discussion of your diagnosis and recommended correction options. You'll leave with a clear understanding of your vision condition and a personalized treatment plan.
+                  Your comprehensive eye examination typically lasts 45-60 minutes and includes vision testing at multiple distances, refraction to determine your precise prescription, eye health evaluation with dilation, and discussion of correction options. You'll receive your prescription and recommendations for eyeglasses, contact lenses, or other appropriate interventions. If you choose eyeglasses, you can select frames and lenses during this visit, with most prescriptions available for pickup within 7-10 days.
                 </p>
               </div>
             </div>
-            
-            <div className="flex gap-8 items-start">
-              <div className="font-cormorant text-6xl text-[var(--color-primary)] font-light flex-shrink-0">02</div>
+            <div className="flex gap-6">
+              <div className="flex-shrink-0">
+                <span className="font-cormorant text-6xl font-light text-[var(--color-primary)]">2</span>
+              </div>
               <div>
-                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Correction Implementation (Weeks 2-4)</h3>
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-2">Treatment Begins (Weeks 2-4)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  Once you've selected your preferred correction method, we'll order your prescription eyeglasses or contact lenses with precision measurements ensuring optimal fit and performance. Glasses typically arrive within 1-2 weeks, while contact lenses may be available immediately for trial or ordered based on your specific parameters. We provide thorough instruction on proper use, care, and maintenance. Contact lens wearers receive comprehensive training on insertion, removal, cleaning protocols, and wearing schedules. Most patients adapt to new corrections within days, though some complex prescriptions may require a brief adjustment period.
+                  Once you receive your corrective lenses, expect an adjustment period of 1-2 weeks as your visual system adapts, particularly with progressive lenses or first-time glasses. Contact lens wearers receive training on insertion, removal, and care, with a follow-up visit scheduled to check lens fit and comfort. Most patients notice immediate improvement in visual clarity, though fine-tuning may be necessary to achieve optimal comfort and acuity. We encourage you to contact us if you experience persistent blur, discomfort, or headaches during this adaptation period.
                 </p>
               </div>
             </div>
-            
-            <div className="flex gap-8 items-start">
-              <div className="font-cormorant text-6xl text-[var(--color-primary)] font-light flex-shrink-0">03</div>
+            <div className="flex gap-6">
+              <div className="flex-shrink-0">
+                <span className="font-cormorant text-6xl font-light text-[var(--color-primary)]">3</span>
+              </div>
               <div>
-                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Follow-Up & Fine-Tuning (Months 2-3)</h3>
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-2">Progress Review (Months 2-3)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  We schedule follow-up appointments to ensure your correction is performing optimally and you're experiencing the clear, comfortable vision you deserve. These visits allow us to address any adjustment concerns, verify that your prescription is accurate, and make refinements if needed. Contact lens wearers receive evaluations to assess lens fit, eye health response to lens wear, and vision quality. This is also an opportunity to explore additional correction options—such as computer glasses, sunglasses, or backup pairs—that enhance your visual experience in different situations.
+                  A brief follow-up visit ensures your correction is performing as expected and addresses any concerns about comfort, visual quality, or eyewear durability. Contact lens wearers undergo corneal health evaluation to confirm proper lens fit and absence of complications. This is an opportunity to discuss backup eyewear options, prescription sunglasses, or specialty lenses for specific activities like computer use or sports.
                 </p>
               </div>
             </div>
-            
-            <div className="flex gap-8 items-start">
-              <div className="font-cormorant text-6xl text-[var(--color-primary)] font-light flex-shrink-0">04</div>
+            <div className="flex gap-6">
+              <div className="flex-shrink-0">
+                <span className="font-cormorant text-6xl font-light text-[var(--color-primary)]">4</span>
+              </div>
               <div>
-                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-3">Long-Term Vision Care (Ongoing)</h3>
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mb-2">Long-term Management</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  Refractive errors change over time, particularly during childhood growth years and after age 40 when presbyopia develops. We recommend annual comprehensive eye examinations to monitor prescription changes, screen for eye diseases, and update your correction as needed. Between regular exams, we're available to address concerns, troubleshoot issues with current eyewear, and provide guidance on maintaining optimal eye health. Our long-term relationship with you ensures continuous, personalized care that adapts to your evolving vision needs throughout all life stages.
+                  Annual comprehensive eye examinations are recommended to monitor for prescription changes, update your correction as needed, and screen for eye diseases that become more common with age. Children and teens experiencing active myopia progression may require more frequent evaluations every 6 months. Presbyopic patients over 40 often experience gradual changes in near vision requiring periodic prescription updates. With consistent care, proper eyewear maintenance, and regular examinations, most refractive errors can be successfully managed throughout your lifetime, providing clear, comfortable vision for all your daily activities.
                 </p>
               </div>
             </div>
-          </div>
-          
-          <div className="mt-12 p-6 bg-white rounded-lg border-l-4 border-[var(--color-primary)]">
-            <p className="text-[var(--color-ink)] leading-relaxed">
-              <strong>Setting Realistic Expectations:</strong> Most patients experience immediate vision improvement once properly corrected, with complete adaptation occurring within days to two weeks. While refractive errors cannot be "cured" (they're anatomical variations in eye shape), appropriate correction restores clear, functional vision that dramatically improves quality of life. Some patients initially experience mild symptoms like depth perception changes or slight dizziness with new prescriptions—these adjustment symptoms are normal and typically resolve quickly. Our team provides ongoing support throughout your adaptation process, ensuring your journey to clearer vision is smooth and successful.
-            </p>
           </div>
         </div>
       </section>
 
-      {/* FAQ SECTION */}
+      {/* FAQ Section */}
       <section className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mb-12 text-center">
             Frequently Asked Questions About Refractive Errors
           </h2>
-          
-          <div className="space-y-6">
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none">
-                <span>How long does refractive error treatment take?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <div className="space-y-4">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-[var(--color-ink)]">
+                How long does refractive error treatment take?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
-              <div className="p-6 pt-0 text-[var(--color-muted)] leading-relaxed">
-                The initial comprehensive examination takes 60-90 minutes, after which you'll receive your diagnosis and correction recommendations immediately. If you choose eyeglasses, they typically arrive within 1-2 weeks; contact lenses may be available for same-day trial or require ordering specific parameters. Most patients adapt to new corrections within 3-7 days, though complex prescriptions like progressive lenses or high astigmatism corrections may require 2-3 weeks for complete adaptation. Refractive errors are lifelong conditions requiring ongoing management—annual examinations ensure your correction remains optimal as your vision naturally changes over time.
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                Treatment for refractive errors is immediate once you receive the appropriate corrective lenses. The initial comprehensive eye exam takes about 45-60 minutes. Eyeglasses are typically ready within 7-10 days, while contact lenses may be available same-day or require special ordering. There's a brief adaptation period of 1-2 weeks as your eyes adjust to the new prescription, particularly with progressive lenses or first-time corrections. Refractive errors are a chronic condition requiring ongoing management, but with proper correction, you can enjoy clear vision indefinitely.
               </div>
             </details>
-            
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none">
-                <span>Is medication required for treating refractive errors?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-[var(--color-ink)]">
+                Is medication required for refractive errors?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
-              <div className="p-6 pt-0 text-[var(--color-muted)] leading-relaxed">
-                No, standard refractive errors do not require medication for treatment. The primary corrections are optical—prescription eyeglasses, contact lenses, or refractive surgery. However, some specialized treatments may involve pharmaceutical interventions: atropine eye drops for myopia control in children (to slow nearsightedness progression), artificial tears for dry eye associated with contact lens wear, or prescription eye drops for conditions coexisting with refractive errors. Your eye care team will discuss any relevant medication options if they apply to your specific situation, though most patients manage refractive errors successfully with optical correction alone.
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                No, standard refractive errors (myopia, hyperopia, astigmatism, and presbyopia) are not treated with medication. These conditions result from the physical shape of the eye and are corrected through optical means—eyeglasses, contact lenses, or refractive surgery. However, in specific cases of progressive childhood myopia, low-dose atropine eye drops have shown promise in slowing myopia progression and may be recommended as part of a comprehensive myopia control strategy. Your eye care provider will discuss whether this or other emerging myopia management approaches might benefit your child.
               </div>
             </details>
-            
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none">
-                <span>Does insurance cover refractive error treatment?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-[var(--color-ink)]">
+                Does insurance cover refractive error treatment?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
-              <div className="p-6 pt-0 text-[var(--color-muted)] leading-relaxed">
-                Most vision insurance plans cover routine eye examinations annually or biennially, which include refractive error assessment and prescription determination. Many plans also provide allowances toward prescription eyeglasses or contact lenses, though coverage levels vary significantly by plan. Medical insurance typically covers eye examinations when medically necessary conditions are being evaluated or managed alongside refractive error assessment. We accept most major insurance plans and our staff will verify your benefits, explain your coverage, and help maximize your insurance benefits. For services not covered by insurance, we offer competitive self-pay rates and flexible payment options to ensure cost never prevents you from achieving clear vision.
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                Most vision insurance plans cover annual comprehensive eye examinations and provide allowances toward eyeglasses or contact lenses. Medical insurance typically covers eye exams when they're necessary to diagnose or manage medical eye conditions detected during examination. Coverage for frames, lenses, and contact lenses varies significantly by plan—some provide full coverage up to a specified amount, while others offer discounts. We recommend contacting your insurance provider before your appointment to understand your specific benefits. Our staff is happy to verify your coverage and help you maximize your benefits. Self-pay options and payment plans are also available.
               </div>
             </details>
-            
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none">
-                <span>Can I get LASIK or other surgery to permanently fix my refractive error?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-[var(--color-ink)]">
+                Can refractive errors be cured or do they require lifelong treatment?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
-              <div className="p-6 pt-0 text-[var(--color-muted)] leading-relaxed">
-                Refractive surgery options like LASIK, PRK, and SMILE can effectively reduce or eliminate dependence on glasses and contact lenses for many patients. However, not everyone is a suitable candidate—factors including prescription stability, corneal thickness, eye health, age, and lifestyle all influence candidacy. During your comprehensive examination, we assess whether refractive surgery might be appropriate for you and provide honest, unbiased guidance. If you're a potential candidate, we offer co-management with experienced refractive surgeons, coordinating your pre-operative evaluation, surgical planning, and post-operative care. We'll help you understand realistic expectations, as presbyopia (age-related near vision loss) will still develop after age 40 regardless of previous refractive surgery.
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                Refractive errors are generally lifelong conditions that require ongoing correction, though your prescription may change over time. Eyeglasses and contact lenses provide correction but do not cure the underlying refractive error—you'll need to wear them consistently for clear vision. Refractive surgery (LASIK, PRK, or lens implants) can permanently reshape the cornea or replace the eye's natural lens, potentially eliminating the need for glasses or contacts, though age-related changes like presbyopia may still develop later. Even after successful refractive surgery, regular eye examinations remain important for monitoring overall eye health and detecting conditions like glaucoma, cataracts, or macular degeneration.
               </div>
             </details>
-            
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none">
-                <span>Will my refractive error get worse over time?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-[var(--color-ink)]">
+                What if my glasses prescription doesn't seem right?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
-              <div className="p-6 pt-0 text-[var(--color-muted)] leading-relaxed">
-                Refractive error progression depends on your age, the type of error, and individual factors. Myopia typically progresses during childhood and adolescence, often stabilizing in the early twenties—though adult-onset myopia and continued progression can occur. Hyperopia may remain stable or decrease slightly with age until presbyopia develops. Astigmatism generally remains relatively stable unless corneal conditions develop. Presbyopia inevitably progresses from the early 40s through the early 60s as the eye's lens continues losing flexibility. While we cannot prevent natural age-related changes, we can implement myopia control strategies for children to slow nearsightedness progression, provide appropriate corrections that don't strain your visual system, and monitor your eyes for conditions that might affect refractive status. Wearing proper correction does not make your eyes "worse"—this is a persistent myth contradicted by clinical evidence.
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                Some adaptation time is normal, especially with progressive lenses, first-time glasses, or significant prescription changes. However, if you experience persistent blur, distortion, headaches, or discomfort after 1-2 weeks, contact our office immediately. The issue could involve an incorrect prescription, improper frame adjustment, lens manufacturing error, or difficulty adapting to a new lens type. We'll schedule a recheck appointment to reassess your vision, verify the prescription was correctly filled, and make any necessary adjustments to your frames or lenses. Our goal is your complete satisfaction and visual comfort—we stand behind our work and will make it right.
               </div>
             </details>
-            
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none">
-                <span>Can telehealth appointments work for refractive error management?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-[var(--color-ink)]">
+                Can I have my eye exam done through telehealth?
+                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
-              <div className="p-6 pt-0 text-[var(--color-muted)] leading-relaxed">
-                While initial comprehensive examinations and prescription determinations require in-person visits with specialized equipment, telehealth is excellent for many follow-up needs. Virtual appointments work well for discussing eyewear concerns, troubleshooting contact lens issues, addressing adaptation questions, reviewing test results, providing guidance on lens care or eye health strategies, and determining whether symptoms require in-person evaluation. We also offer telehealth consultations for second opinions, pre-appointment discussions about treatment options, and post-adjustment check-ins. Our hybrid approach combines the precision of in-person diagnostic care with the convenience of virtual follow-up, ensuring you receive comprehensive treatment that fits your schedule and lifestyle.
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                Comprehensive eye examinations for refractive errors require in-person evaluation with specialized equipment to accurately measure your prescription and assess eye health. Refraction testing, corneal evaluation, retinal examination, and proper frame fitting cannot be performed remotely. However, telehealth consultations can be useful for discussing vision concerns, reviewing previous exam results, answering questions about your prescription or eyewear, addressing contact lens problems, or determining whether an in-person visit is needed for new symptoms. We're happy to schedule a virtual consultation to discuss your vision needs and help you determine the most appropriate next steps.
               </div>
             </details>
           </div>
         </div>
       </section>
 
-      {/* RELATED CONDITIONS SECTION */}
+      {/* Related Conditions Section */}
       <section className="bg-[var(--color-cream)] py-16">
         <div className="max-w-7xl mx-auto px-6">
           <h3 className="font-cormorant text-3xl md:text-4xl text-[var(--color-ink)] mb-8 text-center">
             Related Conditions We Treat
           </h3>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/dry-eye" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
-              <div className="mb-4">
-                <svg className="w-12 h-12 text-[var(--color-primary)] group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">Dry Eye Syndrome</h4>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-                Chronic eye dryness, irritation, and discomfort affecting vision quality and daily comfort, often coexisting with contact lens wear.
+          <div className="grid md:grid-cols-3 gap-6">
+            <a href="/conditions/cataracts" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+              <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
+                Cataracts
+              </h4>
+              <p className="text-[var(--color-muted)] mb-4">
+                Age-related clouding of the eye's natural lens causing progressive vision loss and glare sensitivity.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold group-hover:gap-3 inline-flex items-center gap-2 transition-all">
-                Learn More
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <span className="text-[var(--color-primary)] font-semibold inline-flex items-center">
+                Learn more
+                <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
               </span>
             </a>
-            
-            <a href="/conditions/computer-vision-syndrome" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
-              <div className="mb-4">
-                <svg className="w-12 h-12 text-[var(--color-primary)] group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">Computer Vision Syndrome</h4>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-                Eye strain, headaches, and vision problems from prolonged digital device use, often exacerbated by uncorrected refractive errors.
+            <a href="/conditions/dry-eye" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+              <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
+                Dry Eye Syndrome
+              </h4>
+              <p className="text-[var(--color-muted)] mb-4">
+                Chronic eye discomfort from inadequate tear production or poor tear quality affecting vision clarity.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold group-hover:gap-3 inline-flex items-center gap-2 transition-all">
-                Learn More
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <span className="text-[var(--color-primary)] font-semibold inline-flex items-center">
+                Learn more
+                <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
               </span>
             </a>
-            
-            <a href="/conditions/presbyopia" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
-              <div className="mb-4">
-                <svg className="w-12 h-12 text-[var(--color-primary)] group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">Presbyopia</h4>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-                Age-related near vision loss affecting reading and close work, a natural type of refractive error developing after age 40.
+            <a href="/conditions/glaucoma" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+              <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
+                Glaucoma
+              </h4>
+              <p className="text-[var(--color-muted)] mb-4">
+                Progressive optic nerve damage often associated with elevated intraocular pressure requiring monitoring and treatment.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold group-hover:gap-3 inline-flex items-center gap-2 transition-all">
-                Learn More
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <span className="text-[var(--color-primary)] font-semibold inline-flex items-center">
+                Learn more
+                <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
               </span>
@@ -555,35 +489,25 @@ export default function RefractiveErrorsPage() {
         </div>
       </section>
 
-      {/* CTA SECTION */}
+      {/* CTA Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl md:text-5xl font-light mb-4">
             Get Help for Refractive Errors Today
           </h2>
-          <p className="text-xl md:text-2xl mb-10 opacity-90 font-light">
-            You don't have to live with blurry vision. Our team is ready to help you see clearly and live fully.
+          <p className="text-xl mb-8 opacity-90">
+            You don't have to face refractive errors alone. Our team is ready to help you achieve clear, comfortable vision.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a 
-              href="/contact" 
-              className="bg-white text-[var(--color-primary)] px-10 py-4 rounded-full font-semibold text-lg hover:bg-[var(--color-cream)] transition-all hover:scale-105 inline-block"
-            >
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact" className="inline-block bg-white text-[var(--color-primary)] px-8 py-4 rounded-md font-semibold hover:bg-opacity-90 transition-all">
               Schedule Your Eye Exam
             </a>
-            <a 
-              href="/conditions" 
-              className="border-2 border-white text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[var(--color-primary)] transition-all hover:scale-105 inline-block"
-            >
+            <a href="/conditions" className="inline-block border-2 border-white text-white px-8 py-4 rounded-md font-semibold hover:bg-white hover:text-[var(--color-primary)] transition-all">
               View All Conditions
             </a>
           </div>
-          <p className="mt-8 text-sm opacity-75">
-            Serving Kyle and surrounding communities with exceptional eye care
-          </p>
         </div>
       </section>
-
     </main>
   )
 }
