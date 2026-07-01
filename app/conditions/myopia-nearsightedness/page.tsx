@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Myopia (Nearsightedness) Treatment in Kyle | Spark Eye Care',
-  description: 'Expert myopia treatment in Kyle. Board-certified eye care for nearsightedness with personalized treatment plans, advanced therapies, and telehealth options.',
-  keywords: 'myopia treatment Kyle, nearsightedness Kyle, myopia management, vision correction Kyle, eye care Kyle',
+  description: 'Expert myopia treatment in Kyle. Comprehensive eye care for nearsightedness including prescription lenses, orthokeratology, and myopia control. Schedule your consultation today.',
+  keywords: 'myopia treatment Kyle, nearsightedness Kyle, myopia control, eye doctor Kyle, vision correction Kyle',
   openGraph: {
     title: 'Myopia (Nearsightedness) Treatment in Kyle | Spark Eye Care',
-    description: 'Expert myopia treatment in Kyle. Board-certified eye care for nearsightedness with personalized treatment plans.',
-    url: 'https://www.sparkeyetx.com/conditions/myopia-nearsightedness',
+    description: 'Expert myopia treatment in Kyle. Comprehensive care for nearsightedness with advanced myopia control solutions.',
+    url: 'https://sparkeyetx.com/conditions/myopia-nearsightedness',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',
-  },
+  }
 }
 
 export default function MyopiaPage() {
@@ -27,11 +27,11 @@ export default function MyopiaPage() {
             <span className="mx-2">›</span>
             <span>Myopia (Nearsightedness)</span>
           </nav>
-          <h1 className="font-cormorant text-5xl md:text-6xl font-light mb-6 leading-tight">
+          <h1 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl font-light mb-6 leading-tight">
             Myopia (Nearsightedness) Treatment in Kyle
           </h1>
-          <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
-            Clear vision shouldn't be limited to what's right in front of you. At Spark Eye Care, we provide comprehensive myopia management and treatment solutions to help you see clearly at all distances, protecting your long-term vision health.
+          <p className="text-xl text-blue-100 max-w-3xl leading-relaxed">
+            Myopia affects millions of people worldwide, making distant objects appear blurry while near vision remains clear. At Spark Eye Care, we provide comprehensive myopia treatment and management solutions tailored to your unique vision needs, helping you see the world clearly again.
           </p>
         </div>
       </section>
@@ -39,18 +39,18 @@ export default function MyopiaPage() {
       {/* Overview Section */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl mb-8 text-[var(--color-ink)]">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl mb-8 text-[var(--color-ink)]">
             Understanding Myopia (Nearsightedness)
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
             <p>
-              Myopia, commonly known as nearsightedness, is a refractive error where distant objects appear blurry while close objects remain clear. This occurs when the eye grows too long from front to back, or when the cornea has too much curvature, causing light rays to focus in front of the retina rather than directly on it. Myopia affects approximately 30% of the U.S. population and up to 90% of young adults in some Asian countries, making it one of the most prevalent vision conditions worldwide. Beyond the inconvenience of blurry distance vision, myopia can significantly impact daily activities like driving, watching movies, playing sports, and recognizing faces across a room. For children, it can affect classroom learning, athletic performance, and social confidence, making early detection and management crucial.
+              Myopia, commonly known as nearsightedness, is a refractive error that occurs when the eyeball is too long or the cornea is too curved, causing light rays to focus in front of the retina instead of directly on it. This condition affects approximately 30% of the U.S. population and up to 80% of people in some Asian countries, with prevalence rates rising dramatically among younger generations. People with myopia can see nearby objects clearly—reading a book, working on a computer, or looking at their phone—but distant objects such as road signs, whiteboards, or faces across a room appear blurry and out of focus. The condition typically begins in childhood, often between ages 6 and 14, and tends to progress until the early twenties when eye growth stabilizes. Left uncorrected, myopia can significantly impact daily activities, academic performance in children, driving safety, sports participation, and overall quality of life.
             </p>
             <p>
-              The causes of myopia are multifactorial, involving both genetic and environmental components. Children with one myopic parent have a two to three times higher risk of developing myopia, while having two myopic parents increases the risk five to six times. Environmental factors play an increasingly significant role in what researchers call the "myopia epidemic." Prolonged near work activities such as reading, computer use, and smartphone screen time strain the focusing system and encourage axial elongation of the eye. Studies show that children who spend less than 90 minutes outdoors daily have higher myopia rates compared to those with more outdoor exposure, as natural light and distance viewing help regulate eye growth. Other risk factors include early onset of myopia (before age 8), rapid progression rates, higher education levels, and urban living environments with limited access to outdoor spaces and natural lighting.
+              The causes of myopia are multifactorial, involving both genetic and environmental influences. Children with one myopic parent have approximately three times the risk of developing myopia, while those with two myopic parents have a six-fold increased risk. However, environmental factors play an increasingly significant role in the global myopia epidemic. Prolonged near work activities—such as extensive reading, computer use, and smartphone screen time—place sustained focusing demand on the eyes, potentially triggering axial elongation of the eyeball. Recent research has also identified insufficient time spent outdoors as a major risk factor, with natural daylight exposure appearing to have a protective effect against myopia development and progression. Other contributing factors include inadequate lighting during near work, poor posture while reading, nutritional deficiencies, and certain medical conditions. Asian ethnicity, premature birth, and urban living environments have also been associated with higher myopia rates.
             </p>
             <p>
-              Professional myopia management is essential because nearsightedness is not just about needing glasses or contact lenses—it's a progressive condition that increases the risk of serious eye health complications. High myopia (prescriptions stronger than -6.00 diopters) significantly elevates the lifetime risk of retinal detachment, myopic macular degeneration, glaucoma, and cataracts. These sight-threatening conditions can develop even with corrective lenses, making myopia control strategies critical, especially for children. Modern myopia management goes beyond simple vision correction to actually slow the progression of eye elongation through specialized treatments like orthokeratology, atropine therapy, multifocal contact lenses, and lifestyle modifications. Early intervention during childhood and adolescence, when myopia progresses most rapidly, can reduce final prescription strength by 30-60%, substantially lowering future eye health risks. At Spark Eye Care in Kyle, we combine comprehensive eye examinations with evidence-based myopia control strategies to protect not just your current vision, but your lifelong eye health.
+              Professional myopia treatment and management are essential not only for vision correction but also for preventing long-term complications associated with high myopia. While glasses and contact lenses provide immediate visual clarity, comprehensive myopia care—especially in children—now includes strategies to slow progression and reduce the risk of developing high myopia. High myopia (typically defined as -6.00 diopters or greater) significantly increases the lifetime risk of serious eye conditions including retinal detachment, myopic macular degeneration, glaucoma, and cataracts. At Spark Eye Care in Kyle, our approach combines accurate diagnosis through comprehensive eye examinations, personalized vision correction solutions, and evidence-based myopia control strategies. We stay current with the latest advances in myopia management, including specialized contact lenses, atropine therapy, and lifestyle modifications, ensuring that each patient receives optimal care tailored to their age, lifestyle, and progression risk. Early intervention, particularly during childhood when myopia typically progresses most rapidly, can make a meaningful difference in long-term eye health and vision outcomes.
             </p>
           </div>
         </div>
@@ -59,149 +59,149 @@ export default function MyopiaPage() {
       {/* Symptoms Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl mb-12 text-[var(--color-ink)] text-center">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl mb-12 text-[var(--color-ink)] text-center">
             Signs & Symptoms of Myopia (Nearsightedness)
           </h2>
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-semibold mb-8 text-[var(--color-primary)]">Visual & Functional Symptoms</h3>
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <h3 className="text-2xl font-semibold mb-6 text-[var(--color-primary)]">Visual Symptoms</h3>
+              <div className="space-y-4">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Blurry Distance Vision</p>
-                    <p className="text-[var(--color-muted)]">Difficulty seeing objects far away clearly, such as road signs, whiteboards, or faces across a room, while near vision remains sharp.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Blurry Distance Vision</span>
+                    <p className="text-[var(--color-muted)]">Difficulty seeing distant objects clearly such as street signs, movie screens, or people across a room while near vision remains sharp.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Frequent Squinting</p>
-                    <p className="text-[var(--color-muted)]">Habitually squinting or partially closing eyelids to temporarily improve focus and clarity when looking at distant objects.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Squinting</span>
+                    <p className="text-[var(--color-muted)]">Frequent squinting or partially closing the eyelids when trying to see distant objects, which temporarily improves focus by reducing light scatter.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Eye Strain and Fatigue</p>
-                    <p className="text-[var(--color-muted)]">Tired, aching eyes especially after activities requiring distance vision like driving, watching television, or attending lectures.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Difficulty with Night Vision</span>
+                    <p className="text-[var(--color-muted)]">Increased difficulty seeing at night or in low-light conditions, making evening driving particularly challenging and potentially unsafe.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Frequent Headaches</p>
-                    <p className="text-[var(--color-muted)]">Recurring headaches, particularly frontal or temporal, caused by the constant effort to focus on distant objects.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Needing to Sit Closer</span>
+                    <p className="text-[var(--color-muted)]">Preference for sitting near the front of classrooms, movie theaters, or close to the television to see clearly.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Difficulty with Night Driving</p>
-                    <p className="text-[var(--color-muted)]">Increased difficulty seeing clearly in low light conditions, particularly when driving at night or in poorly lit environments.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Unaware of Distant Objects</span>
+                    <p className="text-[var(--color-muted)]">Not noticing or recognizing people or objects in the distance that others can see, leading to missed social cues or hazards.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Need to Sit Closer</p>
-                    <p className="text-[var(--color-muted)]">Consistently sitting closer to the television, movie screen, or front of the classroom to see clearly.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Halos Around Lights</span>
+                    <p className="text-[var(--color-muted)]">Seeing halos or glare around lights, especially at night, which can interfere with driving and nighttime activities.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Excessive Eye Rubbing</p>
-                    <p className="text-[var(--color-muted)]">Frequently rubbing eyes due to strain, fatigue, or the subconscious attempt to clear blurry vision.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Difficulty Reading Boards</span>
+                    <p className="text-[var(--color-muted)]">Trouble reading classroom whiteboards, presentation screens, or scoreboards at sporting events from a normal viewing distance.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold mb-8 text-[var(--color-primary)]">Behavioral & Developmental Signs</h3>
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <h3 className="text-2xl font-semibold mb-6 text-[var(--color-primary)]">Physical & Behavioral Symptoms</h3>
+              <div className="space-y-4">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Academic Difficulties</p>
-                    <p className="text-[var(--color-muted)]">Struggling to see the whiteboard or smartboard in school, leading to missed information, incomplete notes, and declining grades.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Eye Strain and Fatigue</span>
+                    <p className="text-[var(--color-muted)]">Tired, achy eyes after activities requiring distance vision, resulting from the constant effort to bring distant objects into focus.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Sports Performance Issues</p>
-                    <p className="text-[var(--color-muted)]">Difficulty tracking balls, judging distances, or seeing teammates and opponents clearly during athletic activities.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Headaches</span>
+                    <p className="text-[var(--color-muted)]">Frequent headaches, particularly after extended periods of trying to focus on distant objects or after driving or watching television.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Avoidance of Distance Activities</p>
-                    <p className="text-[var(--color-muted)]">Showing disinterest in activities that require good distance vision, such as outdoor sports, hiking, or bird watching.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Excessive Eye Rubbing</span>
+                    <p className="text-[var(--color-muted)]">Frequently rubbing the eyes due to strain and fatigue from uncorrected vision, particularly in children during or after school.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Lack of Awareness of Surroundings</p>
-                    <p className="text-[var(--color-muted)]">Not recognizing people from a distance or appearing inattentive to environmental details and distant objects.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Academic Difficulties</span>
+                    <p className="text-[var(--color-muted)]">Children may experience declining school performance, difficulty copying from the board, or reluctance to participate in activities requiring distance vision.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Holding Objects Very Close</p>
-                    <p className="text-[var(--color-muted)]">Bringing books, phones, tablets, or other objects unusually close to the face, even though near vision is typically unaffected.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Reduced Sports Performance</span>
+                    <p className="text-[var(--color-muted)]">Difficulty with sports involving tracking distant objects like balls, affecting athletic performance and enjoyment of physical activities.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Rapid Prescription Changes</p>
-                    <p className="text-[var(--color-muted)]">Needing frequent updates to eyeglass or contact lens prescriptions, indicating progressive myopia that requires management.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Frequent Prescription Changes</span>
+                    <p className="text-[var(--color-muted)]">Needing stronger glasses or contact lens prescriptions at regular intervals, especially during childhood and adolescence as myopia progresses.</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex gap-3">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-[var(--color-ink)] mb-1">Social Withdrawal</p>
-                    <p className="text-[var(--color-muted)]">Reluctance to participate in group activities or social situations where distance vision is important, leading to isolation.</p>
+                    <span className="font-semibold text-[var(--color-ink)]">Avoidance of Distance Activities</span>
+                    <p className="text-[var(--color-muted)]">Reluctance to engage in activities requiring good distance vision, such as driving at night, attending concerts, or participating in outdoor sports.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <p className="text-center text-lg text-[var(--color-ink)] max-w-3xl mx-auto">
-            If you recognize these signs in yourself or your child, help is available. Early detection and treatment of myopia leads to better visual outcomes and significantly reduces the risk of future eye health complications.
+            If you recognize these signs, help is available. Early treatment leads to better outcomes. Our comprehensive eye examinations can accurately diagnose myopia and determine the best correction and management strategy for your individual needs.
           </p>
         </div>
       </section>
@@ -209,42 +209,45 @@ export default function MyopiaPage() {
       {/* Our Approach Section */}
       <section className="bg-[var(--color-light)] py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl mb-16 text-[var(--color-ink)] text-center">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl mb-16 text-[var(--color-ink)] text-center">
             How We Treat Myopia (Nearsightedness)
           </h2>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow animate-fade-up">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+            <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow animate-fade-up">
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
               </svg>
-              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Comprehensive Assessment</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Comprehensive Assessment</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                We begin with a thorough eye examination including refraction testing, axial length measurement, and retinal evaluation to determine your current myopia level and progression rate. We assess your visual demands, lifestyle factors, family history, and age to understand the full picture. Advanced diagnostic technology helps us measure corneal curvature, pupil size, and eye health markers that guide personalized treatment recommendations.
+                Your journey begins with a thorough eye examination including refraction testing, binocular vision assessment, and evaluation of eye health using advanced diagnostic technology. We measure the exact degree of myopia, assess eye focusing and alignment, and examine the retina and other internal structures to rule out complications. For children and progressive myopia cases, we also measure axial length to establish a baseline for monitoring progression over time.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow animate-fade-up">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow animate-fade-up">
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Customized Treatment Plan</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Personalized Treatment Plan</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Based on your assessment results, we develop a personalized myopia management strategy tailored to your specific needs and goals. For children and teens, we focus on myopia control interventions to slow progression. For adults, we emphasize optimal vision correction and long-term eye health monitoring. Your plan may combine multiple approaches for maximum effectiveness, and we explain each option's benefits, expectations, and any required commitments.
+                Based on your examination findings, age, lifestyle, and visual demands, we develop a customized treatment plan. Options include prescription eyeglasses for full-time or specific-task wear, contact lenses including daily disposables or specialty designs, and for children or rapidly progressing cases, myopia control strategies. We discuss the benefits and considerations of each option, ensuring you understand your choices and feel confident in your treatment path.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow animate-fade-up">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+            <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow animate-fade-up">
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
-              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Ongoing Care & Monitoring</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Ongoing Care & Monitoring</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Myopia management requires regular follow-up to track progression, adjust treatments, and ensure optimal results. We schedule periodic evaluations to measure changes in prescription, axial length, and eye health. Treatment effectiveness is continuously assessed, and modifications are made as needed based on your response. We provide education on lifestyle factors that influence myopia progression and celebrate the milestones achieved through consistent care and commitment to treatment protocols.
+                Regular follow-up appointments ensure your vision correction remains optimal and your eyes stay healthy. We monitor for prescription changes, especially important during childhood and adolescence when myopia typically progresses. For patients using myopia control treatments, we track effectiveness through periodic measurements and adjust strategies as needed. Annual comprehensive eye exams remain essential for all myopic patients to screen for complications associated with higher degrees of nearsightedness.
               </p>
             </div>
           </div>
-          <div className="max-w-4xl mx-auto">
-            <p className="text-lg text-[var(--color-ink)] leading-relaxed">
-              At Spark Eye Care, we utilize evidence-based myopia treatment modalities proven to slow progression and protect long-term vision. <strong>Orthokeratology (Ortho-K)</strong> involves specially designed gas-permeable contact lenses worn overnight to gently reshape the cornea, providing clear daytime vision without glasses or contacts while slowing axial elongation by 30-50%. <strong>Low-dose atropine eye drops</strong> (0.01-0.05% concentration) have demonstrated significant myopia control with minimal side effects, reducing progression by approximately 50% in clinical studies. <strong>Multifocal soft contact lenses</strong> designed with peripheral defocus technology slow eye growth by 25-50% while providing clear vision throughout the day. For standard vision correction, we offer <strong>single-vision glasses and contact lenses</strong> in the latest materials and designs, as well as comprehensive education on <strong>environmental modifications</strong> including increased outdoor time (2+ hours daily), the 20-20-20 rule for screen use (every 20 minutes, look 20 feet away for 20 seconds), proper lighting, and optimal working distances. We also provide guidance on <strong>refractive surgery consultations</strong> for adults with stable prescriptions interested in LASIK, PRK, or ICL procedures. Our integrative approach addresses both immediate visual needs and long-term eye health goals, giving you the comprehensive care myopia truly requires.
+          <div className="bg-white rounded-lg p-8 shadow-sm max-w-4xl mx-auto">
+            <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Evidence-Based Treatment Modalities</h3>
+            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
+              At Spark Eye Care, we utilize the full spectrum of evidence-based myopia treatments tailored to each patient's needs. For vision correction, we prescribe single-vision glasses with anti-reflective coating to reduce glare, contact lenses including soft daily disposables and rigid gas permeable lenses for crisp optics, and specialty contact lenses for patients with higher prescriptions or astigmatism.
+            </p>
+            <p className="text-[var(--color-muted)] leading-relaxed">
+              For myopia control—particularly important for children and adolescents—we offer several proven approaches including orthokeratology (ortho-k) corneal reshaping lenses worn overnight to temporarily correct vision and slow progression, multifocal soft contact lenses designed with peripheral defocus to reduce eye elongation, low-dose atropine eye drops (0.01% to 0.05%) which have shown significant efficacy in slowing myopia progression with minimal side effects, and lifestyle modifications including increased outdoor time and proper near work habits. We also provide co-management for patients considering refractive surgery options like LASIK or PRK once their prescription has stabilized in adulthood. Each treatment is selected based on current research, your specific clinical presentation, and your personal preferences and goals.
             </p>
           </div>
         </div>
@@ -253,53 +256,52 @@ export default function MyopiaPage() {
       {/* Why Choose Us Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl mb-12 text-[var(--color-ink)] text-center">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl mb-12 text-[var(--color-ink)] text-center">
             Why Choose Spark Eye Care for Myopia (Nearsightedness) Treatment
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center animate-fade-up">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--color-light)] mb-4">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Board-Certified Excellence</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                Our eye care professionals maintain the highest credentials and stay current with the latest myopia research and treatment innovations through continuing education.
+              <h3 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Expert Care</h3>
+              <p className="text-[var(--color-muted)]">
+                Our optometrists bring extensive experience in myopia management and stay current with the latest advances in vision correction and myopia control strategies.
               </p>
             </div>
             <div className="text-center animate-fade-up">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--color-light)] mb-4">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Personalized Approach</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                We recognize that every patient's myopia is unique, creating individualized treatment plans based on your specific prescription, age, lifestyle, and vision goals.
+              <h3 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Personalized Approach</h3>
+              <p className="text-[var(--color-muted)]">
+                We recognize that every patient is unique, tailoring our myopia treatment plans to your specific prescription, age, lifestyle demands, and long-term vision goals.
               </p>
             </div>
             <div className="text-center animate-fade-up">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--color-light)] mb-4">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Convenient Telehealth Options</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                Access myopia consultations, follow-up appointments, and treatment guidance from the comfort of your home through our secure telehealth platform when appropriate.
+              <h3 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Advanced Technology</h3>
+              <p className="text-[var(--color-muted)]">
+                Our practice utilizes state-of-the-art diagnostic equipment for precise measurements and monitoring, ensuring optimal vision correction and myopia management outcomes.
               </p>
             </div>
             <div className="text-center animate-fade-up">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--color-light)] mb-4">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Specialized Myopia Expertise</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                We have extensive experience treating all levels of myopia, from mild nearsightedness to high myopia, with proven myopia control strategies for children and adults.
+              <h3 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Convenient Access</h3>
+              <p className="text-[var(--color-muted)]">
+                Located in Kyle with flexible scheduling options, we make it easy for you and your family to receive comprehensive myopia care close to home.
               </p>
             </div>
           </div>
@@ -309,51 +311,43 @@ export default function MyopiaPage() {
       {/* What to Expect Section */}
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl mb-8 text-[var(--color-ink)] text-center">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl mb-8 text-[var(--color-ink)] text-center">
             Your Treatment Journey
           </h2>
           <div className="space-y-12">
-            <div className="flex gap-8 items-start">
-              <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">01</div>
-              </div>
+            <div className="flex gap-6 items-start">
+              <div className="font-[family-name:var(--font-cormorant)] text-6xl font-light text-[var(--color-primary)] flex-shrink-0">1</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">First Evaluation (Week 1)</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-[var(--color-ink)]">First Evaluation (Week 1)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  Your initial comprehensive eye examination includes detailed refraction testing, axial length measurement using advanced biometry, retinal health assessment, and corneal topography. We discuss your visual symptoms, lifestyle demands, family history, and treatment goals. You'll receive a clear explanation of your myopia level, progression risk, and all available treatment options. We answer your questions thoroughly and develop a preliminary treatment plan. This appointment typically takes 60-90 minutes and establishes the baseline for monitoring your progress throughout treatment.
+                  Your initial comprehensive eye examination typically takes 45-60 minutes and includes detailed testing of your vision, eye health, and refractive error. We'll discuss your visual symptoms, lifestyle needs, and if applicable, myopia control options. You'll leave with a clear understanding of your diagnosis, prescription, and recommended treatment plan. If glasses or contact lenses are prescribed, most patients receive them within 7-10 days.
                 </p>
               </div>
             </div>
-            <div className="flex gap-8 items-start">
-              <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">02</div>
-              </div>
+            <div className="flex gap-6 items-start">
+              <div className="font-[family-name:var(--font-cormorant)] text-6xl font-light text-[var(--color-primary)] flex-shrink-0">2</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Treatment Begins (Weeks 2-4)</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-[var(--color-ink)]">Treatment Begins (Weeks 2-4)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  Once your treatment plan is finalized, we initiate your chosen interventions. For orthokeratology, this involves custom lens fitting, insertion and removal training, and follow-up visits to assess corneal response and visual outcomes. Atropine therapy begins with proper administration instruction and discussion of what to expect. Multifocal contact lens wearers receive fitting sessions and adaptation support. Standard eyeglasses or contact lenses are prescribed and dispensed with proper usage guidance. We provide detailed written instructions, respond to any concerns promptly, and schedule your first progress check.
+                  Once you receive your glasses or contact lenses, most patients experience immediate improvement in distance vision clarity. For contact lens wearers, we schedule a follow-up visit to ensure proper fit, comfort, and vision. If you're beginning myopia control treatment such as orthokeratology or atropine therapy, we provide detailed instructions and schedule more frequent initial monitoring. This adjustment period allows your eyes to adapt to the new correction, and we're available to address any questions or concerns.
                 </p>
               </div>
             </div>
-            <div className="flex gap-8 items-start">
-              <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">03</div>
-              </div>
+            <div className="flex gap-6 items-start">
+              <div className="font-[family-name:var(--font-cormorant)] text-6xl font-light text-[var(--color-primary)] flex-shrink-0">3</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Progress Review (Months 2-3)</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-[var(--color-ink)]">Progress Review (Months 2-3)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  At your follow-up appointment, we reassess your vision, measure any prescription changes, evaluate eye health, and review treatment adherence and effectiveness. For myopia control patients, we compare current axial length measurements to baseline data to quantify progression rates. We discuss what's working well, address any challenges you're experiencing, and make treatment adjustments if needed. This is an opportunity to refine your plan based on real-world results. We reinforce positive behaviors and provide additional education on environmental factors that support treatment success.
+                  After you've been wearing your vision correction for several weeks, we schedule a progress check to ensure everything is working optimally. We verify that your prescription is providing clear, comfortable vision and address any adaptation issues. For myopia control patients, we assess treatment effectiveness and compliance. This visit is an opportunity to fine-tune your treatment plan based on your real-world experience.
                 </p>
               </div>
             </div>
-            <div className="flex gap-8 items-start">
-              <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">04</div>
-              </div>
+            <div className="flex gap-6 items-start">
+              <div className="font-[family-name:var(--font-cormorant)] text-6xl font-light text-[var(--color-primary)] flex-shrink-0">4</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Long-term Management (Ongoing)</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-[var(--color-ink)]">Long-term Management (Ongoing)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  Myopia management is a multi-year commitment, especially for children and adolescents whose eyes are still growing. We typically schedule progress evaluations every 6-12 months to track prescription stability, axial length changes, and overall eye health. As you or your child matures, treatment may be gradually adjusted or transitioned based on age-appropriate needs and myopia stabilization. Adults with stable myopia continue with regular eye exams to monitor for any myopia-related complications. Our goal is to minimize final prescription strength, reduce future eye disease risk, and maintain optimal vision throughout your lifetime.
+                  Annual comprehensive eye examinations are essential for all myopic patients to monitor prescription changes and screen for eye health complications. Children and adolescents with progressive myopia may need more frequent visits—typically every six months—to track progression and adjust myopia control treatments. Adults with stable prescriptions typically transition to annual routine care. Our long-term goal is preserving your eye health, maintaining clear vision, and for younger patients, minimizing progression to reduce the risk of high myopia complications later in life.
                 </p>
               </div>
             </div>
@@ -364,86 +358,62 @@ export default function MyopiaPage() {
       {/* FAQ Section */}
       <section className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl mb-12 text-[var(--color-ink)] text-center">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl mb-12 text-[var(--color-ink)] text-center">
             Frequently Asked Questions About Myopia (Nearsightedness)
           </h2>
           <div className="space-y-4">
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)]">
-                How long does myopia treatment take to show results?
-                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="cursor-pointer list-none p-6 text-lg font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
+                How long does myopia treatment take to work?
+                <span className="float-right group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  The timeline depends on your specific treatment approach. Standard eyeglasses and contact lenses provide immediate vision correction—you'll see clearly as soon as you put them on. Orthokeratology typically produces noticeable results within the first few days to weeks, with full stabilization in 1-2 weeks. However, myopia control treatments like Ortho-K, atropine drops, and multifocal lenses are designed to slow progression over months and years, not provide instant correction. Measurable slowing of axial elongation becomes evident at 6-12 month follow-ups when we compare progression rates to untreated historical data. The greatest benefits of myopia management are realized over the long term—reducing your final prescription strength and lowering lifetime risk of sight-threatening complications. Consistency and patience are essential for optimal outcomes.
-                </p>
+                Vision correction with glasses or contact lenses provides immediate clarity—you'll notice the difference as soon as you put them on. However, for myopia control treatments aimed at slowing progression in children, the timeline is longer-term. Orthokeratology lenses typically provide clear daytime vision within 1-2 weeks of overnight wear, while the progression-slowing effects accumulate over months and years. Low-dose atropine therapy and specialty multifocal contact lenses work gradually to slow eye growth, with effectiveness assessed through periodic measurements every 6-12 months. The goal of myopia control is not immediate but rather long-term reduction in the rate of prescription increase and final myopia level.
               </div>
             </details>
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)]">
-                Is medication required for myopia treatment?
-                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="cursor-pointer list-none p-6 text-lg font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
+                Can myopia be cured or reversed?
+                <span className="float-right group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Medication is not required for basic myopia correction—eyeglasses and contact lenses effectively correct blurry vision without any drugs. However, low-dose atropine eye drops are an evidence-based medication option for myopia control in children and teenagers. Atropine 0.01-0.05% has been extensively studied and shown to slow myopia progression by approximately 50% with minimal side effects. The drops are administered once nightly before bed, and most patients experience no light sensitivity or near vision blur at these low concentrations. Atropine is often combined with other interventions like orthokeratology or multifocal lenses for enhanced effectiveness. Not all myopia patients need atropine, and we carefully evaluate whether it's appropriate based on your age, progression rate, and overall treatment goals. The decision to use medication is always made collaboratively with thorough discussion of benefits and potential side effects.
-                </p>
+                Currently, myopia cannot be completely cured or reversed through non-surgical means, as it results from the physical elongation of the eyeball or excessive corneal curvature. However, myopia can be effectively corrected with glasses, contact lenses, or refractive surgery (such as LASIK or PRK) once the prescription stabilizes in adulthood. More importantly, myopia control treatments can significantly slow progression in children and adolescents, potentially preventing them from developing high myopia and its associated complications. While these interventions don't eliminate existing myopia, they can reduce how much worse it becomes. Orthokeratology provides temporary corneal reshaping that allows clear daytime vision without correction, but the effect reverses if lens wear is discontinued. The focus of modern myopia management is on optimal correction for clear vision and, especially in young patients, interventions to limit progression.
               </div>
             </details>
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)]">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="cursor-pointer list-none p-6 text-lg font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
                 Does insurance cover myopia treatment?
-                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+                <span className="float-right group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Insurance coverage for myopia treatment varies significantly by plan and specific services. Most vision insurance plans cover routine eye examinations and provide allowances toward eyeglasses or contact lenses. Medical insurance typically covers comprehensive eye exams when medically necessary and treatment of eye diseases or complications. However, specialized myopia control interventions like orthokeratology, atropine therapy, and multifocal contact lenses designed specifically for myopia management are often not covered or only partially covered, as they may be considered elective or investigational by some insurers. Coverage is improving as myopia control becomes more widely recognized as preventive medicine. We recommend contacting your insurance provider to verify your specific benefits for eye exams, vision correction, and myopia management services. Our office can provide detailed documentation and diagnostic codes to support medical necessity claims when appropriate. We're committed to working with you to maximize your benefits and offer flexible payment options for out-of-pocket expenses.
-                </p>
+                Most vision insurance plans and many medical insurance plans cover routine comprehensive eye examinations for myopia, though coverage details vary by plan. Standard vision correction with prescription glasses or contact lenses is typically covered under vision insurance plans, often with an allowance toward frames and lenses or contact lenses annually. However, specialized myopia control treatments—such as orthokeratology lenses, multifocal contact lenses specifically for myopia control, or low-dose atropine therapy—may not be covered by all insurance plans, as they are often considered elective or specialized treatments. We recommend checking with your insurance provider regarding coverage for these services. Our staff is happy to provide detailed billing codes and documentation to help you maximize your benefits. For services not covered by insurance, we offer transparent pricing and can discuss payment options.
               </div>
             </details>
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)]">
-                What if my myopia treatment isn't working?
-                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  If your myopia continues to progress despite treatment, we have several strategies to optimize outcomes. First, we conduct a thorough evaluation to determine why treatment may be less effective—this might include assessing treatment compliance (are lenses being worn as prescribed?), examining fit and comfort issues, reviewing environmental factors like screen time and outdoor exposure, and measuring actual axial length changes objectively. Sometimes simple adjustments like increasing atropine concentration, modifying ortho-K lens parameters, or switching contact lens modalities can significantly improve results. We may recommend combining multiple treatment approaches for additive effects—for example, using both atropine drops and orthokeratology together. In some cases, genetic factors or rapid growth periods make complete progression control difficult, but even partial slowing provides meaningful long-term benefits. We remain committed to your care, continuously refining your treatment plan based on your individual response and the latest research findings. Open communication about your experience is essential, so we can make timely adjustments and set realistic expectations together.
-                </p>
-              </div>
-            </details>
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)]">
-                Can telehealth work for myopia treatment?
-                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Telehealth can be a valuable component of myopia care for certain aspects of treatment, though in-person visits remain essential for comprehensive evaluation and monitoring. Initial diagnostic appointments require in-office visits for refraction testing, axial length measurement, eye health examination, and specialized imaging that cannot be performed remotely. Similarly, contact lens fittings, orthokeratology assessments, and detailed retinal evaluations need hands-on examination. However, telehealth is very effective for follow-up consultations, treatment compliance discussions, troubleshooting minor issues, reviewing test results, adjusting medication dosages, providing education about lifestyle modifications, and answering questions between scheduled in-person visits. Many patients appreciate the convenience of virtual check-ins for routine monitoring when no physical examination is needed. We utilize a hybrid approach—combining necessary in-office visits for objective measurements and clinical assessments with convenient telehealth appointments for ongoing support, education, and minor adjustments. This model optimizes both clinical outcomes and patient convenience while maintaining the highest standard of care.
-                </p>
-              </div>
-            </details>
-            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
-              <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)]">
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="cursor-pointer list-none p-6 text-lg font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
                 At what age should myopia treatment begin?
-                <svg className="w-5 h-5 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+                <span className="float-right group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
-                <p>
-                  Myopia can be detected and vision corrected at any age, but myopia control interventions are most beneficial when started early in childhood. Research shows that children who develop myopia before age 8-10 tend to progress to higher final prescriptions, making them ideal candidates for aggressive myopia management. We generally recommend initiating myopia control treatments as soon as progressive myopia is identified, typically between ages 6-12, when eye growth is most active and intervention can have the greatest impact. However, myopia control can still be effective in teenagers and young adults whose prescriptions are still changing. For very young children (under age 6), we focus on vision correction with glasses, regular monitoring, and lifestyle modifications like increased outdoor time and reduced near work. Adults with stable myopia primarily need appropriate vision correction and regular eye health screenings to detect any myopia-related complications early. The key is individualized assessment—we evaluate each patient's age, progression rate, prescription strength, and risk factors to determine the optimal timing and approach for treatment.
-                </p>
+                Vision correction for myopia should begin as soon as it's diagnosed, regardless of age, to ensure clear vision for learning, safety, and quality of life. Children can typically be fitted with glasses as young as one or two years old if needed. For myopia control treatments specifically aimed at slowing progression, the ideal age to begin is typically between 6 and 14 years old, when myopia most commonly develops and progresses most rapidly. Starting myopia control early in this window—ideally when myopia is first detected or when there's a family history suggesting high risk—offers the greatest benefit in limiting final myopia levels. However, myopia control can still be beneficial for teenagers, as progression often continues into the late teens or early twenties. Adult myopia treatment focuses on optimal vision correction and monitoring for complications rather than progression control, though adults with stable prescriptions may be candidates for refractive surgery.
+              </div>
+            </details>
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="cursor-pointer list-none p-6 text-lg font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
+                What if my child's myopia keeps getting worse despite treatment?
+                <span className="float-right group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                While myopia control treatments significantly slow progression, they typically don't stop it completely, and individual responses vary. If your child's myopia continues to progress despite treatment, we first assess treatment compliance and technique—for example, ensuring orthokeratology lenses are worn every night or that atropine drops are used consistently. We may then adjust the treatment approach, such as increasing atropine concentration (within safe parameters), switching to a different contact lens design, or combining multiple modalities for enhanced effect. It's important to understand that "slowing" progression is success—even if the prescription still changes, the rate may be 30-60% slower than it would have been without intervention, which can make a significant difference in final myopia level and long-term eye health. We closely monitor each patient's progression with objective measurements and modify treatment plans as needed to achieve the best possible outcome.
+              </div>
+            </details>
+            <details className="group bg-[var(--color-cream)] rounded-lg">
+              <summary className="cursor-pointer list-none p-6 text-lg font-semibold text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
+                Are there any lifestyle changes that can help with myopia?
+                <span className="float-right group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <div className="px-6 pb-6 text-[var(--color-muted)] leading-relaxed">
+                Yes, research has identified several lifestyle modifications that can help reduce myopia progression risk, particularly in children. Increasing outdoor time is one of the most significant protective factors—studies show that 1-2 hours of outdoor activity daily can reduce myopia development and progression risk, likely due to bright natural light exposure and distance viewing. Reducing prolonged near work is also beneficial: taking regular breaks during reading, computer use, or device time using the 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds) can reduce eye strain. Maintaining proper lighting during near tasks, holding reading material at an appropriate distance (not closer than 12-16 inches), and ensuring good posture all contribute to healthier visual habits. Limiting recreational screen time and emphasizing outdoor sports and activities provide dual benefits of reduced near work and increased outdoor exposure. While lifestyle modifications alone may not completely prevent myopia in genetically predisposed children, they complement other treatment strategies and support overall eye health.
               </div>
             </details>
           </div>
@@ -453,40 +423,36 @@ export default function MyopiaPage() {
       {/* Related Conditions Section */}
       <section className="bg-[var(--color-cream)] py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <h3 className="font-cormorant text-3xl md:text-4xl mb-8 text-[var(--color-ink)] text-center">
+          <h3 className="font-[family-name:var(--font-cormorant)] text-3xl md:text-4xl mb-8 text-[var(--color-ink)] text-center">
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/astigmatism" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Astigmatism</h4>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-                Blurred or distorted vision at all distances caused by irregular corneal curvature, often occurring alongside myopia.
+            <a href="/conditions/astigmatism" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow group">
+              <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
+                Astigmatism
+              </h4>
+              <p className="text-[var(--color-muted)] mb-4">
+                Irregular corneal curvature causing blurred or distorted vision at all distances, often occurring alongside myopia.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn More →</span>
+              <span className="text-[var(--color-primary)] font-semibold group-hover:underline">Learn more →</span>
             </a>
-            <a href="/conditions/presbyopia" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-              </svg>
-              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Presbyopia</h4>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-                Age-related difficulty focusing on close objects, typically beginning in the 40s and requiring reading glasses or multifocal lenses.
+            <a href="/conditions/presbyopia" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow group">
+              <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
+                Presbyopia
+              </h4>
+              <p className="text-[var(--color-muted)] mb-4">
+                Age-related difficulty focusing on near objects, which can affect myopic patients requiring multifocal correction.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn More →</span>
+              <span className="text-[var(--color-primary)] font-semibold group-hover:underline">Learn more →</span>
             </a>
-            <a href="/conditions/dry-eye-syndrome" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 16.318A4.486 4.486 0 0012.016 15a4.486 4.486 0 00-3.198 1.318M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-              </svg>
-              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Dry Eye Syndrome</h4>
-              <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-                Chronic eye discomfort, burning, and irritation caused by insufficient tear production or poor tear quality, common among contact lens wearers.
+            <a href="/conditions/digital-eye-strain" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow group">
+              <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
+                Digital Eye Strain
+              </h4>
+              <p className="text-[var(--color-muted)] mb-4">
+                Eye discomfort from prolonged screen use, commonly experienced by myopic individuals during near work activities.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn More →</span>
+              <span className="text-[var(--color-primary)] font-semibold group-hover:underline">Learn more →</span>
             </a>
           </div>
         </div>
@@ -495,22 +461,22 @@ export default function MyopiaPage() {
       {/* CTA Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-light mb-4">
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl font-light mb-4">
             Get Help for Myopia (Nearsightedness) Today
           </h2>
-          <p className="text-xl mb-8 opacity-95">
-            You don't have to face myopia alone. Our team is ready to help you achieve clearer vision and protect your long-term eye health.
+          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            You don't have to face myopia alone. Our team is ready to help you achieve clear, comfortable vision and protect your long-term eye health.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
-              href="/contact"
-              className="bg-white text-[var(--color-primary)] px-8 py-4 rounded-md font-semibold hover:bg-[var(--color-cream)] transition-colors text-lg"
+            <a 
+              href="/contact" 
+              className="bg-white text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors inline-block min-w-[200px]"
             >
-              Schedule a Consultation
+              Schedule Consultation
             </a>
-            <a
-              href="/conditions"
-              className="border-2 border-white text-white px-8 py-4 rounded-md font-semibold hover:bg-white hover:text-[var(--color-primary)] transition-colors text-lg"
+            <a 
+              href="/conditions" 
+              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-[var(--color-primary)] transition-colors inline-block min-w-[200px]"
             >
               View All Conditions
             </a>
