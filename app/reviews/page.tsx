@@ -9,58 +9,28 @@ export const metadata = {
 export default function ReviewsPage() {
   const testimonials = [
     {
-      quote: "Dr. Plummer performed my cataract surgery and the results exceeded my expectations. I can now read without glasses and my distance vision is crystal clear. His surgical skill and gentle bedside manner made the entire experience comfortable and stress-free.",
-      author: "Margaret R.",
-      service: "Cataract Surgery",
-      source: "Google"
-    },
-    {
-      quote: "I was nervous about glaucoma surgery, but Dr. Plummer explained the MIGS procedure thoroughly and answered all my questions. The recovery was much easier than I anticipated, and my eye pressure is now well-controlled. I'm grateful for his expertise and caring approach.",
-      author: "Robert T.",
-      service: "Glaucoma Surgery",
-      source: "Healthgrades"
-    },
-    {
-      quote: "After struggling with dry eyes for years, Dr. Plummer finally identified the underlying causes and created a treatment plan that actually works. The relief has been life-changing. He truly listens and takes the time to find solutions tailored to each patient.",
-      author: "Jennifer L.",
-      service: "Dry Eye Treatment",
-      source: "Google"
-    },
-    {
-      quote: "Dr. Plummer's refractive lens exchange gave me freedom from glasses after decades of dependence. The entire staff was professional and supportive throughout the process. I wish I had done this sooner—my vision is better now than it's been in 30 years.",
-      author: "David K.",
+      quote: "Best decision I have made for my health and quality of life. Dr Plummer is thorough, patient and knowledgeable. He walked me through options and clearly outlined expectations. I am beyond thrilled with my results. I visited several larger practices before I met with Dr Plummer and left feeling overwhelmed. Dr Plummer put me at ease with his style and approach to my lens replacement.",
+      author: "Noelle P.",
       service: "Refractive Lens Exchange",
-      source: "Google"
+      date: "Apr 29, 2026"
     },
     {
-      quote: "As a diabetic patient, regular eye exams are crucial for me. Dr. Plummer is thorough in monitoring my retinal health and explaining what he sees during each visit. His vigilance gives me peace of mind that any problems will be caught early.",
-      author: "Patricia M.",
-      service: "Diabetic Eye Exam",
-      source: "Healthgrades"
-    },
-    {
-      quote: "The laser eye surgery I received from Dr. Plummer has completely transformed my daily life. No more fumbling for glasses first thing in the morning or dealing with contacts. The procedure was quick, painless, and the results are outstanding.",
-      author: "Michael S.",
-      service: "Laser Eye Surgery",
-      source: "Google"
-    },
-    {
-      quote: "I appreciated Dr. Plummer's honest assessment of my cataracts and his recommendation to wait until the timing was right for surgery. When we did proceed, everything went perfectly. His judgment and surgical expertise are truly exceptional.",
-      author: "Linda W.",
+      quote: "My experience with Dr. Plummer has been and continues to be stellar! Five Stars are not enough! He has a kind and thoughtful bedside manner, gave me a thorough explanation of my condition, diagnosis, and recommended treatment options. I was very anxious and he made me feel comfortable, listened to my concerns, and put me totally at ease. The cataract surgery went exactly as he described—his expertise and care were above and beyond. Dr. Plummer's follow-up has been excellent and he responded promptly to phone/text messages that I had with post-op questions. His Business Office Manager, Jessica, is professional, helpful, and efficient. Timely appointments, no wait times, a very pleasant office environment. I highly recommend Dr. Plummer and Spark Eye Care without reservation!",
+      author: "Marsha E.",
       service: "Cataract Surgery",
-      source: "Google"
+      date: "Dec 16, 2024"
     },
     {
-      quote: "Dr. Plummer diagnosed my glaucoma during a routine exam and started treatment immediately. His proactive approach and clear explanations helped me understand the importance of compliance with my eye drops. I feel confident my vision is being protected.",
-      author: "James H.",
-      service: "Glaucoma Treatment",
-      source: "Healthgrades"
+      quote: "Would you like a Dr. who is kind & compassionate or one who explains exactly what is going to happen so you can understand it & someone extremely knowledgeable about his profession? No need to look further. Dr Plummer has it all. Come see for yourself. I did!",
+      author: "Zella V.",
+      service: "Patient Care",
+      date: "Nov 12, 2024"
     },
     {
-      quote: "The comprehensive eye exam I received was the most thorough I've ever had. Dr. Plummer uses advanced technology and takes the time to review all the findings with you. It's clear he's committed to providing the highest standard of care to every patient.",
-      author: "Susan B.",
-      service: "Comprehensive Eye Exam",
-      source: "Google"
+      quote: "Love the new practice and location—Dr. Plummer is the best. My eyes are pretty good so only seeing him once a year, but wife has things that require more frequent visits, and he takes such good care of her! Kind, gentle, and highly skilled as well. Always up on the newest treatments.",
+      author: "James L.",
+      service: "Comprehensive Eye Care",
+      date: "Nov 10, 2024"
     }
   ]
 
@@ -139,8 +109,8 @@ export default function ReviewsPage() {
                     <p className="font-semibold text-[var(--color-ink)] text-sm">{testimonial.author}</p>
                     <p className="text-xs text-[var(--color-muted)]">{testimonial.service}</p>
                   </div>
-                  <span className="text-xs text-[var(--color-muted)] bg-[var(--color-cream)] px-3 py-1 rounded-full">
-                    {testimonial.source}
+                  <span className="text-xs text-[var(--color-muted)] bg-[var(--color-cream)] px-3 py-1 rounded-full whitespace-nowrap">
+                    {testimonial.date}
                   </span>
                 </div>
               </div>

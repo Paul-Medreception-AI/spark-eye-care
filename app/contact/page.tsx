@@ -11,8 +11,8 @@ export default function ContactPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/dr-plummer-portrait.jpg"
-                alt="Dr. Andrew Plummer"
+                src="/images/AdobeStock_447730359.jpeg"
+                alt="Smiling patient welcomed at Spark Eye Care"
                 fill
                 priority
                 quality={90}
@@ -91,7 +91,14 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-4">Hours</h3>
-                <p className="text-[var(--color-ink)] leading-relaxed">Call for availability</p>
+                <dl className="text-[var(--color-ink)] leading-relaxed text-sm grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
+                  <dt className="font-medium">Mon–Thu</dt>
+                  <dd>8:00 AM – 5:00 PM</dd>
+                  <dt className="font-medium">Friday</dt>
+                  <dd>8:00 AM – 12:00 PM</dd>
+                  <dt className="font-medium">Sat–Sun</dt>
+                  <dd className="text-[var(--color-muted)]">Closed</dd>
+                </dl>
               </div>
 
               <div className="bg-[var(--color-primary)] text-white rounded-2xl p-8 animate-fade-up">

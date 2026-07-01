@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Script from 'next/script'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400','500','600','700'], variable: '--font-cormorant' })
@@ -38,13 +39,21 @@ export default function RootLayout({
             <a href="/">
               <img src="/logo.png" alt="Spark Eye Care" className="h-11 w-auto" />
             </a>
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden md:flex items-center gap-6 lg:gap-8">
               <a href="/services" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Services</a>
               <a href="/conditions" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Conditions</a>
               <a href="/about" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">About</a>
-              <a href="/team" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Team</a>
+              <a href="/team" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Meet the Doctor</a>
               <a href="/contact" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Contact</a>
-              <a href="/contact" className="ml-8 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Schedule Your Eye Exam</a>
+              <a
+                href="https://spark.ema.md/ema/pay/Online#/pm/payfac/pay"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors"
+              >
+                Pay My Bill
+              </a>
+              <a href="/contact" className="ml-4 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Schedule Your Eye Exam</a>
             </nav>
           </div>
         </header>
@@ -65,7 +74,8 @@ export default function RootLayout({
                   <li><a href="/services" className="text-white/80 hover:text-white transition-colors">Services</a></li>
                   <li><a href="/conditions" className="text-white/80 hover:text-white transition-colors">Conditions</a></li>
                   <li><a href="/about" className="text-white/80 hover:text-white transition-colors">About</a></li>
-                  <li><a href="/team" className="text-white/80 hover:text-white transition-colors">Team</a></li>
+                  <li><a href="/team" className="text-white/80 hover:text-white transition-colors">Meet the Doctor</a></li>
+                  <li><a href="https://spark.ema.md/ema/pay/Online#/pm/payfac/pay" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">Pay My Bill</a></li>
                   <li><a href="/contact" className="text-white/80 hover:text-white transition-colors">Contact</a></li>
                 </ul>
               </div>
@@ -82,7 +92,12 @@ export default function RootLayout({
                     (512) 377-1076
                   </a>
                 </p>
-                <p className="text-white/60 text-sm">Fax: (512) 287-7071</p>
+                <p className="text-white/60 text-sm mb-4">Fax: (512) 287-7071</p>
+                <p className="text-white/80 text-sm leading-relaxed">
+                  Mon–Thu: 8:00 AM – 5:00 PM<br />
+                  Friday: 8:00 AM – 12:00 PM<br />
+                  <span className="text-white/50">Sat–Sun: Closed</span>
+                </p>
               </div>
             </div>
 
@@ -99,6 +114,16 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+
+        {/* Klara messaging widget — matches sparkeyetx.com */}
+        <Script id="klara-init" strategy="afterInteractive">
+          {`window.klaraWidget = window.klaraWidget || [];
+window.klaraWidget.push(["setWidgetId", "bdcdd645-fe28-4dec-b7c7-fc53c45b7dc8"]);`}
+        </Script>
+        <Script
+          src="https://s3.amazonaws.com/widget-frontend.klara.com/bundle.js"
+          strategy="afterInteractive"
+        />
       </body>
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
 
