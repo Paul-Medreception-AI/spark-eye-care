@@ -470,7 +470,7 @@ export default function DryEyeSyndromePage() {
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">Meibomian Gland Dysfunction</h4>
               <p className="text-[var(--color-muted)]">Blocked oil glands in the eyelids causing evaporative dry eye, treatable with thermal therapy and gland expression.</p>
             </Link>
-            <Link href="/conditions/allergic-conjunctivitis" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
+            <Link href="/conditions/dry-eye-syndrome" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
               </svg>

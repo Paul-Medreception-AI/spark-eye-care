@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Computer Vision Syndrome Treatment in Kyle | Spark Eye Care',
@@ -19,9 +20,10 @@ export default function ComputerVisionSyndromePage() {
     <main className="min-h-screen">
       
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -34,6 +36,19 @@ export default function ComputerVisionSyndromePage() {
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
             If hours of screen time leave your eyes tired, dry, and strained, you're not alone—Computer Vision Syndrome affects millions of digital workers and students. At Spark Eye Care, we provide comprehensive, evidence-based treatment to relieve your symptoms and protect your long-term visual health.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/shutterstock_2018571389.jpg"
+                alt="Digital eye strain relief"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -444,7 +459,7 @@ export default function ComputerVisionSyndromePage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/dry-eye" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+            <a href="/conditions/dry-eye-syndrome" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -453,7 +468,7 @@ export default function ComputerVisionSyndromePage() {
               <p className="text-[var(--color-muted)] mb-4">Chronic insufficient tear production or poor tear quality causing discomfort, often worsened by screen use and reduced blink rates.</p>
               <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn more →</span>
             </a>
-            <a href="/conditions/digital-eye-strain" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+            <a href="/conditions/computer-vision-syndrome" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
               </svg>
@@ -461,7 +476,7 @@ export default function ComputerVisionSyndromePage() {
               <p className="text-[var(--color-muted)] mb-4">Temporary visual discomfort from extended digital device use including smartphones, tablets, and e-readers beyond traditional computers.</p>
               <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn more →</span>
             </a>
-            <a href="/conditions/convergence-insufficiency" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+            <a href="/conditions/computer-vision-syndrome" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
               </svg>

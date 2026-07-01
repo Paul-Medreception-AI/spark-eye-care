@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Evaporative Dry Eye Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function EvaporativeDryEyePage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -35,6 +37,19 @@ export default function EvaporativeDryEyePage() {
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
             Evaporative dry eye affects millions, causing persistent discomfort, burning, and vision fluctuations due to poor tear quality and meibomian gland dysfunction. At Spark Eye Care, we provide comprehensive, evidence-based treatment to restore your tear film stability and help you find lasting relief.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748703.jpeg"
+                alt="Evaporative dry eye"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -515,7 +530,7 @@ export default function EvaporativeDryEyePage() {
               </p>
             </a>
             
-            <a href="/conditions/chronic-dry-eye" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/conditions/dry-eye-syndrome" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <svg className="w-10 h-10 text-[var(--color-primary)] mb-4 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />

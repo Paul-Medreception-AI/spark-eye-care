@@ -95,7 +95,7 @@ export default function SanMarcosTXPage() {
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
                 Thorough assessments to accurately diagnose and develop personalized treatment plans for San Marcos patients seeking mental health support.
               </p>
-              <a href="/services/psychiatric-evaluations" className="text-[var(--color-primary)] font-semibold hover:underline">
+              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
@@ -111,7 +111,7 @@ export default function SanMarcosTXPage() {
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
                 Expert psychiatric medication services with ongoing monitoring and adjustments to ensure optimal outcomes for our San Marcos patients.
               </p>
-              <a href="/services/medication-management" className="text-[var(--color-primary)] font-semibold hover:underline">
+              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
@@ -127,7 +127,7 @@ export default function SanMarcosTXPage() {
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
                 Secure virtual appointments that bring quality psychiatric care to San Marcos residents from the comfort and privacy of home.
               </p>
-              <a href="/services/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline">
+              <a href="/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Astigmatism Treatment in Kyle, TX | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function AstigmatismPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function AstigmatismPage() {
           <p className="text-xl md:text-2xl leading-relaxed max-w-3xl font-light">
             Astigmatism affects how clearly you see the world, causing blurred or distorted vision at all distances. At Spark Eye Care, we provide comprehensive astigmatism correction solutions tailored to your lifestyle, from precision eyeglasses and specialty contact lenses to advanced treatment options that restore crystal-clear vision.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748705.jpeg"
+                alt="Astigmatism correction"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -454,14 +469,14 @@ export default function AstigmatismPage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/myopia" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/conditions/myopia-nearsightedness" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">Myopia (Nearsightedness)</h4>
               <p className="text-[var(--color-muted)] leading-relaxed mb-4">
                 Difficulty seeing distant objects clearly, often occurring alongside astigmatism and requiring comprehensive refractive correction for optimal vision.
               </p>
               <span className="text-[var(--color-primary)] font-semibold group-hover:underline">Learn more →</span>
             </a>
-            <a href="/conditions/hyperopia" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/conditions/hyperopia-farsightedness" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">Hyperopia (Farsightedness)</h4>
               <p className="text-[var(--color-muted)] leading-relaxed mb-4">
                 Difficulty focusing on near objects, frequently combined with astigmatism, causing eyestrain and blurred vision at multiple distances.

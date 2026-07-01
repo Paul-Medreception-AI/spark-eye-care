@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Diabetic Macular Edema Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function DiabeticMacularEdemaPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -35,6 +37,19 @@ export default function DiabeticMacularEdemaPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             Diabetic macular edema is a serious complication of diabetes that can threaten your central vision, but early intervention can preserve your sight. At Spark Eye Care, we provide advanced diagnostic imaging and proven treatments including anti-VEGF injections and laser therapy to protect your vision and improve your quality of life.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748704.jpg"
+                alt="Diabetic eye exam"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -483,7 +498,7 @@ export default function DiabeticMacularEdemaPage() {
               </p>
             </a>
             
-            <a href="/conditions/retinal-vein-occlusion" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all">
+            <a href="/conditions/diabetic-macular-edema" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all">
               <svg className="w-10 h-10 text-[var(--color-primary)] mb-4 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
               </svg>

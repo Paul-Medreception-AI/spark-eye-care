@@ -326,7 +326,7 @@ export default function MinimallyInvasiveGlaucomaSurgeryPage() {
           </h3>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/services/glaucoma-management" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg animate-fade-up">
+            <a href="/services/minimally-invasive-glaucoma-surgery" className="group bg-[var(--color-cream)] rounded-xl p-8 transition-all hover:shadow-lg animate-fade-up">
               <div className="mb-4">
                 <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />

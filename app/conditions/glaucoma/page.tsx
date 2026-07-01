@@ -432,7 +432,7 @@ export default function GlaucomaPage() {
               </p>
               <span className="text-[var(--color-primary)] font-medium">Learn more →</span>
             </a>
-            <a href="/conditions/macular-degeneration" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+            <a href="/conditions/age-related-macular-degeneration" className="bg-white p-6 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all">
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Macular Degeneration</h4>
               <p className="text-[var(--color-muted)] mb-3">
                 Progressive deterioration of the macula causing central vision loss, another leading cause of vision impairment.

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -19,9 +20,10 @@ export default function CornealIrregularitiesPage() {
   return (
     <main className="min-h-screen">
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -36,6 +38,19 @@ export default function CornealIrregularitiesPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             When the smooth, dome-shaped surface of your cornea becomes distorted, even simple tasks like reading or driving can become challenging. At Spark Eye Care, we specialize in diagnosing and managing corneal irregularities with advanced technology and personalized treatment plans that restore visual clarity and comfort.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_94313718.jpeg"
+                alt="Corneal irregularity"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -494,7 +509,7 @@ export default function CornealIrregularitiesPage() {
           </h3>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/conditions/dry-eye" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <Link href="/conditions/dry-eye-syndrome" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Dry Eye Syndrome</h4>
               <p className="text-[var(--color-muted)] mb-4">
                 Chronic dryness and irritation often accompany corneal irregularities and specialty contact lens wear.
@@ -520,7 +535,7 @@ export default function CornealIrregularitiesPage() {
               </span>
             </Link>
             
-            <Link href="/conditions/allergic-conjunctivitis" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <Link href="/conditions/dry-eye-syndrome" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Allergic Conjunctivitis</h4>
               <p className="text-[var(--color-muted)] mb-4">
                 Eye allergies trigger rubbing behaviors that can worsen corneal irregularities, particularly keratoconus.

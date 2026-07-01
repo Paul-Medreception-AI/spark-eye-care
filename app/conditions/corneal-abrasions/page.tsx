@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Corneal Abrasions Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function CornealAbrasionsPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function CornealAbrasionsPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             A corneal abrasion—a scratch on the clear surface of your eye—can be painful and concerning, but prompt professional treatment leads to rapid healing and prevents complications. At Spark Eye Care, we provide expert diagnosis and comprehensive treatment to restore your comfort and protect your vision.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_94313718.jpeg"
+                alt="Corneal surface care"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -423,7 +438,7 @@ export default function CornealAbrasionsPage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/dry-eye" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/dry-eye-syndrome" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -434,7 +449,7 @@ export default function CornealAbrasionsPage() {
               </p>
               <span className="text-[var(--color-primary)] font-semibold">Learn More →</span>
             </a>
-            <a href="/conditions/eye-infections" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/corneal-abrasions" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
               </svg>
@@ -444,7 +459,7 @@ export default function CornealAbrasionsPage() {
               </p>
               <span className="text-[var(--color-primary)] font-semibold">Learn More →</span>
             </a>
-            <a href="/conditions/corneal-ulcer" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/corneal-abrasions" className="block bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
               </svg>

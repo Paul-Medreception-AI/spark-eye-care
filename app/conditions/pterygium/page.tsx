@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -15,9 +16,10 @@ export default function PterygiumPage() {
   return (
     <main className="min-h-screen">
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -30,6 +32,19 @@ export default function PterygiumPage() {
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
             A pterygium is a benign growth of tissue on the eye's surface that can affect vision and comfort if left untreated. At Spark Eye Care, we provide expert evaluation, monitoring, and surgical treatment to protect your vision and restore eye health.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_24432882.jpeg"
+                alt="Sun-related surface growth"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -471,7 +486,7 @@ export default function PterygiumPage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/conditions/dry-eye" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <Link href="/conditions/dry-eye-syndrome" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
                 Dry Eye Syndrome
               </h4>
@@ -493,7 +508,7 @@ export default function PterygiumPage() {
                 Learn more →
               </span>
             </Link>
-            <Link href="/conditions/conjunctivitis" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <Link href="/conditions/dry-eye-syndrome" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
                 Conjunctivitis
               </h4>

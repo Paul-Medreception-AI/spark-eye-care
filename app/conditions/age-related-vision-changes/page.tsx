@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Age-Related Vision Changes Treatment in Kyle | Spark Eye Care',
@@ -19,9 +20,10 @@ export default function AgeRelatedVisionChangesPage() {
     <main className="min-h-screen">
       
       {/* HERO SECTION */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -36,6 +38,19 @@ export default function AgeRelatedVisionChangesPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             As we age, our eyes undergo natural changes that can affect vision quality and daily function. At Spark Eye Care, we provide comprehensive diagnosis and treatment for age-related vision conditions, helping you maintain clarity, comfort, and independence throughout your life.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/shutterstock_2018571389.jpg"
+                alt="Comfortable patient at home"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

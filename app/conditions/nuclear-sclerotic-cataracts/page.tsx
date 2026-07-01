@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Nuclear Sclerotic Cataracts Treatment in Kyle | Spark Eye Care',
@@ -15,9 +16,10 @@ export default function NuclearScleroticCataractsPage() {
   return (
     <main className="min-h-screen">
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -30,6 +32,19 @@ export default function NuclearScleroticCataractsPage() {
           <p className="text-xl leading-relaxed opacity-95 max-w-3xl">
             Nuclear sclerotic cataracts are the most common form of age-related cataracts, gradually clouding your central vision and diminishing your quality of life. At Spark Eye Care, our experienced ophthalmologists provide advanced surgical solutions and personalized treatment to restore your clear vision and help you see the world vividly again.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/shutterstock_2018571389.jpg"
+                alt="Patient at rest after cataract evaluation"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

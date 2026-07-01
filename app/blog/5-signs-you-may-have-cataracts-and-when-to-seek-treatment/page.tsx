@@ -197,7 +197,7 @@ export default function BlogPost() {
                 Schedule Your Consultation
               </a>
               <a
-                href="/services/medical-eye-care"
+                href="/services"
                 className="inline-block border-2 border-[var(--color-primary)] text-[var(--color-primary)] px-8 py-3 rounded-md hover:bg-[var(--color-primary)] hover:text-white transition-colors text-center"
               >
                 Learn About Our Services

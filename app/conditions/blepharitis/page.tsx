@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Blepharitis Treatment in Kyle, TX | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function BlepharitisPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function BlepharitisPage() {
           <p className="text-xl opacity-95 leading-relaxed max-w-3xl">
             Chronic eyelid inflammation doesn't have to disrupt your daily life. At Spark Eye Care, we provide comprehensive, evidence-based treatment for blepharitis that addresses both symptoms and underlying causes, helping you achieve lasting comfort and healthier eyes.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748703.jpeg"
+                alt="Eyelid inflammation care"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -460,7 +475,7 @@ export default function BlepharitisPage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/dry-eye" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/dry-eye-syndrome" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -483,7 +498,7 @@ export default function BlepharitisPage() {
                 MGD is a primary component of posterior blepharitis, causing blocked oil glands that affect tear quality and lead to evaporative dry eye.
               </p>
             </a>
-            <a href="/conditions/chalazion" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/blepharitis" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
               </svg>

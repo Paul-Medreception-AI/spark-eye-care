@@ -491,7 +491,7 @@ export default function DiabeticRetinopathyPage() {
                 Learn more →
               </span>
             </a>
-            <a href="/conditions/macular-degeneration" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all">
+            <a href="/conditions/age-related-macular-degeneration" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all">
               <h4 className="text-2xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">
                 Macular Degeneration
               </h4>

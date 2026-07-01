@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Posterior Subcapsular Cataracts Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function PosteriorSubcapsularCataractsPage() {
     <main className="min-h-screen">
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function PosteriorSubcapsularCataractsPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             Posterior subcapsular cataracts affect the back of your lens and can rapidly impact your vision, especially in bright light and during reading. At Spark Eye Care, our experienced ophthalmologists provide comprehensive diagnostic evaluation and advanced treatment options to restore your visual clarity and quality of life.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2745822.jpeg"
+                alt="Diverse couple, cataract outcomes"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -437,7 +452,7 @@ export default function PosteriorSubcapsularCataractsPage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/nuclear-cataracts" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+            <a href="/conditions/nuclear-sclerotic-cataracts" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
               <h4 className="text-xl font-semibold mb-3 text-[var(--color-dark)]">Nuclear Cataracts</h4>
               <p className="text-[var(--color-muted)] mb-4">Central lens clouding that gradually affects distance vision and color perception, typically associated with aging.</p>
               <span className="text-[var(--color-primary)] font-semibold">Learn more →</span>

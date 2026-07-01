@@ -156,13 +156,12 @@ export default function Home() {
             <div className="lg:col-span-2">
               <div className="relative rounded-2xl h-80 w-full overflow-hidden shadow-xl">
                 <Image
-                  src="/images/dr-plummer-portrait.jpg"
-                  alt="Dr. Andrew Plummer, Board-Certified Ophthalmologist"
+                  src="/images/shutterstock_2018571389.jpg"
+                  alt="Patient relaxed and confident about their eye care"
                   fill
                   quality={90}
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover"
-                  style={{ objectPosition: '50% 15%' }}
                 />
               </div>
             </div>

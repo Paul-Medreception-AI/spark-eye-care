@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Ocular Hypertension Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function OcularHypertensionPage() {
     <main className="min-h-screen">
       
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function OcularHypertensionPage() {
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
             Elevated eye pressure requires expert monitoring and proactive management to prevent vision loss. At Spark Eye Care, we provide comprehensive ocular hypertension treatment with advanced diagnostic technology and personalized care plans designed to protect your sight for years to come.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_94313718.jpeg"
+                alt="Close-up eye pressure"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -443,7 +458,7 @@ export default function OcularHypertensionPage() {
               </p>
               <span className="text-[var(--color-primary)] font-semibold">Learn more →</span>
             </a>
-            <a href="/conditions/macular-degeneration" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/age-related-macular-degeneration" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)]">Macular Degeneration</h4>
               <p className="text-[var(--color-muted)] mb-4">
                 Advanced care for age-related macular degeneration including anti-VEGF injections, monitoring, and lifestyle interventions to preserve central vision.

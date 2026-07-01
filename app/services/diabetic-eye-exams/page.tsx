@@ -328,7 +328,7 @@ export default function DiabeticEyeExamsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <h3 className="font-cormorant text-3xl text-[var(--color-ink)] mb-10 text-center">Related Services</h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/services/comprehensive-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-all">
+            <a href="/services/diabetic-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-all">
               <div className="bg-[var(--color-primary)] rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
@@ -339,7 +339,7 @@ export default function DiabeticEyeExamsPage() {
               <p className="text-[var(--color-ink)]/70">Complete vision and eye health evaluations for all ages, including refraction, ocular health screening, and disease detection.</p>
             </a>
 
-            <a href="/services/glaucoma-screening" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-all">
+            <a href="/services/minimally-invasive-glaucoma-surgery" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-all">
               <div className="bg-[var(--color-primary)] rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
@@ -349,7 +349,7 @@ export default function DiabeticEyeExamsPage() {
               <p className="text-[var(--color-ink)]/70">Early detection and monitoring of glaucoma through pressure testing, optic nerve evaluation, and visual field assessment.</p>
             </a>
 
-            <a href="/services/retinal-imaging" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-all">
+            <a href="/services/diabetic-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-all">
               <div className="bg-[var(--color-primary)] rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />

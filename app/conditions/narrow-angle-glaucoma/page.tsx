@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Narrow Angle Glaucoma Treatment in Kyle | Spark Eye Care',
@@ -19,9 +20,10 @@ export default function NarrowAngleGlaucomaPage() {
     <main className="min-h-screen bg-white">
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -34,6 +36,19 @@ export default function NarrowAngleGlaucomaPage() {
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl opacity-95">
             Narrow angle glaucoma is a serious eye condition that requires immediate attention to prevent vision loss. At Spark Eye Care, we provide comprehensive diagnosis, emergency treatment, and ongoing management to protect your sight and preserve your quality of life.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748707.jpeg"
+                alt="Narrow-angle glaucoma"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

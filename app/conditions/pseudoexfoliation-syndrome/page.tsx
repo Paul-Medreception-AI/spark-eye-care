@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Pseudoexfoliation Syndrome Treatment in Kyle | Spark Eye Care',
@@ -17,9 +18,10 @@ export default function PseudoexfoliationSyndromePage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -34,6 +36,19 @@ export default function PseudoexfoliationSyndromePage() {
           <p className="text-xl text-blue-100 leading-relaxed max-w-3xl">
             Pseudoexfoliation syndrome is a systemic age-related disorder that can significantly impact your eye health and increase your risk of glaucoma and cataracts. At Spark Eye Care, our experienced team provides comprehensive diagnosis, monitoring, and treatment to protect your vision and prevent complications.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_94313718.jpeg"
+                alt="Advanced eye evaluation"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -492,7 +507,7 @@ export default function PseudoexfoliationSyndromePage() {
               </span>
             </a>
 
-            <a href="/conditions/macular-degeneration" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/conditions/age-related-macular-degeneration" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)]">
                 Macular Degeneration
               </h4>

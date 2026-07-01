@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -18,9 +19,10 @@ export default function AqueousDeficientDryEyePage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -33,6 +35,19 @@ export default function AqueousDeficientDryEyePage() {
           <p className="text-xl leading-relaxed opacity-95 max-w-3xl">
             Aqueous deficient dry eye occurs when your lacrimal glands don't produce enough tears to keep your eyes properly lubricated, leading to chronic discomfort and potential vision problems. At Spark Eye Care, we provide comprehensive, evidence-based treatment to restore tear production and relieve your symptoms.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748703.jpeg"
+                alt="Dry eye discomfort"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -474,7 +489,7 @@ export default function AqueousDeficientDryEyePage() {
                 </svg>
               </span>
             </Link>
-            <Link href="/conditions/sjogrens-syndrome" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
+            <Link href="/conditions/aqueous-deficient-dry-eye" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
                 Sjögren's Syndrome
               </h4>

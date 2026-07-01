@@ -326,7 +326,7 @@ export default function CataractSurgeryPage() {
           </h3>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/services/comprehensive-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
+            <a href="/services/diabetic-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
               <div className="mb-4">
                 <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
@@ -341,7 +341,7 @@ export default function CataractSurgeryPage() {
               </p>
             </a>
 
-            <a href="/services/glaucoma-management" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
+            <a href="/services/minimally-invasive-glaucoma-surgery" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
               <div className="mb-4">
                 <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -355,7 +355,7 @@ export default function CataractSurgeryPage() {
               </p>
             </a>
 
-            <a href="/services/diabetic-eye-care" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
+            <a href="/services/diabetic-eye-exams" className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
               <div className="mb-4">
                 <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />

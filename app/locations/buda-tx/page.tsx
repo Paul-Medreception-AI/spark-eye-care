@@ -82,7 +82,7 @@ export default function BudaTXPage() {
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
                 Thorough assessments to understand your unique mental health needs and develop personalized treatment plans.
               </p>
-              <a href="/services/evaluations" className="text-[var(--color-primary)] font-semibold hover:underline">
+              <a href="/services/diabetic-eye-exams" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
@@ -97,7 +97,7 @@ export default function BudaTXPage() {
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
                 Expert psychiatric medication oversight with ongoing monitoring to ensure optimal results and minimize side effects.
               </p>
-              <a href="/services/medication-management" className="text-[var(--color-primary)] font-semibold hover:underline">
+              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
@@ -112,7 +112,7 @@ export default function BudaTXPage() {
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
                 Convenient virtual appointments from the comfort of your Buda home, with the same quality care as in-person visits.
               </p>
-              <a href="/services/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline">
+              <a href="/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>

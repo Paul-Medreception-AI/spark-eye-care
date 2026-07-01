@@ -78,7 +78,7 @@ export default function AustinTXPage() {
               <p className="text-[var(--color-muted)] mb-4 leading-relaxed">
                 Comprehensive psychiatric assessments to understand your unique mental health needs and develop personalized treatment plans.
               </p>
-              <a href="/services/diagnostic-evaluations" className="text-[var(--color-primary)] font-semibold hover:underline transition-all">
+              <a href="/services/diabetic-eye-exams" className="text-[var(--color-primary)] font-semibold hover:underline transition-all">
                 Learn More →
               </a>
             </div>
@@ -93,7 +93,7 @@ export default function AustinTXPage() {
               <p className="text-[var(--color-muted)] mb-4 leading-relaxed">
                 Expert prescription and monitoring of psychiatric medications to optimize your treatment outcomes with minimal side effects.
               </p>
-              <a href="/services/medication-management" className="text-[var(--color-primary)] font-semibold hover:underline transition-all">
+              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:underline transition-all">
                 Learn More →
               </a>
             </div>
@@ -108,7 +108,7 @@ export default function AustinTXPage() {
               <p className="text-[var(--color-muted)] mb-4 leading-relaxed">
                 Convenient virtual appointments that bring quality psychiatric care to Austin residents from the comfort of home.
               </p>
-              <a href="/services/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline transition-all">
+              <a href="/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline transition-all">
                 Learn More →
               </a>
             </div>

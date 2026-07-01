@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Secondary Cataracts (PCO) Treatment in Kyle | Spark Eye Care',
@@ -17,9 +18,10 @@ export default function SecondaryCataractsPCOPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-8 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -32,6 +34,19 @@ export default function SecondaryCataractsPCOPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             If your vision has become cloudy months or years after successful cataract surgery, you may have developed posterior capsule opacification (PCO), commonly called secondary cataracts. At Spark Eye Care, we offer quick, painless YAG laser capsulotomy treatment to restore your clear vision in a single office visit.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2745822.jpeg"
+                alt="Follow-up cataract care"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -454,7 +469,7 @@ export default function SecondaryCataractsPCOPage() {
                 </svg>
               </span>
             </a>
-            <a href="/conditions/macular-degeneration" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <a href="/conditions/age-related-macular-degeneration" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
               </svg>

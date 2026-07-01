@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -19,9 +20,10 @@ export default function NormalTensionGlaucomaPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -34,6 +36,19 @@ export default function NormalTensionGlaucomaPage() {
           <p className="text-xl md:text-2xl leading-relaxed opacity-95 max-w-3xl">
             Normal tension glaucoma occurs when the optic nerve is damaged despite eye pressure remaining within normal ranges, making early detection and specialized treatment essential. At Spark Eye Care, we provide comprehensive evaluation, advanced monitoring technology, and personalized treatment plans to preserve your vision and prevent progression of this challenging condition.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/2748707.jpeg"
+                alt="Normal-tension glaucoma"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -485,7 +500,7 @@ export default function NormalTensionGlaucomaPage() {
                 </svg>
               </span>
             </Link>
-            <Link href="/conditions/macular-degeneration" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all">
+            <Link href="/conditions/age-related-macular-degeneration" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-4 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>

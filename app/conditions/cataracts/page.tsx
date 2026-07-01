@@ -527,7 +527,7 @@ export default function CataractsPage() {
               </span>
             </Link>
 
-            <Link href="/conditions/macular-degeneration" className="group bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-all">
+            <Link href="/conditions/age-related-macular-degeneration" className="group bg-white p-6 rounded-lg border border-[var(--color-border)] hover:shadow-lg transition-all">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
                 Macular Degeneration
               </h4>

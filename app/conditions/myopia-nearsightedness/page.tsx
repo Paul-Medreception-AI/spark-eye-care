@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Myopia (Nearsightedness) Treatment in Kyle | Spark Eye Care',
@@ -18,9 +19,10 @@ export default function MyopiaPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -33,6 +35,19 @@ export default function MyopiaPage() {
           <p className="text-xl text-blue-100 max-w-3xl leading-relaxed">
             Myopia affects millions of people worldwide, making distant objects appear blurry while near vision remains clear. At Spark Eye Care, we provide comprehensive myopia treatment and management solutions tailored to your unique vision needs, helping you see the world clearly again.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/AdobeStock_94313718.jpeg"
+                alt="Nearsightedness eye macro"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -445,7 +460,7 @@ export default function MyopiaPage() {
               </p>
               <span className="text-[var(--color-primary)] font-semibold group-hover:underline">Learn more →</span>
             </a>
-            <a href="/conditions/digital-eye-strain" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/conditions/computer-vision-syndrome" className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow group">
               <h4 className="text-xl font-semibold mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">
                 Digital Eye Strain
               </h4>

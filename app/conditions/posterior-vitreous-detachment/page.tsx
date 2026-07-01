@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Posterior Vitreous Detachment Treatment in Kyle | Spark Eye Care',
@@ -17,9 +18,10 @@ export default function PosteriorVitreousDetachmentPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
+      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -32,6 +34,19 @@ export default function PosteriorVitreousDetachmentPage() {
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             Posterior vitreous detachment is a common age-related change that affects the gel-like substance inside your eye, often causing floaters and flashes that can be alarming. At Spark Eye Care, our experienced team provides comprehensive evaluation and management to ensure your eye health remains protected during this natural process.
           </p>
+            </div>
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/shutterstock_2018571389.jpg"
+                alt="Post-vitreous separation care"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -451,21 +466,21 @@ export default function PosteriorVitreousDetachmentPage() {
             Related Conditions We Treat
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href="/conditions/retinal-detachment" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
+            <a href="/conditions/posterior-vitreous-detachment" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Retinal Detachment</h4>
               <p className="text-[var(--color-muted)] mb-4">
                 Emergency treatment for retinal separation that can follow PVD, requiring immediate intervention to preserve vision.
               </p>
               <span className="text-[var(--color-primary)] font-medium">Learn more →</span>
             </a>
-            <a href="/conditions/retinal-tears" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
+            <a href="/conditions/posterior-vitreous-detachment" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Retinal Tears</h4>
               <p className="text-[var(--color-muted)] mb-4">
                 Laser treatment for retinal breaks that can occur during vitreous detachment, preventing progression to detachment.
               </p>
               <span className="text-[var(--color-primary)] font-medium">Learn more →</span>
             </a>
-            <a href="/conditions/floaters" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
+            <a href="/conditions/floaters-and-flashes" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Eye Floaters</h4>
               <p className="text-[var(--color-muted)] mb-4">
                 Management and evaluation of persistent floaters, including assessment for underlying causes like PVD or vitreous hemorrhage.
