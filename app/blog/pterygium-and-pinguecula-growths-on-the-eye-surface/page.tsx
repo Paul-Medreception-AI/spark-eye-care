@@ -40,7 +40,7 @@ export default function BlogPost() {
               <span>•</span>
               <span>7 min read</span>
               <span>•</span>
-              <span>Dr. Care Team</span>
+              <span>Dr. Andrew Plummer</span>
             </div>
           </div>
         </section>

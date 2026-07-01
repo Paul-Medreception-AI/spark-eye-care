@@ -38,7 +38,7 @@ export default function RedEyeBlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>By Dr. Care Team</span>
+            <span>By Dr. Andrew Plummer</span>
           </div>
         </div>
       </section>

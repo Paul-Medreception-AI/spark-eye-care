@@ -35,7 +35,7 @@ export default function SeconddaryCataractsPage() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. Care Team</span>
+            <span>Dr. Andrew Plummer</span>
           </div>
         </div>
       </section>

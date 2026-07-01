@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Cataract Surgery in Waxahachie, TX | Spark Eye Care',
-  description: 'Expert cataract surgery at Spark Eye Care in Waxahachie, TX. Advanced lens replacement techniques to restore clear vision and improve your quality of life.',
+  title: 'Cataract Surgery in Kyle, TX | Spark Eye Care',
+  description: 'Expert cataract surgery at Spark Eye Care in Kyle, TX. Advanced lens replacement techniques to restore clear vision and improve your quality of life.',
 }
 
 export default function CataractSurgeryPage() {
@@ -19,7 +19,7 @@ export default function CataractSurgeryPage() {
             <span>Cataract Surgery</span>
           </nav>
           <h1 className="font-['Cormorant'] text-5xl md:text-6xl font-light mb-6 leading-tight">
-            Cataract Surgery in Waxahachie, TX
+            Cataract Surgery in Kyle, TX
           </h1>
           <p className="text-xl opacity-95 max-w-3xl leading-relaxed">
             Restore your clear vision with advanced cataract surgery at Spark Eye Care. Our experienced surgeons use state-of-the-art techniques and premium lens options to remove clouded lenses and replace them with artificial intraocular lenses, helping you see the world clearly again.
