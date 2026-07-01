@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function NotFound() {
   return (
     <div className="bg-[var(--color-cream)] min-h-screen flex items-center justify-center px-4">
-      <div className="text-center max-w-2xl mx-auto">
+      <div className="text-center">
         <div className="text-9xl font-serif text-[var(--color-primary)] opacity-20 leading-none">
           404
         </div>
@@ -13,7 +13,7 @@ export default function NotFound() {
         <p className="text-[var(--color-muted)] mt-2 text-lg">
           The page you're looking for doesn't exist.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+        <div className="flex items-center justify-center gap-4 mt-8">
           <Link
             href="/"
             className="bg-[var(--color-primary)] text-white px-8 py-3 rounded-md hover:bg-[var(--color-dark)] transition-colors duration-200 font-medium"
