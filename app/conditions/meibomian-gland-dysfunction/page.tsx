@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Meibomian Gland Dysfunction Treatment in Kyle | Spark Eye Care',
-  description: 'Expert Meibomian Gland Dysfunction (MGD) treatment in Kyle. Board-certified care for dry eye, gland blockage, and tear film instability. Telehealth available.',
-  keywords: 'Meibomian Gland Dysfunction treatment Kyle, MGD treatment, dry eye Kyle, blocked oil glands, evaporative dry eye, blepharitis treatment Kyle',
+  description: 'Expert Meibomian Gland Dysfunction treatment in Kyle. Board-certified care for dry eyes, gland blockage, and tear film issues. Telehealth available.',
+  keywords: 'Meibomian Gland Dysfunction treatment Kyle, MGD Kyle TX, dry eye treatment Kyle, blocked oil glands, eye care Kyle',
   openGraph: {
     title: 'Meibomian Gland Dysfunction Treatment in Kyle | Spark Eye Care',
-    description: 'Expert Meibomian Gland Dysfunction (MGD) treatment in Kyle. Board-certified care for dry eye, gland blockage, and tear film instability.',
-    url: 'https://www.sparkeyetx.com/conditions/meibomian-gland-dysfunction',
+    description: 'Expert Meibomian Gland Dysfunction treatment in Kyle. Board-certified care for dry eyes, gland blockage, and tear film issues.',
+    url: 'https://sparkeyetx.com/conditions/meibomian-gland-dysfunction',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',
@@ -18,332 +17,387 @@ export const metadata: Metadata = {
 export default function MeibomianGlandDysfunctionPage() {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+      
+      {/* HERO SECTION */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
         <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
-            <Link href="/" className="hover:underline">Home</Link>
+          <nav className="text-sm mb-8 opacity-90">
+            <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
-            <Link href="/conditions" className="hover:underline">Conditions</Link>
+            <a href="/conditions" className="hover:underline">Conditions</a>
             <span className="mx-2">›</span>
             <span>Meibomian Gland Dysfunction</span>
           </nav>
-          <h1 className="font-cormorant text-5xl font-light mb-6 leading-tight">
+          <h1 className="font-['Cormorant'] text-5xl font-light mb-6 leading-tight">
             Meibomian Gland Dysfunction Treatment in Kyle
           </h1>
-          <p className="text-xl leading-relaxed opacity-95 max-w-3xl">
-            When your meibomian glands don't produce enough oil to protect your tears, every blink can feel uncomfortable. At Spark Eye Care, we provide comprehensive, evidence-based treatment for Meibomian Gland Dysfunction to restore your eye comfort and protect your long-term vision health.
+          <p className="text-xl leading-relaxed max-w-3xl opacity-95">
+            Meibomian Gland Dysfunction (MGD) is one of the most common causes of dry eye disease, affecting millions of people who struggle daily with irritation, redness, and blurred vision. At Spark Eye Care, we provide comprehensive, evidence-based treatment to restore your eye comfort and protect your long-term vision health.
           </p>
         </div>
       </section>
 
-      {/* Overview Section */}
+      {/* OVERVIEW SECTION */}
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-8 text-[var(--color-ink)]">
+          <h2 className="font-['Cormorant'] text-4xl mb-8 text-[var(--color-ink)]">
             Understanding Meibomian Gland Dysfunction
           </h2>
+          
           <div className="space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
             <p>
-              Meibomian Gland Dysfunction (MGD) is one of the most common yet underdiagnosed eye conditions affecting millions of Americans. Your eyelids contain approximately 25-40 meibomian glands that secrete an oily substance called meibum, which forms the outer protective layer of your tear film. When these glands become blocked or produce poor-quality oil, your tears evaporate too quickly, leading to chronic dry eye symptoms. MGD is the leading cause of evaporative dry eye disease, accounting for up to 86% of all dry eye cases. Without proper treatment, this condition can significantly impact your quality of life, making it difficult to read, use digital devices, drive at night, or wear contact lenses comfortably.
+              Meibomian Gland Dysfunction occurs when the tiny oil glands along the eyelid margins—called meibomian glands—become blocked or produce poor-quality oil. These glands are responsible for secreting the lipid layer of your tear film, which prevents tears from evaporating too quickly. When MGD develops, tears evaporate rapidly, leaving eyes feeling dry, scratchy, and uncomfortable. Research indicates that MGD is present in up to 86% of patients with dry eye disease, making it the leading cause of evaporative dry eye. The condition affects people of all ages but becomes increasingly common after age 40. Left untreated, MGD can significantly impact quality of life, making reading, computer work, driving, and other daily activities difficult and uncomfortable.
             </p>
+            
             <p>
-              Multiple factors contribute to the development of Meibomian Gland Dysfunction. Age is a significant risk factor, as gland function naturally declines over time, particularly after age 40. Hormonal changes, especially in women during menopause, can affect meibum production and quality. Extended screen time and reduced blink rates cause glands to become sluggish and produce thickened secretions that block the gland openings. Contact lens wear, certain medications (including antihistamines, antidepressants, and blood pressure medications), inflammatory conditions like rosacea and blepharitis, and environmental factors such as low humidity and air conditioning all increase MGD risk. Incomplete blinking, makeup use around the eyelid margins, and underlying autoimmune conditions can further compromise gland function.
+              Multiple factors contribute to the development of Meibomian Gland Dysfunction. Age is a primary risk factor—as we get older, oil gland secretions naturally thicken and gland function declines. Hormonal changes, particularly in women during menopause, can also affect meibomian gland function. Environmental factors like low humidity, air conditioning, heating systems, and prolonged screen time reduce blink rate and accelerate tear evaporation. Certain medications including antihistamines, antidepressants, and blood pressure medications can worsen MGD symptoms. Contact lens wear, eye makeup that blocks gland openings, eyelid inflammation (blepharitis), rosacea, and autoimmune conditions like Sjögren's syndrome are additional risk factors. Some people have naturally thicker meibum (gland secretions) that is more prone to causing blockages. Understanding these contributing factors helps us develop targeted treatment strategies that address your specific situation.
             </p>
+            
             <p>
-              Professional treatment for Meibomian Gland Dysfunction is essential because this condition is progressive and can lead to permanent gland loss if left untreated. Research shows that up to 60% of meibomian glands can atrophy over time when MGD goes unmanaged, resulting in irreversible dry eye symptoms. Early intervention can preserve gland function, prevent complications such as corneal damage and recurrent eye infections, and restore comfortable vision for daily activities. At Spark Eye Care in Kyle, we use advanced diagnostic imaging to assess your gland structure and function, allowing us to create targeted treatment plans that address the root cause of your symptoms rather than just providing temporary relief.
+              Professional treatment for Meibomian Gland Dysfunction is essential because the condition is chronic and progressive—it typically worsens over time without intervention. While over-the-counter artificial tears may provide temporary relief, they don't address the underlying gland dysfunction. Effective MGD treatment requires a comprehensive approach that includes clearing blocked glands, improving oil quality, reducing inflammation, and establishing sustainable long-term management strategies. Early diagnosis and treatment can prevent permanent gland damage and preserve tear film function. At Spark Eye Care, we use advanced diagnostic techniques to assess meibomian gland structure and function, then develop individualized treatment plans that combine in-office procedures, prescription therapies, and at-home care protocols. Our goal is not just symptom relief but restoring healthy gland function to give you lasting comfort and protect your ocular surface health.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Symptoms Section */}
+      {/* SYMPTOMS SECTION */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-12 text-[var(--color-ink)] text-center">
+          <h2 className="font-['Cormorant'] text-4xl mb-12 text-[var(--color-ink)] text-center">
             Signs & Symptoms of Meibomian Gland Dysfunction
           </h2>
+          
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-semibold mb-8 text-[var(--color-dark)]">Impact on Daily Life</h3>
-              <div className="space-y-6">
+              <h3 className="text-2xl font-semibold mb-6 text-[var(--color-dark)]">Impact on Daily Life</h3>
+              <div className="space-y-5">
                 <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Difficulty with Screen Time</div>
-                    <p className="text-[var(--color-muted)]">Increased discomfort during computer work or reading that worsens as the day progresses</p>
+                    <div className="font-semibold text-[var(--color-ink)]">Eye Fatigue During Screen Time</div>
+                    <p className="text-[var(--color-muted)]">Eyes feel tired and strained after reading or computer work, making it difficult to maintain focus.</p>
                   </div>
                 </div>
+                
                 <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Contact Lens Intolerance</div>
-                    <p className="text-[var(--color-muted)]">Unable to wear contact lenses for as long as you used to, or at all</p>
+                    <div className="font-semibold text-[var(--color-ink)]">Difficulty with Contact Lenses</div>
+                    <p className="text-[var(--color-muted)]">Contact lenses become uncomfortable or impossible to wear for full days, causing frustration and inconvenience.</p>
                   </div>
                 </div>
+                
                 <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Morning Eye Discomfort</div>
-                    <p className="text-[var(--color-muted)]">Waking with crusty, stuck-together eyelids or immediate burning sensation upon opening eyes</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Environmental Sensitivity</div>
-                    <p className="text-[var(--color-muted)]">Eyes feel worse in air conditioning, wind, low humidity, or smoky environments</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Fluctuating Vision</div>
-                    <p className="text-[var(--color-muted)]">Blurred vision that temporarily improves with blinking but quickly returns</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Reduced Quality of Life</div>
-                    <p className="text-[var(--color-muted)]">Avoiding activities you once enjoyed like reading, driving at night, or spending time outdoors</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-2xl font-semibold mb-8 text-[var(--color-dark)]">Physical Symptoms</h3>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Burning or Stinging Sensation</div>
-                    <p className="text-[var(--color-muted)]">Persistent burning feeling in one or both eyes, often worse later in the day</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Eye Redness</div>
-                    <p className="text-[var(--color-muted)]">Chronic red or bloodshot appearance, particularly along the eyelid margins</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Paradoxical Tearing</div>
-                    <p className="text-[var(--color-muted)]">Eyes feel dry yet water excessively as a reflex response to irritation</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Foreign Body Sensation</div>
-                    <p className="text-[var(--color-muted)]">Feeling like sand, grit, or an eyelash is constantly in your eye</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Eyelid Inflammation</div>
-                    <p className="text-[var(--color-muted)]">Swollen, irritated eyelid margins with visible debris or crusting at the lash base</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
                     <div className="font-semibold text-[var(--color-ink)]">Light Sensitivity</div>
-                    <p className="text-[var(--color-muted)]">Increased sensitivity to bright lights or glare, especially when driving at night</p>
+                    <p className="text-[var(--color-muted)]">Bright lights or sunlight cause discomfort, making outdoor activities or driving challenging.</p>
                   </div>
                 </div>
+                
                 <div className="flex gap-4">
-                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <div className="font-semibold text-[var(--color-ink)]">Stringy Eye Discharge</div>
-                    <p className="text-[var(--color-muted)]">Thick, stringy mucus in or around the eyes, particularly upon waking</p>
+                    <div className="font-semibold text-[var(--color-ink)]">Fluctuating Vision</div>
+                    <p className="text-[var(--color-muted)]">Vision blurs intermittently throughout the day, temporarily improving after blinking but quickly degrading again.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Avoidance of Activities</div>
+                    <p className="text-[var(--color-muted)]">You find yourself avoiding reading, watching movies, or other activities because your eyes feel too uncomfortable.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Sleep Disruption</div>
+                    <p className="text-[var(--color-muted)]">Waking up with crusted or stuck-together eyelids, or eyes that feel extremely dry upon waking.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Frustration and Worry</div>
+                    <p className="text-[var(--color-muted)]">Concern that symptoms will worsen or that permanent eye damage might occur without proper treatment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-semibold mb-6 text-[var(--color-dark)]">Physical Symptoms</h3>
+              <div className="space-y-5">
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Dry, Gritty Sensation</div>
+                    <p className="text-[var(--color-muted)]">Persistent feeling of sand or gravel in the eyes, especially noticeable later in the day or in dry environments.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Burning or Stinging</div>
+                    <p className="text-[var(--color-muted)]">Eyes feel hot, irritated, or as if something acidic is touching them, often worse in wind or air conditioning.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Excessive Tearing</div>
+                    <p className="text-[var(--color-muted)]">Paradoxically, dry eyes often trigger reflex tearing, causing watery eyes that don't provide adequate lubrication.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Red, Bloodshot Eyes</div>
+                    <p className="text-[var(--color-muted)]">Chronic inflammation causes visible redness and blood vessel dilation that may worsen throughout the day.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Swollen or Crusty Eyelids</div>
+                    <p className="text-[var(--color-muted)]">Eyelid margins appear puffy, red, or have debris buildup, indicating gland blockage and inflammation.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Stringy Discharge</div>
+                    <p className="text-[var(--color-muted)]">Thick, mucus-like discharge collects in the corners of eyes or on lashes, especially after sleep.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Recurrent Styes or Chalazia</div>
+                    <p className="text-[var(--color-muted)]">Frequent eyelid bumps or cysts develop when blocked meibomian glands become infected or inflamed.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <svg className="w-6 h-6 text-[var(--color-primary)] flex-shrink-0 mt-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-semibold text-[var(--color-ink)]">Foamy Tears</div>
+                    <p className="text-[var(--color-muted)]">Tear film appears bubbly or foamy at eyelid margins due to altered oil-to-water ratio in tears.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
           <p className="text-center text-lg text-[var(--color-ink)] max-w-3xl mx-auto">
-            If you recognize these signs, help is available. Early treatment leads to better outcomes and can prevent permanent gland loss.
+            If you recognize these signs, help is available. Early treatment leads to better outcomes, preventing permanent gland loss and preserving your eye health and comfort for the long term.
           </p>
         </div>
       </section>
 
-      {/* Our Approach Section */}
+      {/* OUR APPROACH SECTION */}
       <section className="bg-[var(--color-light)] py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-16 text-[var(--color-ink)] text-center">
+          <h2 className="font-['Cormorant'] text-4xl mb-16 text-[var(--color-ink)] text-center">
             How We Treat Meibomian Gland Dysfunction
           </h2>
+          
           <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-white p-8 rounded-lg shadow-sm animate-fade-up">
+              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Comprehensive Assessment</h3>
+              <p className="text-[var(--color-muted)] leading-relaxed">
+                We begin with specialized diagnostic imaging and functional tests to evaluate meibomian gland structure, assess oil quality, measure tear break-up time, and identify areas of gland dropout. This detailed assessment guides our treatment recommendations and establishes baseline measurements to track your progress over time.
+              </p>
+            </div>
+            
             <div className="bg-white p-8 rounded-lg shadow-sm animate-fade-up">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
               </svg>
-              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Comprehensive Assessment</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                We begin with advanced meibography imaging to visualize your gland structure and identify areas of blockage or atrophy. We assess tear film quality, measure tear breakup time, and evaluate the meibum expressibility and quality from each lid. This detailed diagnostic approach allows us to determine the severity of your MGD and identify any contributing factors such as blepharitis, rosacea, or allergies.
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm animate-fade-up transition-all delay-100">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
-              </svg>
               <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Personalized Treatment Plan</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Based on your specific MGD presentation, we create a customized treatment protocol combining multiple evidence-based therapies. Your plan may include in-office thermal pulsation treatments to unclog glands, intense pulsed light therapy for inflammation reduction, and prescription medications to improve oil quality. We provide detailed at-home care instructions including warm compress therapy, lid hygiene techniques, and nutritional supplements like omega-3 fatty acids to support long-term gland health.
+                Based on your assessment findings, we design a customized treatment protocol combining in-office procedures, prescription therapies, and home care strategies. Your plan addresses the specific severity and type of MGD you have, incorporating the most effective evidence-based treatments for your individual situation and lifestyle needs.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm animate-fade-up transition-all delay-200">
+            
+            <div className="bg-white p-8 rounded-lg shadow-sm animate-fade-up">
               <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
               </svg>
               <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Ongoing Care & Monitoring</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                MGD requires consistent management to maintain results and prevent gland deterioration. We schedule regular follow-up appointments to assess treatment response, adjust therapies as needed, and perform maintenance procedures to keep glands functioning optimally. We track your symptom improvement using validated questionnaires and objective measurements, ensuring your treatment plan continues to meet your evolving needs and prevents disease progression over time.
+                MGD is a chronic condition requiring long-term management. We schedule regular follow-up evaluations to assess treatment response, adjust therapies as needed, and prevent disease progression. You'll receive education and support to maintain gland health between visits, with telehealth check-ins available for convenience and accessibility.
               </p>
             </div>
           </div>
-          <div className="max-w-4xl mx-auto text-lg leading-relaxed text-[var(--color-ink)]">
-            <p>
-              Our treatment protocols are grounded in the latest ophthalmic research and clinical guidelines. For mild to moderate MGD, we typically begin with conservative measures including preservative-free artificial tears, omega-3 supplementation (typically 2000mg daily of combined EPA/DHA), and optimized at-home warm compress therapy using specialized heat masks that maintain therapeutic temperatures. For moderate to severe cases, we may recommend in-office procedures such as thermal pulsation therapy (LipiFlow), intense pulsed light (IPL) therapy to reduce inflammation and improve meibum secretion, or meibomian gland expression to manually clear blocked glands. Prescription medications may include topical azithromycin or cyclosporine to reduce inflammation, oral doxycycline or omega-3 supplements to improve oil quality, and in some cases, autologous serum tears for advanced dry eye. We also address contributing factors such as incomplete blinking with blink exercises, environmental modifications, and treatment of underlying conditions like blepharitis or rosacea that perpetuate gland dysfunction.
+          
+          <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-sm">
+            <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]">Evidence-Based Treatment Modalities</h3>
+            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
+              Our treatment approach integrates multiple proven therapies to address MGD comprehensively. Warm compress therapy and eyelid massage help liquefy thickened meibum and manually express blocked glands. We often recommend specialized heating devices that maintain consistent therapeutic temperatures more effectively than traditional compresses. Tea tree oil-based eyelid cleansers reduce bacterial load and demodex mites that contribute to inflammation. For moderate to severe MGD, we may prescribe topical anti-inflammatory medications, oral antibiotics with anti-inflammatory properties (such as doxycycline or azithromycin), or prescription eye drops that increase tear production and reduce inflammation.
+            </p>
+            <p className="text-[var(--color-muted)] leading-relaxed">
+              Advanced in-office treatments include intense pulsed light (IPL) therapy, which reduces inflammation and improves gland function through targeted light energy, and thermal pulsation systems that combine heat with mechanical expression to clear blocked glands. Nutritional supplementation with omega-3 fatty acids supports healthier oil production and reduces ocular surface inflammation. Environmental modifications—using humidifiers, taking screen breaks, protecting eyes from wind—complement medical treatments. Every element of your treatment plan is selected based on current clinical research and tailored to your specific MGD presentation, ensuring you receive the most effective care available.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
+      {/* WHY CHOOSE US SECTION */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-12 text-[var(--color-ink)] text-center">
+          <h2 className="font-['Cormorant'] text-4xl mb-12 text-[var(--color-ink)] text-center">
             Why Choose Spark Eye Care for Meibomian Gland Dysfunction Treatment
           </h2>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center animate-fade-up">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-[var(--color-light)] rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Board-Certified Expertise</h3>
               <p className="text-[var(--color-muted)]">
-                Specialized training in ocular surface disease and advanced MGD treatment modalities
+                Our team has specialized training in ocular surface disease and stays current with the latest MGD research and treatment advances.
               </p>
             </div>
-            <div className="text-center animate-fade-up transition-all delay-100">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+            
+            <div className="text-center animate-fade-up">
+              <div className="w-16 h-16 bg-[var(--color-light)] rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Personalized Approach</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Individualized Care</h3>
               <p className="text-[var(--color-muted)]">
-                Every treatment plan is customized to your specific gland function, symptoms, and lifestyle needs
+                We recognize that MGD affects each person differently and customize treatment plans based on your specific symptoms, severity, and lifestyle.
               </p>
             </div>
-            <div className="text-center animate-fade-up transition-all delay-200">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+            
+            <div className="text-center animate-fade-up">
+              <div className="w-16 h-16 bg-[var(--color-light)] rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Telehealth Available</h3>
               <p className="text-[var(--color-muted)]">
-                Convenient follow-up visits and consultations from your home for ongoing management and support
+                We offer convenient virtual follow-up appointments for treatment monitoring, education, and adjustments to your care plan.
               </p>
             </div>
-            <div className="text-center animate-fade-up transition-all delay-300">
-              <div className="bg-[var(--color-cream)] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-10 h-10 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            
+            <div className="text-center animate-fade-up">
+              <div className="w-16 h-16 bg-[var(--color-light)] rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Extensive MGD Experience</h3>
               <p className="text-[var(--color-muted)]">
-                Proven track record treating hundreds of patients with dry eye and meibomian gland dysfunction
+                We have successfully treated hundreds of patients with MGD and dry eye disease, helping them regain comfort and eye health.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* What to Expect Section */}
+      {/* WHAT TO EXPECT SECTION */}
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-8 text-[var(--color-ink)]">
+          <h2 className="font-['Cormorant'] text-4xl mb-8 text-[var(--color-ink)] text-center">
             Your Treatment Journey
           </h2>
+          
           <div className="space-y-12">
             <div className="flex gap-8">
               <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">01</div>
+                <div className="font-['Cormorant'] text-6xl font-light text-[var(--color-primary)]">01</div>
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">First Evaluation (Week 1)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  During your initial comprehensive evaluation, we perform meibography imaging to visualize your gland structure, assess tear film quality and stability, evaluate meibum production and quality, and conduct a detailed symptom assessment. We'll explain your specific MGD presentation, discuss all available treatment options, and create your personalized treatment plan. Most patients leave with immediate at-home therapies to begin and prescriptions if appropriate, along with clear expectations for the treatment timeline ahead.
+                  Your initial visit includes a comprehensive eye examination, specialized MGD diagnostic testing including meibography imaging, tear film assessment, and gland expression evaluation. We'll discuss your symptoms in detail, review your medical history and medications, and explain how MGD is affecting your eyes specifically. You'll leave with a clear understanding of your condition severity, a personalized treatment plan, and initial recommendations you can begin immediately. This appointment typically takes 60-90 minutes to ensure thoroughness.
                 </p>
               </div>
             </div>
+            
             <div className="flex gap-8">
               <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">02</div>
+                <div className="font-['Cormorant'] text-6xl font-light text-[var(--color-primary)]">02</div>
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Treatment Begins (Weeks 2-4)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  You'll implement your at-home care regimen including warm compress therapy twice daily, lid hygiene techniques, and any prescribed medications or supplements. If in-office procedures are recommended, we typically schedule these during this period. Most patients begin noticing some symptom improvement within 2-4 weeks, though the timeline varies depending on MGD severity. We remain available for questions and support as you adjust to your new routine and begin experiencing relief.
+                  You'll start your prescribed at-home treatment regimen, which may include warm compresses, eyelid hygiene, prescribed medications, and environmental modifications. If in-office procedures are recommended, we'll schedule those during this phase. Many patients begin noticing symptom improvement within 2-3 weeks, though full benefits take longer to develop. We'll check in via telehealth or phone to ensure you're comfortable with your treatment routine, address any questions, and make adjustments if needed. Consistency during this initial phase is crucial for long-term success.
                 </p>
               </div>
             </div>
+            
             <div className="flex gap-8">
               <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">03</div>
+                <div className="font-['Cormorant'] text-6xl font-light text-[var(--color-primary)]">03</div>
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Progress Review (Months 2-3)</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  We schedule a follow-up evaluation to objectively measure your treatment response using the same diagnostic tests from your initial visit. We assess symptom improvement, measure changes in tear film stability and gland function, and review your adherence to the treatment protocol. Based on your progress, we may adjust medications, modify your at-home care routine, recommend additional in-office treatments, or continue with the current successful plan. This is also when we address any challenges you've encountered and problem-solve together.
+                  We schedule a follow-up examination to objectively measure your treatment response, repeat diagnostic tests to assess gland function improvement, and compare your current status to baseline measurements. Most patients experience significant symptom relief by this point, with improved tear stability and reduced inflammation. Based on your progress, we may adjust treatment intensity, add or discontinue certain therapies, or modify your home care routine. This is also an opportunity to address any remaining symptoms or concerns and refine your treatment plan for optimal results.
                 </p>
               </div>
             </div>
+            
             <div className="flex gap-8">
               <div className="flex-shrink-0">
-                <div className="font-cormorant text-6xl font-light text-[var(--color-primary)]">04</div>
+                <div className="font-['Cormorant'] text-6xl font-light text-[var(--color-primary)]">04</div>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Long-term Management (Ongoing)</h3>
+                <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">Long-term Management</h3>
                 <p className="text-[var(--color-muted)] leading-relaxed">
-                  MGD is a chronic condition that requires ongoing maintenance to prevent gland deterioration and symptom recurrence. Once we achieve optimal symptom control, we transition to maintenance care with periodic follow-ups every 6-12 months to monitor gland health. Many patients continue simplified at-home therapies indefinitely, while others may need periodic in-office treatments. The goal is sustainable comfort with the least intensive regimen possible while preserving your meibomian glands for long-term eye health.
+                  Once we've achieved symptom control and improved gland function, we transition to maintenance care designed to prevent recurrence and preserve your progress. This typically involves simplified at-home care routines that fit sustainably into your lifestyle, periodic check-ups every 6-12 months to monitor gland health, and adjustments to treatment when environmental or health factors change. MGD management is ongoing, but with proper care, most patients maintain comfortable eyes and stable gland function. We'll be your long-term partner in protecting your eye health and quality of life.
                 </p>
               </div>
             </div>
@@ -351,146 +405,170 @@ export default function MeibomianGlandDysfunctionPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ SECTION */}
       <section className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-12 text-[var(--color-ink)]">
+          <h2 className="font-['Cormorant'] text-4xl mb-12 text-[var(--color-ink)] text-center">
             Frequently Asked Questions About Meibomian Gland Dysfunction
           </h2>
-          <div className="space-y-6">
-            <details className="group border-b border-[var(--color-border)] pb-6">
-              <summary className="flex justify-between items-center cursor-pointer text-xl font-semibold text-[var(--color-ink)] list-none">
-                <span>How long does MGD treatment take to work?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+          
+          <div className="space-y-4">
+            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
+              <summary className="cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none flex justify-between items-center">
+                How long does MGD treatment take to work?
+                <span className="text-[var(--color-primary)] transition-transform group-open:rotate-180">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
               </summary>
-              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
-                Most patients begin experiencing some symptom relief within 2-4 weeks of starting treatment, but significant improvement typically takes 6-12 weeks as gland function gradually improves. The timeline depends on several factors including the severity of your MGD, how long you've had the condition before seeking treatment, your adherence to the treatment plan, and whether you have contributing conditions like blepharitis or rosacea. In-office procedures like thermal pulsation may provide more immediate relief, but sustained results require consistent at-home care. It's important to maintain realistic expectations—MGD treatment is a process, not a quick fix, but most patients achieve substantial improvement with proper management.
+              <div className="px-6 pb-6 text-[var(--color-muted)]">
+                <p className="leading-relaxed">
+                  Most patients notice some symptom improvement within 2-4 weeks of beginning treatment, but significant improvement typically takes 6-12 weeks as meibomian glands gradually resume healthier function. The timeline varies based on disease severity, how long MGD has been present, and treatment compliance. Mild cases may respond quickly, while severe or long-standing MGD requires more time. In-office procedures like thermal pulsation may provide more rapid relief. Remember that MGD is a chronic condition—even after initial improvement, ongoing maintenance is necessary to sustain results. Setting realistic expectations and staying committed to your treatment plan through the initial weeks leads to the best long-term outcomes.
+                </p>
               </div>
             </details>
-            <details className="group border-b border-[var(--color-border)] pb-6">
-              <summary className="flex justify-between items-center cursor-pointer text-xl font-semibold text-[var(--color-ink)] list-none">
-                <span>Will I need to take medication for MGD?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            
+            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
+              <summary className="cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none flex justify-between items-center">
+                Will I need to take medication long-term?
+                <span className="text-[var(--color-primary)] transition-transform group-open:rotate-180">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
               </summary>
-              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
-                Not everyone with MGD requires prescription medication, but many patients benefit from pharmaceutical intervention. For mild cases, we often start with over-the-counter artificial tears, omega-3 supplements, and optimized at-home lid hygiene. Moderate to severe cases may benefit from topical anti-inflammatory drops like cyclosporine or lifitegrast, topical azithromycin to improve meibum quality, or oral antibiotics such as doxycycline which have anti-inflammatory properties that improve oil gland function. The decision depends on your specific presentation, symptom severity, and response to conservative measures. Many patients use medications initially and then taper to maintenance doses or discontinue once gland function improves, while others require long-term management to maintain results.
+              <div className="px-6 pb-6 text-[var(--color-muted)]">
+                <p className="leading-relaxed">
+                  Not necessarily. Medication needs vary greatly depending on your specific MGD presentation. Some patients require oral antibiotics like doxycycline for several months to control inflammation, then discontinue them while maintaining symptom relief with at-home care alone. Others benefit from ongoing prescription eye drops or periodic courses of oral medication during flare-ups. Many patients achieve excellent control with non-prescription treatments—warm compresses, eyelid hygiene, omega-3 supplements, and environmental modifications—without long-term medication use. We tailor medication recommendations to your disease severity and treatment response, always aiming to use the least intensive approach that maintains your eye comfort. Throughout your care, we'll regularly reassess whether medications can be reduced or discontinued.
+                </p>
               </div>
             </details>
-            <details className="group border-b border-[var(--color-border)] pb-6">
-              <summary className="flex justify-between items-center cursor-pointer text-xl font-semibold text-[var(--color-ink)] list-none">
-                <span>Does insurance cover MGD treatment?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            
+            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
+              <summary className="cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none flex justify-between items-center">
+                Does insurance cover MGD treatment?
+                <span className="text-[var(--color-primary)] transition-transform group-open:rotate-180">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
               </summary>
-              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
-                Most medical insurance plans cover the diagnostic evaluation for MGD including comprehensive eye exams, meibography imaging, and tear film assessment when medically necessary. Many prescription medications for MGD are also covered, though some require prior authorization or have preferred alternatives. However, certain in-office procedures like intense pulsed light (IPL) therapy or thermal pulsation treatments are often considered elective and may not be covered by insurance, requiring out-of-pocket payment. Over-the-counter products like artificial tears, omega-3 supplements, and warm compress devices are typically not covered. We recommend contacting your insurance provider before treatment to understand your specific coverage, and our staff can provide documentation and medical necessity letters when appropriate to help maximize your benefits.
+              <div className="px-6 pb-6 text-[var(--color-muted)]">
+                <p className="leading-relaxed">
+                  Insurance coverage for MGD treatment varies. Medical eye examinations for diagnosed MGD are typically covered by medical insurance (not vision insurance), as MGD is a medical condition affecting eye health. Prescription medications are usually covered under your pharmacy benefits, subject to your specific plan's formulary and copays. However, some advanced in-office procedures like intense pulsed light therapy or thermal pulsation systems may not be covered by all insurance plans and could be considered elective or cosmetic, requiring out-of-pocket payment. We verify benefits prior to treatment and provide cost estimates for any non-covered services. Our team will work with you to maximize insurance coverage and develop a treatment plan that fits your budget while effectively addressing your condition.
+                </p>
               </div>
             </details>
-            <details className="group border-b border-[var(--color-border)] pb-6">
-              <summary className="flex justify-between items-center cursor-pointer text-xl font-semibold text-[var(--color-ink)] list-none">
-                <span>What happens if treatment isn't working?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            
+            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
+              <summary className="cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none flex justify-between items-center">
+                What if my treatment isn't working?
+                <span className="text-[var(--color-primary)] transition-transform group-open:rotate-180">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
               </summary>
-              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
-                If you're not experiencing adequate improvement after 6-8 weeks of consistent treatment, we reassess your situation comprehensively. We first evaluate treatment adherence—are you performing warm compresses correctly and consistently? Are you taking medications as prescribed? Next, we investigate potential contributing factors that may have been missed initially, such as undiagnosed autoimmune conditions, medication side effects, environmental exposures, or anatomical issues. We may modify your treatment plan by increasing medication doses, adding new therapeutic modalities, trying different in-office procedures, or referring you to specialists for underlying conditions like rosacea or hormonal imbalances. In rare cases of severe, treatment-resistant MGD, we discuss advanced options like autologous serum tears, scleral contact lenses for corneal protection, or punctal plugs to conserve tears. Our commitment is to systematically work through options until we find an effective solution for your specific situation.
+              <div className="px-6 pb-6 text-[var(--color-muted)]">
+                <p className="leading-relaxed">
+                  If you're not experiencing improvement after 6-8 weeks of consistent treatment, several factors may be at play. First, we'll review your treatment compliance to ensure techniques are being performed correctly and consistently—even small variations in warm compress temperature or duration can affect results. We'll also reassess your diagnosis to rule out other contributing conditions like aqueous deficiency dry eye, ocular rosacea, or autoimmune disease that may require additional treatment. Your medication regimen may need adjustment—different patients respond differently to various therapies. We might recommend advancing to more intensive treatments like in-office procedures, trying different medication combinations, or addressing underlying systemic health factors. Resistant cases sometimes benefit from referral to dry eye subspecialists or testing for underlying conditions. The key is open communication—let us know if treatment isn't helping so we can promptly adjust your care plan.
+                </p>
               </div>
             </details>
-            <details className="group border-b border-[var(--color-border)] pb-6">
-              <summary className="flex justify-between items-center cursor-pointer text-xl font-semibold text-[var(--color-ink)] list-none">
-                <span>Can telehealth work for MGD treatment?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            
+            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
+              <summary className="cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none flex justify-between items-center">
+                Can MGD be treated effectively through telehealth?
+                <span className="text-[var(--color-primary)] transition-transform group-open:rotate-180">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
               </summary>
-              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
-                While your initial MGD evaluation requires an in-person visit for comprehensive diagnostic testing including meibography and tear film assessment, telehealth can be highly effective for follow-up care and ongoing management. Virtual visits work well for reviewing symptom progress, adjusting at-home care protocols, discussing medication side effects or dosage changes, troubleshooting technique issues with warm compresses or lid hygiene, and providing education and support. Many of our Kyle patients appreciate the convenience of telehealth for routine check-ins, especially when symptoms are stable. However, if you experience sudden changes, significant worsening, or potential complications, we'll schedule an in-person evaluation. Telehealth allows us to maintain close contact during your treatment journey without requiring frequent trips to the office, making it easier to stay consistent with your care plan.
+              <div className="px-6 pb-6 text-[var(--color-muted)]">
+                <p className="leading-relaxed">
+                  While the initial diagnostic evaluation requires an in-person examination with specialized equipment to properly assess meibomian gland structure and function, many aspects of MGD treatment can be effectively managed through telehealth. Once you're diagnosed and have an established treatment plan, virtual follow-ups are excellent for monitoring symptom improvement, reviewing treatment technique, troubleshooting difficulties with home care routines, adjusting medications, and providing education and support. Telehealth appointments offer convenience and accessibility, eliminating travel time and making it easier to fit care into busy schedules. For ongoing maintenance after initial treatment success, periodic telehealth check-ins combined with less frequent in-person examinations work well for many patients. We'll recommend an appropriate balance of in-person and virtual care based on your specific situation and needs.
+                </p>
               </div>
             </details>
-            <details className="group border-b border-[var(--color-border)] pb-6">
-              <summary className="flex justify-between items-center cursor-pointer text-xl font-semibold text-[var(--color-ink)] list-none">
-                <span>Is MGD permanent or can it be cured?</span>
-                <svg className="w-6 h-6 text-[var(--color-primary)] transition-transform group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
+            
+            <details className="group bg-[var(--color-cream)] rounded-lg overflow-hidden">
+              <summary className="cursor-pointer p-6 font-semibold text-lg text-[var(--color-ink)] list-none flex justify-between items-center">
+                Can MGD cause permanent damage if left untreated?
+                <span className="text-[var(--color-primary)] transition-transform group-open:rotate-180">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
               </summary>
-              <div className="mt-4 text-[var(--color-muted)] leading-relaxed">
-                MGD is typically a chronic condition that requires long-term management rather than a one-time cure. However, this doesn't mean lifelong symptoms—with proper treatment, most patients achieve excellent symptom control and maintain comfortable vision. The key is preventing further gland loss and preserving the function of your remaining healthy glands. Research shows that meibomian glands that have atrophied (died) cannot regenerate, which is why early treatment is crucial. If caught early and managed consistently, many patients maintain good gland function with minimal ongoing therapy. Even in advanced cases, while we cannot restore lost glands, we can optimize the function of remaining glands and manage symptoms effectively. The prognosis is generally excellent with appropriate treatment—most patients return to comfortable daily activities, wear contact lenses again if desired, and maintain stable eye health long-term with maintenance care.
+              <div className="px-6 pb-6 text-[var(--color-muted)]">
+                <p className="leading-relaxed">
+                  Yes, untreated Meibomian Gland Dysfunction can lead to permanent gland loss and chronic ocular surface damage. Over time, blocked meibomian glands undergo progressive structural changes called gland atrophy or dropout—the glands shrink, scar, and eventually stop functioning altogether. This permanent gland loss cannot be reversed, even with treatment, reducing the eye's long-term ability to maintain a healthy tear film. Chronic dry eye from MGD can also damage the corneal surface, potentially affecting vision quality and increasing infection risk. Additionally, persistent inflammation may worsen other eye conditions. This is why early diagnosis and treatment are so important—intervening before significant gland dropout occurs preserves gland structure and function, preventing irreversible damage. Even if you've had symptoms for years, treatment still helps by protecting remaining glands and maximizing their function, making it never too late to seek care.
+                </p>
               </div>
             </details>
           </div>
         </div>
       </section>
 
-      {/* Related Conditions Section */}
+      {/* RELATED CONDITIONS SECTION */}
       <section className="bg-[var(--color-cream)] py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <h3 className="font-cormorant text-3xl mb-8 text-[var(--color-ink)] text-center">
+          <h3 className="font-['Cormorant'] text-3xl mb-8 text-[var(--color-ink)] text-center">
             Related Conditions We Treat
           </h3>
+          
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/conditions/dry-eye" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Dry Eye Disease</h4>
+            <a href="/conditions/dry-eye-syndrome" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Dry Eye Syndrome</h4>
               <p className="text-[var(--color-muted)] mb-4">
-                Comprehensive treatment for all types of dry eye, including aqueous deficiency and evaporative dry eye
+                Comprehensive treatment for chronic dry eye including aqueous deficiency, evaporative dry eye, and mixed-mechanism presentations.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn More →</span>
-            </Link>
-            <Link href="/conditions/blepharitis" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
-              </svg>
+              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn more →</span>
+            </a>
+            
+            <a href="/conditions/blepharitis" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Blepharitis</h4>
               <p className="text-[var(--color-muted)] mb-4">
-                Treatment for chronic eyelid inflammation that often accompanies and worsens MGD
+                Treatment for eyelid margin inflammation often occurring alongside MGD, causing crusty lids, redness, and discomfort.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn More →</span>
-            </Link>
-            <Link href="/conditions/eye-allergies" className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <svg className="w-10 h-10 text-[var(--color-primary)] mb-4" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-              </svg>
-              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Eye Allergies</h4>
+              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn more →</span>
+            </a>
+            
+            <a href="/conditions/ocular-rosacea" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Ocular Rosacea</h4>
               <p className="text-[var(--color-muted)] mb-4">
-                Relief from allergic conjunctivitis that can aggravate dry eye and MGD symptoms
+                Specialized care for rosacea affecting the eyes, which commonly coexists with MGD and requires integrated treatment.
               </p>
-              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn More →</span>
-            </Link>
+              <span className="text-[var(--color-primary)] font-semibold hover:underline">Learn more →</span>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA SECTION */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl font-light mb-4">
+          <h2 className="font-['Cormorant'] text-4xl font-light mb-4">
             Get Help for Meibomian Gland Dysfunction Today
           </h2>
-          <p className="text-xl mb-8 opacity-95">
-            You don't have to face Meibomian Gland Dysfunction alone. Our team is ready to help.
+          <p className="text-xl mb-10 opacity-95">
+            You don't have to face Meibomian Gland Dysfunction alone. Our team is ready to help you find relief and protect your eye health.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link 
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
               href="/contact" 
-              className="bg-white text-[var(--color-primary)] px-8 py-4 rounded-md font-semibold hover:bg-[var(--color-cream)] transition-colors text-lg"
+              className="bg-white text-[var(--color-primary)] px-8 py-4 rounded-md font-semibold hover:bg-opacity-90 transition-all inline-block"
             >
-              Schedule Your Consultation
-            </Link>
-            <Link 
+              Schedule Consultation
+            </a>
+            <a 
               href="/conditions" 
-              className="border-2 border-white text-white px-8 py-4 rounded-md font-semibold hover:bg-white/10 transition-colors text-lg"
+              className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-semibold hover:bg-white hover:text-[var(--color-primary)] transition-all inline-block"
             >
               View All Conditions
-            </Link>
+            </a>
           </div>
         </div>
       </section>
