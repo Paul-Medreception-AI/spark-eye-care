@@ -2,156 +2,152 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'SMS Terms & Conditions | Spark Eye Care',
-  description: 'SMS messaging terms and conditions for Spark Eye Care text message program.',
+  description: 'SMS messaging terms and conditions for Spark Eye Care appointment reminders and updates.',
 }
 
 export default function SMSTermsPage() {
   return (
-    <main className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="font-serif text-5xl font-bold mb-6">SMS Terms & Conditions</h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Important information about our text message program
+    <main className="min-h-screen bg-[var(--color-cream)]">
+      <div className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
+        <div className="max-w-4xl mx-auto px-6">
+          <h1 className="font-serif text-5xl font-bold mb-4">SMS Terms & Conditions</h1>
+          <p className="text-xl text-[var(--color-light)]">
+            Important information about our text messaging program
           </p>
         </div>
-      </section>
+      </div>
 
-      {/* Quick Reference Box */}
-      <section className="max-w-7xl mx-auto px-6 -mt-10 relative z-10">
-        <div className="bg-[var(--color-light)] border border-[var(--color-border)] rounded-2xl p-6 max-w-xl mx-auto text-[var(--color-ink)] shadow-lg animate-fade-up">
-          <h2 className="font-serif text-2xl font-bold mb-4 text-center">Quick Reference</h2>
-          <ul className="space-y-2 text-center">
-            <li className="font-semibold">Text STOP to unsubscribe</li>
-            <li className="font-semibold">Text HELP for help</li>
-            <li>Message & data rates may apply</li>
-            <li>Message frequency varies</li>
-          </ul>
+      <div className="max-w-4xl mx-auto px-6 -mt-12 relative z-10">
+        <div className="bg-[var(--color-light)] border border-[var(--color-border)] rounded-2xl p-6 shadow-lg animate-fade-up">
+          <div className="text-center text-[var(--color-ink)] space-y-2">
+            <p className="font-semibold text-lg">Text <span className="font-bold">STOP</span> to unsubscribe</p>
+            <p className="font-semibold text-lg">Text <span className="font-bold">HELP</span> for help</p>
+            <p className="text-[var(--color-muted)]">Message and data rates may apply</p>
+            <p className="text-[var(--color-muted)]">Message frequency varies</p>
+          </div>
         </div>
-      </section>
+      </div>
 
-      {/* Main Content */}
-      <section className="bg-white max-w-4xl mx-auto px-6 py-16">
-        <div className="prose prose-lg max-w-none">
-          
-          {/* Program Description */}
-          <div className="mb-12 animate-fade-up">
+      <div className="bg-white max-w-4xl mx-auto px-6 py-16">
+        <div className="prose prose-lg max-w-none space-y-12">
+          <section className="animate-fade-up">
             <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Program Description</h2>
             <p className="text-[var(--color-muted)] leading-relaxed">
-              Spark Eye Care's SMS program allows you to receive text messages about appointment reminders, eye care tips, promotions, and important updates about our services. By opting in, you consent to receive recurring automated marketing and informational text messages from Spark Eye Care at the phone number provided.
+              Spark Eye Care offers an SMS messaging program to provide appointment reminders, confirmations, updates about your eye care, and other important notifications related to your visit. This service is designed to help you stay informed and connected with our practice.
             </p>
-          </div>
+          </section>
 
-          {/* Opt-In */}
-          <div className="mb-12 animate-fade-up">
+          <section className="animate-fade-up">
             <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Opt-In</h2>
             <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-              By providing your mobile phone number and opting in to receive SMS messages from Spark Eye Care, you expressly consent to receive recurring automated marketing text messages. Consent is not a condition of purchase.
-            </p>
-            <p className="text-[var(--color-muted)] leading-relaxed">
-              You may opt-in by texting a keyword to our short code, completing a web form, or providing consent verbally or in writing at our office.
-            </p>
-          </div>
-
-          {/* Message Frequency */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Message Frequency</h2>
-            <p className="text-[var(--color-muted)] leading-relaxed">
-              Message frequency varies. You may receive up to 4 messages per month. Additional messages may be sent based on appointment scheduling, confirmations, or time-sensitive updates.
-            </p>
-          </div>
-
-          {/* Message and Data Rates */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Message and Data Rates</h2>
-            <p className="text-[var(--color-muted)] leading-relaxed">
-              Message and data rates may apply. Please check with your mobile carrier for details on your specific plan. Spark Eye Care is not responsible for any charges incurred from your mobile carrier.
-            </p>
-          </div>
-
-          {/* Opt-Out */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">How to Opt-Out</h2>
-            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-              You may opt-out of receiving SMS messages at any time. To stop receiving messages, reply <strong>STOP</strong> to any text message you receive from us. You will receive a one-time confirmation message that you have been unsubscribed.
-            </p>
-            <p className="text-[var(--color-muted)] leading-relaxed">
-              After texting STOP, you will no longer receive SMS messages from Spark Eye Care unless you opt-in again.
-            </p>
-          </div>
-
-          {/* Help */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Help</h2>
-            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-              For help or more information about our SMS program, reply <strong>HELP</strong> to any message, or contact us:
+              By providing your mobile phone number and consenting to receive text messages from Spark Eye Care, you are opting in to our SMS messaging program. You may opt in through:
             </p>
             <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2 ml-4">
-              <li>Visit: <a href="https://www.sparkeyetx.com" className="text-[var(--color-primary)] hover:underline">www.sparkeyetx.com</a></li>
-              <li>Call our office during business hours</li>
-              <li>Email us through our website contact form</li>
-            </ul>
-          </div>
-
-          {/* Supported Carriers */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Supported Carriers</h2>
-            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-              This SMS program is supported by major carriers including but not limited to:
-            </p>
-            <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2 ml-4">
-              <li>AT&T</li>
-              <li>Verizon Wireless</li>
-              <li>T-Mobile</li>
-              <li>Sprint</li>
-              <li>Boost Mobile</li>
-              <li>US Cellular</li>
-              <li>And other major carriers</li>
+              <li>Our website contact forms</li>
+              <li>Appointment booking system</li>
+              <li>In-office registration</li>
+              <li>Phone conversations with our staff</li>
             </ul>
             <p className="text-[var(--color-muted)] leading-relaxed mt-4">
-              Carriers are not liable for delayed or undelivered messages.
+              Your consent is not a condition of purchase or service. Standard message and data rates may apply.
             </p>
-          </div>
+          </section>
 
-          {/* Privacy */}
-          <div className="mb-12 animate-fade-up">
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Message Frequency</h2>
+            <p className="text-[var(--color-muted)] leading-relaxed">
+              Message frequency varies depending on your appointment schedule and communication preferences. You may receive up to 4 messages per month. Messages may include appointment reminders, confirmations, rescheduling notifications, and practice updates.
+            </p>
+          </section>
+
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Message & Data Rates</h2>
+            <p className="text-[var(--color-muted)] leading-relaxed">
+              Standard message and data rates may apply based on your mobile carrier plan. Please contact your wireless provider for information about your specific messaging plan and potential charges.
+            </p>
+          </section>
+
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">How to Opt Out</h2>
+            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
+              You may opt out of our SMS messaging program at any time by:
+            </p>
+            <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2 ml-4">
+              <li>Replying <span className="font-semibold">STOP</span>, <span className="font-semibold">END</span>, <span className="font-semibold">CANCEL</span>, <span className="font-semibold">UNSUBSCRIBE</span>, or <span className="font-semibold">QUIT</span> to any message</li>
+              <li>Contacting our office directly at (281) 419-0600</li>
+              <li>Emailing us at info@sparkeyetx.com</li>
+            </ul>
+            <p className="text-[var(--color-muted)] leading-relaxed mt-4">
+              After opting out, you will receive one final confirmation message. You may opt back in at any time by contacting our office.
+            </p>
+          </section>
+
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Help & Support</h2>
+            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
+              For help or more information about our SMS program, you can:
+            </p>
+            <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2 ml-4">
+              <li>Reply <span className="font-semibold">HELP</span> to any message</li>
+              <li>Call us at (281) 419-0600</li>
+              <li>Email us at info@sparkeyetx.com</li>
+              <li>Visit us at 15803 Bellaire Blvd, Richmond, TX 77407</li>
+            </ul>
+          </section>
+
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Supported Carriers</h2>
+            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
+              Our SMS program is supported by all major U.S. wireless carriers, including but not limited to:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-[var(--color-muted)]">
+              <div className="bg-[var(--color-cream)] rounded-lg p-3 text-center">AT&T</div>
+              <div className="bg-[var(--color-cream)] rounded-lg p-3 text-center">Verizon</div>
+              <div className="bg-[var(--color-cream)] rounded-lg p-3 text-center">T-Mobile</div>
+              <div className="bg-[var(--color-cream)] rounded-lg p-3 text-center">Sprint</div>
+              <div className="bg-[var(--color-cream)] rounded-lg p-3 text-center">Boost Mobile</div>
+              <div className="bg-[var(--color-cream)] rounded-lg p-3 text-center">US Cellular</div>
+            </div>
+            <p className="text-[var(--color-muted)] leading-relaxed mt-4">
+              Carrier charges may apply. Please check with your wireless provider for details.
+            </p>
+          </section>
+
+          <section className="animate-fade-up">
             <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Privacy Policy</h2>
             <p className="text-[var(--color-muted)] leading-relaxed">
-              We respect your privacy. Your mobile phone number and any information you provide will be used in accordance with our Privacy Policy. We do not sell, rent, or share your personal information with third parties for their marketing purposes. Your information is used solely to provide you with the services you have requested and to improve your experience with Spark Eye Care.
+              Your privacy is important to us. We will not share, sell, or distribute your mobile phone number or personal information to third parties for marketing purposes. Your information will only be used to communicate with you about your eye care appointments and services at Spark Eye Care. For more information, please review our full Privacy Policy.
             </p>
-          </div>
+          </section>
 
-          {/* Terms Updates */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Changes to Terms</h2>
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Terms & Conditions Updates</h2>
             <p className="text-[var(--color-muted)] leading-relaxed">
-              Spark Eye Care reserves the right to modify or terminate the SMS program or these terms at any time without notice. We will make reasonable efforts to notify subscribers of material changes. Your continued participation in the program after changes constitutes acceptance of the updated terms.
+              Spark Eye Care reserves the right to modify these SMS Terms & Conditions at any time. Any changes will be posted on this page and will be effective immediately. Your continued participation in our SMS program after changes are posted constitutes your acceptance of the updated terms.
             </p>
-          </div>
+          </section>
 
-          {/* Contact Information */}
-          <div className="mb-12 animate-fade-up">
-            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Contact Us</h2>
-            <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-              If you have questions about our SMS program or these terms, please contact us:
-            </p>
-            <div className="bg-[var(--color-cream)] border border-[var(--color-border)] rounded-xl p-6">
-              <p className="text-[var(--color-ink)] font-semibold mb-2">Spark Eye Care</p>
-              <p className="text-[var(--color-muted)]">Website: <a href="https://www.sparkeyetx.com" className="text-[var(--color-primary)] hover:underline">www.sparkeyetx.com</a></p>
-              <p className="text-[var(--color-muted)] mt-2">For immediate assistance, please call our office or visit our website for contact information and hours of operation.</p>
+          <section className="animate-fade-up">
+            <h2 className="font-serif text-3xl font-bold text-[var(--color-ink)] mb-4">Contact Information</h2>
+            <div className="bg-[var(--color-cream)] rounded-xl p-6 border border-[var(--color-border)]">
+              <p className="text-[var(--color-ink)] font-semibold mb-3">Spark Eye Care</p>
+              <div className="text-[var(--color-muted)] space-y-2">
+                <p>15803 Bellaire Blvd</p>
+                <p>Richmond, TX 77407</p>
+                <p className="pt-2">Phone: (281) 419-0600</p>
+                <p>Email: info@sparkeyetx.com</p>
+                <p>Website: sparkeyetx.com</p>
+              </div>
             </div>
-          </div>
+          </section>
 
-          {/* Effective Date */}
-          <div className="animate-fade-up">
-            <p className="text-[var(--color-muted)] text-sm italic">
-              Last Updated: January 2025
+          <section className="animate-fade-up border-t border-[var(--color-border)] pt-8">
+            <p className="text-sm text-[var(--color-muted)] italic">
+              Last updated: January 2025
             </p>
-          </div>
-
+          </section>
         </div>
-      </section>
+      </div>
     </main>
   )
 }
