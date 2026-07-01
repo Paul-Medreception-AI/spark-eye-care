@@ -31,7 +31,7 @@ export default function AboutPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_637490792.jpeg"
+                src="/images/2745822.jpeg"
                 alt="Happy patients enjoying clear vision"
                 fill
                 priority

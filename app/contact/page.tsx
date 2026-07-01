@@ -113,6 +113,48 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* MAP */}
+      <section className="bg-white pb-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="bg-[var(--color-cream)] rounded-2xl overflow-hidden shadow-lg border border-[var(--color-border)]">
+            <div className="grid lg:grid-cols-[1fr_2fr]">
+              <div className="p-8 lg:p-10 flex flex-col justify-center">
+                <h2 className="font-cormorant text-3xl md:text-4xl text-[var(--color-ink)] mb-4">Find Us in Kyle</h2>
+                <p className="text-[var(--color-muted)] leading-relaxed mb-6">
+                  Just off Interstate 35 in the Seton Medical Center Hays complex.
+                </p>
+                <address className="not-italic text-[var(--color-ink)] leading-relaxed mb-6">
+                  <strong>Spark Eye Care</strong><br />
+                  1180 Seton Parkway, Suite 330<br />
+                  Kyle, TX 78640
+                </address>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=1180+Seton+Parkway+Suite+330+Kyle+TX+78640"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-3 rounded-xl font-semibold transition-all hover:-translate-y-0.5 hover:shadow-lg w-fit group"
+                >
+                  Get Directions
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </a>
+              </div>
+              <div className="relative min-h-[350px] lg:min-h-[420px]">
+                <iframe
+                  src="https://www.google.com/maps?q=1180+Seton+Parkway+Suite+330+Kyle+TX+78640&output=embed"
+                  title="Map to Spark Eye Care in Kyle, TX"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="absolute inset-0 w-full h-full border-0"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

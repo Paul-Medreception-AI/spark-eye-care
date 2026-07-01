@@ -53,16 +53,22 @@ export default function RootLayout({
               >
                 Pay My Bill
               </a>
-              <a href="/contact" className="ml-4 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Schedule Your Eye Exam</a>
+              <a href="tel:+15123771076" className="hidden lg:inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--color-primary)] hover:text-[var(--color-dark)] transition-colors">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+                (512) 377-1076
+              </a>
+              <a href="/contact#form" className="ml-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors">Request Appointment</a>
             </nav>
           </div>
         </header>
 
         <main>{children}</main>
 
-        <footer className="bg-[var(--color-ink)] text-white py-16">
+        <footer className="bg-[var(--color-ink)] text-white py-20 lg:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16 mb-16">
               <div>
                 <img src="/logo.png" alt="Spark Eye Care" className="h-11 w-auto mb-6" />
                 <p className="text-white/80 leading-relaxed">Restoring clarity and protecting vision for the Kyle community with advanced eye care.</p>
@@ -115,15 +121,23 @@ export default function RootLayout({
           </div>
         </footer>
 
-        {/* Klara messaging widget — matches sparkeyetx.com */}
-        <Script id="klara-init" strategy="afterInteractive">
-          {`window.klaraWidget = window.klaraWidget || [];
-window.klaraWidget.push(["setWidgetId", "bdcdd645-fe28-4dec-b7c7-fc53c45b7dc8"]);`}
-        </Script>
-        <Script
-          src="https://s3.amazonaws.com/widget-frontend.klara.com/bundle.js"
-          strategy="afterInteractive"
-        />
+        {/*
+          Klara messaging widget — DISABLED on preview URLs.
+          Klara authorizes by hostname; only sparkeyetx.com is allowlisted so the
+          widget renders blank elsewhere (opens empty white panel). Enable once
+          DNS cuts over to sparkeyetx.com, or after confirming AI-chat widget
+          replacement with Dr. Plummer.
+          Widget ID: bdcdd645-fe28-4dec-b7c7-fc53c45b7dc8
+
+          <Script id="klara-init" strategy="afterInteractive">
+            {\`window.klaraWidget = window.klaraWidget || [];
+window.klaraWidget.push(["setWidgetId", "bdcdd645-fe28-4dec-b7c7-fc53c45b7dc8"]);\`}
+          </Script>
+          <Script
+            src="https://s3.amazonaws.com/widget-frontend.klara.com/bundle.js"
+            strategy="afterInteractive"
+          />
+        */}
       </body>
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
 

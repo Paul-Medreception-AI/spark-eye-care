@@ -36,7 +36,8 @@ export default function TeamPage() {
                 priority
                 quality={90}
                 sizes="(max-width: 1024px) 100vw, 400px"
-                className="object-cover object-top"
+                className="object-cover"
+                style={{ objectPosition: '50% 15%' }}
               />
             </div>
           </div>

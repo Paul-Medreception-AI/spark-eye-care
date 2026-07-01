@@ -14,8 +14,8 @@ export default function TelehealthPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2745822.jpeg"
-                alt="Spark Eye Care office"
+                src="/images/AdobeStock_24432882.jpeg"
+                alt="Texas hill country wildflowers near Kyle, TX"
                 fill
                 priority
                 quality={90}
