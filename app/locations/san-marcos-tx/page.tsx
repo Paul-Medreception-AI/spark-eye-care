@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Other Medical Near San Marcos, TX | Spark Eye Care',
-  description: 'Serving patients from San Marcos and surrounding TX communities. Expert psychiatric care is closer than you think. Schedule your appointment today.',
+  description: 'Expert Other Medical services for San Marcos, TX patients. Serving the greater San Marcos area with telehealth options available. Schedule your consultation today.',
   openGraph: {
     title: 'Other Medical Near San Marcos, TX | Spark Eye Care',
-    description: 'Serving patients from San Marcos and surrounding TX communities. Expert psychiatric care is closer than you think.',
-    url: 'https://www.sparkeyetx.com/locations/san-marcos-tx',
+    description: 'Expert Other Medical services for San Marcos, TX patients. Serving the greater San Marcos area with telehealth options available.',
+    url: 'https://sparkeyetx.com/locations/san-marcos-tx',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',
@@ -16,28 +16,29 @@ export const metadata: Metadata = {
 export default function SanMarcosTXPage() {
   return (
     <main className="min-h-screen">
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
         <div className="max-w-5xl mx-auto px-6">
-          <nav className="text-sm mb-6 opacity-90">
-            <span>Home</span>
+          <nav className="mb-6 text-sm opacity-90">
+            <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
-            <span>Locations</span>
+            <a href="/locations" className="hover:underline">Locations</a>
             <span className="mx-2">›</span>
             <span>San Marcos, TX</span>
           </nav>
           
-          <h1 className="font-['Cormorant'] text-5xl md:text-6xl font-light mb-6 leading-tight">
+          <h1 className="text-5xl font-light mb-6 animate-fade-up" style={{ fontFamily: 'Cormorant, serif' }}>
             Other Medical Near San Marcos, TX
           </h1>
           
-          <p className="text-xl mb-8 max-w-3xl opacity-95 leading-relaxed">
+          <p className="text-xl mb-8 opacity-95 max-w-3xl animate-fade-up">
             Serving patients from San Marcos and surrounding TX communities. Expert psychiatric care is closer than you think.
           </p>
           
           <a 
-            href="/contact" 
-            className="inline-block bg-white text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold hover:bg-[var(--color-cream)] transition-all duration-300 hover:scale-105"
+            href="/contact"
+            className="inline-block bg-white text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold hover:bg-[var(--color-cream)] transition-all duration-300 animate-fade-up"
           >
             Schedule in San Marcos
           </a>
@@ -47,25 +48,29 @@ export default function SanMarcosTXPage() {
       {/* Serving Section */}
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-8 text-center animate-fade-up">
+          <h2 className="text-4xl font-light mb-8 text-[var(--color-ink)] animate-fade-up" style={{ fontFamily: 'Cormorant, serif' }}>
             Serving the San Marcos Area
           </h2>
           
-          <div className="space-y-6 text-lg text-[var(--color-ink)] leading-relaxed mb-12 animate-fade-up">
+          <div className="space-y-6 text-lg text-[var(--color-ink)] leading-relaxed animate-fade-up">
             <p>
-              Located just a convenient drive from San Marcos, Spark Eye Care provides comprehensive psychiatric services to residents throughout the San Marcos area and surrounding communities. Whether you're commuting from downtown San Marcos, Texas State University, or nearby neighborhoods like Willow Springs and Meadows, our practice is easily accessible via I-35 and offers ample parking for your convenience.
+              Located conveniently for San Marcos residents, Spark Eye Care provides comprehensive Other Medical services to patients throughout Hays County and the surrounding Texas Hill Country. Whether you're commuting from downtown San Marcos, the Texas State University area, or nearby communities like Kyle, Buda, or Wimberley, our practice is easily accessible and worth the short drive for exceptional psychiatric care.
             </p>
             
             <p>
-              San Marcos patients choose Spark Eye Care for our personalized approach to mental health care, experienced providers, and commitment to evidence-based treatment. We understand the unique needs of our Central Texas community and offer flexible scheduling options to accommodate your busy lifestyle. For patients who prefer to avoid the commute, we also provide secure telehealth appointments that deliver the same quality care from the comfort of your San Marcos home.
+              San Marcos patients choose Spark Eye Care for our personalized approach, shorter wait times compared to larger hospital systems, and our commitment to staying at the forefront of psychiatric medicine. We understand that seeking mental health care is an important decision, and we've created a welcoming, judgment-free environment where you can receive the expert treatment you deserve. For those who prefer to avoid the commute, we also offer convenient telehealth appointments that bring quality psychiatric care directly to your home.
             </p>
           </div>
-          
-          <div className="bg-[var(--color-light)] rounded-2xl h-64 flex items-center justify-center animate-fade-up">
-            <svg className="w-16 h-16 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-            </svg>
+
+          {/* Map Placeholder */}
+          <div className="mt-12 bg-[var(--color-light)] rounded-2xl h-64 flex items-center justify-center animate-fade-up">
+            <div className="text-center">
+              <svg className="w-16 h-16 mx-auto mb-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              <p className="text-[var(--color-muted)] font-medium">Serving San Marcos, TX</p>
+            </div>
           </div>
         </div>
       </section>
@@ -73,122 +78,124 @@ export default function SanMarcosTXPage() {
       {/* Services Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-12 text-center">
+          <h2 className="text-4xl font-light mb-12 text-[var(--color-ink)] text-center animate-fade-up" style={{ fontFamily: 'Cormorant, serif' }}>
             Services Available to San Marcos Patients
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+            
+            {/* Service 1 */}
+            <div className="bg-[var(--color-cream)] rounded-2xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up">
+              <svg className="w-12 h-12 mb-6 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
               </svg>
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Psychiatric Evaluation
+              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
+                Comprehensive Psychiatric Evaluations
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Comprehensive mental health assessments to accurately diagnose and develop personalized treatment plans for San Marcos patients.
+                Thorough assessments to accurately diagnose and develop personalized treatment plans for San Marcos patients seeking mental health support.
               </p>
-              <a href="/services/psychiatric-evaluation" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors duration-300">
+              <a href="/services/psychiatric-evaluations" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+            {/* Service 2 */}
+            <div className="bg-[var(--color-cream)] rounded-2xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up">
+              <svg className="w-12 h-12 mb-6 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
               </svg>
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
+              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
                 Medication Management
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Expert prescription and monitoring of psychiatric medications, with ongoing support to ensure optimal results for your mental health.
+                Expert psychiatric medication services with ongoing monitoring and adjustments to ensure optimal outcomes for our San Marcos patients.
               </p>
-              <a href="/services/medication-management" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors duration-300">
+              <a href="/services/medication-management" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up">
-              <svg className="w-12 h-12 text-[var(--color-primary)] mb-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+            {/* Service 3 */}
+            <div className="bg-[var(--color-cream)] rounded-2xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up">
+              <svg className="w-12 h-12 mb-6 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
               </svg>
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
+              <h3 className="text-2xl font-semibold mb-4 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
                 Telehealth Services
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Convenient virtual appointments allow San Marcos residents to receive quality psychiatric care from home via secure video platform.
+                Secure virtual appointments that bring quality psychiatric care to San Marcos residents from the comfort and privacy of home.
               </p>
-              <a href="/services/telehealth" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors duration-300">
+              <a href="/services/telehealth" className="text-[var(--color-primary)] font-semibold hover:underline">
                 Learn More →
               </a>
             </div>
+
           </div>
         </div>
       </section>
 
-      {/* Telehealth Section */}
+      {/* Telehealth Callout */}
       <section className="py-20 px-6">
         <div className="bg-[var(--color-light)] rounded-2xl p-12 max-w-3xl mx-auto animate-fade-up">
-          <h2 className="font-['Cormorant'] text-3xl md:text-4xl font-light text-[var(--color-ink)] mb-6 text-center">
+          <h2 className="text-3xl font-light mb-6 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
             Can't Make the Drive? We Offer Telehealth
           </h2>
-          
-          <div className="space-y-4 text-lg text-[var(--color-ink)] leading-relaxed">
-            <p>
-              We understand that San Marcos residents lead busy lives. Between work, family, and Texas State University commitments, finding time to drive to appointments can be challenging. That's why Spark Eye Care offers comprehensive telehealth services to patients throughout the San Marcos area.
-            </p>
-            
-            <p>
-              Our secure video platform allows you to meet with our experienced psychiatric providers from the comfort of your San Marcos home, office, or anywhere with a private internet connection. Telehealth appointments offer the same quality care as in-person visits, and most insurance plans cover virtual psychiatric services. Whether you're managing anxiety, depression, ADHD, or other mental health conditions, our telehealth option makes expert care accessible and convenient for the San Marcos community.
-            </p>
-          </div>
+          <p className="text-lg text-[var(--color-ink)] leading-relaxed mb-6">
+            For San Marcos residents who prefer the convenience of virtual care, Spark Eye Care offers comprehensive telehealth services. Connect with our experienced psychiatric providers from anywhere in Texas through secure, HIPAA-compliant video appointments.
+          </p>
+          <p className="text-lg text-[var(--color-ink)] leading-relaxed">
+            Our telehealth services are covered by most major insurance plans and provide the same high-quality care as in-person visits. Whether you're managing a busy schedule at Texas State, prefer the privacy of home appointments, or simply want to avoid the commute, telehealth makes expert psychiatric care more accessible than ever for San Marcos patients.
+          </p>
         </div>
       </section>
 
       {/* FAQ Section */}
       <section className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-12 text-center">
+          <h2 className="text-4xl font-light mb-12 text-[var(--color-ink)] text-center animate-fade-up" style={{ fontFamily: 'Cormorant, serif' }}>
             Frequently Asked Questions
           </h2>
           
           <div className="space-y-8">
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
+            
+            <div className="animate-fade-up">
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
                 How far is Spark Eye Care from San Marcos?
               </h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                Our practice is conveniently located within a comfortable driving distance from San Marcos, easily accessible via I-35. Most San Marcos residents find the commute straightforward, typically 20-40 minutes depending on your specific location and traffic conditions. We're worth the short drive for specialized psychiatric care that prioritizes your individual needs.
+              <p className="text-lg text-[var(--color-muted)] leading-relaxed">
+                Our practice is conveniently located within easy driving distance of San Marcos, typically 20-30 minutes depending on your starting location and traffic. Many San Marcos patients find the short commute worthwhile for the personalized, expert care they receive. We're accessible via I-35 and well-connected to the San Marcos area.
               </p>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                What's the best route from San Marcos to your office?
+            <div className="animate-fade-up">
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
+                What are the best directions from San Marcos to your office?
               </h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                From downtown San Marcos or the Texas State campus, take I-35 toward our location. Detailed directions and GPS coordinates are provided when you schedule your appointment. Our office features ample free parking and is located in an easily accessible area with clear signage. If you have any difficulty finding us, our friendly staff is happy to provide additional guidance.
+              <p className="text-lg text-[var(--color-muted)] leading-relaxed">
+                From downtown San Marcos, take I-35 North or South (depending on our exact location) and follow the signs to our exit. Detailed directions with landmarks and parking information are provided when you schedule your appointment. We recommend using GPS navigation for real-time traffic updates, and our staff is always happy to help with specific directions when you call.
               </p>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
+            <div className="animate-fade-up">
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
                 Do you offer telehealth for San Marcos patients?
               </h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                Yes! We provide secure telehealth appointments for San Marcos residents who prefer virtual care or cannot easily make the drive. Our telehealth services deliver the same comprehensive psychiatric care through HIPAA-compliant video sessions. Many patients appreciate the flexibility of scheduling telehealth appointments around their work or school commitments without commute time. Contact us to learn more about telehealth availability.
+              <p className="text-lg text-[var(--color-muted)] leading-relaxed">
+                Yes! We offer comprehensive telehealth services for all San Marcos residents. Virtual appointments provide the same quality care as in-person visits and are perfect for follow-up appointments, medication management, and ongoing psychiatric care. Telehealth is covered by most insurance plans and eliminates the need to commute, making mental health care more convenient and accessible.
               </p>
             </div>
 
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant'] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Is parking available for San Marcos patients visiting the office?
+            <div className="animate-fade-up">
+              <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]" style={{ fontFamily: 'Cormorant, serif' }}>
+                Is parking available and is your office accessible?
               </h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">
-                Absolutely. We offer free, convenient parking directly adjacent to our office with plenty of spaces for patients. Our facility is fully accessible with wheelchair-friendly entrances and accommodations. We've designed our practice to ensure San Marcos patients experience a stress-free visit from the moment they arrive until they depart.
+              <p className="text-lg text-[var(--color-muted)] leading-relaxed">
+                Yes, we provide ample free parking for all patients, including those traveling from San Marcos. Our facility is fully accessible with wheelchair-friendly entrances, and we've designed our space to be welcoming and comfortable. If you have specific accessibility needs or questions about parking, please let us know when scheduling your appointment so we can ensure your visit is as smooth as possible.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -196,20 +203,21 @@ export default function SanMarcosTXPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-['Cormorant'] text-4xl md:text-5xl font-light mb-6">
+          <h2 className="text-4xl font-light mb-6 animate-fade-up" style={{ fontFamily: 'Cormorant, serif' }}>
             Get Expert Care from San Marcos
           </h2>
-          <p className="text-xl mb-8 opacity-95">
-            Schedule your appointment today and experience compassionate, personalized psychiatric care.
+          <p className="text-xl mb-8 opacity-95 animate-fade-up">
+            Schedule your appointment today and experience compassionate, expert psychiatric care close to home.
           </p>
           <a 
-            href="/contact" 
-            className="inline-block bg-white text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold hover:bg-[var(--color-cream)] transition-all duration-300 hover:scale-105"
+            href="/contact"
+            className="inline-block bg-white text-[var(--color-primary)] px-10 py-4 rounded-lg font-semibold hover:bg-[var(--color-cream)] transition-all duration-300 animate-fade-up"
           >
-            Contact Us Today
+            Schedule Your Appointment
           </a>
         </div>
       </section>
+
     </main>
   )
 }
