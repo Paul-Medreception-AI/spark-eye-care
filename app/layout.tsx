@@ -72,13 +72,17 @@ export default function RootLayout({
 
               <div>
                 <h3 className="font-semibold text-lg mb-4">Contact</h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a href="tel:(512) 377-1076" className="text-white/80 hover:text-white transition-colors">
-                      (512) 377-1076
-                    </a>
-                  </li>
-                </ul>
+                <address className="not-italic text-white/80 leading-relaxed mb-3">
+                  1180 Seton Parkway<br />
+                  Suite 330<br />
+                  Kyle, TX 78640
+                </address>
+                <p className="mb-1">
+                  <a href="tel:+15123771076" className="text-white/80 hover:text-white transition-colors">
+                    (512) 377-1076
+                  </a>
+                </p>
+                <p className="text-white/60 text-sm">Fax: (512) 287-7071</p>
               </div>
             </div>
 

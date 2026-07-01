@@ -13,7 +13,7 @@ export default function Home() {
       {/* HERO */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] text-white">
         <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-[1.15fr_1fr] gap-8 lg:gap-10 items-center">
             {/* LEFT — text */}
             <div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight leading-tight" style={{fontFamily: 'Cormorant Garamond, serif'}}>
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             {/* RIGHT — rotating image carousel */}
-            <div className="relative aspect-[4/5] lg:aspect-[3/4] w-full max-w-md mx-auto lg:ml-auto lg:mr-0 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative aspect-[4/5] lg:aspect-[3/4] w-full max-w-md lg:max-w-none mx-auto rounded-2xl overflow-hidden shadow-2xl">
               <HeroCarousel slides={heroSlides} />
             </div>
           </div>
