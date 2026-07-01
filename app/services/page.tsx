@@ -57,9 +57,9 @@ export default function ServicesPage() {
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Our advanced cataract surgery uses premium lens options to restore clear vision and reduce dependence on glasses. Dr. Plummer specializes in refractive cataract surgery techniques that deliver exceptional visual outcomes.
               </p>
-              <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
+              <Link href="/services/cataract-surgery" className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
-              </span>
+              </Link>
             </div>
 
             {/* Refractive Lens Exchange */}
@@ -74,9 +74,9 @@ export default function ServicesPage() {
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Correct nearsightedness, farsightedness, and presbyopia with lens replacement surgery. This procedure offers permanent vision correction and eliminates future cataract development.
               </p>
-              <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
+              <Link href="/services/refractive-lens-exchange" className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
-              </span>
+              </Link>
             </div>
 
             {/* Laser Eye Surgery */}
@@ -90,9 +90,9 @@ export default function ServicesPage() {
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 State-of-the-art laser procedures provide precise vision correction with rapid recovery times. We use proven laser technology to help patients achieve clearer vision without glasses or contacts.
               </p>
-              <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
+              <Link href="/services/laser-eye-surgery" className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
-              </span>
+              </Link>
             </div>
 
             {/* Minimally Invasive Glaucoma Surgery */}
@@ -106,9 +106,9 @@ export default function ServicesPage() {
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Advanced MIGS procedures lower eye pressure with faster healing and fewer complications than traditional surgery. Our approach preserves vision while minimizing disruption to your daily life.
               </p>
-              <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
+              <Link href="/services/minimally-invasive-glaucoma-surgery" className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
-              </span>
+              </Link>
             </div>
 
             {/* Dry Eye Treatment */}
@@ -122,9 +122,9 @@ export default function ServicesPage() {
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Comprehensive evaluation and personalized treatment plans address the root causes of dry eye symptoms. We offer both traditional and advanced therapies to restore comfort and protect your eye surface.
               </p>
-              <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
+              <Link href="/services/dry-eye-treatment" className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
-              </span>
+              </Link>
             </div>
 
             {/* Diabetic Eye Exams */}
@@ -138,9 +138,9 @@ export default function ServicesPage() {
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Regular screening and monitoring protect your vision from diabetes-related complications. Early detection and treatment of diabetic retinopathy can prevent vision loss and preserve your quality of life.
               </p>
-              <span className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
+              <Link href="/services/diabetic-eye-exams" className="block mt-6 text-[var(--color-primary)] font-semibold text-sm group-hover:underline">
                 Learn More →
-              </span>
+              </Link>
             </div>
           </div>
         </div>

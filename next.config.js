@@ -60,6 +60,8 @@ const nextConfig = {
       { source: '/services/psychiatric-evaluations', destination: '/services', permanent: true },
       { source: '/services/telehealth', destination: '/telehealth', permanent: true },
       { source: '/services/retinal-imaging', destination: '/services/diabetic-eye-exams', permanent: true },
+      { source: '/conditions/floaters-flashes', destination: '/conditions/floaters-and-flashes', permanent: true },
+      { source: '/conditions/corneal-conditions', destination: '/conditions/corneal-irregularities', permanent: true },
     ];
   },
 };

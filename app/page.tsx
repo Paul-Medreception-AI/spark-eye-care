@@ -24,7 +24,7 @@ export default function Home() {
                 Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision. From cataract surgery to glaucoma treatment, we deliver world-class results close to home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-10">
-                <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all text-center">
+                <Link href="/contact#form" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all text-center">
                   Schedule Your Eye Exam
                 </Link>
                 <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all text-center">
@@ -257,7 +257,7 @@ export default function Home() {
           <h2 className="text-5xl font-light mb-6" style={{fontFamily: 'Cormorant Garamond, serif'}}>
             Advanced Surgical Eye Care with a Personal Touch
           </h2>
-          <Link href="/contact" className="inline-block bg-white text-[var(--color-dark)] font-bold px-12 py-5 rounded-2xl shadow-2xl hover:-translate-y-1 transition-all text-lg">
+          <Link href="/contact#form" className="inline-block bg-white text-[var(--color-dark)] font-bold px-12 py-5 rounded-2xl shadow-2xl hover:-translate-y-1 transition-all text-lg">
             Schedule Your Eye Exam
           </Link>
         </div>

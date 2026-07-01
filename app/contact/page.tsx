@@ -105,9 +105,9 @@ export default function ContactPage() {
                 <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-8 h-8 mb-4">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
                 </svg>
-                <h3 className="font-cormorant text-2xl font-semibold mb-3">Book an Appointment</h3>
-                <p className="mb-6 text-white/90">Ready to experience exceptional eye care? Fill out the form and we'll get back to you promptly.</p>
-                <a href="#form" className="inline-block bg-white text-[var(--color-primary)] px-8 py-3 rounded-xl font-semibold hover:bg-[var(--color-cream)] transition-colors">Schedule Now</a>
+                <h3 className="font-cormorant text-2xl font-semibold mb-3">Request Your Appointment</h3>
+                <p className="mb-6 text-white/90">Prefer to book by phone? Call <a href="tel:+15123771076" className="underline hover:no-underline">(512) 377-1076</a>. Otherwise, fill out the form and our team will follow up within one business day.</p>
+                <a href="#form" className="inline-block bg-white text-[var(--color-primary)] px-8 py-3 rounded-xl font-semibold hover:bg-[var(--color-cream)] transition-colors">Request Appointment</a>
               </div>
             </div>
           </div>
