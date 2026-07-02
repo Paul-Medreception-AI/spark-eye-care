@@ -19,8 +19,8 @@ export default function DryEyeSyndromePage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>          <nav className="text-sm mb-6 opacity-90">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -34,7 +34,7 @@ export default function DryEyeSyndromePage() {
             Dry eye syndrome affects millions of people, causing persistent discomfort that interferes with daily activities from reading to driving. At Spark Eye Care, we provide comprehensive, evidence-based treatment to restore your eye comfort and protect your long-term vision health.
           </p>
             </div>
-            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/2748703.jpeg"
                 alt="Dry eye treatment consultation"

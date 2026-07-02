@@ -21,8 +21,8 @@ export default function GlaucomaPage() {
       {/* HERO */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>          <nav className="text-sm mb-6 opacity-90">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -36,7 +36,7 @@ export default function GlaucomaPage() {
             Glaucoma is a progressive eye disease that can lead to permanent vision loss if left untreated, but with early detection and proper management, vision can be preserved. At Spark Eye Care, our experienced team provides comprehensive glaucoma diagnosis, monitoring, and treatment using the latest technology and evidence-based approaches to protect your sight for years to come.
           </p>
             </div>
-            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/conditions/glaucoma.jpg"
                 alt="Senior patient during a glaucoma vision assessment"

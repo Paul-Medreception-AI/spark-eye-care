@@ -12,8 +12,8 @@ export default function RefractiveLensExchangePage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>          <nav className="text-sm mb-6 opacity-90">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/services" className="hover:underline">Services</a>
@@ -27,7 +27,7 @@ export default function RefractiveLensExchangePage() {
             Refractive lens exchange offers a permanent solution for vision correction by replacing your eye's natural lens with an advanced artificial lens. This sophisticated procedure not only eliminates nearsightedness, farsightedness, and astigmatism, but also prevents future cataract development while providing clear vision at multiple distances.
           </p>
             </div>
-            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/2748705.jpeg"
                 alt="Refractive lens exchange consultation"

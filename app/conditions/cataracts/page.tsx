@@ -19,8 +19,8 @@ export default function CataractsPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>          <nav className="text-sm mb-8 opacity-90">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-8 opacity-90">
             <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/conditions" className="hover:underline">Conditions</Link>
@@ -36,7 +36,7 @@ export default function CataractsPage() {
             Cataracts are one of the most common age-related eye conditions, causing cloudy vision and difficulty with daily activities. At Spark Eye Care, we offer comprehensive evaluation and advanced surgical treatment options to restore your clear vision and improve your quality of life.
           </p>
             </div>
-            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/2748701.jpeg"
                 alt="Cataract surgery consultation with Dr. Plummer"

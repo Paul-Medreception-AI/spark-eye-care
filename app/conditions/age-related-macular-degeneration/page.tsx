@@ -21,8 +21,8 @@ export default function AgeRelatedMacularDegenerationPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>          <nav className="text-sm mb-6 opacity-90">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
+            <div className="w-full lg:w-3/5">          <nav className="text-sm mb-6 opacity-90">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <a href="/conditions" className="hover:underline">Conditions</a>
@@ -36,7 +36,7 @@ export default function AgeRelatedMacularDegenerationPage() {
             Age-Related Macular Degeneration (AMD) is the leading cause of vision loss in adults over 50, affecting your ability to see fine details and recognize faces. At Spark Eye Care, we provide comprehensive AMD management with cutting-edge treatments designed to preserve your vision and maintain your quality of life.
           </p>
             </div>
-            <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/conditions/macular-degeneration.jpg"
                 alt="Central vision loss from macular degeneration"
