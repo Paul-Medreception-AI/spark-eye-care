@@ -36,10 +36,10 @@ export default function MobileMenu() {
         <div
           role="dialog"
           aria-modal="true"
-          className="fixed inset-0 z-[100] lg:hidden bg-white flex flex-col"
+          className="fixed inset-0 z-[100] lg:hidden bg-white overflow-y-auto"
         >
           {/* Header row — matches the site header height for visual continuity */}
-          <div className="flex items-center justify-between px-4 sm:px-6 h-20 border-b border-[var(--color-border)] shrink-0">
+          <div className="sticky top-0 z-10 flex items-center justify-between px-4 sm:px-6 h-20 border-b border-[var(--color-border)] bg-white">
             <a href="/" onClick={() => setOpen(false)}>
               <img src="/logo.png" alt="Spark Eye Care" className="h-11 w-auto" />
             </a>
@@ -55,8 +55,8 @@ export default function MobileMenu() {
             </button>
           </div>
 
-          {/* Scrollable link column */}
-          <nav className="flex-1 overflow-y-auto px-6 py-6">
+          {/* Link column */}
+          <nav className="px-6 py-6 bg-white">
             <ul>
               {NAV_LINKS.map(link => (
                 <li key={link.href}>
@@ -74,8 +74,8 @@ export default function MobileMenu() {
             </ul>
           </nav>
 
-          {/* Sticky footer CTAs */}
-          <div className="border-t border-[var(--color-border)] px-6 py-5 space-y-3 shrink-0 bg-white">
+          {/* Footer CTAs */}
+          <div className="border-t border-[var(--color-border)] px-6 py-6 space-y-3 bg-white">
             <a
               href="tel:+15123771076"
               className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl border-2 border-[var(--color-primary)] text-[var(--color-primary)] font-semibold hover:bg-[var(--color-primary)]/5 transition-colors"
