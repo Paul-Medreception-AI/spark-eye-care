@@ -23,7 +23,7 @@ export default function MinimallyInvasiveGlaucomaSurgeryPage() {
           </nav>
           
           <h1 className="text-5xl font-light mb-6" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            Minimally Invasive Glaucoma Surgery in sparkeyetx
+            Minimally Invasive Glaucoma Surgery in Kyle, TX
           </h1>
           
           <p className="text-xl leading-relaxed opacity-95 max-w-3xl">

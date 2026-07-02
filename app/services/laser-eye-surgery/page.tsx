@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Laser Eye Surgery in sparkeyetx | Spark Eye Care',
-  description: 'Advanced laser vision correction at Spark Eye Care. LASIK, PRK, and custom laser eye surgery to reduce dependence on glasses and contacts. Board-certified surgeons in sparkeyetx.',
-  keywords: 'laser eye surgery sparkeyetx, LASIK sparkeyetx, PRK surgery, vision correction, refractive surgery, custom laser eye surgery, Spark Eye Care'
+  title: 'Laser Eye Surgery in Kyle, TX | Spark Eye Care',
+  description: 'Advanced laser vision correction at Spark Eye Care. LASIK, PRK, and custom laser eye surgery to reduce dependence on glasses and contacts. Board-certified surgeons in Kyle, TX.',
+  keywords: 'laser eye surgery Kyle TX, LASIK Kyle TX, PRK surgery, vision correction, refractive surgery, custom laser eye surgery, Spark Eye Care'
 }
 
 export default function LaserEyeSurgeryPage() {
@@ -23,7 +23,7 @@ export default function LaserEyeSurgeryPage() {
             <span>Laser Eye Surgery</span>
           </nav>
           <h1 className="text-5xl font-light mb-6" style={{fontFamily: 'Cormorant, serif'}}>
-            Laser Eye Surgery in sparkeyetx
+            Laser Eye Surgery in Kyle, TX
           </h1>
           <p className="text-xl leading-relaxed max-w-3xl opacity-95">
             Experience the freedom of clear vision with advanced laser eye surgery at Spark Eye Care. Our board-certified surgeons use state-of-the-art technology to correct nearsightedness, farsightedness, and astigmatism, helping you reduce or eliminate your dependence on glasses and contact lenses.

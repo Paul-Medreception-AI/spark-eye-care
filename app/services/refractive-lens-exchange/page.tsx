@@ -22,7 +22,7 @@ export default function RefractiveLensExchangePage() {
             <span>Refractive Lens Exchange</span>
           </nav>
           <h1 className="font-cormorant text-5xl font-light mb-6 leading-tight">
-            Refractive Lens Exchange in sparkeyetx
+            Refractive Lens Exchange in Kyle, TX
           </h1>
           <p className="text-xl opacity-95 leading-relaxed max-w-3xl">
             Refractive lens exchange offers a permanent solution for vision correction by replacing your eye's natural lens with an advanced artificial lens. This sophisticated procedure not only eliminates nearsightedness, farsightedness, and astigmatism, but also prevents future cataract development while providing clear vision at multiple distances.
