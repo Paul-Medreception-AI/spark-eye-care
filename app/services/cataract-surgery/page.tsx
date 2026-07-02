@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import YouTubeEmbed from '@/components/YouTubeEmbed'
 
 export const metadata: Metadata = {
   title: 'Cataract Surgery in Kyle, TX | Spark Eye Care',
@@ -39,6 +40,19 @@ export default function CataractSurgeryPage() {
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Featured video: Choosing the Right Lens */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="font-['Cormorant'] text-3xl md:text-4xl mb-3 text-[var(--color-ink)] text-center">
+            Choosing the Right Lens for Your Cataract Surgery
+          </h2>
+          <p className="text-center text-[var(--color-muted)] mb-8 max-w-2xl mx-auto">
+            Dr. Plummer walks you through the premium and standard lens options so you can decide what fits your lifestyle.
+          </p>
+          <YouTubeEmbed videoId="LQsg8eNckUo" title="Cataract Surgery: Choosing the Right Lens for You" />
         </div>
       </section>
 
@@ -229,6 +243,23 @@ export default function CataractSurgeryPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video library — preparing, day-of, post-op */}
+      <section className="bg-white py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="font-['Cormorant'] text-4xl md:text-5xl mb-4 text-[var(--color-ink)] text-center">
+            Video Guides for Cataract Surgery
+          </h2>
+          <p className="text-center text-[var(--color-muted)] mb-12 max-w-2xl mx-auto">
+            Watch Dr. Plummer walk through each stage of the process so you know exactly what to expect.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6">
+            <YouTubeEmbed videoId="yXoJGSK6_pU" title="Preparing for Cataract Surgery (2026)" />
+            <YouTubeEmbed videoId="xMKGkQ2-E9w" title="What to Expect on the Day of Your Cataract Surgery" />
+            <YouTubeEmbed videoId="A9Ug71VKfnY" title="Post-op Instructions for Cataract Surgery" />
           </div>
         </div>
       </section>

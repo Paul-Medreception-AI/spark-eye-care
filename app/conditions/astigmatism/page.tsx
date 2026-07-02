@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import YouTubeEmbed from '@/components/YouTubeEmbed'
 
 export const metadata: Metadata = {
   title: 'Astigmatism Treatment in Kyle, TX | Spark Eye Care',
@@ -50,6 +51,20 @@ export default function AstigmatismPage() {
           </div>
         </div>
       </section>
+
+      {/* Featured video */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="font-['Cormorant'] text-3xl md:text-4xl mb-3 text-[var(--color-ink)] text-center">
+            Watch: What is Astigmatism?
+          </h2>
+          <p className="text-center text-[var(--color-muted)] mb-8 max-w-2xl mx-auto">
+            Dr. Plummer explains astigmatism and the correction options available.
+          </p>
+          <YouTubeEmbed videoId="hKHUnVW9nRY" title="What is Astigmatism?" />
+        </div>
+      </section>
+
 
       {/* Overview Section */}
       <section className="bg-[var(--color-cream)] py-24">

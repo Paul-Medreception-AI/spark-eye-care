@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import YouTubeEmbed from '@/components/YouTubeEmbed'
 
 export const metadata: Metadata = {
   title: 'Refractive Lens Exchange | Spark Eye Care',
@@ -41,6 +42,23 @@ export default function RefractiveLensExchangePage() {
           </div>
         </div>
       </section>
+
+      {/* Featured videos */}
+      <section className="bg-white py-16">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="font-['Cormorant'] text-3xl md:text-4xl mb-3 text-[var(--color-ink)] text-center">
+            Watch: Choosing Your Lens
+          </h2>
+          <p className="text-center text-[var(--color-muted)] mb-8 max-w-2xl mx-auto">
+            Dr. Plummer explains how the IOL choice shapes the outcome — from monofocal to multifocal.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <YouTubeEmbed videoId="mu2EObR_Xq0" title="How to Choose the Right IOL for Cataract Surgery" />
+            <YouTubeEmbed videoId="N5W8-A2Qdbk" title="Multifocal IOLs" />
+          </div>
+        </div>
+      </section>
+
 
       {/* What Is It Section */}
       <section className="bg-[var(--color-cream)] py-20">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import YouTubeEmbed from '@/components/YouTubeEmbed'
 
 export const metadata: Metadata = {
   title: 'Dry Eye Treatment in Texas | Spark Eye Care',
@@ -42,6 +43,20 @@ export default function DryEyeTreatmentPage() {
           </div>
         </div>
       </section>
+
+      {/* Featured video */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="font-['Cormorant'] text-3xl md:text-4xl mb-3 text-[var(--color-ink)] text-center">
+            Watch: Dry Eye Care Overview
+          </h2>
+          <p className="text-center text-[var(--color-muted)] mb-8 max-w-2xl mx-auto">
+            Dr. Plummer explains what we look for and how modern dry-eye treatment has changed.
+          </p>
+          <YouTubeEmbed videoId="FHSvjULuec4" title="Dry Eye Care" />
+        </div>
+      </section>
+
 
       {/* What Is Dry Eye Treatment */}
       <section className="bg-[var(--color-cream)] py-20">
