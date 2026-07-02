@@ -1,5 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Eye Care Services | Cataract, LASIK, Glaucoma, Dry Eye | Spark Eye Care',
+  description: 'Advanced ophthalmology services in Kyle, TX. Cataract surgery, refractive lens exchange, laser vision correction, glaucoma treatment, dry eye therapy, and diabetic eye exams.',
+  alternates: { canonical: '/services' },
+}
 
 export default function ServicesPage() {
   return (

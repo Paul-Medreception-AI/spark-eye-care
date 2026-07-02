@@ -1,4 +1,12 @@
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'FAQ | Spark Eye Care | Common Questions About Eye Exams & Surgery',
+  description: 'Answers to common questions about cataract surgery, LASIK, insurance, appointments, and what to expect at Spark Eye Care in Kyle, TX.',
+  alternates: { canonical: '/faq' },
+}
+
 export default function FAQPage() {
   return (
     <main>

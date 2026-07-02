@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Other Medical Near Kyle, TX | Spark Eye Care',
-  description: 'Expert Other Medical services for Kyle, TX residents. Serving Kyle and surrounding communities with comprehensive psychiatric care and telehealth options.',
+  title: 'Eye Doctor in Kyle, TX | Spark Eye Care | Dr. Andrew Plummer',
+  description: 'Comprehensive eye care in Kyle, TX. Cataract surgery, LASIK, glaucoma treatment, and dry eye therapy with Dr. Andrew Plummer at 1180 Seton Parkway, Kyle.',
+  alternates: { canonical: '/locations/kyle-tx' },
   openGraph: {
-    title: 'Other Medical Near Kyle, TX | Spark Eye Care',
-    description: 'Expert Other Medical services for Kyle, TX residents. Serving Kyle and surrounding communities with comprehensive psychiatric care and telehealth options.',
+    title: 'Eye Doctor in Kyle, TX | Spark Eye Care',
+    description: 'Comprehensive eye care in Kyle, TX with Dr. Andrew Plummer at 1180 Seton Parkway.',
     url: 'https://sparkeyetx.com/locations/kyle-tx',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
@@ -16,119 +17,153 @@ export const metadata: Metadata = {
 export default function KyleTXPage() {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+      {/* Hero */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
         <div className="max-w-5xl mx-auto px-6">
           <nav className="text-sm mb-8 opacity-90">
-            <span>Home</span>
+            <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
-            <span>Locations</span>
+            <a href="/locations" className="hover:underline">Locations</a>
             <span className="mx-2">›</span>
             <span>Kyle, TX</span>
           </nav>
-          
+
           <h1 className="font-['Cormorant',serif] text-5xl md:text-6xl font-light mb-6 leading-tight">
-            Other Medical Near Kyle, TX
+            Eye Care in Kyle, TX
           </h1>
-          
+
           <p className="text-xl md:text-2xl mb-10 leading-relaxed max-w-3xl opacity-95">
-            Serving patients from Kyle and surrounding TX communities. Expert psychiatric care is closer than you think.
+            Spark Eye Care is Kyle's home for advanced surgical eye care. Dr. Andrew Plummer sees patients right in the Seton Medical Center Hays complex — cataract surgery, LASIK, glaucoma treatment, and routine eye exams, close to home.
           </p>
-          
-          <a 
-            href="/contact" 
-            className="inline-block bg-white text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-[var(--color-cream)] hover:scale-105 hover:shadow-xl"
-          >
-            Schedule in Kyle
-          </a>
+
+          <div className="flex flex-wrap gap-4">
+            <a
+              href="/contact#form"
+              className="inline-block bg-white text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-[var(--color-cream)] hover:scale-105 hover:shadow-xl"
+            >
+              Request Appointment
+            </a>
+            <a
+              href="tel:+15123771076"
+              className="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-white/10"
+            >
+              (512) 377-1076
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Serving Section */}
+      {/* Address + Map */}
       <section className="bg-[var(--color-cream)] py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-['Cormorant',serif] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-10 text-center">
-            Serving the Kyle Area
-          </h2>
-          
-          <div className="space-y-6 text-lg text-[var(--color-ink)] leading-relaxed mb-12">
-            <p>
-              Located just a short drive from Kyle, Spark Eye Care provides convenient access to comprehensive Other Medical services for residents throughout the area. Whether you're commuting from downtown Kyle, Plum Creek, or surrounding communities like Buda and San Marcos, our practice offers easy accessibility with ample parking and flexible scheduling to accommodate your busy lifestyle.
-            </p>
-            
-            <p>
-              Kyle residents choose Spark Eye Care for our patient-centered approach, experienced medical professionals, and commitment to personalized treatment plans. We understand the unique needs of our community and offer both in-person consultations and telehealth appointments, ensuring you receive expert psychiatric care in the format that works best for you and your schedule.
-            </p>
-          </div>
-          
-          {/* Map Placeholder */}
-          <div className="bg-[var(--color-light)] rounded-2xl h-64 flex items-center justify-center border border-[var(--color-border)] animate-fade-up">
-            <svg className="w-16 h-16 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-            </svg>
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid lg:grid-cols-[1fr_1.4fr] gap-10 items-stretch">
+            <div className="bg-white rounded-2xl shadow-sm border border-[var(--color-border)] p-10 animate-fade-up">
+              <h2 className="font-['Cormorant',serif] text-3xl md:text-4xl font-light text-[var(--color-ink)] mb-6">
+                Visit Our Kyle Office
+              </h2>
+              <address className="not-italic text-[var(--color-ink)] leading-relaxed text-lg mb-6">
+                <strong>Spark Eye Care</strong><br />
+                1180 Seton Parkway, Suite 330<br />
+                Kyle, TX 78640
+              </address>
+              <dl className="text-[var(--color-ink)] text-sm grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 mb-8">
+                <dt className="font-semibold">Phone</dt>
+                <dd><a href="tel:+15123771076" className="text-[var(--color-primary)] hover:underline">(512) 377-1076</a></dd>
+                <dt className="font-semibold">Fax</dt>
+                <dd>(512) 287-7071</dd>
+                <dt className="font-semibold pt-2">Mon–Thu</dt>
+                <dd className="pt-2">8:00 AM – 5:00 PM</dd>
+                <dt className="font-semibold">Friday</dt>
+                <dd>8:00 AM – 12:00 PM</dd>
+                <dt className="font-semibold">Sat–Sun</dt>
+                <dd className="text-[var(--color-muted)]">Closed</dd>
+              </dl>
+              <a
+                href="https://www.google.com/maps/dir/?api=1&destination=1180+Seton+Parkway+Suite+330+Kyle+TX+78640"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-3 rounded-xl font-semibold transition-all hover:-translate-y-0.5 hover:shadow-lg w-fit group"
+              >
+                Get Directions
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </a>
+            </div>
+            <div className="relative min-h-[350px] lg:min-h-[440px] rounded-2xl overflow-hidden shadow-lg border border-[var(--color-border)]">
+              <iframe
+                src="https://www.google.com/maps?q=1180+Seton+Parkway+Suite+330+Kyle+TX+78640&output=embed"
+                title="Map to Spark Eye Care in Kyle, TX"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute inset-0 w-full h-full border-0"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Services for Kyle patients */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-['Cormorant',serif] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-12 text-center">
-            Services Available to Kyle Patients
+          <h2 className="font-['Cormorant',serif] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-4 text-center">
+            Services for Kyle Patients
           </h2>
-          
+          <p className="text-center text-[var(--color-muted)] mb-16 max-w-2xl mx-auto">
+            Everything from your annual eye exam to advanced surgery, delivered by a board-certified ophthalmologist in a modern outpatient setting.
+          </p>
+
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Service 1 */}
             <div className="bg-[var(--color-cream)] rounded-2xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 animate-fade-up">
               <div className="mb-6">
                 <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
               <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Comprehensive Evaluations
+                Cataract Surgery
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Thorough psychiatric assessments to understand your unique mental health needs and develop personalized treatment strategies.
+                Premium and standard lens options, small-incision technique, and outcomes that led to "Best of Hays County" recognition for eye care.
               </p>
-              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors duration-300">
+              <a href="/services/cataract-surgery" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors">
                 Learn More →
               </a>
             </div>
 
-            {/* Service 2 */}
             <div className="bg-[var(--color-cream)] rounded-2xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 animate-fade-up">
               <div className="mb-6">
                 <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Medication Management
+                LASIK & Refractive Lens Exchange
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Expert guidance on psychiatric medications with ongoing monitoring to ensure optimal results and minimal side effects.
+                Laser vision correction and RLE for patients ready to reduce or eliminate dependence on glasses and contact lenses.
               </p>
-              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors duration-300">
+              <a href="/services/laser-eye-surgery" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors">
                 Learn More →
               </a>
             </div>
 
-            {/* Service 3 */}
             <div className="bg-[var(--color-cream)] rounded-2xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 animate-fade-up">
               <div className="mb-6">
                 <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
               <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Telehealth Services
+                Glaucoma & Medical Eye Care
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Convenient virtual appointments that bring quality psychiatric care directly to your home in Kyle.
+                Glaucoma screening and treatment, dry eye evaluation, diabetic eye exams, and general ophthalmology for Kyle patients of all ages.
               </p>
-              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors duration-300">
+              <a href="/services" className="text-[var(--color-primary)] font-semibold hover:text-[var(--color-dark)] transition-colors">
                 Learn More →
               </a>
             </div>
@@ -136,66 +171,47 @@ export default function KyleTXPage() {
         </div>
       </section>
 
-      {/* Telehealth Callout */}
-      <section className="py-20 px-6">
-        <div className="bg-[var(--color-light)] rounded-2xl p-12 max-w-3xl mx-auto animate-fade-up">
-          <h2 className="font-['Cormorant',serif] text-3xl md:text-4xl font-light text-[var(--color-ink)] mb-6 text-center">
-            Can't Make the Drive? We Offer Telehealth
-          </h2>
-          <p className="text-lg text-[var(--color-ink)] leading-relaxed mb-6">
-            For Kyle residents with busy schedules, transportation challenges, or those who simply prefer the convenience of home-based care, Spark Eye Care offers comprehensive telehealth services. Our virtual appointments provide the same quality psychiatric care you'd receive in person, with secure video consultations that fit seamlessly into your lifestyle.
-          </p>
-          <p className="text-lg text-[var(--color-ink)] leading-relaxed">
-            Most insurance plans cover telehealth visits at the same rate as in-office appointments. Contact us to verify your coverage and schedule your first virtual consultation today.
-          </p>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="bg-white py-20">
+      {/* FAQ */}
+      <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-['Cormorant',serif] text-4xl md:text-5xl font-light text-[var(--color-ink)] mb-12 text-center">
             Frequently Asked Questions
           </h2>
-          
-          <div className="space-y-8">
-            {/* FAQ 1 */}
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                How far is Spark Eye Care from Kyle, TX?
+
+          <div className="space-y-6">
+            <div className="bg-white rounded-xl p-8 animate-fade-up">
+              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-3">
+                Where is Spark Eye Care located in Kyle?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Our practice is conveniently located within a short drive from Kyle, typically 15-25 minutes depending on your exact location and traffic conditions. We're easily accessible via I-35 and offer ample parking for all patients.
+                We're at 1180 Seton Parkway, Suite 330, on the Seton Medical Center Hays campus just off Interstate 35. Free parking is available directly in front of the medical office building.
               </p>
             </div>
 
-            {/* FAQ 2 */}
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                What's the best route from Kyle to your office?
+            <div className="bg-white rounded-xl p-8 animate-fade-up">
+              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-3">
+                Do you accept new patients?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Most Kyle residents find I-35 to be the most direct route. Detailed directions can be provided when you schedule your appointment. We also offer landmark-based guidance to make your first visit as stress-free as possible.
+                Yes. Dr. Plummer welcomes new patients for cataract evaluations, LASIK consultations, glaucoma management, dry eye, diabetic eye exams, and routine ophthalmology. Fill out the contact form or call (512) 377-1076 to schedule.
               </p>
             </div>
 
-            {/* FAQ 3 */}
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Do you offer telehealth for Kyle residents?
+            <div className="bg-white rounded-xl p-8 animate-fade-up">
+              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-3">
+                What insurance do you accept?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Yes! We provide comprehensive telehealth services for all Kyle residents. Virtual appointments offer the same quality care as in-person visits and are ideal for follow-ups, medication management, and ongoing consultations. Most insurance plans cover telehealth at the same rate as office visits.
+                We accept most major medical insurance plans. For questions about your specific plan or vision coverage, please call our office and our team will verify benefits before your visit.
               </p>
             </div>
 
-            {/* FAQ 4 */}
-            <div className="bg-[var(--color-cream)] rounded-xl p-8 animate-fade-up">
-              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-4">
-                Is your facility accessible with convenient parking?
+            <div className="bg-white rounded-xl p-8 animate-fade-up">
+              <h3 className="font-['Cormorant',serif] text-2xl font-semibold text-[var(--color-ink)] mb-3">
+                Do you offer telehealth?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Absolutely. Our practice features accessible entrances, elevators where needed, and ample free parking directly adjacent to our building. We're committed to ensuring every patient can access our services comfortably and conveniently.
+                Yes — for follow-ups, prescription refills, and non-urgent eye questions. Most surgical evaluations still require an in-office visit for imaging and measurements. <a href="/telehealth" className="text-[var(--color-primary)] hover:underline">Learn more about telehealth</a>.
               </p>
             </div>
           </div>
@@ -206,16 +222,16 @@ export default function KyleTXPage() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-['Cormorant',serif] text-4xl md:text-5xl font-light mb-8">
-            Get Expert Care from Kyle
+            Ready to Book Your Visit?
           </h2>
           <p className="text-xl mb-10 opacity-95 max-w-2xl mx-auto">
-            Join the Kyle residents who trust Spark Eye Care for comprehensive, compassionate psychiatric services.
+            Kyle residents trust Spark Eye Care for advanced surgical eye care delivered with a personal touch. Request an appointment today.
           </p>
-          <a 
-            href="/contact" 
+          <a
+            href="/contact#form"
             className="inline-block bg-white text-[var(--color-primary)] px-10 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-[var(--color-cream)] hover:scale-105 hover:shadow-xl"
           >
-            Schedule Your Appointment
+            Request Appointment
           </a>
         </div>
       </section>
