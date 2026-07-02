@@ -176,13 +176,9 @@ export default function CataractSurgeryPage() {
                 <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Toric Lenses</h4>
                 <p className="text-[var(--color-muted)]">Specially designed to correct astigmatism during cataract surgery, providing sharper, clearer vision without distortion.</p>
               </div>
-              <div className="bg-white rounded-lg p-6">
+              <div className="bg-white rounded-lg p-6 md:col-span-2">
                 <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Extended Depth of Focus Lenses</h4>
                 <p className="text-[var(--color-muted)]">Offer a continuous range of high-quality vision from distance to intermediate, ideal for computer work and daily activities.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6">
-                <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">Light Adjustable Lenses</h4>
-                <p className="text-[var(--color-muted)]">Revolutionary technology that allows fine-tuning of your vision after surgery using non-invasive light treatments for optimal outcomes.</p>
               </div>
             </div>
           </div>

@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                 </svg>
                 <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mb-4">Call or Fax</h3>
-                <a href="tel:+15123771076" className="font-cormorant text-3xl font-semibold text-[var(--color-primary)] hover:text-[var(--color-dark)] transition-colors block mb-2">(512) 377-1076</a>
+                <a href="tel:+15123771076" className="text-2xl font-semibold text-[var(--color-primary)] hover:text-[var(--color-dark)] transition-colors block mb-2 tracking-tight">(512) 377-1076</a>
                 <p className="text-sm text-[var(--color-muted)]">Fax: (512) 287-7071</p>
               </div>
 
