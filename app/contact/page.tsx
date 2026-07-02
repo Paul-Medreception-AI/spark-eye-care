@@ -15,17 +15,16 @@ export default function ContactPage() {
     const form = e.currentTarget
     const data = new FormData(form)
     const name = String(data.get('name') || '').trim()
-    const [first_name, ...rest] = name.split(/\s+/)
-    const last_name = rest.join(' ')
+    const [firstName, ...rest] = name.split(/\s+/)
+    const lastName = rest.join(' ')
     const payload = {
-      name,
-      first_name: first_name || name,
-      last_name,
+      firstName: firstName || name,
+      lastName,
       email: String(data.get('email') || '').trim(),
       phone: String(data.get('phone') || '').trim(),
       service: String(data.get('service') || ''),
       message: String(data.get('message') || ''),
-      source: 'spark-eye-care contact form',
+      source: 'Website Contact Form',
       submittedAt: new Date().toISOString(),
     }
     try {
