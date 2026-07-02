@@ -121,23 +121,11 @@ export default function RootLayout({
           </div>
         </footer>
 
-        {/*
-          Klara messaging widget — DISABLED on preview URLs.
-          Klara authorizes by hostname; only sparkeyetx.com is allowlisted so the
-          widget renders blank elsewhere (opens empty white panel). Enable once
-          DNS cuts over to sparkeyetx.com, or after confirming AI-chat widget
-          replacement with Dr. Plummer.
-          Widget ID: bdcdd645-fe28-4dec-b7c7-fc53c45b7dc8
-
-          <Script id="klara-init" strategy="afterInteractive">
-            {\`window.klaraWidget = window.klaraWidget || [];
-window.klaraWidget.push(["setWidgetId", "bdcdd645-fe28-4dec-b7c7-fc53c45b7dc8"]);\`}
-          </Script>
-          <Script
-            src="https://s3.amazonaws.com/widget-frontend.klara.com/bundle.js"
-            strategy="afterInteractive"
-          />
-        */}
+        <Script
+          src="https://widget.medreception.ai/embed.js"
+          data-client-id="spark-eye-care"
+          strategy="afterInteractive"
+        />
       </body>
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
 
