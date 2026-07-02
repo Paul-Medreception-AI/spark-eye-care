@@ -25,7 +25,6 @@ export default function ContactPage() {
       phone: String(data.get('phone') || '').trim(),
       service: String(data.get('service') || ''),
       message: String(data.get('message') || ''),
-      location: 'Kyle, TX',
       source: 'spark-eye-care contact form',
       submittedAt: new Date().toISOString(),
     }
