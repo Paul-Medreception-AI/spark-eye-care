@@ -38,8 +38,8 @@ export default function AstigmatismPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2748705.jpeg"
-                alt="Astigmatism correction"
+                src="/images/conditions/astigmatism.jpg"
+                alt="Astigmatism vision chart testing"
                 fill
                 priority
                 quality={90}

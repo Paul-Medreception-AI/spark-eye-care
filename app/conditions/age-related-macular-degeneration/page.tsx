@@ -38,8 +38,8 @@ export default function AgeRelatedMacularDegenerationPage() {
             </div>
             <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
               <Image
-                src="/images/AdobeStock_447730359.jpeg"
-                alt="Smiling patient outdoors"
+                src="/images/conditions/macular-degeneration.jpg"
+                alt="Central vision loss from macular degeneration"
                 fill
                 priority
                 quality={90}

@@ -37,8 +37,8 @@ export default function FloatersFlashesPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_94313718.jpeg"
-                alt="Vitreous floaters evaluation"
+                src="/images/conditions/floaters.jpg"
+                alt="Vitreous floaters and light flashes"
                 fill
                 priority
                 quality={90}

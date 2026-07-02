@@ -35,8 +35,8 @@ export default function PterygiumPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_24432882.jpeg"
-                alt="Sun-related surface growth"
+                src="/images/conditions/surface-eye.jpg"
+                alt="Pterygium surface eye examination"
                 fill
                 priority
                 quality={90}

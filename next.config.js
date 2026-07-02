@@ -62,6 +62,13 @@ const nextConfig = {
       { source: '/services/retinal-imaging', destination: '/services/diabetic-eye-exams', permanent: true },
       { source: '/conditions/floaters-flashes', destination: '/conditions/floaters-and-flashes', permanent: true },
       { source: '/conditions/corneal-conditions', destination: '/conditions/corneal-irregularities', permanent: true },
+      { source: '/conditions/eye-pressure', destination: '/conditions/ocular-hypertension', permanent: true },
+      { source: '/conditions/conjunctivitis', destination: '/conditions', permanent: true },
+
+      // Duplicate compare pages consolidated 2026-07-02
+      { source: '/compare/migs-vs-traditional-glaucoma-surgery', destination: '/compare/traditional-glaucoma-surgery-vs-migs', permanent: true },
+      { source: '/compare/monofocal-vs-multifocal-lenses', destination: '/compare/monofocal-vs-multifocal-lens-implants', permanent: true },
+      { source: '/compare/traditional-vs-laser-cataract-surgery', destination: '/compare/standard-vs-laser-cataract-surgery', permanent: true },
     ];
   },
 };

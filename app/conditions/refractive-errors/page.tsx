@@ -38,7 +38,7 @@ export default function RefractiveErrorsPage() {
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/2748705.jpeg"
-                alt="Refractive lens evaluation"
+                alt="Comprehensive refractive error correction"
                 fill
                 priority
                 quality={90}

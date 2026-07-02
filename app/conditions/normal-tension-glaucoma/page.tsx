@@ -39,8 +39,8 @@ export default function NormalTensionGlaucomaPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2748707.jpeg"
-                alt="Normal-tension glaucoma"
+                src="/images/conditions/tonometry.jpg"
+                alt="Tonometry pressure test"
                 fill
                 priority
                 quality={90}

@@ -39,7 +39,7 @@ export default function PosteriorSubcapsularCataractsPage() {
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/2745822.jpeg"
-                alt="Diverse couple, cataract outcomes"
+                alt="Posterior subcapsular cataract consultation"
                 fill
                 priority
                 quality={90}

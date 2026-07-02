@@ -38,8 +38,8 @@ export default function GlaucomaPage() {
             </div>
             <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
               <Image
-                src="/images/AdobeStock_94313718.jpeg"
-                alt="Close-up of healthy blue eye"
+                src="/images/conditions/glaucoma.jpg"
+                alt="Senior patient during a glaucoma vision assessment"
                 fill
                 priority
                 quality={90}

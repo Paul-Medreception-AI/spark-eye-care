@@ -38,8 +38,8 @@ export default function CataractsPage() {
             </div>
             <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
               <Image
-                src="/images/AdobeStock_637490792.jpeg"
-                alt="Happy couple with clear vision"
+                src="/images/2748701.jpeg"
+                alt="Cataract surgery consultation with Dr. Plummer"
                 fill
                 priority
                 quality={90}

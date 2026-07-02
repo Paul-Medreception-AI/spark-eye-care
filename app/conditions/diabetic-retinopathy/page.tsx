@@ -40,7 +40,7 @@ export default function DiabeticRetinopathyPage() {
             <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
               <Image
                 src="/images/2748704.jpg"
-                alt="Diabetic eye care"
+                alt="Diabetic retinopathy dilated eye exam"
                 fill
                 priority
                 quality={90}

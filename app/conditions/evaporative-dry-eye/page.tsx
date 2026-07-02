@@ -40,8 +40,8 @@ export default function EvaporativeDryEyePage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2748703.jpeg"
-                alt="Evaporative dry eye"
+                src="/images/conditions/dry-eye.jpg"
+                alt="Woman experiencing evaporative dry eye"
                 fill
                 priority
                 quality={90}

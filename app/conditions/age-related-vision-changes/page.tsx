@@ -41,8 +41,8 @@ export default function AgeRelatedVisionChangesPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/shutterstock_2018571389.jpg"
-                alt="Comfortable patient at home"
+                src="/images/conditions/age-related-vision.jpg"
+                alt="Elderly patient reading with age-related vision"
                 fill
                 priority
                 quality={90}

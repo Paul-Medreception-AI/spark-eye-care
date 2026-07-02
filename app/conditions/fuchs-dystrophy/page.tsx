@@ -38,8 +38,8 @@ export default function FuchsDystrophyPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_94313718.jpeg"
-                alt="Fuchs corneal dystrophy"
+                src="/images/conditions/fuchs-dystrophy.jpg"
+                alt="Fuchs endothelial dystrophy evaluation"
                 fill
                 priority
                 quality={90}

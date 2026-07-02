@@ -41,8 +41,8 @@ export default function CornealIrregularitiesPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_94313718.jpeg"
-                alt="Corneal irregularity"
+                src="/images/conditions/cornea-detail.jpg"
+                alt="Corneal topography imaging"
                 fill
                 priority
                 quality={90}

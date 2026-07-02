@@ -36,7 +36,7 @@ export default function ConditionsPage() {
     },
     {
       name: "Dry Eye Syndrome",
-      slug: "dry-eye",
+      slug: "dry-eye-syndrome",
       description: "Insufficient tear production or poor tear quality causes burning, irritation, and fluctuating vision. Our targeted treatments address underlying causes to restore comfort and protect the ocular surface.",
       icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" /><line x1="9" y1="9" x2="15" y2="15" strokeLinecap="round" /></svg>
     },
@@ -48,37 +48,31 @@ export default function ConditionsPage() {
     },
     {
       name: "Macular Degeneration",
-      slug: "macular-degeneration",
+      slug: "age-related-macular-degeneration",
       description: "Age-related changes in the central retina cause loss of sharp, detailed vision needed for reading and driving. While we focus on surgical conditions, we provide appropriate referrals for specialized retinal care.",
       icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v6m0 0l-3-3m3 3l3-3" /></svg>
     },
     {
       name: "Corneal Conditions",
-      slug: "corneal-conditions",
+      slug: "corneal-irregularities",
       description: "Infections, injuries, and degenerative diseases affect the clear front surface of your eye. We diagnose and manage conditions affecting the cornea to maintain clarity and protect your vision.",
       icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="4" /></svg>
     },
     {
       name: "Eye Floaters and Flashes",
-      slug: "floaters-flashes",
+      slug: "floaters-and-flashes",
       description: "Sudden onset of floaters or flashing lights can signal retinal tears or detachment requiring urgent care. We perform thorough dilated examinations to identify serious conditions that threaten vision.",
       icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg>
     },
     {
-      name: "Conjunctivitis (Pink Eye)",
-      slug: "conjunctivitis",
-      description: "Viral, bacterial, or allergic inflammation causes redness, discharge, and discomfort. Accurate diagnosis ensures appropriate treatment to resolve symptoms and prevent spread to others.",
-      icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" /></svg>
-    },
-    {
       name: "Age-Related Eye Changes",
-      slug: "age-related-changes",
+      slug: "age-related-vision-changes",
       description: "Natural aging affects multiple eye structures including the lens, retina, and tear film. Comprehensive adult eye exams detect conditions early when treatment is most effective.",
       icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
     },
     {
       name: "Eye Pressure Issues",
-      slug: "eye-pressure",
+      slug: "ocular-hypertension",
       description: "Elevated or fluctuating intraocular pressure requires careful monitoring and management. Advanced diagnostic testing identifies risk factors for glaucoma before irreversible damage occurs.",
       icon: <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10"><path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
     }

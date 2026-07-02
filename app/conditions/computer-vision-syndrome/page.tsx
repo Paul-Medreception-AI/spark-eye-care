@@ -39,8 +39,8 @@ export default function ComputerVisionSyndromePage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/shutterstock_2018571389.jpg"
-                alt="Digital eye strain relief"
+                src="/images/conditions/computer-vision.jpg"
+                alt="Digital eye strain from computer screens"
                 fill
                 priority
                 quality={90}

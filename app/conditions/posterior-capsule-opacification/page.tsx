@@ -41,8 +41,8 @@ export default function PosteriorCapsuleOpacificationPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_447730359.jpeg"
-                alt="Patient smiling after PCO treatment"
+                src="/images/2745816.jpeg"
+                alt="YAG laser capsulotomy for PCO"
                 fill
                 priority
                 quality={90}

@@ -38,8 +38,8 @@ export default function AqueousDeficientDryEyePage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2748703.jpeg"
-                alt="Dry eye discomfort"
+                src="/images/shutterstock_2018571389.jpg"
+                alt="Clear vision after tear film restoration"
                 fill
                 priority
                 quality={90}

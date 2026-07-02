@@ -40,8 +40,8 @@ export default function DiabeticMacularEdemaPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2748704.jpg"
-                alt="Diabetic eye exam"
+                src="/images/conditions/diabetic-eye.jpg"
+                alt="Retinal imaging for diabetic macular edema"
                 fill
                 priority
                 quality={90}

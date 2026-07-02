@@ -38,8 +38,8 @@ export default function MyopiaPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/AdobeStock_94313718.jpeg"
-                alt="Nearsightedness eye macro"
+                src="/images/conditions/refractive-error.jpg"
+                alt="Myopia contact lens fitting"
                 fill
                 priority
                 quality={90}

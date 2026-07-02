@@ -38,8 +38,8 @@ export default function BlepharitisPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2748703.jpeg"
-                alt="Eyelid inflammation care"
+                src="/images/AdobeStock_447730359.jpeg"
+                alt="Eyelid margin care for blepharitis"
                 fill
                 priority
                 quality={90}

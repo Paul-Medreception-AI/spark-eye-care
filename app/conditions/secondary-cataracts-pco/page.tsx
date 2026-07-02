@@ -37,8 +37,8 @@ export default function SecondaryCataractsPCOPage() {
             </div>
             <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/2745822.jpeg"
-                alt="Follow-up cataract care"
+                src="/images/AdobeStock_637490792.jpeg"
+                alt="Follow-up after cataract surgery"
                 fill
                 priority
                 quality={90}

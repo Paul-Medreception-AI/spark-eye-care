@@ -36,8 +36,8 @@ export default function DryEyeSyndromePage() {
             </div>
             <div className="relative w-full max-w-sm h-80 rounded-2xl overflow-hidden shadow-2xl mx-auto md:ml-auto md:mr-0">
               <Image
-                src="/images/shutterstock_2018571389.jpg"
-                alt="Comfortable woman relaxing"
+                src="/images/2748703.jpeg"
+                alt="Dry eye treatment consultation"
                 fill
                 priority
                 quality={90}
