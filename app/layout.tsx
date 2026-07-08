@@ -12,6 +12,7 @@ const dmSans = DM_Sans({ subsets: ['latin'], weight: ['300','400','500','600'], 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
+  verification: { google: 'LuGhchyZ3HBaRJ5YBT02tuPlnyDpWG6OyWknylN4Xpo' },
   title: "Spark Eye Care | Advanced Surgical Eye Care with a Personal Touch",
   description: "Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision. From cataract surgery to glaucoma treatment, we deliver world-class results close to home.",
   metadataBase: new URL('https://sparkeyetx.com'),
