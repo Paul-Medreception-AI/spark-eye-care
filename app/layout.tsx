@@ -3,6 +3,7 @@ import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Script from 'next/script'
 import MobileMenu from '@/components/MobileMenu'
+import DesktopNav from '@/components/DesktopNav'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400','500','600','700'], variable: '--font-cormorant' })
@@ -41,28 +42,7 @@ export default function RootLayout({
             <a href="/">
               <img src="/logo.png" alt="Spark Eye Care" className="h-11 w-auto" />
             </a>
-            <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
-              <a href="/services" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Services</a>
-              <a href="/conditions" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Conditions</a>
-              <a href="/about" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">About</a>
-              <a href="/team" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors whitespace-nowrap">Meet the Doctor</a>
-              <a href="/contact" className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">Contact</a>
-              <a
-                href="https://spark.ema.md/ema/pay/Online#/pm/payfac/pay"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors whitespace-nowrap"
-              >
-                Pay My Bill
-              </a>
-              <a href="tel:+15123771076" className="hidden xl:inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--color-primary)] hover:text-[var(--color-dark)] transition-colors whitespace-nowrap">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                </svg>
-                (512) 377-1076
-              </a>
-              <a href="/contact#form" className="ml-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap">Request Appointment</a>
-            </nav>
+            <DesktopNav />
             <MobileMenu />
           </div>
         </header>

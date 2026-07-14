@@ -1,10 +1,19 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
+import { SERVICES } from '@/lib/data/services'
+import { CONDITIONS } from '@/lib/data/conditions'
 
+const SERVICE_LINKS = SERVICES.map(s => ({ href: `/services/${s.slug}`, label: s.title }))
+const CONDITION_LINKS = [...CONDITIONS]
+  .map(c => ({ href: `/conditions/${c.slug}`, label: c.title }))
+  .sort((a, b) => a.label.localeCompare(b.label))
+
+// Sections with a `children` array render as an expandable accordion; the hub
+// link sits at the top of the expanded list. Plain links render as before.
 const NAV_LINKS = [
-  { href: '/services', label: 'Services' },
-  { href: '/conditions', label: 'Conditions' },
+  { href: '/services', label: 'Services', children: SERVICE_LINKS },
+  { href: '/conditions', label: 'Conditions', children: CONDITION_LINKS },
   { href: '/about', label: 'About' },
   { href: '/team', label: 'Meet the Doctor' },
   { href: '/contact', label: 'Contact' },
@@ -13,6 +22,7 @@ const NAV_LINKS = [
 
 export default function MobileMenu() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [openSection, setOpenSection] = useState<string | null>(null)
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => { setMounted(true) }, [])
@@ -130,30 +140,83 @@ export default function MobileMenu() {
             {/* Nav list */}
             <div style={{ padding: '8px 24px' }}>
               {NAV_LINKS.map(link => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target={link.external ? '_blank' : undefined}
-                  rel={link.external ? 'noopener noreferrer' : undefined}
-                  onClick={() => setMobileOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    padding: '18px 0',
-                    fontSize: '18px',
-                    fontWeight: 500,
-                    color: '#1a2030',
-                    borderBottom: '1px solid #e5e7eb',
-                    textDecoration: 'none',
-                  }}
-                >
-                  <span>{link.label}</span>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0070c0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <line x1="5" y1="12" x2="19" y2="12" />
-                    <polyline points="12 5 19 12 12 19" />
-                  </svg>
-                </a>
+                link.children ? (
+                  <div key={link.href} style={{ borderBottom: '1px solid #e5e7eb' }}>
+                    <button
+                      type="button"
+                      aria-expanded={openSection === link.href}
+                      onClick={() => setOpenSection(prev => (prev === link.href ? null : link.href))}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        width: '100%',
+                        padding: '18px 0',
+                        fontSize: '18px',
+                        fontWeight: 500,
+                        color: '#1a2030',
+                        background: 'transparent',
+                        border: 'none',
+                        cursor: 'pointer',
+                        textAlign: 'left',
+                      }}
+                    >
+                      <span>{link.label}</span>
+                      <svg
+                        width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0070c0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"
+                        style={{ transition: 'transform 0.2s', transform: openSection === link.href ? 'rotate(180deg)' : 'none' }}
+                      >
+                        <polyline points="6 9 12 15 18 9" />
+                      </svg>
+                    </button>
+                    {openSection === link.href && (
+                      <div style={{ paddingBottom: '10px' }}>
+                        <a
+                          href={link.href}
+                          onClick={() => setMobileOpen(false)}
+                          style={{ display: 'block', padding: '8px 0 8px 12px', fontSize: '15px', fontWeight: 600, color: '#0070c0', textDecoration: 'none' }}
+                        >
+                          All {link.label} →
+                        </a>
+                        {link.children.map(child => (
+                          <a
+                            key={child.href}
+                            href={child.href}
+                            onClick={() => setMobileOpen(false)}
+                            style={{ display: 'block', padding: '8px 0 8px 12px', fontSize: '15px', color: '#4b5563', textDecoration: 'none', lineHeight: 1.35 }}
+                          >
+                            {child.label}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target={link.external ? '_blank' : undefined}
+                    rel={link.external ? 'noopener noreferrer' : undefined}
+                    onClick={() => setMobileOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      padding: '18px 0',
+                      fontSize: '18px',
+                      fontWeight: 500,
+                      color: '#1a2030',
+                      borderBottom: '1px solid #e5e7eb',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    <span>{link.label}</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0070c0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <line x1="5" y1="12" x2="19" y2="12" />
+                      <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                  </a>
+                )
               ))}
             </div>
 
