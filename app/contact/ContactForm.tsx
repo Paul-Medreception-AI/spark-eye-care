@@ -1,43 +1,50 @@
 'use client'
-import { useState } from 'react'
-
-const GHL_WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/FNmX2NMfjDQvjNI0pnhO/webhook-trigger/qLlcGZiCgQKZOlfU5bfK'
+import { useRef, useState } from 'react'
+import Turnstile, { type TurnstileHandle } from '@/components/Turnstile'
 
 export default function ContactForm() {
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [errorMsg, setErrorMsg] = useState('')
+  const [token, setToken] = useState('')
+  const turnstileRef = useRef<TurnstileHandle | null>(null)
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
+    if (!token) {
+      setStatus('error')
+      setErrorMsg('Please complete the verification below.')
+      return
+    }
     setStatus('sending')
     setErrorMsg('')
     const form = e.currentTarget
     const data = new FormData(form)
-    const name = String(data.get('name') || '').trim()
-    const [firstName, ...rest] = name.split(/\s+/)
-    const lastName = rest.join(' ')
     const payload = {
-      firstName: firstName || name,
-      lastName,
+      name: String(data.get('name') || '').trim(),
       email: String(data.get('email') || '').trim(),
       phone: String(data.get('phone') || '').trim(),
       service: String(data.get('service') || ''),
       message: String(data.get('message') || ''),
-      source: 'Website Contact Form',
-      submittedAt: new Date().toISOString(),
+      turnstileToken: token,
     }
     try {
-      const res = await fetch(GHL_WEBHOOK_URL, {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       })
-      if (!res.ok) throw new Error(`Submission failed (${res.status})`)
+      if (!res.ok) {
+        const detail = await res.json().catch(() => null)
+        throw new Error(detail?.error || `Submission failed (${res.status})`)
+      }
       setStatus('sent')
       form.reset()
     } catch (err) {
       setStatus('error')
       setErrorMsg(err instanceof Error ? err.message : 'Something went wrong')
+      // Tokens are single-use — issue a fresh one before the next attempt.
+      setToken('')
+      turnstileRef.current?.reset()
     }
   }
 
@@ -84,6 +91,20 @@ export default function ContactForm() {
       <div>
         <label htmlFor="message" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Message</label>
         <textarea id="message" name="message" rows={5} className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none"></textarea>
+      </div>
+      <div>
+        <Turnstile
+          handleRef={turnstileRef}
+          onVerify={(t) => {
+            setToken(t)
+            if (status === 'error') {
+              setStatus('idle')
+              setErrorMsg('')
+            }
+          }}
+          onExpire={() => setToken('')}
+          onError={() => setToken('')}
+        />
       </div>
       <button type="submit" disabled={status === 'sending'} className="w-full bg-[var(--color-primary)] hover:bg-[var(--color-dark)] disabled:opacity-60 disabled:cursor-not-allowed text-white py-4 rounded-xl font-semibold transition-colors mt-2">
         {status === 'sending' ? 'Sending…' : 'Send Message'}
