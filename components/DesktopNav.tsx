@@ -70,20 +70,12 @@ export default function DesktopNav() {
     .sort((a, b) => a.title.localeCompare(b.title))
 
   return (
-    <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
+    <nav className="hidden lg:flex items-center gap-3 xl:gap-6 shrink min-w-0">
       <Dropdown label="Services" hubHref="/services" items={services} columns={1} width="w-72" />
       <Dropdown label="Conditions" hubHref="/conditions" items={conditions} columns={3} width="w-[42rem]" />
       <a href="/about" className={linkCls}>About</a>
       <a href="/team" className={`${linkCls} whitespace-nowrap`}>Meet the Doctor</a>
       <a href="/contact" className={linkCls}>Contact</a>
-      <a
-        href="https://spark.ema.md"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={`${linkCls} whitespace-nowrap`}
-      >
-        Patient Portal
-      </a>
       <a
         href="https://spark.ema.md/ema/pay/Online#/pm/payfac/pay"
         target="_blank"
@@ -92,7 +84,15 @@ export default function DesktopNav() {
       >
         Pay My Bill
       </a>
-      <a href="/contact#form" className="ml-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap">Request Appointment</a>
+      <a
+        href="https://spark.ema.md"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-1 border-2 border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-light)] px-4 py-2 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap"
+      >
+        Patient Portal
+      </a>
+      <a href="/contact#form" className="bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-4 py-2 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap">Request Appointment</a>
     </nav>
   )
 }
