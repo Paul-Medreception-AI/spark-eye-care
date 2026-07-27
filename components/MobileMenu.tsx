@@ -17,6 +17,7 @@ const NAV_LINKS = [
   { href: '/about', label: 'About' },
   { href: '/team', label: 'Meet the Doctor' },
   { href: '/contact', label: 'Contact' },
+  { href: 'https://spark.ema.md', label: 'Patient Portal', external: true },
   { href: 'https://spark.ema.md/ema/pay/Online#/pm/payfac/pay', label: 'Pay My Bill', external: true },
 ]
 
@@ -245,6 +246,28 @@ export default function MobileMenu() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                 </svg>
                 (512) 377-1076
+              </a>
+              <a
+                href="https://spark.ema.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileOpen(false)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '100%',
+                  height: '52px',
+                  borderRadius: '12px',
+                  border: '2px solid #0070c0',
+                  color: '#0070c0',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  marginBottom: '12px',
+                  boxSizing: 'border-box',
+                }}
+              >
+                Patient Portal
               </a>
               <a
                 href="/contact#form"

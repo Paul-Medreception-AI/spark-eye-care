@@ -46,6 +46,18 @@ export async function POST(request: Request) {
   }
 
   const [firstName, ...rest] = name.split(/\s+/)
+
+  // Optional appointment-request fields (blank when it's just a message).
+  const patientType = clean(body.patientType, 40)
+  const reason = clean(body.reason, 200)
+  const preferredDate = clean(body.preferredDate, 40)
+  const preferredTime = clean(body.preferredTime, 40)
+  const insurance = clean(body.insurance, 100)
+  const dob = clean(body.dob, 40)
+  // If any appointment detail was provided, tag it as an appointment request so
+  // the front desk can triage it differently from a plain contact message.
+  const isAppointment = Boolean(patientType || reason || preferredDate || preferredTime || insurance || dob)
+
   const payload = {
     firstName: firstName || name,
     lastName: rest.join(' '),
@@ -53,7 +65,14 @@ export async function POST(request: Request) {
     phone: clean(body.phone, 50),
     service: clean(body.service),
     message: clean(body.message, MAX_LEN),
-    source: 'Website Contact Form',
+    patientType,
+    reason,
+    preferredDate,
+    preferredTime,
+    insurance,
+    dob,
+    requestType: isAppointment ? 'Appointment Request' : 'Contact Message',
+    source: isAppointment ? 'Website Appointment Request' : 'Website Contact Form',
     submittedAt: new Date().toISOString(),
   }
 

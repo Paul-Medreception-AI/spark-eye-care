@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import YouTubeEmbed from '@/components/YouTubeEmbed'
 import Link from 'next/link'
 import HeroCarousel, { type HeroSlide } from '@/components/HeroCarousel'
 
@@ -89,13 +89,15 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{fontFamily: 'Cormorant Garamond, serif'}}>
-                Cataract Surgery
-              </h3>
+              <Link href="/services/cataract-surgery" className="block group/title">
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5 group-hover/title:text-[var(--color-primary)] transition-colors cursor-pointer" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                  Cataract Surgery
+                </h3>
+              </Link>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Our advanced cataract surgery uses premium lens options to restore clear vision and reduce dependence on glasses. Dr. Plummer specializes in refractive cataract surgery techniques that deliver exceptional visual outcomes.
               </p>
-              <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
+              <Link href="/services/cataract-surgery" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
               </Link>
             </div>
@@ -105,13 +107,15 @@ export default function Home() {
               <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 stroke-[var(--color-primary)]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
               </svg>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{fontFamily: 'Cormorant Garamond, serif'}}>
-                Refractive Lens Exchange
-              </h3>
+              <Link href="/services/refractive-lens-exchange" className="block group/title">
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5 group-hover/title:text-[var(--color-primary)] transition-colors cursor-pointer" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                  Refractive Lens Exchange
+                </h3>
+              </Link>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 Correct nearsightedness, farsightedness, and presbyopia with lens replacement surgery. This procedure offers permanent vision correction and eliminates future cataract development.
               </p>
-              <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
+              <Link href="/services/refractive-lens-exchange" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
               </Link>
             </div>
@@ -121,13 +125,15 @@ export default function Home() {
               <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-10 h-10 stroke-[var(--color-primary)]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
               </svg>
-              <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5" style={{fontFamily: 'Cormorant Garamond, serif'}}>
-                Laser Eye Surgery
-              </h3>
+              <Link href="/services/laser-eye-surgery" className="block group/title">
+                <h3 className="text-2xl font-semibold text-[var(--color-ink)] mt-5 group-hover/title:text-[var(--color-primary)] transition-colors cursor-pointer" style={{fontFamily: 'Cormorant Garamond, serif'}}>
+                  Laser Eye Surgery
+                </h3>
+              </Link>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
                 State-of-the-art laser procedures provide precise vision correction with rapid recovery times. We use proven laser technology to help patients achieve clearer vision without glasses or contacts.
               </p>
-              <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
+              <Link href="/services/laser-eye-surgery" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
               </Link>
             </div>
@@ -154,16 +160,10 @@ export default function Home() {
               </Link>
             </div>
             <div className="lg:col-span-2">
-              <div className="relative rounded-2xl h-80 w-full overflow-hidden shadow-xl">
-                <Image
-                  src="/images/shutterstock_2018571389.jpg"
-                  alt="Patient relaxed and confident about their eye care"
-                  fill
-                  quality={90}
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="object-cover"
-                />
-              </div>
+              <YouTubeEmbed
+                videoId="wdTXCQmoEoc"
+                title="Meet Spark Eye Care — Dr. Andrew Plummer"
+              />
             </div>
           </div>
         </div>

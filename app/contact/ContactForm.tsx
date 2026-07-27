@@ -25,6 +25,13 @@ export default function ContactForm() {
       phone: String(data.get('phone') || '').trim(),
       service: String(data.get('service') || ''),
       message: String(data.get('message') || ''),
+      // Optional appointment-request fields (blank = a plain message).
+      patientType: String(data.get('patientType') || ''),
+      reason: String(data.get('reason') || ''),
+      preferredDate: String(data.get('preferredDate') || ''),
+      preferredTime: String(data.get('preferredTime') || ''),
+      insurance: String(data.get('insurance') || '').trim(),
+      dob: String(data.get('dob') || ''),
       turnstileToken: token,
     }
     try {
@@ -88,6 +95,50 @@ export default function ContactForm() {
           <option value="General Eye Exam">General Eye Exam</option>
         </select>
       </div>
+      {/* ── Optional appointment details ─────────────────────────────────
+          Everything below is optional — leave blank to just send a message.
+          Mirrors the fields the scheduling widget collects so there's one
+          consistent form for both contact and appointment requests. */}
+      <div className="pt-2 border-t border-[var(--color-border)]">
+        <p className="text-sm font-semibold text-[var(--color-ink)] mt-4 mb-1">Requesting an appointment? <span className="font-normal text-[var(--color-muted)]">(optional)</span></p>
+        <p className="text-xs text-[var(--color-muted)] mb-4">Add any of the details below and our team will follow up to confirm. Leave blank to just send a message.</p>
+
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label htmlFor="patientType" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Patient status</label>
+            <select id="patientType" name="patientType" className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none">
+              <option value="">Select</option>
+              <option value="New patient">New patient</option>
+              <option value="Existing patient">Existing patient</option>
+            </select>
+          </div>
+          <div>
+            <label htmlFor="reason" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Reason for visit</label>
+            <input type="text" id="reason" name="reason" placeholder="e.g. cataract consultation" className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none" />
+          </div>
+          <div>
+            <label htmlFor="preferredDate" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Preferred date</label>
+            <input type="date" id="preferredDate" name="preferredDate" className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none" />
+          </div>
+          <div>
+            <label htmlFor="preferredTime" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Preferred time</label>
+            <select id="preferredTime" name="preferredTime" className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none">
+              <option value="">No preference</option>
+              <option value="Morning">Morning</option>
+              <option value="Afternoon">Afternoon</option>
+            </select>
+          </div>
+          <div>
+            <label htmlFor="insurance" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Insurance provider</label>
+            <input type="text" id="insurance" name="insurance" placeholder="e.g. Blue Cross, Medicare" className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none" />
+          </div>
+          <div>
+            <label htmlFor="dob" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Date of birth</label>
+            <input type="date" id="dob" name="dob" className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none" />
+          </div>
+        </div>
+      </div>
+
       <div>
         <label htmlFor="message" className="block text-sm font-semibold text-[var(--color-ink)] mb-2">Message</label>
         <textarea id="message" name="message" rows={5} className="border border-[var(--color-border)] rounded-xl px-4 py-3 w-full focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none"></textarea>

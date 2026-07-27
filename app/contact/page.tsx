@@ -37,7 +37,8 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16">
             <div id="form" className="bg-white rounded-2xl p-10 shadow-sm border border-[var(--color-border)] animate-fade-up">
-              <h2 className="font-cormorant text-3xl mb-8 text-[var(--color-ink)]">Send Us a Message</h2>
+              <h2 className="font-cormorant text-3xl mb-2 text-[var(--color-ink)]">Contact Us or Request an Appointment</h2>
+              <p className="text-[var(--color-muted)] text-sm mb-8">Send a message or request an appointment — one form for both. Appointment details are optional.</p>
               <ContactForm />
             </div>
 
@@ -81,11 +82,11 @@ export default function ContactPage() {
 
               <div className="bg-[var(--color-primary)] text-white rounded-2xl p-8 animate-fade-up">
                 <svg stroke="currentColor" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-8 h-8 mb-4">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                 </svg>
-                <h3 className="font-cormorant text-2xl font-semibold mb-3">Request Your Appointment</h3>
-                <p className="mb-6 text-white/90">Prefer to book by phone? Call <a href="tel:+15123771076" className="underline hover:no-underline">(512) 377-1076</a>. Otherwise, fill out the form and our team will follow up within one business day.</p>
-                <a href="#form" className="inline-block bg-white text-[var(--color-primary)] px-8 py-3 rounded-xl font-semibold hover:bg-[var(--color-cream)] transition-colors">Request Appointment</a>
+                <h3 className="font-cormorant text-2xl font-semibold mb-3">Existing Patient?</h3>
+                <p className="mb-6 text-white/90">Access your records, messages, and appointments through our secure patient portal. Prefer to book by phone? Call <a href="tel:+15123771076" className="underline hover:no-underline">(512) 377-1076</a>.</p>
+                <a href="https://spark.ema.md" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-[var(--color-primary)] px-8 py-3 rounded-xl font-semibold hover:bg-[var(--color-cream)] transition-colors">Open Patient Portal</a>
               </div>
             </div>
           </div>

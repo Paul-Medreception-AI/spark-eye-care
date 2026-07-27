@@ -90,6 +90,14 @@ export default function DesktopNav() {
         </svg>
         (512) 377-1076
       </a>
+      <a
+        href="https://spark.ema.md"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-2 border-2 border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-light)] px-5 py-2 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap"
+      >
+        Patient Portal
+      </a>
       <a href="/contact#form" className="ml-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap">Request Appointment</a>
     </nav>
   )
