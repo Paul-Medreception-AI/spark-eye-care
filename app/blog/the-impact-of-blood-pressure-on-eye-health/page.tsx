@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'The Impact of Blood Pressure on Eye Health | Spark Eye Care',
-  description: 'Learn how high blood pressure affects your vision and eye health. Discover the connection between hypertension and serious eye conditions like retinopathy and glaucoma.',
+  description: 'Learn how high blood pressure affects your vision and eye health. Discover the connection between hypertension and serious eye conditions like retinopathy.',
+  alternates: { canonical: '/blog/the-impact-of-blood-pressure-on-eye-health' },
   openGraph: {
     title: 'The Impact of Blood Pressure on Eye Health | Spark Eye Care',
     description: 'Learn how high blood pressure affects your vision and eye health. Discover the connection between hypertension and serious eye conditions like retinopathy and glaucoma.',
+    images: ['/og-image.png'],
     url: 'https://sparkeyetx.com/blog/the-impact-of-blood-pressure-on-eye-health',
     siteName: 'Spark Eye Care',
     locale: 'en_US',

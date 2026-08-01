@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Refractive Lens Exchange: An Alternative to LASIK for Over 40 | Spark Eye Care',
-  description: 'Discover how Refractive Lens Exchange (RLE) offers a permanent vision correction solution for patients over 40 who may not be ideal LASIK candidates. Learn about benefits, candidacy, and what to expect.',
+  title: 'Refractive Lens Exchange: An Alternative to LASIK for Over',
+  description: 'Discover how Refractive Lens Exchange (RLE) offers a permanent vision correction solution for patients over 40 who may not be ideal LASIK candidates.',
+  alternates: { canonical: '/blog/refractive-lens-exchange-an-alternative-to-lasik-for-over-40' },
   keywords: 'refractive lens exchange, RLE, LASIK alternative, vision correction over 40, presbyopia treatment, clear lens exchange, cataract surgery alternative',
   openGraph: {
     title: 'Refractive Lens Exchange: An Alternative to LASIK for Over 40',
     description: 'Discover how Refractive Lens Exchange (RLE) offers a permanent vision correction solution for patients over 40 who may not be ideal LASIK candidates.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2025-02-15T09:00:00Z',
     authors: ['Spark Eye Care Clinical Team'],

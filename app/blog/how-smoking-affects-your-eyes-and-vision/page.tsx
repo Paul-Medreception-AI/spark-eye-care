@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'How Smoking Affects Your Eyes and Vision | Spark Eye Care',
-  description: 'Learn about the serious impact smoking has on eye health, from cataracts to macular degeneration. Discover why quitting smoking is one of the best things you can do for your vision.',
+  description: 'Learn about the serious impact smoking has on eye health, from cataracts to macular degeneration. Discover why quitting smoking is one of the best things you.',
+  alternates: { canonical: '/blog/how-smoking-affects-your-eyes-and-vision' },
   openGraph: {
     title: 'How Smoking Affects Your Eyes and Vision | Spark Eye Care',
     description: 'Learn about the serious impact smoking has on eye health, from cataracts to macular degeneration. Discover why quitting smoking is one of the best things you can do for your vision.',

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How to Know When It\'s Time for Cataract Surgery | Spark Eye Care',
-  description: 'Learn the signs that indicate it\'s time for cataract surgery, what to expect from the procedure, and how to make an informed decision about your vision health with expert guidance from Spark Eye Care.',
+  title: 'How to Know When It\'s Time for Cataract Surgery',
+  description: 'Learn the signs that indicate it\'s time for cataract surgery, what to expect from the procedure, and how to make an informed decision about your vision.',
+  alternates: { canonical: '/blog/how-to-know-when-it-s-time-for-cataract-surgery' },
   openGraph: {
     title: 'How to Know When It\'s Time for Cataract Surgery | Spark Eye Care',
     description: 'Learn the signs that indicate it\'s time for cataract surgery, what to expect from the procedure, and how to make an informed decision about your vision health.',

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Eye Conditions We Treat | Cataracts, Glaucoma, Dry Eye | Spark Eye Care',
+  title: 'Eye Conditions We Treat | Spark Eye Care',
   description: 'Comprehensive treatment for cataracts, glaucoma, dry eye syndrome, diabetic retinopathy, macular degeneration, and more. Dr. Andrew Plummer, Kyle, TX.',
   alternates: { canonical: '/conditions' },
 }

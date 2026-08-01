@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Night Vision Problems: Causes and Solutions | Spark Eye Care',
-  description: 'Struggling to see clearly at night or in low light? Learn about the common causes of night vision problems and effective solutions from our expert eye care team.',
+  description: 'Struggling to see clearly at night or in low light? Learn about the common causes of night vision problems and effective solutions from our expert eye care.',
+  alternates: { canonical: '/blog/night-vision-problems-causes-and-solutions' },
   openGraph: {
     title: 'Night Vision Problems: Causes and Solutions | Spark Eye Care',
     description: 'Struggling to see clearly at night or in low light? Learn about the common causes of night vision problems and effective solutions from our expert eye care team.',

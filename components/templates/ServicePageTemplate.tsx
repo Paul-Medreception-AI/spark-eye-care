@@ -69,10 +69,20 @@ export type ServicePageContent = {
 }
 
 export function buildServiceMetadata(c: ServicePageContent): Metadata {
+  const path = `${c.hubHref}/${c.slug}`
   return {
     title: c.metaTitle || `${c.title} | ${c.siteName}`,
     description: c.description,
-    alternates: { canonical: `${c.siteUrl}${c.hubHref}/${c.slug}` },
+    alternates: { canonical: path },
+    openGraph: {
+      title: c.metaTitle || `${c.title} | ${c.siteName}`,
+      description: c.description,
+      url: `${c.siteUrl}${path}`,
+      siteName: c.siteName,
+      locale: 'en_US',
+      type: 'website',
+      images: ['/og-image.png'],
+    },
   }
 }
 

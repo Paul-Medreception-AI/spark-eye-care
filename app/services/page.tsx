@@ -3,8 +3,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Eye Care Services | Cataract, LASIK, Glaucoma, Dry Eye | Spark Eye Care',
-  description: 'Advanced ophthalmology services in Kyle, TX. Cataract surgery, refractive lens exchange, laser vision correction, glaucoma treatment, dry eye therapy, and diabetic eye exams.',
+  title: 'Eye Care Services | Spark Eye Care',
+  description: 'Advanced eye care in Kyle, TX: cataract surgery, laser vision correction, glaucoma treatment, and dry eye therapy with Dr. Andrew Plummer.',
   alternates: { canonical: '/services' },
 }
 

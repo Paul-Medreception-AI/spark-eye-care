@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Pseudoexfoliation Syndrome: An Underdiagnosed Glaucoma Risk | Spark Eye Care',
-  description: 'Learn about pseudoexfoliation syndrome, a common yet often missed condition that significantly increases glaucoma risk. Understand symptoms, diagnosis, and why regular eye exams matter.',
+  title: 'Pseudoexfoliation Syndrome: An Underdiagnosed Glaucoma Risk',
+  description: 'Learn about pseudoexfoliation syndrome, a common yet often missed condition that significantly increases glaucoma risk.',
+  alternates: { canonical: '/blog/pseudoexfoliation-syndrome-an-underdiagnosed-glaucoma-risk' },
   keywords: 'pseudoexfoliation syndrome, exfoliation glaucoma, glaucoma risk factors, eye health, comprehensive eye exam, Spark Eye Care',
   openGraph: {
     title: 'Pseudoexfoliation Syndrome: An Underdiagnosed Glaucoma Risk',

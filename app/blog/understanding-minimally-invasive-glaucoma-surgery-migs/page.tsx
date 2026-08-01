@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Understanding Minimally Invasive Glaucoma Surgery (MIGS) | Spark Eye Care',
+  title: 'Understanding Minimally Invasive Glaucoma Surgery (MIGS)',
   description: 'Learn about MIGS procedures, benefits, candidacy, and what to expect. Expert insights on modern glaucoma treatment options from Spark Eye Care.',
+  alternates: { canonical: '/blog/understanding-minimally-invasive-glaucoma-surgery-migs' },
   keywords: 'MIGS, minimally invasive glaucoma surgery, glaucoma treatment, eye surgery, intraocular pressure, glaucoma management',
 }
 

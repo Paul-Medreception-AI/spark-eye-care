@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Presbyopia: Why Everyone Eventually Needs Reading Glasses | Spark Eye Care',
+  title: 'Presbyopia: Why Everyone Eventually Needs Reading Glasses',
   description: 'Discover why presbyopia affects everyone after age 40, how the aging eye loses focusing power, and what solutions work best for near vision correction.',
+  alternates: { canonical: '/blog/presbyopia-why-everyone-eventually-needs-reading-glasses' },
   openGraph: {
     title: 'Presbyopia: Why Everyone Eventually Needs Reading Glasses',
     description: 'Discover why presbyopia affects everyone after age 40, how the aging eye loses focusing power, and what solutions work best for near vision correction.',

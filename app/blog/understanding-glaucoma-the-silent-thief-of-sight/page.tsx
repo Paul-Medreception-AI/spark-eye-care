@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Understanding Glaucoma: The Silent Thief of Sight | Spark Eye Care',
+  title: 'Understanding Glaucoma: The Silent Thief of Sight',
   description: 'Learn about glaucoma, its symptoms, risk factors, and treatment options. Expert insights from Spark Eye Care on protecting your vision from this silent disease.',
+  alternates: { canonical: '/blog/understanding-glaucoma-the-silent-thief-of-sight' },
   openGraph: {
     title: 'Understanding Glaucoma: The Silent Thief of Sight',
     description: 'Learn about glaucoma, its symptoms, risk factors, and treatment options. Expert insights from Spark Eye Care on protecting your vision from this silent disease.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/understanding-glaucoma-the-silent-thief-of-sight',
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',

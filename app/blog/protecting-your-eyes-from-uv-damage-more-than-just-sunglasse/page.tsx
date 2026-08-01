@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Protecting Your Eyes from UV Damage: More Than Just Sunglasses | Spark Eye Care',
-  description: 'Learn comprehensive strategies to protect your eyes from harmful UV radiation beyond sunglasses. Expert guidance from Spark Eye Care on preventing long-term eye damage.',
+  title: 'Protecting Your Eyes from UV Damage',
+  description: 'Learn comprehensive strategies to protect your eyes from harmful UV radiation beyond sunglasses. Expert guidance from Spark Eye Care on preventing long-term.',
+  alternates: { canonical: '/blog/protecting-your-eyes-from-uv-damage-more-than-just-sunglasse' },
   keywords: 'UV eye protection, UV damage prevention, eye health, sunglasses, UV radiation, eye care, Spark Eye Care',
 }
 

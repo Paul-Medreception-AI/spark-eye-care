@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Eye Allergies vs Dry Eye: How to Tell the Difference | Spark Eye Care',
-  description: 'Learn how to distinguish between eye allergies and dry eye syndrome. Understand the symptoms, causes, and treatments for each condition from the experts at Spark Eye Care.',
+  title: 'Eye Allergies vs Dry Eye: How to Tell the Difference',
+  description: 'Learn how to distinguish between eye allergies and dry eye syndrome. Understand the symptoms, causes, and treatments for each condition from the experts at.',
+  alternates: { canonical: '/blog/eye-allergies-vs-dry-eye-how-to-tell-the-difference' },
   keywords: 'eye allergies, dry eye, itchy eyes, watery eyes, red eyes, eye care, allergic conjunctivitis, dry eye syndrome',
 }
 

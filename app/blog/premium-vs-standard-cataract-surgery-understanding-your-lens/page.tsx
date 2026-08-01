@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Premium vs Standard Cataract Surgery: Understanding Your Lens Options | Spark Eye Care',
-  description: 'Comprehensive guide to choosing between premium and standard intraocular lenses for cataract surgery. Learn about lens options, benefits, costs, and which choice is right for your vision goals.',
+  title: 'Premium vs Standard Cataract Surgery',
+  description: 'Comprehensive guide to choosing between premium and standard intraocular lenses for cataract surgery.',
+  alternates: { canonical: '/blog/premium-vs-standard-cataract-surgery-understanding-your-lens' },
   keywords: 'cataract surgery, premium IOL, standard IOL, intraocular lens, monofocal lens, multifocal lens, toric lens, cataract treatment, vision correction',
   openGraph: {
     title: 'Premium vs Standard Cataract Surgery: Understanding Your Lens Options',
     description: 'Expert guidance on selecting the right intraocular lens for your cataract surgery',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
     authors: ['Spark Eye Care Clinical Team'],

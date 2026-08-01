@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Traditional Glaucoma Surgery vs MIGS: Comparing Your Options | Spark Eye Care',
-  description: 'Compare traditional glaucoma surgery and MIGS procedures side-by-side. Understand effectiveness, recovery time, risks, and costs to make an informed treatment decision.',
+  title: 'Traditional Glaucoma Surgery vs MIGS: Comparing Your Options',
+  description: 'Compare traditional glaucoma surgery and MIGS procedures side-by-side. Understand effectiveness, recovery time, risks, and costs to make an informed.',
+  alternates: { canonical: '/compare/traditional-glaucoma-surgery-vs-migs' },
   keywords: 'glaucoma surgery comparison, MIGS vs traditional surgery, trabeculectomy vs MIGS, glaucoma treatment options, minimally invasive glaucoma surgery',
   openGraph: {
     title: 'Traditional Glaucoma Surgery vs MIGS: Comparing Your Options',
     description: 'Expert comparison of glaucoma treatment options to help you make an informed decision.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/compare/traditional-glaucoma-surgery-vs-migs',
   }
 }

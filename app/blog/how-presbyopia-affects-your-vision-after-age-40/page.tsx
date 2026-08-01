@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How Presbyopia Affects Your Vision After Age 40 | Spark Eye Care',
-  description: 'Learn about presbyopia, the age-related vision change that affects reading and close-up tasks after 40. Discover symptoms, causes, and effective treatment options.',
+  title: 'How Presbyopia Affects Your Vision After Age 40',
+  description: 'Learn about presbyopia, the age-related vision change that affects reading and close-up tasks after 40.',
+  alternates: { canonical: '/blog/how-presbyopia-affects-your-vision-after-age-40' },
   keywords: 'presbyopia, vision after 40, reading glasses, age-related vision, eye health, vision changes, Spark Eye Care',
 }
 

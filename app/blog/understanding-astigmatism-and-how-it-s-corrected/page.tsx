@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Understanding Astigmatism and How It\'s Corrected | Spark Eye Care',
+  title: 'Understanding Astigmatism and How It\'s Corrected',
   description: 'Learn about astigmatism, its causes, symptoms, and modern correction options. Expert insights from Spark Eye Care on managing this common vision condition.',
+  alternates: { canonical: '/blog/understanding-astigmatism-and-how-it-s-corrected' },
   keywords: 'astigmatism, vision correction, eye care, eyeglasses, contact lenses, LASIK, blurry vision, eye health',
   openGraph: {
     title: 'Understanding Astigmatism and How It\'s Corrected',
     description: 'Comprehensive guide to astigmatism causes, symptoms, and treatment options from the experts at Spark Eye Care.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
     authors: ['Spark Eye Care Clinical Team'],

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Understanding Astigmatism and How It Affects Your Vision | Spark Eye Care',
+  title: 'Understanding Astigmatism and How It Affects Your Vision',
   description: 'Learn about astigmatism, its causes, symptoms, and treatment options. Expert insights from Spark Eye Care on managing this common vision condition.',
+  alternates: { canonical: '/blog/understanding-astigmatism-and-how-it-affects-your-vision' },
   openGraph: {
     title: 'Understanding Astigmatism and How It Affects Your Vision | Spark Eye Care',
     description: 'Learn about astigmatism, its causes, symptoms, and treatment options. Expert insights from Spark Eye Care on managing this common vision condition.',

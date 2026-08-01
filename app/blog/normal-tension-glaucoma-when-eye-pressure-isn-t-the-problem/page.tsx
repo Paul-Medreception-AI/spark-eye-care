@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Normal Tension Glaucoma: When Eye Pressure Isn\'t the Problem | Spark Eye Care',
-  description: 'Understanding normal tension glaucoma, a unique form of glaucoma that damages the optic nerve despite normal eye pressure. Learn symptoms, risk factors, and treatment options.',
+  title: 'Normal Tension Glaucoma: When Eye Pressure Isn\'t the Problem',
+  description: 'Understanding normal tension glaucoma, a unique form of glaucoma that damages the optic nerve despite normal eye pressure.',
+  alternates: { canonical: '/blog/normal-tension-glaucoma-when-eye-pressure-isn-t-the-problem' },
   keywords: 'normal tension glaucoma, low tension glaucoma, glaucoma without high pressure, optic nerve damage, eye health, glaucoma treatment',
 }
 

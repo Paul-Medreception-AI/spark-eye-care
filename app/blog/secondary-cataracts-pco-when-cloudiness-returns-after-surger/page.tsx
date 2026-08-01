@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Secondary Cataracts (PCO): When Cloudiness Returns After Surgery | Spark Eye Care',
-  description: 'Learn about posterior capsule opacification (PCO), why vision can become cloudy months or years after cataract surgery, and the simple laser treatment that restores clarity.',
+  title: 'Secondary Cataracts (PCO)',
+  description: 'Learn why vision can blur again after cataract surgery, what posterior capsule opacification is, and the simple laser treatment that restores clarity.',
+  alternates: { canonical: '/blog/secondary-cataracts-pco-when-cloudiness-returns-after-surger' },
 }
 
 export default function BlogPost() {

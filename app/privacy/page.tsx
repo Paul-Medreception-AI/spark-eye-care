@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Privacy Policy | Spark Eye Care',
   description: 'Privacy Policy for Spark Eye Care - Learn how we collect, use, and protect your information.',
+  alternates: { canonical: '/privacy' },
 }
 
 export default function PrivacyPage() {

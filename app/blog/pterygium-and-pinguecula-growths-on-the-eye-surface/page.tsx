@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Pterygium and Pinguecula: Growths on the Eye Surface | Spark Eye Care',
-  description: 'Learn about pterygium and pinguecula, common eye surface growths caused by UV exposure. Discover symptoms, treatment options, and prevention strategies from our expert team.',
+  title: 'Pterygium and Pinguecula: Growths on the Eye Surface',
+  description: 'Learn about pterygium and pinguecula, common growths on the eye surface. Understand causes, symptoms, treatment options, and prevention.',
+  alternates: { canonical: '/blog/pterygium-and-pinguecula-growths-on-the-eye-surface' },
   openGraph: {
     title: 'Pterygium and Pinguecula: Growths on the Eye Surface | Spark Eye Care',
     description: 'Learn about pterygium and pinguecula, common eye surface growths caused by UV exposure. Discover symptoms, treatment options, and prevention strategies from our expert team.',
+    images: ['/og-image.png'],
     url: 'https://sparkeyetx.com/blog/pterygium-and-pinguecula-growths-on-the-eye-surface',
     siteName: 'Spark Eye Care',
     locale: 'en_US',

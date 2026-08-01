@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Meibomian Gland Dysfunction: A Major Cause of Dry Eye | Spark Eye Care',
-  description: 'Learn about Meibomian Gland Dysfunction (MGD), a leading cause of dry eye disease. Discover symptoms, causes, treatment options, and how to protect your eye health.',
+  title: 'Meibomian Gland Dysfunction: A Major Cause of Dry Eye',
+  description: 'Learn about Meibomian Gland Dysfunction (MGD), a leading cause of dry eye disease. Discover symptoms, causes, treatment options, and how to protect your eye.',
+  alternates: { canonical: '/blog/meibomian-gland-dysfunction-a-major-cause-of-dry-eye' },
   keywords: 'meibomian gland dysfunction, MGD, dry eye, eye care, tear film, blepharitis, eye health',
   openGraph: {
     title: 'Meibomian Gland Dysfunction: A Major Cause of Dry Eye',
     description: 'Comprehensive guide to understanding and managing Meibomian Gland Dysfunction, a primary cause of dry eye symptoms.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   },

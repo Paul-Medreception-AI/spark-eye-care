@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Role of Nutrition in Eye Health and Disease Prevention | Spark Eye Care',
-  description: 'Discover how proper nutrition can protect your vision and prevent eye diseases. Learn which nutrients, vitamins, and foods support long-term eye health from our expert care team.',
+  title: 'The Role of Nutrition in Eye Health and Disease Prevention',
+  description: 'Discover how nutrition supports eye health. Learn which vitamins, nutrients, and foods help protect your long-term vision.',
+  alternates: { canonical: '/blog/the-role-of-nutrition-in-eye-health-and-disease-prevention' },
   openGraph: {
     title: 'The Role of Nutrition in Eye Health and Disease Prevention | Spark Eye Care',
     description: 'Discover how proper nutrition can protect your vision and prevent eye diseases. Learn which nutrients, vitamins, and foods support long-term eye health from our expert care team.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2025-01-15T08:00:00Z',
     authors: ['Spark Eye Care Clinical Team'],

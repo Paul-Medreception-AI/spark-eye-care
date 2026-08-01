@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'Patient Reviews & Testimonials | Spark Eye Care',
-  description: 'Read what our patients say about Dr. Andrew Plummer and Spark Eye Care. See real testimonials from cataract surgery, glaucoma treatment, and comprehensive eye care patients in Kyle, Texas.',
+  description: 'Read what patients say about Dr. Andrew Plummer and Spark Eye Care. Real testimonials from cataract surgery, glaucoma, and eye care patients in Kyle, Texas.',
+  alternates: { canonical: '/reviews' },
 }
 
 export default function ReviewsPage() {

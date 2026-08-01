@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'The Link Between Diabetes and Vision Loss | Spark Eye Care',
-  description: 'Learn how diabetes affects your vision, the connection between high blood sugar and eye disease, and what you can do to protect your sight from diabetic retinopathy.',
+  description: 'Learn how diabetes affects your vision, the connection between high blood sugar and eye disease, and what you can do to protect your sight from diabetic.',
+  alternates: { canonical: '/blog/the-link-between-diabetes-and-vision-loss' },
   keywords: 'diabetes vision loss, diabetic retinopathy, diabetes eye disease, high blood sugar vision, diabetes blindness prevention',
   openGraph: {
     title: 'The Link Between Diabetes and Vision Loss | Spark Eye Care',
     description: 'Learn how diabetes affects your vision, the connection between high blood sugar and eye disease, and what you can do to protect your sight from diabetic retinopathy.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2025-01-15T09:00:00Z',
   }

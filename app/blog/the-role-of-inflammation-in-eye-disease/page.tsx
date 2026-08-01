@@ -3,10 +3,12 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'The Role of Inflammation in Eye Disease | Spark Eye Care',
   description: 'Learn how inflammation affects eye health, common inflammatory eye conditions, and evidence-based strategies to protect your vision from chronic inflammation.',
+  alternates: { canonical: '/blog/the-role-of-inflammation-in-eye-disease' },
   keywords: 'eye inflammation, uveitis, dry eye disease, inflammatory eye conditions, eye health, chronic inflammation, ocular inflammation',
   openGraph: {
     title: 'The Role of Inflammation in Eye Disease | Spark Eye Care',
     description: 'Learn how inflammation affects eye health, common inflammatory eye conditions, and evidence-based strategies to protect your vision from chronic inflammation.',
+    images: ['/og-image.png'],
     type: 'article',
     url: 'https://sparkeyetx.com/blog/the-role-of-inflammation-in-eye-disease',
   }

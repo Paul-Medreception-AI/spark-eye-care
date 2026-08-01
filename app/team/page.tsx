@@ -3,7 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Meet Dr. Andrew Plummer | Board-Certified Ophthalmologist | Kyle, TX',
+  title: 'Dr. Andrew Plummer, Ophthalmologist | Spark Eye Care',
   description: 'Dr. Andrew Plummer, MD is a board-certified eye physician and surgeon serving Kyle and Central Texas. Cataract, refractive, and glaucoma specialist.',
   alternates: { canonical: '/team' },
 }

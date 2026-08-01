@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Connection Between High Blood Pressure and Eye Health | Spark Eye Care',
+  title: 'The Connection Between High Blood Pressure and Eye Health',
   description: 'Learn how high blood pressure affects your vision and eye health. Discover the risks of hypertensive retinopathy and steps to protect your eyes from damage.',
+  alternates: { canonical: '/blog/the-connection-between-high-blood-pressure-and-eye-health' },
   keywords: 'high blood pressure eye health, hypertensive retinopathy, blood pressure vision problems, eye damage hypertension, retinal blood vessels',
 }
 

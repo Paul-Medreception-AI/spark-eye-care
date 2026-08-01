@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Computer Vision Syndrome: Protecting Your Eyes in the Digital Age | Spark Eye Care',
-  description: 'Learn about computer vision syndrome, its symptoms, causes, and evidence-based strategies to protect your eyes from digital eye strain in our screen-dominated world.',
+  title: 'Computer Vision Syndrome: Protecting Your Eyes',
+  description: 'Learn about computer vision syndrome, its symptoms, causes, and evidence-based strategies to protect your eyes from digital eye strain in our.',
+  alternates: { canonical: '/blog/computer-vision-syndrome-protecting-your-eyes-in-the-digital' },
   keywords: 'computer vision syndrome, digital eye strain, eye health, screen time, eye care, blue light, eye fatigue, Spark Eye Care',
   openGraph: {
     title: 'Computer Vision Syndrome: Protecting Your Eyes in the Digital Age',
     description: 'Expert guidance on preventing and managing digital eye strain from the team at Spark Eye Care.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2025-01-15T09:00:00Z',
   },

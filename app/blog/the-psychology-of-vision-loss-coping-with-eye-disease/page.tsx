@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Psychology of Vision Loss: Coping with Eye Disease | Spark Eye Care',
-  description: 'Understanding the emotional impact of vision loss and eye disease. Learn evidence-based coping strategies and how to maintain mental wellness during your eye health journey.',
+  title: 'The Psychology of Vision Loss: Coping with Eye Disease',
+  description: 'Understanding the emotional impact of vision loss and eye disease. Learn evidence-based coping strategies and how to maintain mental wellness during your eye.',
+  alternates: { canonical: '/blog/the-psychology-of-vision-loss-coping-with-eye-disease' },
   openGraph: {
     title: 'The Psychology of Vision Loss: Coping with Eye Disease | Spark Eye Care',
     description: 'Understanding the emotional impact of vision loss and eye disease. Learn evidence-based coping strategies and how to maintain mental wellness during your eye health journey.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/the-psychology-of-vision-loss-coping-with-eye-disease',
     siteName: 'Spark Eye Care',
     locale: 'en_US',

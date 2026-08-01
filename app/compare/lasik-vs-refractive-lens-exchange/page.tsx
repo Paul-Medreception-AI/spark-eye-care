@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'LASIK vs Refractive Lens Exchange: Which Vision Correction Is Right for You? | Spark Eye Care',
-  description: 'Compare LASIK and Refractive Lens Exchange side-by-side. Learn about effectiveness, recovery, cost, and which vision correction procedure is best for your needs.',
+  title: 'LASIK vs Refractive Lens Exchange',
+  description: 'Compare LASIK and Refractive Lens Exchange side-by-side. Learn about effectiveness, recovery, cost, and which vision correction procedure fits you.',
+  alternates: { canonical: '/compare/lasik-vs-refractive-lens-exchange' },
 }
 
 export default function LASIKvsRLEPage() {

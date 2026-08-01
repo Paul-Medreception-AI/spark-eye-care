@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What to Expect During Cataract Surgery Recovery | Spark Eye Care',
+  title: 'What to Expect During Cataract Surgery Recovery',
   description: 'A comprehensive guide to cataract surgery recovery, including timeline, do\'s and don\'ts, potential complications, and tips for optimal healing.',
+  alternates: { canonical: '/blog/what-to-expect-during-cataract-surgery-recovery' },
   keywords: 'cataract surgery recovery, post-cataract care, eye surgery healing, cataract surgery timeline, vision recovery',
 }
 

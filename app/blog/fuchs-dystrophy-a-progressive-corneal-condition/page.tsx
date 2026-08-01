@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Fuchs' Dystrophy: A Progressive Corneal Condition | Spark Eye Care",
-  description: "Learn about Fuchs' dystrophy, a progressive corneal condition that affects vision. Understand symptoms, causes, treatment options, and when to seek care from eye specialists.",
+  title: 'Fuchs\' Dystrophy: A Progressive Corneal Condition',
+  description: 'Understand Fuchs’ dystrophy, a progressive corneal condition. Learn about symptoms, treatment options, and when to seek care.',
+  alternates: { canonical: '/blog/fuchs-dystrophy-a-progressive-corneal-condition' },
   keywords: "Fuchs dystrophy, corneal dystrophy, corneal endothelium, corneal edema, vision problems, eye disease, corneal transplant, DSEK, DMEK",
   openGraph: {
     title: "Fuchs' Dystrophy: A Progressive Corneal Condition",
     description: "Comprehensive guide to understanding Fuchs' dystrophy, its progression, and modern treatment approaches.",
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   }

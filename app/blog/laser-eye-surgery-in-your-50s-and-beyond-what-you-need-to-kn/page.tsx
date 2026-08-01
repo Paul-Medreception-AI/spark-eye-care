@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Laser Eye Surgery in Your 50s and Beyond: What You Need to Know | Spark Eye Care',
-  description: 'Considering laser eye surgery after 50? Learn about candidacy, presbyopia considerations, safety, and what to expect from LASIK and other vision correction procedures in your 50s, 60s, and beyond.',
+  title: 'Laser Eye Surgery in Your 50s and Beyond',
+  description: 'Considering laser eye surgery after 50? Learn about candidacy, presbyopia considerations, safety, and what to expect from LASIK and other vision correction.',
+  alternates: { canonical: '/blog/laser-eye-surgery-in-your-50s-and-beyond-what-you-need-to-kn' },
   openGraph: {
     title: 'Laser Eye Surgery in Your 50s and Beyond: What You Need to Know',
     description: 'Expert guidance on laser vision correction for patients over 50, including candidacy factors, presbyopia solutions, and safety considerations.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2025-01-15T09:00:00Z',
   },

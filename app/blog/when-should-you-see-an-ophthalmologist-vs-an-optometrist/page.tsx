@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'When Should You See an Ophthalmologist vs an Optometrist? | Spark Eye Care',
-  description: 'Learn the key differences between ophthalmologists and optometrists, and discover which eye care specialist is right for your specific vision needs and conditions.',
+  title: 'When Should You See an Ophthalmologist vs an Optometrist?',
+  description: 'Understand the difference between an ophthalmologist and an optometrist, and learn which eye care provider is right for your vision needs.',
+  alternates: { canonical: '/blog/when-should-you-see-an-ophthalmologist-vs-an-optometrist' },
   openGraph: {
     title: 'When Should You See an Ophthalmologist vs an Optometrist? | Spark Eye Care',
     description: 'Learn the key differences between ophthalmologists and optometrists, and discover which eye care specialist is right for your specific vision needs and conditions.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/when-should-you-see-an-ophthalmologist-vs-an-optometrist',
     type: 'article',
   },

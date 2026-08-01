@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Diabetic Eye Disease: Why Regular Screenings Can Save Your Sight | Spark Eye Care',
+  title: 'Diabetic Eye Disease and Regular Screenings',
   description: 'Learn how diabetes affects your vision and why regular eye screenings are critical for preventing diabetic retinopathy, macular edema, and vision loss.',
+  alternates: { canonical: '/blog/diabetic-eye-disease-why-regular-screenings-can-save-your-si' },
   openGraph: {
     title: 'Diabetic Eye Disease: Why Regular Screenings Can Save Your Sight',
     description: 'Learn how diabetes affects your vision and why regular eye screenings are critical for preventing diabetic retinopathy, macular edema, and vision loss.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/diabetic-eye-disease-why-regular-screenings-can-save-your-si',
     type: 'article',
   },

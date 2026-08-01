@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What Is Ocular Hypertension and Why It Matters | Spark Eye Care',
-  description: 'Learn about ocular hypertension, elevated eye pressure that can lead to glaucoma. Understand risk factors, symptoms, and why regular eye exams are critical for prevention.',
+  title: 'What Is Ocular Hypertension and Why It Matters',
+  description: 'Learn about ocular hypertension, elevated eye pressure that can lead to glaucoma. Understand risk factors, symptoms, and why regular eye exams are critical.',
+  alternates: { canonical: '/blog/what-is-ocular-hypertension-and-why-it-matters' },
   keywords: 'ocular hypertension, high eye pressure, glaucoma prevention, IOP, intraocular pressure, eye health',
   openGraph: {
     title: 'What Is Ocular Hypertension and Why It Matters',
     description: 'Understanding elevated eye pressure and its link to glaucoma. Expert guidance from Spark Eye Care.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T00:00:00Z',
   }

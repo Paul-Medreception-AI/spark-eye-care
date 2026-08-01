@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Floaters and Flashes: When to Worry About These Vision Changes | Spark Eye Care',
+  title: 'Floaters and Flashes: When to Worry About These Vision',
   description: 'Learn when eye floaters and flashes are harmless and when they signal a serious problem requiring urgent care. Expert guidance from Spark Eye Care.',
+  alternates: { canonical: '/blog/floaters-and-flashes-when-to-worry-about-these-vision-change' },
   keywords: 'eye floaters, flashes of light, vision changes, retinal detachment, vitreous detachment, eye health, when to see eye doctor',
   openGraph: {
     title: 'Floaters and Flashes: When to Worry About These Vision Changes',
     description: 'Learn when eye floaters and flashes are harmless and when they signal a serious problem requiring urgent care.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/floaters-and-flashes-when-to-worry-about-these-vision-change',
     type: 'article',
   },

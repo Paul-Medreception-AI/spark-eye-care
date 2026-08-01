@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Eye Doctor Serving San Marcos, TX | Spark Eye Care',
     description: 'Cataract, LASIK, and glaucoma care for San Marcos patients, just 20 minutes up I-35 in Kyle.',
-    url: 'https://sparkeyetx.com/locations/san-marcos-tx',
+    images: ['/og-image.png'],
+    url: 'https://www.sparkeyetx.com/locations/san-marcos-tx',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',

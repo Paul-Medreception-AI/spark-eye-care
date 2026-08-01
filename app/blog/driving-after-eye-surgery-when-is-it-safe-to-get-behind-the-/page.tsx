@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Driving After Eye Surgery: When Is It Safe to Get Behind the Wheel? | Spark Eye Care',
-  description: 'Learn when it\'s safe to drive after cataract surgery, LASIK, and other eye procedures. Expert guidance on recovery timelines and safety considerations from Spark Eye Care.',
+  title: 'Driving After Eye Surgery',
+  description: 'Learn when it\'s safe to drive after cataract surgery, LASIK, and other eye procedures. Expert guidance on recovery timelines and safety.',
+  alternates: { canonical: '/blog/driving-after-eye-surgery-when-is-it-safe-to-get-behind-the-' },
   openGraph: {
     title: 'Driving After Eye Surgery: When Is It Safe to Get Behind the Wheel?',
     description: 'Expert guidance on when you can safely resume driving after eye surgery.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/driving-after-eye-surgery-when-is-it-safe-to-get-behind-the-wheel',
   },
 }

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Macular Degeneration: Risk Factors and Prevention Strategies | Spark Eye Care',
+  title: 'Macular Degeneration: Risk Factors and Prevention Strategies',
   description: 'Learn about age-related macular degeneration risk factors, warning signs, and evidence-based prevention strategies to protect your vision and eye health.',
+  alternates: { canonical: '/blog/macular-degeneration-risk-factors-and-prevention-strategies' },
   keywords: 'macular degeneration, AMD, age-related macular degeneration, vision loss, eye health, retina health, vision prevention',
   openGraph: {
     title: 'Macular Degeneration: Risk Factors and Prevention Strategies',

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Choosing an Eye Surgeon: What Questions to Ask | Spark Eye Care',
-  description: 'Learn the essential questions to ask when selecting an eye surgeon. Expert guidance on qualifications, experience, and what to look for in a surgical eye care provider.',
+  title: 'Choosing an Eye Surgeon: What Questions to Ask',
+  description: 'Learn the essential questions to ask when selecting an eye surgeon. Expert guidance on qualifications, experience, and what to look for in a surgical eye.',
+  alternates: { canonical: '/blog/choosing-an-eye-surgeon-what-questions-to-ask' },
   openGraph: {
     title: 'Choosing an Eye Surgeon: What Questions to Ask | Spark Eye Care',
     description: 'Learn the essential questions to ask when selecting an eye surgeon. Expert guidance on qualifications, experience, and what to look for in a surgical eye care provider.',

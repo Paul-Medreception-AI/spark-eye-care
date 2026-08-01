@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   verification: { google: 'LuGhchyZ3HBaRJ5YBT02tuPlnyDpWG6OyWknylN4Xpo' },
   title: "Spark Eye Care | Advanced Surgical Eye Care with a Personal Touch",
   description: "Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision. From cataract surgery to glaucoma treatment, we deliver world-class results close to home.",
-  metadataBase: new URL('https://sparkeyetx.com'),
+  metadataBase: new URL('https://www.sparkeyetx.com'),
+  alternates: { canonical: '/' },
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -25,6 +26,12 @@ export const metadata: Metadata = {
     apple: '/favicon.png'
   },
   openGraph: {
+    title: "Spark Eye Care | Advanced Surgical Eye Care with a Personal Touch",
+    description: "Dr. Andrew Plummer combines cutting-edge technology with personalized care to restore and protect your vision, from cataract surgery to glaucoma treatment.",
+    url: 'https://www.sparkeyetx.com',
+    siteName: 'Spark Eye Care',
+    locale: 'en_US',
+    type: 'website',
     images: ['/og-image.png']
   }
 }

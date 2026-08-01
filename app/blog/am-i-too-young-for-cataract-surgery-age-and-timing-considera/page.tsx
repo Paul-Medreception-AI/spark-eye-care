@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Am I Too Young for Cataract Surgery? Age and Timing Considerations | Spark Eye Care',
+  title: 'Am I Too Young for Cataract Surgery?',
   description: 'Cataracts aren\'t just for seniors. Learn about age factors, timing considerations, and when cataract surgery makes sense regardless of your age.',
+  alternates: { canonical: '/blog/am-i-too-young-for-cataract-surgery-age-and-timing-considera' },
   keywords: 'cataract surgery age, young cataracts, early cataract surgery, cataract timing, age-related cataracts',
 }
 

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Preparing for Eye Surgery: What You Need to Know Before Your Procedure | Spark Eye Care',
-  description: 'Comprehensive guide to preparing for eye surgery. Learn what to expect, how to prepare, and tips for a smooth recovery from the eye care experts at Spark Eye Care.',
+  title: 'Preparing for Eye Surgery',
+  description: 'Comprehensive guide to preparing for eye surgery. Learn what to expect, how to prepare, and tips for a smooth recovery from the eye care experts at Spark Eye.',
+  alternates: { canonical: '/blog/preparing-for-eye-surgery-what-you-need-to-know-before-your-' },
   keywords: 'eye surgery preparation, pre-surgery checklist, cataract surgery prep, LASIK preparation, eye surgery recovery, surgical eye care',
 }
 

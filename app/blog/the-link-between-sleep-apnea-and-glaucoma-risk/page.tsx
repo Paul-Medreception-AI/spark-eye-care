@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Link Between Sleep Apnea and Glaucoma Risk | Spark Eye Care',
-  description: 'Discover the important connection between sleep apnea and glaucoma risk. Learn how sleep disorders may impact your eye health and what you can do to protect your vision.',
+  title: 'The Link Between Sleep Apnea and Glaucoma Risk',
+  description: 'Discover the important connection between sleep apnea and glaucoma risk. Learn how sleep disorders may impact your eye health and what you can do to protect.',
+  alternates: { canonical: '/blog/the-link-between-sleep-apnea-and-glaucoma-risk' },
   keywords: 'sleep apnea, glaucoma, eye health, vision loss, sleep disorders, optic nerve damage, eye pressure',
 }
 

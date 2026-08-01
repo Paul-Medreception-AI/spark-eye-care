@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Should You Be Worried About Eye Floaters? | Spark Eye Care',
-  description: 'Learn when eye floaters are harmless and when they require immediate medical attention. Expert guidance from Spark Eye Care on recognizing warning signs and protecting your vision.',
+  description: 'Are eye floaters harmless or a warning sign? Get expert guidance from Spark Eye Care on recognizing warning signs and when to seek care.',
+  alternates: { canonical: '/blog/should-you-be-worried-about-eye-floaters' },
   openGraph: {
     title: 'Should You Be Worried About Eye Floaters? | Spark Eye Care',
     description: 'Learn when eye floaters are harmless and when they require immediate medical attention. Expert guidance from Spark Eye Care on recognizing warning signs and protecting your vision.',

@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Corneal Abrasions: Causes, Treatment, and Healing Time | Spark Eye Care',
+  title: 'Corneal Abrasions: Causes, Treatment, and Healing Time',
   description: 'Learn about corneal abrasions, including common causes, treatment options, healing timelines, and when to seek professional care from an eye specialist.',
+  alternates: { canonical: '/blog/corneal-abrasions-causes-treatment-and-healing-time' },
   openGraph: {
     title: 'Corneal Abrasions: Causes, Treatment, and Healing Time',
     description: 'Expert guide to understanding and treating corneal abrasions from the team at Spark Eye Care.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   }

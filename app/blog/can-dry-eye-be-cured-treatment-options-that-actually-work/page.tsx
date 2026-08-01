@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Can Dry Eye Be Cured? Treatment Options That Actually Work | Spark Eye Care',
-  description: 'Discover evidence-based dry eye treatments that provide real relief. Learn about causes, symptoms, and effective management strategies from eye care specialists.',
+  title: 'Can Dry Eye Be Cured? Treatment Options That Actually Work',
+  description: 'Discover evidence-based dry eye treatments that provide real relief. Learn about causes, symptoms, and effective management strategies from eye care.',
+  alternates: { canonical: '/blog/can-dry-eye-be-cured-treatment-options-that-actually-work' },
   openGraph: {
     title: 'Can Dry Eye Be Cured? Treatment Options That Actually Work',
     description: 'Discover evidence-based dry eye treatments that provide real relief. Learn about causes, symptoms, and effective management strategies from eye care specialists.',

@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Children's Vision and When Kids Need Eye Exams | Spark Eye Care",
-  description: "Learn when children should have their first eye exam, signs of vision problems in kids, and why early detection is crucial for healthy development and academic success.",
+  title: 'Children\'s Vision and When Kids Need Eye Exams',
+  description: 'Learn when kids need eye exams and why early detection is crucial for healthy visual development and success in school.',
+  alternates: { canonical: '/blog/children-s-vision-and-when-kids-need-eye-exams' },
   keywords: "children's vision, pediatric eye exam, kids eye health, vision screening, child eye care, school vision problems",
   openGraph: {
     title: "Children's Vision and When Kids Need Eye Exams | Spark Eye Care",
     description: "Expert guidance on protecting your child's vision through timely eye exams and early detection of vision problems.",
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   }

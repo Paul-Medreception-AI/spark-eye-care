@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How Often Should You Get an Eye Exam? | Spark Eye Care',
   description: 'Learn how frequently you should schedule comprehensive eye exams based on your age, health, and risk factors. Expert guidance from the Spark Eye Care team.',
+  alternates: { canonical: '/blog/how-often-should-you-get-an-eye-exam' },
   keywords: 'eye exam frequency, comprehensive eye exam, vision screening, eye health, preventive eye care, annual eye exam',
   openGraph: {
     title: 'How Often Should You Get an Eye Exam? | Spark Eye Care',

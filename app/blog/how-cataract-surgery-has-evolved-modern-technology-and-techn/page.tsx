@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How Cataract Surgery Has Evolved: Modern Technology and Techniques | Spark Eye Care',
-  description: 'Discover how advanced technology and modern techniques have transformed cataract surgery into a safe, precise procedure with faster recovery and better outcomes.',
+  title: 'How Cataract Surgery Has Evolved',
+  description: 'Discover how advanced technology and modern techniques have transformed cataract surgery into a safe, precise procedure with faster recovery and better.',
+  alternates: { canonical: '/blog/how-cataract-surgery-has-evolved-modern-technology-and-techn' },
   openGraph: {
     title: 'How Cataract Surgery Has Evolved: Modern Technology and Techniques',
     description: 'Discover how advanced technology and modern techniques have transformed cataract surgery into a safe, precise procedure with faster recovery and better outcomes.',

@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What to Expect During Cataract Surgery: A Complete Guide | Spark Eye Care',
+  title: 'What to Expect During Cataract Surgery: A Complete Guide',
   description: 'Comprehensive patient guide to cataract surgery. Learn about the procedure, preparation, recovery, and what to expect before, during, and after surgery.',
+  alternates: { canonical: '/blog/what-to-expect-during-cataract-surgery-a-complete-guide' },
   keywords: 'cataract surgery, eye surgery, cataract removal, phacoemulsification, intraocular lens, IOL, vision restoration, eye health',
   openGraph: {
     title: 'What to Expect During Cataract Surgery: A Complete Guide',
     description: 'Expert guidance on cataract surgery from preparation through recovery.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   }

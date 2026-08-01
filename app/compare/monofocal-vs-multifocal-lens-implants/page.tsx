@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Monofocal vs Multifocal Lens Implants: Choosing the Best IOL for Your Lifestyle | Spark Eye Care',
-  description: 'Compare monofocal and multifocal IOLs for cataract surgery. Learn about effectiveness, side effects, costs, and which lens implant best fits your lifestyle and vision goals.',
+  title: 'Monofocal vs Multifocal Lens Implants',
+  description: 'Compare monofocal and multifocal IOLs for cataract surgery. Learn about effectiveness, side effects, costs, and which lens implant best fits your lifestyle.',
+  alternates: { canonical: '/compare/monofocal-vs-multifocal-lens-implants' },
   keywords: 'monofocal vs multifocal, IOL comparison, lens implants, cataract surgery options, premium IOL, best lens implant, multifocal lenses',
 }
 

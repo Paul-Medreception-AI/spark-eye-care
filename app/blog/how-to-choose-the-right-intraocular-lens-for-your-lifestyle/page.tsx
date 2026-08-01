@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How to Choose the Right Intraocular Lens for Your Lifestyle | Spark Eye Care',
-  description: 'Learn how to select the best intraocular lens (IOL) for cataract surgery based on your lifestyle, vision needs, and daily activities. Expert guidance from Spark Eye Care.',
+  title: 'How to Choose the Right Intraocular Lens for Your Lifestyle',
+  description: 'Learn how to select the best intraocular lens (IOL) for cataract surgery based on your lifestyle, vision needs, and daily activities.',
+  alternates: { canonical: '/blog/how-to-choose-the-right-intraocular-lens-for-your-lifestyle' },
   keywords: 'intraocular lens, IOL selection, cataract surgery, lens implant, monofocal lens, multifocal lens, toric lens, lifestyle vision',
   openGraph: {
     title: 'How to Choose the Right Intraocular Lens for Your Lifestyle',
     description: 'Learn how to select the best intraocular lens (IOL) for cataract surgery based on your lifestyle, vision needs, and daily activities.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/how-to-choose-the-right-intraocular-lens-for-your-lifestyle',
     type: 'article',
     publishedTime: '2025-01-15T09:00:00Z',

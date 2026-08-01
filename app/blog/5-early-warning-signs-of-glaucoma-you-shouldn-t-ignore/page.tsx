@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '5 Early Warning Signs of Glaucoma You Shouldn\'t Ignore | Spark Eye Care',
+  title: '5 Early Warning Signs of Glaucoma You Shouldn\'t Ignore',
   description: 'Learn to recognize the subtle early warning signs of glaucoma before vision loss occurs. Expert guidance from Spark Eye Care on protecting your sight.',
+  alternates: { canonical: '/blog/5-early-warning-signs-of-glaucoma-you-shouldn-t-ignore' },
   openGraph: {
     title: '5 Early Warning Signs of Glaucoma You Shouldn\'t Ignore',
     description: 'Learn to recognize the subtle early warning signs of glaucoma before vision loss occurs.',
+    images: ['/og-image.png'],
     type: 'article',
   },
 }

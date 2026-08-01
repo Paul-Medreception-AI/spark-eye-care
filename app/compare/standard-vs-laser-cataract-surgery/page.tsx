@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Standard Cataract Surgery vs Laser-Assisted: What\'s the Difference? | Spark Eye Care',
-  description: 'Compare standard cataract surgery and laser-assisted techniques. Learn about effectiveness, costs, recovery, and which option is right for you at Spark Eye Care.',
+  title: 'Standard Cataract Surgery vs Laser-Assisted',
+  description: 'Compare standard cataract surgery and laser-assisted techniques. Learn about effectiveness, costs, recovery, and which option is right for you at Spark Eye.',
+  alternates: { canonical: '/compare/standard-vs-laser-cataract-surgery' },
   openGraph: {
     title: 'Standard Cataract Surgery vs Laser-Assisted | Spark Eye Care',
     description: 'Expert comparison of cataract surgery options to help you make an informed treatment decision.',
+    images: ['/og-image.png'],
   }
 }
 

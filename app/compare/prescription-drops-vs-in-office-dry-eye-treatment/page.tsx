@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Prescription Eye Drops vs In-Office Dry Eye Treatments | Spark Eye Care',
-  description: 'Compare prescription eye drops and in-office dry eye treatments. Understand effectiveness, costs, side effects, and which option is right for your chronic dry eye.',
+  title: 'Prescription Eye Drops vs In-Office Dry Eye Treatments',
+  description: 'Compare prescription eye drops and in-office dry eye treatments. Understand effectiveness, costs, side effects, and which option is right for your chronic.',
+  alternates: { canonical: '/compare/prescription-drops-vs-in-office-dry-eye-treatment' },
   openGraph: {
     title: 'Prescription Eye Drops vs In-Office Dry Eye Treatments | Spark Eye Care',
     description: 'Expert comparison to help you choose the best dry eye treatment for your needs.',
+    images: ['/og-image.png'],
     url: 'https://sparkeyetx.com/compare/prescription-drops-vs-in-office-dry-eye-treatment',
   },
 }

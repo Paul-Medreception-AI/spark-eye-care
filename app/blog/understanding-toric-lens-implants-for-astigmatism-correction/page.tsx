@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Understanding Toric Lens Implants for Astigmatism Correction | Spark Eye Care',
+  title: 'Understanding Toric Lens Implants for Astigmatism Correction',
   description: 'Learn how toric lens implants correct astigmatism during cataract surgery, who they benefit, and what to expect from this advanced vision correction technology.',
+  alternates: { canonical: '/blog/understanding-toric-lens-implants-for-astigmatism-correction' },
   openGraph: {
     title: 'Understanding Toric Lens Implants for Astigmatism Correction',
     description: 'Comprehensive guide to toric IOLs for astigmatism correction during cataract surgery.',
+    images: ['/og-image.png'],
     url: 'https://sparkeyetx.com/blog/understanding-toric-lens-implants-for-astigmatism-correction',
   },
 }

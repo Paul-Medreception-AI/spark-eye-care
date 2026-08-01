@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Preparing for Your First Ophthalmology Appointment | Spark Eye Care',
-  description: 'Learn how to prepare for your first eye exam with our comprehensive guide. Discover what to bring, questions to ask, and what to expect during your ophthalmology appointment.',
+  title: 'Preparing for Your First Ophthalmology Appointment',
+  description: 'Know what to bring, which questions to ask, and what to expect during your first ophthalmology appointment at Spark Eye Care.',
+  alternates: { canonical: '/blog/preparing-for-your-first-ophthalmology-appointment' },
   keywords: 'ophthalmology appointment, first eye exam, eye doctor visit, prepare for eye appointment, eye care',
   openGraph: {
     title: 'Preparing for Your First Ophthalmology Appointment | Spark Eye Care',
     description: 'Learn how to prepare for your first eye exam with our comprehensive guide. Discover what to bring, questions to ask, and what to expect during your ophthalmology appointment.',
+    images: ['/og-image.png'],
     type: 'article',
     url: 'https://sparkeyetx.com/blog/preparing-for-your-first-ophthalmology-appointment',
   }

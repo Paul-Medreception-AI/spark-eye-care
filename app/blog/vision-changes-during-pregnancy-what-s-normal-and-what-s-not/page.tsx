@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Vision Changes During Pregnancy: What\'s Normal and What\'s Not | Spark Eye Care',
+  title: 'Vision Changes During Pregnancy',
   description: 'Learn about common vision changes during pregnancy, warning signs to watch for, and when to seek professional eye care. Expert guidance from Spark Eye Care.',
+  alternates: { canonical: '/blog/vision-changes-during-pregnancy-what-s-normal-and-what-s-not' },
   keywords: 'pregnancy vision changes, blurred vision pregnancy, eye health pregnancy, gestational diabetes vision, preeclampsia vision symptoms',
 }
 

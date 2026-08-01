@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Protecting Your Eyes from UV Damage: More Than Sunglasses | Spark Eye Care',
+  title: 'Protecting Your Eyes from UV Damage: More Than Sunglasses',
   description: 'Learn how UV radiation affects your eyes and discover comprehensive protection strategies beyond sunglasses. Expert guidance from Spark Eye Care.',
+  alternates: { canonical: '/blog/protecting-your-eyes-from-uv-damage-more-than-sunglasses' },
   openGraph: {
     title: 'Protecting Your Eyes from UV Damage: More Than Sunglasses',
     description: 'Learn how UV radiation affects your eyes and discover comprehensive protection strategies beyond sunglasses.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2025-01-15T00:00:00Z',
   }

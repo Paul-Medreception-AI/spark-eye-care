@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Insurance Coverage for Eye Surgery: What You Need to Know | Spark Eye Care',
+  title: 'Insurance Coverage for Eye Surgery: What You Need to Know',
   description: 'Navigate eye surgery insurance with confidence. Learn what procedures are covered, how to verify benefits, maximize reimbursement, and avoid unexpected costs.',
+  alternates: { canonical: '/blog/insurance-coverage-for-eye-surgery-what-you-need-to-know' },
   keywords: 'eye surgery insurance, vision insurance coverage, cataract surgery insurance, refractive surgery coverage, medical vs vision insurance, eye surgery costs',
   openGraph: {
     title: 'Insurance Coverage for Eye Surgery: What You Need to Know',

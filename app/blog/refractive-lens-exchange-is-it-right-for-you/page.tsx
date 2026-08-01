@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Refractive Lens Exchange: Is It Right for You? | Spark Eye Care',
-  description: 'Considering refractive lens exchange? Learn about RLE surgery, ideal candidates, benefits, risks, and whether this vision correction procedure is the right choice for you.',
+  title: 'Refractive Lens Exchange: Is It Right for You?',
+  description: 'Considering refractive lens exchange? Learn about RLE surgery, ideal candidates, benefits, risks, and whether this vision correction procedure is the right.',
+  alternates: { canonical: '/blog/refractive-lens-exchange-is-it-right-for-you' },
   keywords: 'refractive lens exchange, RLE surgery, vision correction, presbyopia treatment, lens replacement, cataract surgery alternative',
   openGraph: {
     title: 'Refractive Lens Exchange: Is It Right for You?',
     description: 'Expert guide to understanding refractive lens exchange surgery and determining if it\'s the right vision correction option for your needs.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   }

@@ -4,6 +4,7 @@ import Image from 'next/image'
 export const metadata = {
   title: 'Insurance & Billing | Spark Eye Care',
   description: 'Transparent pricing and billing information for eye care services at Spark Eye Care in Kyle, Texas.',
+  alternates: { canonical: '/insurance' },
 }
 
 export default function InsurancePage() {

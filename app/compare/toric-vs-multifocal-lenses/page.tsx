@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Toric vs Multifocal Lenses: Correcting Astigmatism and Presbyopia | Spark Eye Care',
-  description: 'Compare toric and multifocal lenses for astigmatism and presbyopia. Understand effectiveness, costs, benefits, and which lens type is right for your vision needs.',
+  title: 'Toric vs Multifocal Lenses',
+  description: 'Compare toric and multifocal lenses for astigmatism and presbyopia. Understand effectiveness, costs, benefits, and which lens type is right for your vision.',
+  alternates: { canonical: '/compare/toric-vs-multifocal-lenses' },
   keywords: 'toric lenses, multifocal lenses, astigmatism correction, presbyopia treatment, IOL comparison, cataract surgery lenses, premium lenses',
   openGraph: {
     title: 'Toric vs Multifocal Lenses Comparison | Spark Eye Care',
     description: 'Expert comparison of toric and multifocal intraocular lenses to help you make an informed decision about your vision correction.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/compare/toric-vs-multifocal-lenses',
   },
 }

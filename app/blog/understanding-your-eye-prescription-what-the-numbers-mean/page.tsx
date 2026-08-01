@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Understanding Your Eye Prescription: What the Numbers Mean | Spark Eye Care',
+  title: 'Understanding Your Eye Prescription: What the Numbers Mean',
   description: 'Confused by the numbers on your eyeglass prescription? Learn what OD, OS, SPH, CYL, and AXIS mean and how they help you see clearly.',
+  alternates: { canonical: '/blog/understanding-your-eye-prescription-what-the-numbers-mean' },
   openGraph: {
     title: 'Understanding Your Eye Prescription: What the Numbers Mean',
     description: 'Confused by the numbers on your eyeglass prescription? Learn what OD, OS, SPH, CYL, and AXIS mean and how they help you see clearly.',
+    images: ['/og-image.png'],
     url: 'https://sparkeyetx.com/blog/understanding-your-eye-prescription-what-the-numbers-mean',
     type: 'article',
     publishedTime: '2024-01-15T00:00:00Z',

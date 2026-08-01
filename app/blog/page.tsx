@@ -1,4 +1,11 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Eye Health Resources & Patient Education | Spark Eye Care',
+  description: 'Evidence-based articles on cataracts, glaucoma, dry eye, LASIK, and eye health from Dr. Andrew Plummer and the Spark Eye Care team in Kyle, TX.',
+  alternates: { canonical: '/blog' },
+}
 
 export default function BlogPage() {
   return (

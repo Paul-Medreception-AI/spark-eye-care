@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Truth About Dry Eye: Causes, Symptoms, and Modern Treatments | Spark Eye Care',
+  title: 'The Truth About Dry Eye: Causes, Symptoms, and Modern',
   description: 'Discover the real causes of dry eye disease, recognize the symptoms, and learn about evidence-based modern treatments that can provide lasting relief.',
+  alternates: { canonical: '/blog/the-truth-about-dry-eye-causes-symptoms-and-modern-treatment' },
   openGraph: {
     title: 'The Truth About Dry Eye: Causes, Symptoms, and Modern Treatments',
     description: 'Discover the real causes of dry eye disease, recognize the symptoms, and learn about evidence-based modern treatments that can provide lasting relief.',
+    images: ['/og-image.png'],
     type: 'article',
     url: 'https://www.sparkeyetx.com/blog/the-truth-about-dry-eye-causes-symptoms-and-modern-treatment',
   },

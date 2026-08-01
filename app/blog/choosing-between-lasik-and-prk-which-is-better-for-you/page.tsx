@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Choosing Between LASIK and PRK: Which Is Better for You? | Spark Eye Care',
-  description: 'Considering vision correction surgery? Learn the key differences between LASIK and PRK procedures to make an informed decision about which option is right for your eyes and lifestyle.',
+  title: 'Choosing Between LASIK and PRK: Which Is Better for You?',
+  description: 'Considering vision correction surgery? Learn the key differences between LASIK and PRK procedures to make an informed decision about which option is right.',
+  alternates: { canonical: '/blog/choosing-between-lasik-and-prk-which-is-better-for-you' },
   keywords: 'LASIK, PRK, vision correction, laser eye surgery, refractive surgery, eye care, Spark Eye Care',
   openGraph: {
     title: 'Choosing Between LASIK and PRK: Which Is Better for You?',
     description: 'Expert guide to understanding LASIK vs PRK for vision correction surgery.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T00:00:00Z',
   }

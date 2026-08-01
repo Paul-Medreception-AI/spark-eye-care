@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'SMS Terms & Conditions | Spark Eye Care',
   description: 'SMS messaging terms and conditions for Spark Eye Care appointment reminders and updates.',
+  alternates: { canonical: '/sms-terms' },
 }
 
 export default function SMSTermsPage() {

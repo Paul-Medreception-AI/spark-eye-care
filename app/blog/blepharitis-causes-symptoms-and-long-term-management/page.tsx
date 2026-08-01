@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Blepharitis: Causes, Symptoms, and Long-Term Management | Spark Eye Care',
-  description: 'Learn about blepharitis causes, symptoms, and effective long-term management strategies. Expert insights from the Spark Eye Care team on managing this common eyelid condition.',
+  title: 'Blepharitis: Causes, Symptoms, and Long-Term Management',
+  description: 'Learn about blepharitis causes, symptoms, and effective long-term management strategies. Expert insights from the Spark Eye Care team on managing this common.',
+  alternates: { canonical: '/blog/blepharitis-causes-symptoms-and-long-term-management' },
   keywords: 'blepharitis, eyelid inflammation, eye health, chronic eye conditions, eyelid hygiene, meibomian gland dysfunction',
 }
 

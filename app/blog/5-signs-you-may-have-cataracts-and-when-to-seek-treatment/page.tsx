@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '5 Signs You May Have Cataracts and When to Seek Treatment | Spark Eye Care',
+  title: '5 Signs You May Have Cataracts and When to Seek Treatment',
   description: 'Learn the warning signs of cataracts, who is at risk, and when it is time to see an eye specialist. Expert guidance from Spark Eye Care.',
+  alternates: { canonical: '/blog/5-signs-you-may-have-cataracts-and-when-to-seek-treatment' },
   openGraph: {
     title: '5 Signs You May Have Cataracts and When to Seek Treatment',
     description: 'Learn the warning signs of cataracts, who is at risk, and when it is time to see an eye specialist.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/5-signs-you-may-have-cataracts-and-when-to-seek-treatment',
     type: 'article',
   },

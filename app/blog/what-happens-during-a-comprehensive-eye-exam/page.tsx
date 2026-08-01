@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What Happens During a Comprehensive Eye Exam? | Spark Eye Care',
-  description: 'Learn what to expect during a comprehensive eye exam, from visual acuity testing to retinal imaging. Understand each step and why it matters for your vision health.',
+  title: 'What Happens During a Comprehensive Eye Exam?',
+  description: 'Learn what to expect during a comprehensive eye exam, from visual acuity testing to retinal imaging. Understand each step and why it matters for your vision.',
+  alternates: { canonical: '/blog/what-happens-during-a-comprehensive-eye-exam' },
   keywords: 'comprehensive eye exam, eye examination, vision test, eye health checkup, dilated eye exam, retinal exam, glaucoma screening',
   openGraph: {
     title: 'What Happens During a Comprehensive Eye Exam? | Spark Eye Care',

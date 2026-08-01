@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Why Diabetics Need Regular Eye Exams (Even with Good Vision) | Spark Eye Care',
+  title: 'Why Diabetics Need Regular Eye Exams (Even with Good Vision)',
   description: 'Diabetic retinopathy often has no early symptoms. Learn why regular comprehensive eye exams are critical for diabetes patients, even when vision seems perfect.',
+  alternates: { canonical: '/blog/why-diabetics-need-regular-eye-exams-even-with-good-vision' },
   keywords: 'diabetic eye exam, diabetic retinopathy, diabetes vision care, eye health diabetes, preventive eye care',
   openGraph: {
     title: 'Why Diabetics Need Regular Eye Exams (Even with Good Vision)',
     description: 'Diabetic retinopathy often has no early symptoms. Learn why regular comprehensive eye exams are critical for diabetes patients.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
   }

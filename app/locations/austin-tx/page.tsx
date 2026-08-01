@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Other Medical Near Austin, TX | Spark Eye Care',
-  description: 'Serving patients from Austin and surrounding TX communities. Expert psychiatric care is closer than you think. Telehealth available.',
+  title: 'Eye Doctor Serving Austin, TX | Spark Eye Care',
+  description: 'Expert eye care for Austin and surrounding TX communities. Cataract surgery, LASIK, and glaucoma treatment with Dr. Andrew Plummer. Telehealth available.',
+  alternates: { canonical: '/locations/austin-tx' },
   openGraph: {
-    title: 'Other Medical Near Austin, TX | Spark Eye Care',
-    description: 'Serving patients from Austin and surrounding TX communities. Expert psychiatric care is closer than you think.',
-    url: 'https://sparkeyetx.com/locations/austin-tx',
+    title: 'Eye Doctor Serving Austin, TX | Spark Eye Care',
+    description: 'Expert eye care for Austin and surrounding TX communities with Dr. Andrew Plummer at Spark Eye Care.',
+    images: ['/og-image.png'],
+    url: 'https://www.sparkeyetx.com/locations/austin-tx',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',

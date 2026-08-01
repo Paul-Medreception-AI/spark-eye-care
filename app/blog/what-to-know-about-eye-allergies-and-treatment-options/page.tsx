@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What to Know About Eye Allergies and Treatment Options | Spark Eye Care',
-  description: 'Learn about eye allergy symptoms, causes, and effective treatment options. Expert guidance from Spark Eye Care on managing seasonal and year-round eye allergies.',
+  title: 'What to Know About Eye Allergies and Treatment Options',
+  description: 'Learn about eye allergy symptoms, causes, and effective treatment options. Expert guidance from Spark Eye Care on managing seasonal and year-round eye.',
+  alternates: { canonical: '/blog/what-to-know-about-eye-allergies-and-treatment-options' },
   keywords: 'eye allergies, allergic conjunctivitis, itchy eyes, seasonal allergies, eye allergy treatment, antihistamine eye drops',
 }
 

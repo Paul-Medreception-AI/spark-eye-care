@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Blue Light and Eye Health: Separating Fact from Fiction | Spark Eye Care',
-  description: 'Discover the truth about blue light exposure and its effects on your eyes. Evidence-based insights from eye care experts on protecting your vision in the digital age.',
+  title: 'Blue Light and Eye Health: Separating Fact from Fiction',
+  description: 'Separate blue light fact from fiction. Learn what the science actually says about screens, sleep, and eye strain, and how to protect your vision.',
+  alternates: { canonical: '/blog/blue-light-and-eye-health-separating-fact-from-fiction' },
   openGraph: {
     title: 'Blue Light and Eye Health: Separating Fact from Fiction',
     description: 'Evidence-based insights on blue light exposure and eye health from Spark Eye Care specialists.',

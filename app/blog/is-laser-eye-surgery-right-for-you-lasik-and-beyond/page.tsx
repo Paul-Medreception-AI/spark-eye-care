@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Is Laser Eye Surgery Right for You? LASIK and Beyond | Spark Eye Care',
-  description: 'Considering laser eye surgery? Learn about LASIK, PRK, SMILE, and other vision correction options. Discover candidacy requirements, benefits, risks, and what to expect.',
+  title: 'Is Laser Eye Surgery Right for You? LASIK and Beyond',
+  description: 'Considering laser eye surgery? Learn about LASIK, PRK, SMILE, and other vision correction options. Discover candidacy requirements, benefits, risks, and what.',
+  alternates: { canonical: '/blog/is-laser-eye-surgery-right-for-you-lasik-and-beyond' },
   openGraph: {
     title: 'Is Laser Eye Surgery Right for You? LASIK and Beyond',
     description: 'Expert guide to laser eye surgery options, candidacy requirements, and what to expect from vision correction procedures.',
+    images: ['/og-image.png'],
     type: 'article',
     url: 'https://www.sparkeyetx.com/blog/is-laser-eye-surgery-right-for-you-lasik-and-beyond',
   }

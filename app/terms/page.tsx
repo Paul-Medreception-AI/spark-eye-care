@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Terms of Service | Spark Eye Care',
   description: 'Terms of Service for Spark Eye Care website and services.',
+  alternates: { canonical: '/terms' },
 }
 
 export default function TermsPage() {

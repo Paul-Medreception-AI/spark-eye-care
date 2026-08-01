@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Impact of Screen Time on Eye Health and What You Can Do | Spark Eye Care',
-  description: 'Learn how excessive screen time affects your vision and discover practical strategies to protect your eye health in our digital world. Expert guidance from Spark Eye Care.',
+  title: 'The Impact of Screen Time on Eye Health and What You Can Do',
+  description: 'Learn how excessive screen time affects your vision and discover practical strategies to protect your eye health in our digital world.',
+  alternates: { canonical: '/blog/the-impact-of-screen-time-on-eye-health-and-what-you-can-do' },
   openGraph: {
     title: 'The Impact of Screen Time on Eye Health and What You Can Do',
     description: 'Learn how excessive screen time affects your vision and discover practical strategies to protect your eye health in our digital world.',

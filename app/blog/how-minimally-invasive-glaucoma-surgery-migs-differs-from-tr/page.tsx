@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How Minimally Invasive Glaucoma Surgery (MIGS) Differs from Traditional Treatment | Spark Eye Care',
-  description: 'Discover how MIGS offers a safer, faster recovery alternative to traditional glaucoma surgery. Learn about the differences, benefits, and who may be a candidate for this innovative treatment.',
+  title: 'How MIGS Differs from Traditional Glaucoma Surgery',
+  description: 'Discover how MIGS offers a safer alternative to traditional glaucoma surgery. Learn the differences, benefits, and who may be a candidate.',
+  alternates: { canonical: '/blog/how-minimally-invasive-glaucoma-surgery-migs-differs-from-tr' },
   openGraph: {
     title: 'How Minimally Invasive Glaucoma Surgery (MIGS) Differs from Traditional Treatment',
     description: 'Discover how MIGS offers a safer, faster recovery alternative to traditional glaucoma surgery.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/how-minimally-invasive-glaucoma-surgery-migs-differs-from-tr',
     type: 'article',
   },

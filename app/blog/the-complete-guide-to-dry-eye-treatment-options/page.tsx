@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Complete Guide to Dry Eye Treatment Options | Spark Eye Care',
+  title: 'The Complete Guide to Dry Eye Treatment Options',
   description: 'Discover comprehensive dry eye treatment options from artificial tears to advanced therapies. Expert guidance on managing symptoms and finding relief.',
+  alternates: { canonical: '/blog/the-complete-guide-to-dry-eye-treatment-options' },
   keywords: 'dry eye treatment, dry eye syndrome, artificial tears, eye drops, punctal plugs, IPL therapy, meibomian gland dysfunction',
 }
 

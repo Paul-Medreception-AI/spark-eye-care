@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Children's Eye Health: When Should Kids Have Their First Eye Exam? | Spark Eye Care",
+  title: 'Children\'s Eye Health: When Should Kids Have Their First',
   description: "Learn when children should have their first eye exam, what to expect, and why early detection matters for your child's vision and development.",
+  alternates: { canonical: '/blog/children-s-eye-health-when-should-kids-have-their-first-eye-' },
   keywords: "children's eye health, pediatric eye exam, kids first eye exam, vision screening, child eye care, pediatric optometry",
 }
 

@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Eye Doctor in Kyle, TX | Spark Eye Care',
     description: 'Comprehensive eye care in Kyle, TX with Dr. Andrew Plummer at 1180 Seton Parkway.',
-    url: 'https://sparkeyetx.com/locations/kyle-tx',
+    images: ['/og-image.png'],
+    url: 'https://www.sparkeyetx.com/locations/kyle-tx',
     siteName: 'Spark Eye Care',
     locale: 'en_US',
     type: 'website',

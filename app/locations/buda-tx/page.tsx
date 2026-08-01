@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Other Medical Near Buda, TX | Spark Eye Care',
-  description: 'Serving patients from Buda and surrounding TX communities. Expert psychiatric care is closer than you think. Schedule your visit today.',
+  title: 'Eye Doctor Serving Buda, TX | Spark Eye Care',
+  description: 'Expert eye care for Buda and surrounding TX communities. Cataract surgery, LASIK, and glaucoma treatment with Dr. Andrew Plummer. Schedule your visit today.',
+  alternates: { canonical: '/locations/buda-tx' },
   openGraph: {
-    title: 'Other Medical Near Buda, TX | Spark Eye Care',
-    description: 'Serving patients from Buda and surrounding TX communities. Expert psychiatric care is closer than you think.',
-    url: 'https://sparkeyetx.com/locations/buda-tx',
+    title: 'Eye Doctor Serving Buda, TX | Spark Eye Care',
+    description: 'Expert eye care for Buda and surrounding TX communities with Dr. Andrew Plummer at Spark Eye Care.',
+    images: ['/og-image.png'],
+    url: 'https://www.sparkeyetx.com/locations/buda-tx',
   },
 }
 

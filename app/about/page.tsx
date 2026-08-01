@@ -4,7 +4,8 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'About Us | Spark Eye Care',
-  description: 'Expert eye care focused on your vision goals. Dr. Andrew Plummer brings world-class ophthalmology services to Kyle, Texas with advanced surgical expertise and genuine personal attention.',
+  description: 'Expert eye care focused on your vision goals. Dr. Andrew Plummer brings world-class ophthalmology services to Kyle, Texas with advanced surgical expertise.',
+  alternates: { canonical: '/about' },
 }
 
 export default function AboutPage() {

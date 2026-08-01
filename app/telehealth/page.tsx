@@ -3,7 +3,7 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Telehealth Visits | Virtual Eye Consultations | Spark Eye Care',
+  title: 'Telehealth Eye Visits | Spark Eye Care',
   description: 'Consult Dr. Andrew Plummer remotely from anywhere in Texas. Telehealth visits for follow-ups, prescription refills, and non-urgent eye questions.',
   alternates: { canonical: '/telehealth' },
 }

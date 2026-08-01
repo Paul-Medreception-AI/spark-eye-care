@@ -2,12 +2,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Recovery Timeline: What to Expect After Cataract Surgery | Spark Eye Care',
+  title: 'Recovery Timeline: What to Expect After Cataract Surgery',
   description: 'A comprehensive guide to cataract surgery recovery, including day-by-day expectations, healing milestones, activity restrictions, and tips for optimal outcomes.',
+  alternates: { canonical: '/blog/recovery-timeline-what-to-expect-after-cataract-surgery' },
   keywords: 'cataract surgery recovery, post-operative care, healing timeline, eye surgery aftercare, vision restoration',
   openGraph: {
     title: 'Recovery Timeline: What to Expect After Cataract Surgery',
     description: 'Expert guidance on what to expect during your cataract surgery recovery journey.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T00:00:00.000Z',
   },

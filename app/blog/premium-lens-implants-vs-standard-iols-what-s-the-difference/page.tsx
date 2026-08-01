@@ -1,3 +1,17 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Premium Lens Implants vs Standard IOLs",
+  description: "Compare premium lens implants and standard IOLs for cataract surgery. Understand the differences in vision, cost, and lifestyle fit to choose the right lens.",
+  alternates: { canonical: '/blog/premium-lens-implants-vs-standard-iols-what-s-the-difference' },
+  openGraph: {
+    title: "Premium Lens Implants vs Standard IOLs",
+    description: "Compare premium lens implants and standard IOLs for cataract surgery to choose the right lens for your vision and lifestyle.",
+    type: 'article',
+    images: ['/og-image.png'],
+  },
+}
+
 export default function BlogPost() {
   return (
     <main className="min-h-screen">

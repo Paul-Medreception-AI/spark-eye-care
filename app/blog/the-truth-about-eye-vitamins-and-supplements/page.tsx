@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Truth About Eye Vitamins and Supplements | Spark Eye Care',
-  description: 'Learn what the science says about eye vitamins and supplements. Evidence-based guidance on AREDS2, lutein, zeaxanthin, omega-3s, and what really works for eye health.',
+  title: 'The Truth About Eye Vitamins and Supplements',
+  description: 'Learn what the science says about eye vitamins and supplements. Evidence-based guidance on AREDS2, lutein, zeaxanthin, and omega-3s.',
+  alternates: { canonical: '/blog/the-truth-about-eye-vitamins-and-supplements' },
   keywords: 'eye vitamins, AREDS2, macular degeneration supplements, lutein, zeaxanthin, omega-3 for eyes, eye health supplements, vitamin A vision',
 }
 

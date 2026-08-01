@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Future of Eye Care: Emerging Technologies in Ophthalmology | Spark Eye Care',
-  description: 'Discover cutting-edge innovations transforming eye care, from AI diagnostics to gene therapy. Learn how emerging technologies are revolutionizing ophthalmology and vision preservation.',
+  title: 'The Future of Eye Care: Emerging Technologies',
+  description: 'Discover cutting-edge innovations transforming eye care, from AI diagnostics to gene therapy. Learn how emerging technologies are revolutionizing.',
+  alternates: { canonical: '/blog/the-future-of-eye-care-emerging-technologies-in-ophthalmolog' },
   keywords: 'eye care technology, ophthalmology innovations, AI eye diagnostics, gene therapy vision, robotic eye surgery, telemedicine eye care, retinal imaging technology',
   openGraph: {
     title: 'The Future of Eye Care: Emerging Technologies in Ophthalmology',

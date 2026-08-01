@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Toric vs Monofocal vs Multifocal Lenses: Decoding IOL Options | Spark Eye Care',
+  title: 'Toric vs Monofocal vs Multifocal Lenses',
   description: 'Understanding your intraocular lens options for cataract surgery. Compare toric, monofocal, and multifocal IOLs to make an informed decision about your vision.',
+  alternates: { canonical: '/blog/toric-vs-monofocal-vs-multifocal-lenses-decoding-iol-options' },
   keywords: 'toric lenses, monofocal lenses, multifocal lenses, IOL options, intraocular lenses, cataract surgery, lens implants, premium IOLs, astigmatism correction',
   openGraph: {
     title: 'Toric vs Monofocal vs Multifocal Lenses: Decoding IOL Options',
     description: 'Understanding your intraocular lens options for cataract surgery. Compare toric, monofocal, and multifocal IOLs to make an informed decision about your vision.',
+    images: ['/og-image.png'],
     url: 'https://www.sparkeyetx.com/blog/toric-vs-monofocal-vs-multifocal-lenses-decoding-iol-options',
     type: 'article',
   },

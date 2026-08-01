@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'New Patients | Spark Eye Care',
-  description: 'Everything you need to know before your first visit to Spark Eye Care. Learn what to expect, what to bring, and how to prepare for your comprehensive eye exam with Dr. Plummer.',
+  description: 'Everything you need to know before your first visit to Spark Eye Care. Learn what to expect, what to bring, and how to prepare for your comprehensive eye.',
+  alternates: { canonical: '/new-patients' },
 }
 
 export default function NewPatientsPage() {

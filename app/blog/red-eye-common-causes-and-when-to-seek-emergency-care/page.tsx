@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Red Eye: Common Causes and When to Seek Emergency Care | Spark Eye Care',
+  title: 'Red Eye: Common Causes and When to Seek Emergency Care',
   description: 'Learn about the common causes of red eyes, warning signs of serious conditions, and when to seek emergency eye care from the experts at Spark Eye Care.',
+  alternates: { canonical: '/blog/red-eye-common-causes-and-when-to-seek-emergency-care' },
   openGraph: {
     title: 'Red Eye: Common Causes and When to Seek Emergency Care',
     description: 'Learn about the common causes of red eyes, warning signs of serious conditions, and when to seek emergency eye care from the experts at Spark Eye Care.',

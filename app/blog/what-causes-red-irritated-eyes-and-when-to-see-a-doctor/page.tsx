@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'What Causes Red, Irritated Eyes and When to See a Doctor | Spark Eye Care',
+  title: 'What Causes Red, Irritated Eyes and When to See a Doctor',
   description: 'Learn about common causes of red, irritated eyes, from allergies to infections. Discover when to seek professional care and how to find relief.',
+  alternates: { canonical: '/blog/what-causes-red-irritated-eyes-and-when-to-see-a-doctor' },
 }
 
 export default function BlogPost() {

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Secondary Cataracts: Why Your Vision May Blur After Cataract Surgery | Spark Eye Care',
+  title: 'Secondary Cataracts: Why Vision Blurs After Surgery',
   description: 'Learn about posterior capsule opacification (PCO), why it causes blurred vision after cataract surgery, and how a simple laser treatment can restore clarity.',
+  alternates: { canonical: '/blog/secondary-cataracts-why-your-vision-may-blur-after-cataract-' },
   keywords: 'secondary cataracts, PCO, posterior capsule opacification, blurred vision after cataract surgery, YAG laser capsulotomy, cataract surgery complications',
 }
 

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Importance of Dilated Eye Exams for Disease Detection | Spark Eye Care',
+  title: 'The Importance of Dilated Eye Exams for Disease Detection',
   description: 'Learn why dilated eye exams are essential for detecting serious eye diseases early, including diabetic retinopathy, glaucoma, and macular degeneration.',
+  alternates: { canonical: '/blog/the-importance-of-dilated-eye-exams-for-disease-detection' },
   keywords: 'dilated eye exam, eye disease detection, diabetic retinopathy, glaucoma screening, macular degeneration, comprehensive eye exam, Spark Eye Care',
   openGraph: {
     title: 'The Importance of Dilated Eye Exams for Disease Detection',

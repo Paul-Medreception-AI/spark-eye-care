@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Age-Related Macular Degeneration: Risk Factors and Prevention | Spark Eye Care',
+  title: 'Age-Related Macular Degeneration',
   description: 'Learn about AMD risk factors, warning signs, and evidence-based prevention strategies to protect your vision as you age. Expert guidance from Spark Eye Care.',
+  alternates: { canonical: '/blog/age-related-macular-degeneration-risk-factors-and-prevention' },
   keywords: 'macular degeneration, AMD, age-related eye disease, vision loss prevention, eye health, retina health, Spark Eye Care',
   openGraph: {
     title: 'Age-Related Macular Degeneration: Risk Factors and Prevention',
     description: 'Learn about AMD risk factors, warning signs, and evidence-based prevention strategies to protect your vision as you age.',
+    images: ['/og-image.png'],
     type: 'article',
     publishedTime: '2024-01-15T09:00:00Z',
     authors: ['Spark Eye Care Clinical Team'],

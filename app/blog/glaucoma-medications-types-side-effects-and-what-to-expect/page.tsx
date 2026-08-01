@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Glaucoma Medications: Types, Side Effects, and What to Expect | Spark Eye Care',
+  title: 'Glaucoma Medications: Types and Side Effects',
   description: 'Learn about glaucoma medication types, how they work, potential side effects, and what to expect during treatment. Expert guidance from Spark Eye Care.',
+  alternates: { canonical: '/blog/glaucoma-medications-types-side-effects-and-what-to-expect' },
   keywords: 'glaucoma medications, eye drops for glaucoma, glaucoma treatment, prostaglandin analogs, beta blockers, glaucoma side effects',
 }
 

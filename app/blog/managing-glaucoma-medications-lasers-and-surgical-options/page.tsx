@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Managing Glaucoma: Medications, Lasers, and Surgical Options | Spark Eye Care',
-  description: 'Comprehensive guide to glaucoma treatment options including medications, laser procedures, and surgical interventions. Learn how to protect your vision with expert care.',
+  title: 'Managing Glaucoma: Medications, Lasers, and Surgical Options',
+  description: 'Comprehensive guide to glaucoma treatment options including medications, laser procedures, and surgical interventions.',
+  alternates: { canonical: '/blog/managing-glaucoma-medications-lasers-and-surgical-options' },
   keywords: 'glaucoma treatment, glaucoma medications, laser glaucoma surgery, trabeculectomy, glaucoma management, eye pressure, intraocular pressure, glaucoma care',
   openGraph: {
     title: 'Managing Glaucoma: Medications, Lasers, and Surgical Options',
