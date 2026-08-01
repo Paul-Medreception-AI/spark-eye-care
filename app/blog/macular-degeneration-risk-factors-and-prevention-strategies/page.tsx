@@ -379,7 +379,7 @@ export default function BlogPost() {
                 Written by the Spark Eye Care Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical
+                Board-certified providers specializing in ophthalmology and surgical eye care
               </p>
             </div>
           </div>

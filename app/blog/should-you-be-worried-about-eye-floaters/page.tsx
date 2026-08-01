@@ -334,7 +334,7 @@ export default function BlogPost() {
             </div>
             <div>
               <h3 className="font-['Cormorant'] text-2xl text-[var(--color-ink)] mb-2">Written by the Spark Eye Care Clinical Team</h3>
-              <p className="text-[var(--color-muted)] text-sm leading-relaxed">Board-certified providers specializing in Other Medical, dedicated to delivering evidence-based eye care and patient education.</p>
+              <p className="text-[var(--color-muted)] text-sm leading-relaxed">Board-certified providers specializing in ophthalmology and surgical eye care, dedicated to delivering evidence-based eye care and patient education.</p>
             </div>
           </div>
         </div>

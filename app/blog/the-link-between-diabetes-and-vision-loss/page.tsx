@@ -273,7 +273,7 @@ export default function BlogPost() {
           <div>
             <h3 className="font-['Cormorant'] text-2xl text-[var(--color-ink)] mb-2">Written by the Spark Eye Care Clinical Team</h3>
             <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-              Board-certified providers specializing in Other Medical, committed to helping patients understand and manage their eye health with compassion and expertise.
+              Board-certified providers specializing in ophthalmology and surgical eye care, committed to helping patients understand and manage their eye health with compassion and expertise.
             </p>
           </div>
         </div>

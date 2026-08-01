@@ -323,7 +323,7 @@ export default function BlogPost() {
                 Written by the Spark Eye Care Clinical Team
               </div>
               <div className="text-sm text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Other Medical, dedicated to providing evidence-based patient education and comprehensive eye care for patients with diabetes and other systemic conditions.
+                Board-certified providers specializing in ophthalmology and surgical eye care, dedicated to providing evidence-based patient education and comprehensive eye care for patients with diabetes and other systemic conditions.
               </div>
             </div>
           </div>

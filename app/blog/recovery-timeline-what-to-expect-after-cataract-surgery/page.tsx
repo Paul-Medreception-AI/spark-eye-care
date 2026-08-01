@@ -279,7 +279,7 @@ export default function BlogPost() {
                 Written by the Spark Eye Care Clinical Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm mb-3">
-                Board-certified providers specializing in Other Medical
+                Board-certified providers specializing in ophthalmology and surgical eye care
               </p>
               <p className="text-[var(--color-ink)] leading-relaxed">
                 Our clinical team is dedicated to providing evidence-based patient education and compassionate care. We combine years of experience with the latest research to help you make informed decisions about your eye health.
